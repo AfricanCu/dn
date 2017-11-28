@@ -1,0 +1,97 @@
+
+thjaldn_fk_spine.png
+size: 1024,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aldn_fk_tu
+  rotate: false
+  xy: 2, 2
+  size: 148, 52
+  orig: 148, 52
+  offset: 0, 0
+  index: -1
+aldn_fk_tx_1
+  rotate: false
+  xy: 400, 12
+  size: 60, 42
+  orig: 60, 42
+  offset: 0, 0
+  index: -1
+aldn_fk_tx_2
+  rotate: false
+  xy: 152, 10
+  size: 60, 44
+  orig: 60, 44
+  offset: 0, 0
+  index: -1
+aldn_fk_tx_3
+  rotate: false
+  xy: 214, 10
+  size: 60, 44
+  orig: 60, 44
+  offset: 0, 0
+  index: -1
+aldn_fk_tx_4
+  rotate: false
+  xy: 462, 10
+  size: 58, 44
+  orig: 58, 44
+  offset: 0, 0
+  index: -1
+aldn_fk_tx_5
+  rotate: false
+  xy: 276, 10
+  size: 60, 44
+  orig: 60, 44
+  offset: 0, 0
+  index: -1
+aldn_fk_tx_6
+  rotate: false
+  xy: 338, 10
+  size: 60, 44
+  orig: 60, 44
+  offset: 0, 0
+  index: -1
+aldn_fk_tx_yuan_1
+  rotate: false
+  xy: 522, 8
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+aldn_fk_tx_yuan_2
+  rotate: false
+  xy: 570, 8
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+aldn_fk_tx_yuan_3
+  rotate: false
+  xy: 666, 8
+  size: 44, 46
+  orig: 44, 46
+  offset: 0, 0
+  index: -1
+aldn_fk_tx_yuan_4
+  rotate: false
+  xy: 618, 8
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+aldn_fk_tx_yuan_5
+  rotate: false
+  xy: 712, 10
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1
+aldn_fk_tx_yuan_6
+  rotate: false
+  xy: 760, 10
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1

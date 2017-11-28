@@ -1,0 +1,30 @@
+package com.ems358.sdk.bean;
+
+public class ALIConstants {
+
+	// // 商户号
+	// public static final String PARTNER = "2088412782040134";
+	// // 商户收款账号
+	// public static final String SELLER = "rongguozhen@ylwqgame.com";
+
+	// 商户号
+	public static final String PARTNER = "2088011253829894";
+	// 商户收款账号
+	public static final String SELLER = "22854044@qq.com";
+
+	// // 商户私钥，pkcs8格式
+	// public static final String RSA_PRIVATE =
+	// "MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBANYSGbfZPbf1420RZ9X4KhBtZqdBdA3erS/GzxUoRy4+JaMwwCfyrtSScxagvoAQO4KZ/SdvySmz4OEM9sZEgVh9lVHPxafYDg5ZOlIqXeJrpnp/h2BUxQV2aBm9PnLF9pkskZMLhQ/UtXK3gf6BAHp3nt92IahB7RRABrIdyhU5AgMBAAECgYA8xK6gTf8DNb31vDcpumTWfPfjCuWS+l9XbKxkaSarreCpTrF9pZqTpW8eQUtSt0jtbiE7DLSiLfnsaO20osXEgBWPYm2mkSgXmoulFn/PQ0zizxt4ALnRkH1srg7sAyejWs4YMXYNCSwAy/NNCQUF+7xymJg8nW7XgexGKLVB8QJBAO2CeUgIbNvFAzrE3TIUo8a1X7xeHEgey4cAkw4vQgiY2i7N/D+qI/ZUbz5yaECecDoc99o1lx6TI1XeFyJm7N8CQQDmvH4KnVjx2Ib7aE6TffNb9ESYJGEb3vFpxsmfNnY6pXx3jUbFfpTpwiKuq54CDBQG+4Pp7r9So8tdlaRviKjnAkEApijGYm+KgMG2vbGmMfggj86p2GVakdYBe0QanSzQnKUa1u3CkGOeXyG45c4yQyrUxsMnXqBpRbmYWeVS9/1brwJBAL5Ijm10i+iO1+q3f62U/kBENtl9jvQsLM092gLKKEB/PyFcyhOPK4GHz5BbCajIiy+i9ovSj8e4OruH8B7nBdsCQQDCqoCdAajJgt1ggr7stEge1lNxP/WlhiFY2Geej1G5FOsG7nMA6NQGuG8PdaWFDGoS2uzb1lTliI7+dn9zVx3j";
+	// public static final String RSA_PUBLIC =
+	// "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnxj/9qwVfgoUh/y2W89L6BkRAFljhNhgPdyPuBV64bfQNN1PjbCzkIM6qRdKBoLPXmKKMiFYnkd6rAoprih3/PrQEB/VsW8OoM8fxn67UDYuyBTqA23MML9q1+ilIZwBC2AQ2UBVOrFXfFl75p6/B5KsiNG9zpgmLCUYuLkxpLQIDAQAB";
+
+	public static final String RSA_PRIVATE = "MIICeQIBADANBgkqhkiG9w0BAQEFAASCAmMwggJfAgEAAoGBAKGgD7sGXR3UzIyoQGabCyQJ9BxpZaWSPFLwNq3pgZWmGJEpIUWt1LRR45BQeQsYZ2pDqTj/BtrUsN6wI8LS4qD7WW32nJFiAlmh9Brozsyi1Iqg5CFO/kITEJDGnUFIj3/ImJ0hALZu0jAFgUunsFcM+VAPW/WX5fR4Wj14V08bAgMBAAECgYEAjYGZJDL/JdYhPOk2cV8/ks8QJiv1LdBp9meQSBXQOdiRW8557gqy1yl3Juv9/kPgjz4sE9XdB4z+SgpHVRTUC59w5nrggXoN5XxiDweke0KElUuVQHS0eEkWXt8m64sSdDwdsPkWHwmSxubWdqGgVkDvuSUtlu0xLW4PwzrpFGECQQDTcFQnQ/F7qhjaxg0agkGNN5fVcfWbhe3BjuEe0BZ9x2mt5fpCIBwyI+reLnLl8WW7n1xh9x3/Y3zLqKKAOssrAkEAw7App2kqoAdigruOFOISsGzwOV86C5BdJTRuDyr36Zj9HM72V82ZotaFLcKRDNj1Y9TOGjwjjOQp+/z+2ynT0QJBAKTgpi7MU6WsWZ9X62XthvJ5FIRUTkMNp/5UzYW6nJ9OfkEl4gXohjQvP/or3Fsk58DsHx0hl5nMWcdyY+18a2sCQQC8SHZ7louluBVHtlApta/HwrmMahx+XePRVVYEEBLC1ynKmzOZHcCSVheEBO3tT58j8/Bue6i0+h+PTkik9OTRAkEAzP7alHRdp1zFlnrqOACGJOcPn+znG+X/0pltx68t2L4gCi70jHL8+xTxtBL/bDG8j77C0uXUFY2LYglxTGqooQ==";
+	public static final String RSA_PUBLIC = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnxj/9qwVfgoUh/y2W89L6BkRAFljhNhgPdyPuBV64bfQNN1PjbCzkIM6qRdKBoLPXmKKMiFYnkd6rAoprih3/PrQEB/VsW8OoM8fxn67UDYuyBTqA23MML9q1+ilIZwBC2AQ2UBVOrFXfFl75p6/B5KsiNG9zpgmLCUYuLkxpLQIDAQAB";
+
+	public static final int ALI_PAY_FLAG = 1;
+
+	public static final int ALI_CHECK_FLAG = 2;
+
+	public static final int REFRESH_INFO = 3;
+
+}

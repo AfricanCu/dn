@@ -1,0 +1,72 @@
+--游戏场景
+module("Scene.GameScene", package.seeall)
+
+local UIWinMgr = require("UI.UIWinMgr").UIWinMgr
+local SceneBase = require("Scene.SceneBase").SceneBase
+local GameObject = UnityEngine.GameObject
+local WrapMode = UnityEngine.WrapMode
+
+GameScene = SceneBase:new()
+
+--场景名称
+function GameScene.GetSceneName()
+    return "GameLobby_Scene"
+end
+
+function GameScene.LoadProcess(progress)
+    local LoadingWin = UIWinMgr:GetWindow("LoadingWin")
+    if progress <= 0.6 then
+        LoadingWin:SetProgress(progress)
+    end
+end
+
+--当场景加载完毕
+function GameScene:OnSceneLoadOver()
+    PlatformTool.Instance:ReqProducts()
+
+    Debug.log("GameScene:OnSceneLoadOver")
+    local SoundModule = require("Module.SoundModule").SoundModule
+    SoundModule:Init()
+    SoundModule:SetBGM("back_music")
+
+    local LoadingWin = UIWinMgr:OpenWindow("LoadingWin")
+    LoadingWin:SetProgress(0.6)
+    --self:TVAdjust()
+    --self:CalcCameraAdjust()
+    self.resLoaded = false
+    self.isNeedNormalLogin = false
+    local MainWin = require("UI.Windows.MainWin").MainWin
+    MainWin.isGirlInited = true
+    if MainWin.isGirlInited == true then
+        Debug.log("true................")
+    else
+        Debug.log("false...............")
+    end
+    LoadingWin:SetProgress(1)
+
+    local IosPendingTool = require("IosPendingTool").IosPendingTool
+
+    local isIosPending = IosPendingTool.IsPending()
+
+    Debug.log("--------------------------------------")
+
+    Debug.log(isIosPending)
+    Debug.log("--------------------------------------")
+
+    if isIosPending then
+
+        UIWinMgr:OpenWindow("IosLoginWin")
+    else
+
+        Debug.log("########################")
+
+        UIWinMgr:OpenWindow("LoginWin")
+        -- UIWinMgr:OpenWindow("IosLoginWin")
+    end
+    UIWinMgr:CloseWindow("LoadingWin")
+end
+
+
+--当场景卸载
+function GameScene:OnSceneUnLoad()
+end

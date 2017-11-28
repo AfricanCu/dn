@@ -1,0 +1,251 @@
+
+aldn_kaishi_spine.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aldn_kaishi_ck_1
+  rotate: true
+  xy: 2, 96
+  size: 240, 137
+  orig: 240, 137
+  offset: 0, 0
+  index: -1
+aldn_kaishi_ck_2
+  rotate: false
+  xy: 646, 885
+  size: 240, 137
+  orig: 240, 137
+  offset: 0, 0
+  index: -1
+aldn_kaishi_daizi_youbiandi
+  rotate: true
+  xy: 888, 797
+  size: 225, 121
+  orig: 225, 121
+  offset: 0, 0
+  index: -1
+aldn_kaishi_daizi_zuobiandi
+  rotate: true
+  xy: 141, 109
+  size: 227, 123
+  orig: 227, 123
+  offset: 0, 0
+  index: -1
+aldn_kaishi_dk_1
+  rotate: false
+  xy: 386, 361
+  size: 186, 137
+  orig: 186, 137
+  offset: 0, 0
+  index: -1
+aldn_kaishi_dk_2
+  rotate: false
+  xy: 198, 361
+  size: 186, 137
+  orig: 186, 137
+  offset: 0, 0
+  index: -1
+aldn_kaishi_guanga
+  rotate: false
+  xy: 2, 777
+  size: 238, 245
+  orig: 238, 245
+  offset: 0, 0
+  index: -1
+aldn_kaishi_guangb
+  rotate: false
+  xy: 2, 557
+  size: 233, 218
+  orig: 233, 218
+  offset: 0, 0
+  index: -1
+aldn_kaishi_jinpai
+  rotate: false
+  xy: 242, 805
+  size: 206, 217
+  orig: 206, 217
+  offset: 0, 0
+  index: -1
+aldn_kaishi_jinpai_1
+  rotate: false
+  xy: 2, 338
+  size: 194, 217
+  orig: 194, 217
+  offset: 0, 0
+  index: -1
+aldn_kaishi_jinpai_2
+  rotate: true
+  xy: 378, 169
+  size: 190, 121
+  orig: 190, 121
+  offset: 0, 0
+  index: -1
+aldn_kaishi_jinpai_3
+  rotate: true
+  xy: 501, 169
+  size: 190, 39
+  orig: 190, 39
+  offset: 0, 0
+  index: -1
+aldn_kaishi_jinpai_4
+  rotate: true
+  xy: 542, 169
+  size: 190, 39
+  orig: 190, 39
+  offset: 0, 0
+  index: -1
+aldn_kaishi_jinpai_8
+  rotate: true
+  xy: 542, 169
+  size: 190, 39
+  orig: 190, 39
+  offset: 0, 0
+  index: -1
+aldn_kaishi_jinpai_5
+  rotate: false
+  xy: 237, 500
+  size: 197, 121
+  orig: 197, 121
+  offset: 0, 0
+  index: -1
+aldn_kaishi_jinpai_6
+  rotate: false
+  xy: 450, 805
+  size: 194, 217
+  orig: 194, 217
+  offset: 0, 0
+  index: -1
+aldn_kaishi_jinpai_7
+  rotate: false
+  xy: 237, 623
+  size: 191, 135
+  orig: 191, 135
+  offset: 0, 0
+  index: -1
+aldn_kaishi_kai
+  rotate: false
+  xy: 266, 53
+  size: 112, 102
+  orig: 112, 102
+  offset: 0, 0
+  index: -1
+aldn_kaishi_li
+  rotate: true
+  xy: 492, 71
+  size: 96, 89
+  orig: 96, 89
+  offset: 0, 0
+  index: -1
+aldn_kaishi_niujiao_you
+  rotate: true
+  xy: 597, 653
+  size: 117, 132
+  orig: 117, 132
+  offset: 0, 0
+  index: -1
+aldn_kaishi_niujiao_zuo
+  rotate: true
+  xy: 462, 679
+  size: 124, 133
+  orig: 124, 133
+  offset: 0, 0
+  index: -1
+aldn_kaishi_nq_1
+  rotate: true
+  xy: 848, 698
+  size: 72, 59
+  orig: 72, 59
+  offset: 0, 0
+  index: -1
+aldn_kaishi_nq_2
+  rotate: false
+  xy: 909, 736
+  size: 72, 59
+  orig: 72, 59
+  offset: 0, 0
+  index: -1
+aldn_kaishi_nq_3
+  rotate: false
+  xy: 909, 675
+  size: 72, 59
+  orig: 72, 59
+  offset: 0, 0
+  index: -1
+aldn_kaishi_nq_4
+  rotate: true
+  xy: 848, 624
+  size: 72, 59
+  orig: 72, 59
+  offset: 0, 0
+  index: -1
+aldn_kaishi_nq_5
+  rotate: false
+  xy: 909, 614
+  size: 72, 59
+  orig: 72, 59
+  offset: 0, 0
+  index: -1
+aldn_kaishi_nq_6
+  rotate: false
+  xy: 380, 10
+  size: 72, 59
+  orig: 72, 59
+  offset: 0, 0
+  index: -1
+aldn_kaishi_nq_7
+  rotate: false
+  xy: 454, 10
+  size: 72, 59
+  orig: 72, 59
+  offset: 0, 0
+  index: -1
+aldn_kaishi_sheng
+  rotate: false
+  xy: 2, 5
+  size: 100, 89
+  orig: 100, 89
+  offset: 0, 0
+  index: -1
+aldn_kaishi_shengli_daizi1
+  rotate: true
+  xy: 266, 157
+  size: 202, 110
+  orig: 202, 110
+  offset: 0, 0
+  index: -1
+aldn_kaishi_shengli_daizi2
+  rotate: false
+  xy: 646, 772
+  size: 229, 111
+  orig: 229, 111
+  offset: 0, 0
+  index: -1
+aldn_kaishi_shi
+  rotate: false
+  xy: 731, 661
+  size: 115, 109
+  orig: 115, 109
+  offset: 0, 0
+  index: -1
+aldn_kaishi_zi
+  rotate: false
+  xy: 242, 760
+  size: 218, 43
+  orig: 218, 43
+  offset: 0, 0
+  index: -1
+aldn_kaishi_zi_bai
+  rotate: false
+  xy: 380, 71
+  size: 110, 96
+  orig: 110, 96
+  offset: 0, 0
+  index: -1
+aldn_kaishi_zi_shi
+  rotate: true
+  xy: 141, 2
+  size: 105, 98
+  orig: 105, 98
+  offset: 0, 0
+  index: -1

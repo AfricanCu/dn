@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">sdk</string>
+    <string name="tip_ok">&#160;&#160;&#160;&#160;发货可能有延迟，如果没有收到货，请及时联系客服,感谢您对腾飞游戏的支持。</string>
+    <string name="tip_wait">&#160;&#160;&#160;&#160;网页支付完成，请及时在游戏中查看是否发货,如果没有收到货，请及时联系客服感谢您对腾飞游戏的支持。</string>
+    <string name="tip_cancel">为什么不支付了呢？</string>
+    <string name="tip_faild">哎呦，支付失败了。。。</string>
+
+</resources>

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: fc4bde12f0647aa42a79ebb0c1956016
+timeCreated: 1508918015
+licenseType: Pro
+AudioImporter:
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  3D: 1
+  userData: 
+  assetBundleName: bf_16_bull_m
+  assetBundleVariant: 

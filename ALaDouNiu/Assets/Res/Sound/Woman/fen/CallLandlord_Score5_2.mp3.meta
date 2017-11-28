@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4fcc5a8786466a147ba3e8d29c59fd53
+timeCreated: 1508918483
+licenseType: Pro
+AudioImporter:
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  3D: 1
+  userData: 
+  assetBundleName: calllandlord_score5_2
+  assetBundleVariant: 

@@ -1,0 +1,234 @@
+--玩家游戏信息UI组件
+module("UI.Com.UIPlayerGameInfo", package.seeall)
+
+local Utility = require("UI.Utility")
+local GameObject = UnityEngine.GameObject
+
+UIPlayerGameInfo = {}
+
+--构造函数
+function UIPlayerGameInfo:new(o)
+    o = o or {}
+    setmetatable(o, {__index = self})
+    return o
+end
+
+function UIPlayerGameInfo:Init(root)
+    self.root = root
+
+    self.HeadIcon = Utility.FindContorl("UITexture", "touxiang", self.root)
+    self.NickNameLabel = Utility.FindContorl("UILabel", "Name", self.root)
+    self.ScoreLabel = Utility.FindContorl("UILabel", "Fen", self.root)
+    self.OfflineLabel = Utility.FindContorl("UILabel", "OfflineLabel", self.root)
+    self.ReadyLabel = Utility.GetChildTransform("zhunbei", self.root, true)
+    self.qiang = Utility.GetChildTransform("qiang", self.root, true)
+    self.buqiang = Utility.GetChildTransform("buqiang", self.root, true)
+    self.zhuang = Utility.GetChildTransform("zhuang", self.root, true)
+    self.fanzhu = Utility.GetChildTransform("fanzhu", self.root, true)
+    self.s_bet = Utility.FindContorl("UISprite", "s_bet", self.root)
+    self.T_Click = Utility.GetChildTransform("T_Click", self.root, true)
+    self.RandomAni = Utility.GetChildTransform("RandomAni", self.root, true)
+    self.L_word = Utility.FindContorl('UILabel',"L_word",self.root)
+    self.S_biaoqing = Utility.FindContorl('UISprite',"S_biaoqing",self.root)
+    self.VoiceChatObj = Utility.GetChildTransform("VoiceChat", self.root, true)
+    self.player = nil
+    function ShowUserInfo()
+        if self.player ~= nil then
+            local UIWinMgr = require("UI.UIWinMgr").UIWinMgr
+            local userinfo = self.player.userInfo
+        end
+    end
+    UIHelper.BindUIEvnet("Click", ShowUserInfo, self.T_Click.gameObject)
+end
+
+--设置player数据
+function UIPlayerGameInfo:SetPlayerInfo(player)
+    --self.root.gameObject:SetActive(true)
+    self.player = player
+    self.root.gameObject:SetActive(true)
+    self.HeadIcon.gameObject:SetActive(false) --更新玩家数据触发一次拉去头像
+    self:Reflash()
+end
+
+function UIPlayerGameInfo:FreshScore()
+    self.ScoreLabel.text = self.player.userInfo.coin
+end
+
+--刷新界面信息
+function UIPlayerGameInfo:Reflash()
+    if not self.player then
+        return
+    end
+
+    if not self.HeadIcon.gameObject.activeSelf then --如果没有头像，拉去头像
+        function callBack(isOk, www)
+            if isOk then
+                self.HeadIcon.mainTexture = www.texture
+                self.HeadIcon.gameObject:SetActive(true)
+            end
+        end
+        require("NetWork.NetHttp").WWWTexture(self.player.userInfo.headimg, callBack)
+    --Debug.log("尝试获取玩家 "..self.player.userInfo.nickname.." 头像:"..self.player.userInfo.headimg)
+    end
+    self.NickNameLabel.text = self.player.userInfo.nickname
+    self.ScoreLabel.text = self.player.userInfo.coin
+
+    if self.player.userInfo.userState == 2 then
+        self:OffLine(true)
+    else
+        self:OffLine(false)
+    end
+
+    if self.player.userInfo.gstate == 1 then
+        self:ShowReady(true)
+    else
+        self:ShowReady(false)
+    end
+
+    if self.player.isMaster then
+        self.fanzhu.gameObject:SetActive(true)
+    else
+        self.fanzhu.gameObject:SetActive(false)
+    end
+end
+
+function UIPlayerGameInfo:Clear()
+    self.player = nil
+    self.root.gameObject:SetActive(false)
+    self.HeadIcon.gameObject:SetActive(false)
+    self.NickNameLabel.text = ""
+    self.ScoreLabel.text = ""
+    self.OfflineLabel.gameObject:SetActive(false)
+    self.ReadyLabel.gameObject:SetActive(false)
+    self.fanzhu.gameObject:SetActive(false)
+
+    if self.zhuang ~= nil then
+        self.zhuang.gameObject:SetActive(false)
+    end
+    self.qiang.gameObject:SetActive(false)
+    self.buqiang.gameObject:SetActive(false)
+    self.s_bet.gameObject:SetActive(false)
+    self.RandomAni.gameObject:SetActive(false)
+
+    if self.VoiceChatObj ~= nil then
+        self.VoiceChatObj.gameObject:SetActive(false)
+    end
+end
+
+function UIPlayerGameInfo:RandZhuangAni()
+    self.RandomAni.gameObject:SetActive(true)
+    function Delay()
+        self.RandomAni.gameObject:SetActive(false)
+    end
+
+    CountDownMgr.Instance:CreateCountDown(0.2, 0.2, Delay)
+end
+
+function UIPlayerGameInfo:OffLine(offline)
+    self.OfflineLabel.gameObject:SetActive(offline)
+end
+
+function UIPlayerGameInfo:ShowReady(ready)
+    self.ReadyLabel.gameObject:SetActive(ready)
+end
+
+function UIPlayerGameInfo:ShowZhuangState(state)
+    self.zhuang.gameObject:SetActive(state)
+end
+
+function UIPlayerGameInfo:ShowQiangZhuang(state)
+    Debug.log("ShowQiangZhuang:" .. tostring(state))
+    if state then
+        self.qiang.gameObject:SetActive(true)
+        self.buqiang.gameObject:SetActive(false)
+    else
+        self.qiang.gameObject:SetActive(false)
+        self.buqiang.gameObject:SetActive(true)
+    end
+end
+
+function UIPlayerGameInfo:CloseQiangZhuang()
+    Debug.log("CloseQiangZhuang")
+    self.qiang.gameObject:SetActive(false)
+    self.buqiang.gameObject:SetActive(false)
+end
+
+function UIPlayerGameInfo:ScoreUpdate()
+    self.ScoreLabel.text = tostring(self.player.userInfo.coin)
+end
+
+function UIPlayerGameInfo:ShowBet(state, beilv)
+    if state then
+        self.s_bet.gameObject:SetActive(true)
+        self.s_bet.spriteName = "Text_x" .. beilv
+    else
+        self.s_bet.gameObject:SetActive(false)
+    end
+end
+
+function UIPlayerGameInfo:WordChat(ChatCast, sex)
+    local SoundModule = require("Module.SoundModule").SoundModule
+    --local SoundAgant = SoundModule:GetIdleSoundAgent()
+    --SoundModule:PlaySound(soundResName)
+    local GameHost = require("Module.GameModule.GameHost").GameHost
+    if self.wordChatCountID ~= nil then
+        CountDownMgr.Instance:RemoveCountDown(self.wordChatCountID, false)
+    end
+
+    if ChatCast.type == 1 then
+        self.S_biaoqing.gameObject:SetActive(true)
+        self.S_biaoqing.spriteName = "chatface_"..ChatCast.id
+    elseif ChatCast.type == 2 then
+        self.L_word.gameObject:SetActive(true)
+        self.L_word.text = GameHost.WordChatEnum[ChatCast.id]
+        if sex == 1 then
+            local soundName = "man_liaotian_" .. ChatCast.id
+            SoundModule:PlaySound(soundName)
+        elseif sex == 2 then
+            local soundName = "Woman_liaotian_" .. ChatCast.id
+            SoundModule:PlaySound(soundName)
+        end
+    elseif ChatCast.type == 3 then
+        if GameHost:GetSelfPlayer().isSetFontSice then
+            self.L_word.fontSize = 33
+        else
+            self.L_word.fontSize = 20
+        end
+        local GameHost = require("Module.GameModule.GameHost").GameHost
+        self.L_word.gameObject:SetActive(true)
+        self.L_word.text = ChatCast.content
+    end
+
+    function Disable()
+        self.S_biaoqing.gameObject:SetActive(false)
+        self.L_word.gameObject:SetActive(false)
+    end
+    self.wordChatCountID = CountDownMgr.Instance:CreateCountDown(3, 3, Disable)
+end
+
+function UIPlayerGameInfo:VoiceChat(len)
+    if self.voiceChatCountID ~= nil then
+        CountDownMgr.Instance:RemoveCountDown(self.voiceChatCountID, false)
+    end
+    self.VoiceChatObj.gameObject:SetActive(true)
+    local SoundModule = require("Module.SoundModule").SoundModule
+    SoundModule:StopBGM()
+
+    function Stop()
+        self.VoiceChatObj.gameObject:SetActive(false)
+        local SoundModule = require("Module.SoundModule").SoundModule
+        local YYStat = UnityEngine.PlayerPrefs.GetInt("BGMState")
+        if YYStat ~= 0 then
+            SoundModule:BeginBGM()
+        end
+
+        
+    end
+    Debug.log("voice len:"..len)
+    local duration = tonumber(len)
+    self.voiceChatCountID = CountDownMgr.Instance:CreateCountDown(duration, duration, Stop)
+end
+
+function UIPlayerGameInfo:StopVoiceChat()
+    self.VoiceChatObj.gameObject:SetActive(false)
+end
