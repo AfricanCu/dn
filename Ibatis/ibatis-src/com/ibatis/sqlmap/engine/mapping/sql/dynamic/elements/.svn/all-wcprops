@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements
+END
+DynamicTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/DynamicTagHandler.java
+END
+IsParameterPresentTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/IsParameterPresentTagHandler.java
+END
+SqlTagHandlerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/SqlTagHandlerFactory.java
+END
+SqlTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/SqlTag.java
+END
+IsNotParameterPresentTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/IsNotParameterPresentTagHandler.java
+END
+IterateTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/IterateTagHandler.java
+END
+DynamicParent.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/DynamicParent.java
+END
+SqlTagContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/SqlTagContext.java
+END
+IsNullTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/IsNullTagHandler.java
+END
+BaseTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/BaseTagHandler.java
+END
+IsLessEqualTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/IsLessEqualTagHandler.java
+END
+IsGreaterThanTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/IsGreaterThanTagHandler.java
+END
+IsNotNullTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/IsNotNullTagHandler.java
+END
+SqlTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/SqlTagHandler.java
+END
+IsNotEqualTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/IsNotEqualTagHandler.java
+END
+IsNotPropertyAvailableTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/IsNotPropertyAvailableTagHandler.java
+END
+IsPropertyAvailableTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/IsPropertyAvailableTagHandler.java
+END
+IsEqualTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/IsEqualTagHandler.java
+END
+ConditionalTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/ConditionalTagHandler.java
+END
+IterateContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/IterateContext.java
+END
+IsNotEmptyTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/IsNotEmptyTagHandler.java
+END
+IsLessThanTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/IsLessThanTagHandler.java
+END
+IsGreaterEqualTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/IsGreaterEqualTagHandler.java
+END
+IsEmptyTagHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/sql/dynamic/elements/IsEmptyTagHandler.java
+END

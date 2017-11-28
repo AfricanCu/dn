@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type
+END
+TypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/TypeHandler.java
+END
+CallableStatementResultSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/CallableStatementResultSet.java
+END
+XmlTypeMarker.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/XmlTypeMarker.java
+END
+SimpleDateFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/SimpleDateFormatter.java
+END
+XmlCollectionTypeMarker.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/XmlCollectionTypeMarker.java
+END
+SqlTimestampTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/SqlTimestampTypeHandler.java
+END
+BooleanTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/BooleanTypeHandler.java
+END
+DateTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/DateTypeHandler.java
+END
+CustomTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/CustomTypeHandler.java
+END
+ByteArrayTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/ByteArrayTypeHandler.java
+END
+BigDecimalTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/BigDecimalTypeHandler.java
+END
+ClobTypeHandlerCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/ClobTypeHandlerCallback.java
+END
+DateOnlyTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/DateOnlyTypeHandler.java
+END
+SqlTimeTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/SqlTimeTypeHandler.java
+END
+ShortTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/ShortTypeHandler.java
+END
+LongTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/LongTypeHandler.java
+END
+IntegerTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/IntegerTypeHandler.java
+END
+ObjectTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/ObjectTypeHandler.java
+END
+EnumTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/EnumTypeHandler.java
+END
+ByteTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/ByteTypeHandler.java
+END
+ResultGetterImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/ResultGetterImpl.java
+END
+ParameterSetterImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/ParameterSetterImpl.java
+END
+UnknownTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/UnknownTypeHandler.java
+END
+StringTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/StringTypeHandler.java
+END
+BaseTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/BaseTypeHandler.java
+END
+DoubleTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/DoubleTypeHandler.java
+END
+TypeHandlerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/TypeHandlerFactory.java
+END
+BlobTypeHandlerCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/BlobTypeHandlerCallback.java
+END
+TimeOnlyTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/TimeOnlyTypeHandler.java
+END
+DomTypeMarker.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/DomTypeMarker.java
+END
+DomCollectionTypeMarker.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/DomCollectionTypeMarker.java
+END
+FloatTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/FloatTypeHandler.java
+END
+SqlDateTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/SqlDateTypeHandler.java
+END
+JdbcTypeRegistry.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/type/JdbcTypeRegistry.java
+END

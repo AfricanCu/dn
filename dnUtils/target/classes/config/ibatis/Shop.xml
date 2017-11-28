@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="shop">
+	<update id="createShop">
+		<![CDATA[
+		CREATE TABLE `shop` (
+		  `shopId` varchar(32) NOT NULL,
+		  `rmb` varchar(100) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL,
+		  `pics` varchar(512) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL,
+		  `name` varchar(256) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL,
+		  `place` varchar(256) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL COMMENT '地址',
+		  `kind` varchar(256) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL COMMENT '类型',
+		  `feture` varchar(256) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL COMMENT '特性',
+		  `startSeal` int(11) DEFAULT '0' COMMENT '起售',
+		  `maxSeal` int(11) DEFAULT '0' COMMENT '库存',
+		  `detail` text CHARACTER SET utf8 COLLATE utf8_bin,
+		  `evaluate` mediumtext CHARACTER SET utf8 COLLATE utf8_bin,
+		  `dbca` mediumtext CHARACTER SET utf8 COLLATE utf8_bin,
+		  `star` int(11) DEFAULT NULL COMMENT '星级',
+		  `beginTime` datetime DEFAULT NULL,
+		  `endTime` datetime DEFAULT NULL,
+		  PRIMARY KEY (`shopId`),
+		  KEY `name` (`name`(255))
+		) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+		]]>
+	</update>
+	<resultMap id="Shop" class="com.wk.gm.bean.ShopTemplate">
+		<result property="shopId" column="shopId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="rmb" column="rmb" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="pics" column="pics" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="name" column="name" javaType="String"
+			jdbcType="VARCHAR" />
+		<result property="place" column="place" javaType="String"
+			jdbcType="VARCHAR" />
+		<result property="kind" column="kind" javaType="String"
+			jdbcType="VARCHAR" />
+		<result property="feture" column="feture" javaType="String"
+			jdbcType="VARCHAR" />
+		<result property="startSeal" column="startSeal" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="maxSeal" column="maxSeal" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="detail" column="detail" javaType="String"
+			jdbcType="mediumtext" />
+		<result property="evaluate" column="evaluate" javaType="String"
+			jdbcType="mediumtext" />
+		<result property="dbca" column="dbca" javaType="String"
+			jdbcType="mediumtext" />
+		<result property="star" column="star" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="beginTime" column="beginTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<result property="endTime" column="endTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+	</resultMap>
+	<parameterMap class="com.wk.gm.bean.ShopTemplate" id="ShopParameter">
+		<parameter property="rmb" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="pics" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="name" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="place" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="kind" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="feture" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="startSeal" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="maxSeal" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="detail" javaType="String" jdbcType="VARCHAR" />
+		<parameter property="evaluate" javaType="String" jdbcType="MEDIUMTEXT" />
+		<parameter property="dbca" javaType="String" jdbcType="VARCHAR" />
+		<parameter property="star" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="beginTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<parameter property="endTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+	</parameterMap>
+	<insert id="insertShop" parameterMap="ShopParameter">
+		<![CDATA[
+			replace into shop values(null,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+		]]>
+		<selectKey keyProperty="shopId" resultClass="java.lang.Integer">
+		<![CDATA[  
+        	SELECT LAST_INSERT_ID() AS shopId
+        ]]>
+		</selectKey>
+	</insert>
+	<select id="queryShop" resultMap="Shop" parameterClass="java.lang.Integer">
+	<![CDATA[
+		select * from shop where shopId = #codes#
+	]]>
+	</select>
+	<select id="queryShops" resultMap="Shop">
+	<![CDATA[
+		select * from shop
+	]]>
+	</select>
+
+</sqlMap>
+

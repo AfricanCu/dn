@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/apache-ant-1.9.4/etc
+END
+mmetrics-frames.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/apache-ant-1.9.4/etc/mmetrics-frames.xsl
+END
+jdepend-frames.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/apache-ant-1.9.4/etc/jdepend-frames.xsl
+END
+tagdiff.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/apache-ant-1.9.4/etc/tagdiff.xsl
+END
+ant-bootstrap.jar
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/apache-ant-1.9.4/etc/ant-bootstrap.jar
+END
+log.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/apache-ant-1.9.4/etc/log.xsl
+END
+changelog.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/apache-ant-1.9.4/etc/changelog.xsl
+END
+maudit-frames.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/apache-ant-1.9.4/etc/maudit-frames.xsl
+END
+junit-frames.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/apache-ant-1.9.4/etc/junit-frames.xsl
+END
+junit-noframes.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/apache-ant-1.9.4/etc/junit-noframes.xsl
+END
+jdepend.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/apache-ant-1.9.4/etc/jdepend.xsl
+END
+junit-frames-xalan1.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/apache-ant-1.9.4/etc/junit-frames-xalan1.xsl
+END
+coverage-frames.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/apache-ant-1.9.4/etc/coverage-frames.xsl
+END

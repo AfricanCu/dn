@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="room">
+	<resultMap id="Room" class="com.wk.bean.RoomBean">
+		<result property="id" column="id" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="serverId" column="serverId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="masterUid" column="masterUid" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+		<result property="updateTime" column="updateTime" javaType="java.util.Date"
+			jdbcType="TIMESTAMP" />
+		<result property="back" column="back" jdbcType="BLOB"
+			typeHandler="com.ibatis.sqlmap.engine.type.ByteArrayTypeHandler" />
+	</resultMap>
+	<!-- 房间使用更新 -->
+	<parameterMap class="java.util.Map" id="updateRoomParams">
+		<parameter property="sId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="masterId" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+		<parameter property="roomId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+	</parameterMap>
+	<!-- 房间备份 -->
+	<parameterMap class="java.util.Map" id="updateRoomBackParams">
+		<parameter property="back" jdbcType="BLOB"
+			typeHandler="com.ibatis.sqlmap.engine.type.ByteArrayTypeHandler" />
+		<parameter property="roomId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="sId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+	</parameterMap>
+	<!-- 随机一个房间id -->
+	<select id="ranRoomId" resultClass="java.lang.Integer">
+	<![CDATA[
+		SELECT `id` FROM room WHERE `serverId` = 0 ORDER BY RAND() LIMIT 1;
+	]]>
+	</select>
+	<!-- 房间id查询服务器id -->
+	<select id="serverIdByRoomId" parameterClass="java.lang.Integer"
+		resultClass="java.lang.Integer">
+	<![CDATA[
+		SELECT `serverId` FROM room WHERE `id` = #codes#;
+	]]>
+	</select>
+	<!-- 使用房间更新 -->
+	<update id="updateRoom" parameterMap="updateRoomParams">
+	<![CDATA[
+		UPDATE room SET `serverId` = ? , `masterUid` = ? , `back` = NULL WHERE `id` = ? and `serverId` = 0;
+	]]>
+	</update>
+	<!-- 使用房间备份 -->
+	<update id="updateRoomBack" parameterMap="updateRoomBackParams">
+	<![CDATA[
+		UPDATE room SET `back` = ? WHERE `id` = ? and `serverId` = ?;
+	]]>
+	</update>
+	<!-- 重置房间数据 -->
+	<update id="resetRoom" parameterClass="java.lang.Integer">
+	<![CDATA[
+		UPDATE room SET `serverId` = 0 , `masterUid` = NULL , `back` = NULL WHERE `id` = #codes#;
+	]]>
+	</update>
+	<!-- 服务器id查询房间列表 -->
+	<select id="roomsByServerId" parameterClass="java.lang.Integer"
+		resultMap="Room">
+	<![CDATA[
+		SELECT * FROM room WHERE `serverId` = #codes#;
+	]]>
+	</select>
+
+
+	<!-- 归还老房间 -->
+	<update id="resetOldRooms" parameterClass="java.lang.Integer">
+	<![CDATA[
+		UPDATE room SET `serverId` = 0 , `masterUid` = NULL , `back` = NULL WHERE `serverId` = #codes#;
+	]]>
+	</update>
+	<parameterMap class="java.util.Map" id="updateRoomMasterUidParams">
+		<parameter property="masterUid" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+		<parameter property="roomId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="serverId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="oldMasterUid" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+	</parameterMap>
+	<!-- 换房主 -->
+	<update id="updateRoomMasterUid" parameterMap="updateRoomMasterUidParams">
+	<![CDATA[
+		UPDATE room set `masterUid` = ? WHERE id = ? and `serverId` = ? and masterUid = ?;
+	]]>
+	</update>
+</sqlMap>
+

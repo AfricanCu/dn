@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WolfTemptation_Server/!svn/ver/4215/dn/dnGameServer/src/com/wk/server/logic/room
+END
+TimeConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/WolfTemptation_Server/!svn/ver/3605/dn/dnGameServer/src/com/wk/server/logic/room/TimeConfig.java
+END
+RunEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WolfTemptation_Server/!svn/ver/3440/dn/dnGameServer/src/com/wk/server/logic/room/RunEvent.java
+END
+BetTimesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WolfTemptation_Server/!svn/ver/3519/dn/dnGameServer/src/com/wk/server/logic/room/BetTimesType.java
+END
+GameTimesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/WolfTemptation_Server/!svn/ver/4215/dn/dnGameServer/src/com/wk/server/logic/room/GameTimesType.java
+END
+RoomBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WolfTemptation_Server/!svn/ver/4209/dn/dnGameServer/src/com/wk/server/logic/room/RoomBase.java
+END
+RoomModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/WolfTemptation_Server/!svn/ver/3801/dn/dnGameServer/src/com/wk/server/logic/room/RoomModule.java
+END
+RoomBaseAbs.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/WolfTemptation_Server/!svn/ver/3809/dn/dnGameServer/src/com/wk/server/logic/room/RoomBaseAbs.java
+END
+Seat.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WolfTemptation_Server/!svn/ver/4162/dn/dnGameServer/src/com/wk/server/logic/room/Seat.java
+END
+Room.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WolfTemptation_Server/!svn/ver/3801/dn/dnGameServer/src/com/wk/server/logic/room/Room.java
+END
+RoomTaskType.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WolfTemptation_Server/!svn/ver/4236/dn/dnGameServer/src/com/wk/server/logic/room/RoomTaskType.java
+END
+RoomAbs.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/WolfTemptation_Server/!svn/ver/4162/dn/dnGameServer/src/com/wk/server/logic/room/RoomAbs.java
+END
+SerializeObj.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WolfTemptation_Server/!svn/ver/3519/dn/dnGameServer/src/com/wk/server/logic/room/SerializeObj.java
+END
+RoomUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WolfTemptation_Server/!svn/ver/3803/dn/dnGameServer/src/com/wk/server/logic/room/RoomUtils.java
+END
+MemberDis.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WolfTemptation_Server/!svn/ver/3519/dn/dnGameServer/src/com/wk/server/logic/room/MemberDis.java
+END
+NiuType.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/WolfTemptation_Server/!svn/ver/4162/dn/dnGameServer/src/com/wk/server/logic/room/NiuType.java
+END
+RoomManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/WolfTemptation_Server/!svn/ver/3899/dn/dnGameServer/src/com/wk/server/logic/room/RoomManager.java
+END

@@ -1,0 +1,5 @@
+﻿serverId,name,isOpen,status,host,innerHost,port,type,strengthNeed
+Int,String,Boolean,Int,String,String,int,int,int
+1,1服,False,0,192.168.0.42,127.0.0.1,8033,1,0
+2,2服,True,0,192.168.0.42,127.0.0.1,8044,2,0
+3,3服,True,0,192.168.0.42,127.0.0.1,8045,3,0

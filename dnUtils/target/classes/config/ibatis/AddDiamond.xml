@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="addDiamond">
+	<resultMap class="com.wk.gm.bean.AddDiamondBean" id="AddDiamond">
+		<result property="proxy" column="proxy" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="uid" column="uid" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+		<result property="nickname" column="nickname" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="diamond" column="diamond" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="chargeTime" column="chargeTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+	</resultMap>
+	<select id="queryAddDiamond" parameterClass="java.util.Map"
+		resultMap="AddDiamond">
+	<![CDATA[
+		select * from adddiamond 
+		WHERE `proxy` = #proxy# and chargeTime BETWEEN #beginTime# AND #endTime#
+	]]>
+	</select>
+	<parameterMap class="com.wk.gm.bean.AddDiamondBean" id="AddDiamondParameter">
+		<parameter property="proxy" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="uid" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+		<parameter property="nickname" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="diamond" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="chargeTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+	</parameterMap>
+	<insert id="insertAddDiamond" parameterMap="AddDiamondParameter">
+	<![CDATA[
+		insert into adddiamond values(?,?,?,?,?)
+	]]>
+	</insert>
+</sqlMap>
+

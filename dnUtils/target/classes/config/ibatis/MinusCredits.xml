@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="minusCredits">
+	<resultMap class="com.wk.gm.bean.MinusCreditsBean" id="MinusCredits">
+		<result property="username" column="username" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="uid" column="uid" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="type" column="type" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="credits" column="credits" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="log" column="log" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="operaTime" column="operaTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+	</resultMap>
+	<select id="queryMinusCredits" parameterClass="java.util.Map"
+		resultMap="MinusCredits">
+	<![CDATA[
+		select * from minus_credits 
+		WHERE `username` = #username# and operaTime BETWEEN #beginTime# AND #endTime#
+	]]>
+	</select>
+	<parameterMap class="com.wk.gm.bean.MinusCreditsBean" id="MinusCreditsParameter">
+		<parameter property="username" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="uid" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="type" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="credits" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="log" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="operaTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+	</parameterMap>
+	<insert id="insertMinusCredits" parameterMap="MinusCreditsParameter">
+	<![CDATA[
+		insert into minus_credits values(?,?,?,?,?,?)
+	]]>
+	</insert>
+</sqlMap>
+

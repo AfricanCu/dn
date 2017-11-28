@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/WolfTemptation_Server/!svn/ver/4162/dn/dnGameServer/src/com/wk/logic/config
+END
+TimeConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/WolfTemptation_Server/!svn/ver/3803/dn/dnGameServer/src/com/wk/logic/config/TimeConfig.java
+END
+ConfigTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WolfTemptation_Server/!svn/ver/4162/dn/dnGameServer/src/com/wk/logic/config/ConfigTemplate.java
+END
+DissolveRoomType.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/WolfTemptation_Server/!svn/ver/3801/dn/dnGameServer/src/com/wk/logic/config/DissolveRoomType.java
+END
+StaticDataManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WolfTemptation_Server/!svn/ver/3600/dn/dnGameServer/src/com/wk/logic/config/StaticDataManager.java
+END
+NTxt.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WolfTemptation_Server/!svn/ver/3697/dn/dnGameServer/src/com/wk/logic/config/NTxt.java
+END

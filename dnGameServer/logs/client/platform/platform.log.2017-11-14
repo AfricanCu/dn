@@ -1,0 +1,1276 @@
+2017-11-14 10:42:38.523 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-14 10:42:38.539 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-14 10:42:38.554 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-14 10:43:06.536 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 10:43:06.536 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 10:43:06.552  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 10:43:06.598  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 10:43:06.598  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 10:43:06.598  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 10:43:06.598  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-14 10:43:15.634 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 10:43:15.666  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-14 10:43:17.009 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 10:43:17.009 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 10:43:17.009  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 10:43:17.025  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 10:43:17.025  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 10:43:17.025  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 10:43:17.041  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-14 10:43:25.405 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 10:43:25.405  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-14 10:43:26.857 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 10:43:26.857 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 10:43:26.857  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 10:43:26.874  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 10:43:26.874  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 10:43:26.874  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 10:43:26.889  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-14 10:44:38.353 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-14 10:44:38.353 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-14 10:44:38.368 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-14 10:44:52.740 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 10:44:52.740 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 10:44:52.756  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 10:44:52.787  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 10:44:52.787  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 10:44:52.787  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 10:44:52.787  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-14 10:45:18.158 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 10:45:18.158  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 10:45:18.175  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 10:45:18.176  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 10:45:18.176  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 13:29:09.497 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-14 13:29:09.501 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-14 13:29:09.514 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-14 13:29:30.444 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 13:29:30.444 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 13:29:30.457  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 13:29:30.502  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 13:29:30.504  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 13:29:30.507  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 13:29:30.509  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-14 13:29:43.588 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 13:29:43.591  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-14 13:29:44.536 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 13:29:44.538 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 13:29:44.543  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 13:29:44.550  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 13:29:44.552  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 13:29:44.554  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 13:29:44.557  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-14 13:29:49.719 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 13:29:49.721 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 13:29:49.726  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 13:29:49.732  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 13:29:49.735  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 13:29:49.737  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 13:29:49.746  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-14 13:29:51.504 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 13:29:51.507 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 13:29:51.512  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 13:29:51.518  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 13:29:51.523  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 13:29:51.538  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 13:29:51.539  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-14 13:29:51.542  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-14 13:30:20.036 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 13:30:20.037 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 13:30:20.042  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 13:30:20.049  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 13:30:20.050  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 13:30:20.051  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 13:30:20.061  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-14 13:30:20.063  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-14 13:30:20.063  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-14 18:29:40.967 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-14 18:29:40.993 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-14 18:29:41.205 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-14 18:30:13.141 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-14 18:30:13.144 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-14 18:30:13.159 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-14 18:34:17.271 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-14 18:34:17.275 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-14 18:34:17.291 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-14 18:34:24.879 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 18:34:24.879 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 18:34:24.916  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 18:34:24.967  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 18:34:24.969  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 18:34:24.973  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 18:34:32.949  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-14 18:34:50.668 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 18:34:50.670 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 18:34:50.684  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 18:34:50.725  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 18:34:50.726  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 18:34:50.727  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 18:34:50.789  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-14 18:34:50.797  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-14 18:34:52.252 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 18:34:52.253 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 18:34:52.277  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 18:34:52.349  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 18:34:52.352  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 18:34:52.355  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 18:34:52.411  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-14 18:34:52.415  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-14 18:34:52.416  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-14 18:34:56.410 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 18:34:56.411 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 18:34:56.424  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 18:34:56.466  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 18:34:56.467  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 18:34:56.468  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 18:34:56.516  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-14 18:34:56.518  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-14 18:34:56.519  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-14 18:34:56.521  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-14 18:35:00.972 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:PrepareRoomCm 211 true
+2017-11-14 18:35:00.979  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomSm 212
+2017-11-14 18:35:00.984  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 18:35:00.984  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 18:35:00.986  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 18:35:03.244 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:PrepareRoomCm 211 true
+2017-11-14 18:35:03.247  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomSm 212
+2017-11-14 18:35:03.251  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 18:35:03.253  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 18:35:03.255  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 18:35:05.868 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:PrepareRoomCm 211 true
+2017-11-14 18:35:05.872  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomSm 212
+2017-11-14 18:35:05.872  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 18:35:05.875  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 18:35:05.878  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 18:35:07.758 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:PrepareRoomCm 211 true
+2017-11-14 18:35:07.760  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 18:35:07.765  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomSm 212
+2017-11-14 18:35:07.768  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 18:35:07.772  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 18:35:07.789  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 18:35:07.793  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 18:35:07.795  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 18:35:07.797  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 18:35:10.310  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 18:35:10.311  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 18:35:10.313  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 18:35:10.318  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 18:35:15.310  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 18:35:15.311  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 18:35:15.312  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 18:35:15.316  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 18:35:15.318  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 18:35:15.324  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 18:35:15.328  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 18:35:15.333  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 18:35:15.345  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 18:35:15.346  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 18:35:15.347  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 18:35:15.347  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 18:35:15.348  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 18:35:15.348  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 18:35:15.348  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 18:35:15.349  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 18:35:15.350  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 18:35:15.350  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 18:35:15.351  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 18:35:15.352  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 18:35:16.350  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 18:35:16.352  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 18:35:16.357  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 18:35:21.359  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 18:35:21.362  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 18:35:21.364  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 18:35:21.374  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 18:35:21.377  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 18:35:21.379  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 18:35:21.381  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 18:35:21.381  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 18:35:21.382  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 18:35:21.384  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 18:35:21.385  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 18:35:21.387  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 18:35:21.389  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 18:35:21.390  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 18:35:21.394  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 18:35:21.397  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 18:35:26.390  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 18:35:26.398  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 18:35:26.399  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 18:35:26.401  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 18:35:26.403  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 18:35:26.416  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 18:35:26.418  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 18:35:26.420  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 18:35:26.421  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 18:35:26.423  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 18:35:26.424  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 18:35:26.424  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 18:35:26.425  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 18:35:26.426  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 18:35:26.427  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 18:35:26.428  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 18:35:26.470  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 18:35:26.471  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 18:35:26.471  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 18:35:26.472  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 18:35:32.562  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 18:35:32.566  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 18:35:32.567  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 18:35:32.569  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:19:29.140 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-14 19:19:29.172 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-14 19:19:29.208 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-14 19:19:42.150 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:19:42.150 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 19:19:42.162  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:19:48.520 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:19:48.521 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 19:19:48.523  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:19:48.559  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:19:48.563  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:19:48.574  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:20:07.687 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:20:07.691 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 19:20:07.724  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:20:09.797 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:20:09.798 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 19:20:09.824  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:20:10.657 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:20:10.658 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 19:20:10.665  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:20:11.423 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:20:11.424 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 19:20:11.444  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:20:11.476  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:20:11.477  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:20:11.477  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:20:11.594  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-14 19:20:18.457 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:20:18.458 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 19:20:18.475  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:20:18.515  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:20:18.516  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:20:18.516  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:20:18.592  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-14 19:20:20.534 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:20:20.534 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 19:20:20.539  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:20:20.605  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:20:20.608  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:20:20.611  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:20:20.697  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-14 19:20:21.819 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:20:21.824 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 19:20:21.831  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:20:21.867  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:20:21.867  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:20:21.868  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:20:21.973  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-14 19:20:23.937 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:20:23.939 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 19:20:23.969  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:20:24.043  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:20:24.045  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:20:24.047  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:20:24.119  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-14 19:21:11.771 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-14 19:21:11.775 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-14 19:21:11.790 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-14 19:21:33.930 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:21:33.931 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 19:21:33.936  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:21:33.982  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:21:33.984  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:21:33.988  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:21:33.991  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-14 19:22:50.976 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:22:50.994 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 19:22:51.011  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:22:51.048  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:22:51.049  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:22:51.050  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:22:51.053  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-14 19:23:01.451 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-14 19:23:01.457 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-14 19:23:01.474 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-14 19:23:46.721 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-14 19:23:46.726 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-14 19:23:46.740 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-14 19:24:13.143 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:24:13.144 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 19:24:13.156  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:24:18.177 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:24:18.179 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 19:24:18.185  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:24:18.225  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:24:18.229  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:24:18.234  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:24:18.238  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-14 19:24:19.920 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:24:19.923 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 19:24:19.936  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:24:19.962  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:24:19.963  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:24:19.966  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:24:19.967  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-14 19:24:21.018 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:24:21.021 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 19:24:21.034  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:24:22.054 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:24:22.055 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 19:24:22.074  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:24:22.112  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:24:22.113  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:24:22.114  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:24:22.115  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-14 19:24:22.914 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:24:22.916 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 19:24:22.930  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:24:22.976  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:24:22.977  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:24:22.978  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:24:22.980  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-14 19:24:23.638 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:24:23.639 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 19:24:23.648  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:24:23.685  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:24:23.685  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:24:23.686  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:24:23.688  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-14 19:24:24.301 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:24:24.302 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 19:24:24.313  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:24:24.347  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:24:24.348  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:24:24.348  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:24:24.350  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-14 19:24:24.960 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:24:24.989  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:24:25.036  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:24:25.039  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:24:25.040  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:24:39.086 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-14 19:24:39.093 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-14 19:24:39.108 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-14 19:25:10.141 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:25:10.142 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 19:25:10.147  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:25:10.188  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:25:10.190  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:25:10.193  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:25:10.195  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-14 19:25:36.862 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-14 19:25:36.866 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-14 19:25:36.883 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-14 19:25:49.672 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:25:49.673 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:LoginCm 1 true
+2017-11-14 19:25:49.679  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:25:49.725  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:25:49.727  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:25:49.730  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:25:57.591 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:25:57.592 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:LoginCm 1 true
+2017-11-14 19:25:57.615  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:25:57.664  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:25:57.665  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:25:57.666  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:25:59.463 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:25:59.464 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:LoginCm 1 true
+2017-11-14 19:25:59.477  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:25:59.510  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:25:59.511  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:25:59.512  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:26:00.655 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:26:00.656 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:LoginCm 1 true
+2017-11-14 19:26:00.666  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:26:00.707  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:26:00.708  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:26:00.709  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:26:01.597 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:26:01.598 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:LoginCm 1 true
+2017-11-14 19:26:01.620  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:26:01.657  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:26:01.658  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:26:01.659  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:26:02.495 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:26:02.496 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:LoginCm 1 true
+2017-11-14 19:26:02.515  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:26:02.549  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:26:02.550  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:26:02.550  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:26:10.860 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-14 19:26:10.863 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-14 19:26:10.877 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-14 19:26:18.533 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:26:18.533 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-14 19:26:18.542  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:26:18.587  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:26:18.589  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:26:18.593  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:26:18.660  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-14 19:26:33.047 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:26:33.050 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 19:26:33.077  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:26:33.128  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:26:33.129  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:26:33.130  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:26:33.188  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-14 19:26:33.202  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-14 19:26:38.373 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:26:38.375 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 19:26:38.393  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:26:38.447  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:26:38.448  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:26:38.449  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:26:38.484  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-14 19:26:38.486  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-14 19:26:38.489  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-14 19:26:40.664 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-14 19:26:40.665 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-14 19:26:40.672  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-14 19:26:40.706  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-14 19:26:40.707  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:26:40.708  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-14 19:26:40.748  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-14 19:26:40.749  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-14 19:26:40.753  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-14 19:26:40.756  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-14 19:26:54.285 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:PrepareRoomCm 211 true
+2017-11-14 19:26:54.298  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomSm 212
+2017-11-14 19:26:54.299  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 19:26:54.303  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 19:26:54.304  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 19:26:58.037 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:PrepareRoomCm 211 true
+2017-11-14 19:26:58.041  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomSm 212
+2017-11-14 19:26:58.044  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 19:26:58.048  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 19:26:58.048  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 19:27:02.733 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:PrepareRoomCm 211 true
+2017-11-14 19:27:02.737  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomSm 212
+2017-11-14 19:27:02.741  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 19:27:02.741  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 19:27:02.744  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 19:27:07.989 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:PrepareRoomCm 211 true
+2017-11-14 19:27:07.993  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomSm 212
+2017-11-14 19:27:08.002  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 19:27:08.003  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 19:27:08.005  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PrepareRoomCast 213
+2017-11-14 19:27:08.028  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:27:08.030  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:27:08.033  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:27:08.035  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:27:10.541  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:27:10.545  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:27:10.546  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:27:10.548  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:27:15.543  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:15.545  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:15.551  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:15.554  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:15.555  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:15.558  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:15.559  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:15.562  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:15.564  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:15.567  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:15.570  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:27:15.576  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:27:15.578  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:15.579  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:15.579  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:15.580  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:15.580  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:15.582  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:15.583  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:27:15.585  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:27:16.579  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:27:16.581  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:27:16.582  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:27:21.585  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:21.591  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:21.593  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:21.598  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:21.602  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:21.607  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:21.609  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:21.611  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:21.614  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:27:21.616  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:21.616  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:27:21.618  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:21.620  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:21.621  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:21.622  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:27:21.623  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:27:26.614  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:26.614  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:26.621  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:26.621  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:26.624  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:26.625  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:26.628  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:26.632  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:26.641  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:26.643  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:26.647  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:26.649  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:26.649  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:26.651  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:26.653  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:26.653  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:26.738  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:27:26.739  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:27:26.740  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:27:26.743  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:27:32.743  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:32.743  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:32.751  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:32.755  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:32.755  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:32.760  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:32.767  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:32.769  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:32.770  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:32.772  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:32.773  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:32.775  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:32.776  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:27:32.778  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:27:32.785  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:32.786  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:32.788  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:27:32.790  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:32.791  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:32.793  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:27:35.281  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:27:35.283  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:27:35.284  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:27:35.286  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:27:40.281  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:40.283  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:40.284  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:40.287  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:40.290  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:40.293  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:40.296  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:40.298  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:40.298  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:40.300  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:40.301  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:40.301  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:40.303  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:40.308  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:40.309  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:27:40.310  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:27:40.312  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:40.312  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:27:40.314  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:27:40.314  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:27:41.308  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:27:41.309  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:27:41.310  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:27:46.310  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:46.310  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:46.316  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:46.317  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:46.320  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:46.328  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:46.334  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:46.338  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:46.341  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:46.343  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:46.343  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:27:46.344  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:46.345  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:27:46.346  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:27:46.348  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:27:46.349  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:27:51.343  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:51.343  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:51.349  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:51.350  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:51.353  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:51.355  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:51.356  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:51.358  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:51.362  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:51.364  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:51.369  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:51.369  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:51.370  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:51.371  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:51.372  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:51.373  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:27:51.436  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:27:51.436  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:27:51.436  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:27:51.436  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:27:57.437  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:57.437  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:57.443  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:57.452  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:57.453  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:57.456  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:57.458  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:57.458  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:57.458  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:57.461  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:57.462  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:57.464  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:57.465  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:57.467  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:57.469  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:27:57.470  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:27:57.478  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:57.479  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:27:57.480  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:27:57.482  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:27:59.975  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:27:59.976  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:27:59.977  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:27:59.982  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:28:04.975  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:04.975  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:04.980  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:04.984  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:04.986  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:04.990  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:04.992  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:04.995  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:04.999  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:05.003  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:28:05.007  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:05.008  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:05.009  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:28:05.014  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:05.017  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:05.018  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:28:05.018  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:05.021  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:05.023  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:05.023  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:28:06.009  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:28:06.012  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:28:06.015  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:28:11.008  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:11.009  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:11.010  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:11.011  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:11.011  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:11.012  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:11.012  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:11.013  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:11.013  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:11.014  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:28:11.014  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:28:11.015  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:11.015  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:11.016  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:11.018  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:28:11.018  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:28:16.015  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:16.016  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:16.016  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:16.017  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:16.017  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:16.018  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:16.018  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:16.018  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:16.019  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:16.020  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:16.025  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:16.026  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:16.028  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:16.029  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:16.031  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:16.031  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:16.065  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:28:16.065  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:28:16.065  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:28:16.065  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:28:22.067  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:22.069  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:22.070  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:22.076  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:22.081  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:22.083  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:22.084  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:22.086  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:22.087  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:22.087  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:28:22.088  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:22.088  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:22.089  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:22.090  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:28:22.092  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:22.093  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:22.093  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:22.093  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:28:22.094  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:22.096  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:28:24.575  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:28:24.576  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:28:24.577  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:28:24.577  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:28:29.577  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:29.577  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:29.585  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:29.587  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:29.589  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:29.590  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:29.590  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:29.592  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:29.594  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:29.595  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:29.595  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:29.598  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:28:29.599  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:28:29.601  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:29.601  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:29.603  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:29.604  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:29.606  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:29.607  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:28:29.611  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:28:30.601  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:28:30.602  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:28:30.603  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:28:35.603  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:35.605  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:35.607  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:35.608  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:35.609  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:35.611  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:35.613  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:35.616  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:35.618  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:28:35.619  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:28:35.620  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:35.622  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:35.623  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:35.624  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:28:35.627  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:28:35.633  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:28:40.616  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:40.617  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:40.618  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:40.622  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:40.624  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:40.627  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:40.628  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:40.630  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:40.632  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:40.633  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:40.635  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:40.637  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:40.639  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:40.641  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:40.644  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:40.646  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:28:40.713  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:28:40.713  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:28:40.714  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:28:40.716  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:28:46.714  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:46.715  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:46.717  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:46.718  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:46.719  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:46.720  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:46.720  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:46.720  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:46.722  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:46.725  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:46.726  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:46.727  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:46.728  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:46.728  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:46.729  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:46.729  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:28:46.730  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:28:46.731  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:28:46.731  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:28:46.732  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:28:49.239  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:28:49.241  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:28:49.244  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:28:49.247  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:28:54.235  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:54.235  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:54.239  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:54.241  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:54.241  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:54.244  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:54.246  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:54.246  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:54.249  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:54.250  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:54.253  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:54.256  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:54.257  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:54.260  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:54.262  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:28:54.265  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:28:54.272  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:54.274  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:28:54.277  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:28:54.278  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:28:55.268  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:28:55.271  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:28:55.273  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:29:00.267  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:00.269  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:00.269  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:00.270  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:00.271  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:00.275  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:00.276  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:29:00.277  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:29:00.278  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:00.278  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:00.279  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:00.279  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:29:00.279  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:00.280  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:00.281  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:00.282  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:29:05.277  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:05.277  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:05.280  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:05.282  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:05.282  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:05.285  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:05.286  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:05.289  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:05.290  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:05.291  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:05.294  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:05.297  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:05.298  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:05.302  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:05.305  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:05.306  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:05.349  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:29:05.350  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:29:05.355  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:29:05.358  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:29:11.350  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:11.351  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:11.352  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:11.352  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:11.352  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:11.353  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:11.353  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:11.354  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:11.354  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:11.354  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:11.355  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:11.355  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:29:11.355  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:29:11.356  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:11.357  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:11.357  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:29:11.357  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:11.358  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:11.359  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:11.362  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:29:13.859  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:29:13.862  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:29:13.864  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:29:13.865  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:29:18.859  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:18.859  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:18.864  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:18.865  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:18.867  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:18.869  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:18.871  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:18.872  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:18.874  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:18.875  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:18.877  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:18.879  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:18.880  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:29:18.880  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:29:18.882  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:29:18.883  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:18.884  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:18.885  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:18.886  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:18.887  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:29:19.884  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:29:19.890  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:29:19.894  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:29:24.883  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:24.883  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:24.884  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:24.885  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:24.885  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:24.886  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:24.887  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:24.887  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:24.887  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:29:24.888  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:24.891  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:24.892  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:29:24.893  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:24.893  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:29:24.894  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:24.895  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:29:29.889  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:29.889  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:29.892  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:29.902  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:29.904  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:29.908  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:29.910  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:29.914  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:29.916  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:29.918  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:29.921  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:29.922  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:29.923  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:29.924  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:29.925  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:29.927  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:30.069  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:29:30.069  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:29:30.070  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:29:30.071  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:29:36.071  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:36.074  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:36.075  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:36.077  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:36.078  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:36.080  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:36.081  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:36.083  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:36.084  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:29:36.086  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:29:36.088  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:36.089  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:36.091  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:36.092  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:36.094  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:29:36.096  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:36.097  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:36.098  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:36.098  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:29:36.098  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:29:38.587  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:29:38.588  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:29:38.590  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:29:38.591  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:29:43.628  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:43.628  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:43.629  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:43.629  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:43.630  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:43.630  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:43.630  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:43.630  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:43.631  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:29:43.631  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:43.632  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:43.633  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:43.633  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:29:43.633  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:43.634  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:43.634  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:29:43.636  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:43.637  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:43.637  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:29:43.638  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:29:44.634  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:29:44.634  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:29:44.638  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:29:49.634  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:49.635  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:49.636  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:49.640  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:49.642  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:49.645  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:49.647  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:49.648  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:49.649  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:49.651  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:49.653  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:49.655  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:29:49.656  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:29:49.659  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:29:49.660  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:29:49.662  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:29:54.656  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:54.657  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:54.658  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:54.661  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:54.663  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:54.667  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:54.668  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:54.670  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:54.670  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:54.672  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:54.673  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:54.675  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:54.676  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:54.678  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:54.683  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:54.684  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:29:54.727  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:29:54.729  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:29:54.731  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:29:54.731  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:30:00.728  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:00.734  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:00.736  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:00.738  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:00.740  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:00.743  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:00.745  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:00.747  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:00.750  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:00.752  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:30:00.758  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:00.758  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:00.760  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:00.761  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:00.761  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:00.762  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:00.763  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:30:00.763  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:30:00.764  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:00.765  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:30:03.256  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:30:03.258  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:30:03.259  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:30:03.260  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:30:08.256  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:08.257  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:08.257  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:08.258  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:08.259  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:08.260  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:08.261  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:08.261  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:08.262  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:08.262  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:08.263  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:08.264  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:08.264  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:08.265  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:08.266  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:30:08.267  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:08.268  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:08.268  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:30:08.268  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:30:08.269  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:30:09.271  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:30:09.271  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:30:09.275  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:30:14.272  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:14.274  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:14.274  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:14.278  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:14.280  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:14.282  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:14.282  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:14.286  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:14.288  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:14.291  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:14.292  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:14.294  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:14.297  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:30:14.297  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:30:14.301  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:30:14.305  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:30:19.297  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:19.298  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:19.298  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:19.301  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:19.304  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:19.306  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:19.306  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:19.307  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:19.308  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:19.309  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:19.310  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:19.311  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:19.312  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:19.316  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:19.318  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:19.319  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:19.369  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:30:19.369  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:30:19.371  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:30:19.373  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:30:25.371  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:25.373  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:25.374  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:25.377  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:25.380  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:25.383  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:25.387  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:25.388  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:25.388  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:25.390  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:25.391  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:25.392  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:25.394  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:25.395  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:25.395  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:30:25.397  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:30:25.398  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:30:25.399  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:25.400  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:25.401  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:30:27.900  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:30:27.903  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:30:27.905  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:30:27.906  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:30:32.900  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:32.900  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:32.903  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:32.905  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:32.905  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:32.908  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:32.911  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:32.912  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:32.918  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:32.919  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:32.920  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:32.921  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:30:32.921  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:30:32.922  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:32.924  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:32.925  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:32.926  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:32.926  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:30:32.927  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:32.929  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:30:33.926  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:30:33.930  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:30:33.933  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:30:38.926  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:38.927  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:38.928  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:38.932  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:38.934  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:38.937  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:38.940  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:38.941  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:38.942  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:38.944  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:38.946  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:38.948  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:30:38.948  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:30:38.950  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:30:38.953  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:30:38.954  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:30:43.949  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:43.951  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:43.951  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:43.955  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:43.957  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:43.961  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:43.962  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:43.964  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:43.964  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:43.967  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:43.968  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:43.970  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:43.974  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:43.979  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:43.981  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:43.982  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:30:44.016  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:30:44.017  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:30:44.019  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:30:44.016  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:30:50.018  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:50.019  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:50.021  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:50.024  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:50.024  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:50.027  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:50.028  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:50.030  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:50.031  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:50.032  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:50.034  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:50.035  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:50.037  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:50.039  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:50.041  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:30:50.042  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:30:50.044  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:30:50.045  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:50.048  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:NextRoundCast 523
+2017-11-14 19:30:50.049  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:RoundBeginCast 503
+2017-11-14 19:30:52.548  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:30:52.552  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:30:52.555  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:30:52.557  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QzBeginCast 519
+2017-11-14 19:30:57.548  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:57.550  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:57.553  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:57.555  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:57.555  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:57.557  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:57.563  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:57.566  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:57.568  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:57.571  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:57.572  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:57.574  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:57.576  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:57.577  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:57.578  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:57.578  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:30:57.579  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:30:57.580  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:QiangZhuangCast 506
+2017-11-14 19:30:57.580  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:30:57.582  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BankerCast 507
+2017-11-14 19:30:58.581  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:30:58.584  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:30:58.585  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnBeginCast 520
+2017-11-14 19:31:03.581  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:31:03.581  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:31:03.587  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:31:03.588  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:31:03.590  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:31:03.592  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:31:03.593  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:31:03.595  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:31:03.599  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:31:03.600  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:31:03.602  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:31:03.603  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:31:03.606  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:31:03.608  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:31:03.609  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BetOnCast 510
+2017-11-14 19:31:03.609  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FaLastPukeCast 511
+2017-11-14 19:31:08.597  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:31:08.597  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:31:08.599  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:31:08.599  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:31:08.600  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:31:08.601  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:31:08.601  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:31:08.602  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:31:08.602  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:31:08.603  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:31:08.603  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:31:08.604  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:31:08.605  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:31:08.606  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:31:08.606  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:31:08.607  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:FinishPukeCast 514
+2017-11-14 19:31:08.658  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:31:08.659  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:31:08.664  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:31:08.670  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:BullResultCast 515
+2017-11-14 19:31:14.746  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:31:14.753  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:31:14.754  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-14 19:31:14.763  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7

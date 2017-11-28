@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//anttools/properties/bus.properties=UTF-8
+encoding//anttools/properties/gm.properties=UTF-8
+encoding//anttools/properties/gs.properties=UTF-8
+encoding//anttools/properties/src.properties=UTF-8
+encoding//src/dbcp.properties=UTF-8
+encoding//src/mj.properties=UTF-8
+encoding//src/system.properties=UTF-8
+encoding/<project>=UTF-8

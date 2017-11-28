@@ -1,0 +1,156 @@
+官网
+119.29.215.220
+ubuntu
+Melos202
+
+
+mysql -umelos1 -pMELOSDIDJ38F74JF7334 -hrdsu3p797e7d2g2kr455.mysql.rds.aliyuncs.com  gs
+
+mysql -hrdsw82441n0ldhs0dy78.mysql.rds.aliyuncs.com -umelos1 -pMELOS98FKJ38DDHSI3DOP water
+
+SELECT bossLv , bosstype, count(distinct roleId) result , DATE_FORMAT(watertime,'%Y-%m-%d') FROM worldbosstype WHERE serverId =1 AND waterTime BETWEEN '2016-03-01' AND '2016-03-07' GROUP BY DATE_FORMAT(watertime,'%Y-%m-%d')
+
+
+delete from bagincreasetype;
+delete from cardcalltype;
+delete from cardtype;
+delete from checkpointtype;
+delete from childplanebuytype;
+delete from clientoperationtype;
+delete from currencyconsumeexceptiontype;
+delete from currencywatertype;
+
+delete from exceptiontype;
+delete from itemconsumetype;
+delete from planeexchangetype;
+delete from planeuplvtype;
+delete from rolenamechangetype;
+delete from roleouttype;
+delete from servertype;
+delete from worldbosstype;
+
+
+ios
+平台
+112.74.23.74 (公)
+10.44.75.104 (内)
+公共
+120.24.17.227 (公)
+10.44.94.162 (内)
+平台 rds81ez5t419992du1wv.mysql.rds.aliyuncs.com
+公共 rds77pa3s5bwmsjx6u3h.mysql.rds.aliyuncs.com
+gs
+10.45.164.128 (内)
+
+元神
+平台
+公共
+120.25.146.107
+10.116.160.30
+平台 rds581e4tg90l0tv2el6.mysql.rds.aliyuncs.com
+melos2 MELOS9F6E8D5G1V4DF
+公共 rdsw82441n0ldhs0dy78.mysql.rds.aliyuncs.com
+melos1 MELOS98FKJ38DDHSI3DOP
+gs
+10.44.70.214
+120.24.57.42 (公)
+10.44.70.214 (内)
+32FyDLK328DuFLeJ349r8DFJ
+数据库 地址： rdsu3p797e7d2g2kr455.mysql.rds.aliyuncs.com
+melos1/MELOSDIDJ38F74JF7334
+
+root@10.44.70.214:/root/common/
+
+
+<!-- 选择配置表(过期) -->
+<!--
+<input validargs="1,2,3,4,5,6,7,8,9,10,11,12" addproperty="optionp" defaultvalue="5">输入上传的工程:
+	1.gmc,2.gms,3.water,4.homepage,
+	5.gmsOppo,6.gmcOppo,7.waterOppo,
+	8.gmsPP,9.gmcPP,10.waterPP,11.tea,12.gs
+</input>
+<condition property="dowhatproject" value="gmc.properties">
+	<equals arg1="1" arg2="${optionp}" />
+</condition>
+<condition property="dowhatproject" value="gms.properties">
+	<equals arg1="2" arg2="${optionp}" />
+</condition>
+<condition property="dowhatproject" value="water.properties">
+	<equals arg1="3" arg2="${optionp}" />
+</condition>
+<condition property="dowhatproject" value="homepage.properties">
+	<equals arg1="4" arg2="${optionp}" />
+</condition>
+<condition property="dowhatproject" value="gmsOppo.properties">
+	<equals arg1="5" arg2="${optionp}" />
+</condition>
+<condition property="dowhatproject" value="gmcOppo.properties">
+	<equals arg1="6" arg2="${optionp}" />
+</condition>
+<condition property="dowhatproject" value="waterOppo.properties">
+	<equals arg1="7" arg2="${optionp}" />
+</condition>
+<condition property="dowhatproject" value="gmsPP.properties">
+	<equals arg1="8" arg2="${optionp}" />
+</condition>
+<condition property="dowhatproject" value="gmcPP.properties">
+	<equals arg1="9" arg2="${optionp}" />
+</condition>
+<condition property="dowhatproject" value="waterPP.properties">k
+	<equals arg1="10" arg2="${optionp}" />
+</condition>
+<condition property="dowhatproject" value="teas.properties">
+	<equals arg1="11" arg2="${optionp}" />
+</condition>
+<condition property="dowhatproject" value="gs.properties">
+	<equals arg1="12" arg2="${optionp}" />
+</condition>
+<property file="${dowhatproject}" />
+-->
+
+<!--(过期)
+<echo>输入tar打包的文件夹:1.全部,2.${copy_class},3.resource,4.libs</echo>
+<input validargs="1,2,3,4" addproperty="option" defaultvalue="1">输入tar打包的文件夹:1.全部,2.${copy_class},3.resource,4.${libDirName}</input>
+<condition property="dowhat" value="**">
+	<equals arg1="1" arg2="${option}" />
+</condition>
+<condition property="dowhat" value="${copy_class}//**">
+	<equals arg1="2" arg2="${option}" />
+</condition>
+<condition property="dowhat" value="resource//**">
+	<equals arg1="3" arg2="${option}" />
+</condition>
+<condition property="dowhat" value="libs//**">
+	<equals arg1="4" arg2="${option}" />
+</condition>
+<echo>选择结果为${option}，打包的文件为${dowhat}</echo>
+-->
+
+<!-- 输入svn用户名密码（过期） -->
+<target name="输入svn用户名" unless="username" if="svn.download">
+	<input message="输入svn用户名：" addproperty="username">
+	</input>
+</target>
+<target name="输入svn密码" unless="password" if="svn.download">
+	<input message="输入svn密码：" addproperty="password">
+	</input>
+</target>
+
+<!-- svn下载文件（过期） -->
+<target name="svndownload" if="svn.download">
+	<antcontrib:for list="${copy_dirs}" param="dirname" delimiter=",">
+		<sequential>
+			<svn username="${username}" password="${password}">
+				<export srcurl="${svnpath}/@{dirname}" force="true" revision="HEAD" destpath="${download_dir}//@{dirname}" />
+			</svn>
+		</sequential>
+	</antcontrib:for>
+</target>
+<!-- 是否要从svn下载resource libs.. -->
+<!-- 要svn弹框 -->
+<target name="is_svn" unless="svn.download" if="asksvn">
+	<input message="是否从svn服务器下载resource，libs(yes/no)?" validargs="yes,no" addproperty="do.svn" />
+	<condition property="svn.download">
+		<equals arg1="yes" arg2="${do.svn}" />
+	</condition>
+</target>

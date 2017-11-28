@@ -1,0 +1,251 @@
+2017-11-13 15:55:24.233 ERROR com.wk.engine.config.ServerConfig.init(ServerConfig.java:109) - 是否关闭消耗钻石:true
+2017-11-13 15:55:24.244 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-13 15:55:24.254 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-13 15:55:24.600 ERROR com.jery.ngsp.server.dirtyword.impl.DirtyWordsManagerImpl.loadData(DirtyWordsManagerImpl.java:54) - ------------------- 脏词表 加载成功 -------------------9922
+2017-11-13 15:55:24.602  WARN com.wk.db.IbatisDbServer.initDB(IbatisDbServer.java:36) - 开始加载ibatis配置！
+2017-11-13 15:55:24.872  WARN com.wk.db.IbatisDbServer.initDB(IbatisDbServer.java:45) - 完成加载ibatis配置！
+2017-11-13 15:55:24.925  WARN com.wk.engine.ModuleManager.addSystemModuleAbs(ModuleManager.java:39) - 初始化---bus连接gs---SystemModuleAbs
+2017-11-13 15:55:24.926  WARN com.wk.engine.ModuleManager.addSystemModuleAbs(ModuleManager.java:39) - 初始化---other-gs连接gs---SystemModuleAbs
+2017-11-13 15:55:24.951  WARN com.wk.engine.ModuleManager.addModuleI(ModuleManager.java:50) - 加入---登陆---模块
+2017-11-13 15:55:24.953 ERROR com.wk.server.logic.room.TimeConfig.init(TimeConfig.java:38) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-13 15:55:24.953  WARN com.wk.engine.ModuleManager.addModuleI(ModuleManager.java:50) - 加入---房间---模块
+2017-11-13 15:55:24.954  WARN com.wk.engine.ModuleManager.addModuleI(ModuleManager.java:50) - 加入---公会---模块
+2017-11-13 15:55:25.382 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-13 15:55:25.383  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 15:55:25.384  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 15:55:25.385  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 15:55:25.386  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:04:56.699 ERROR com.wk.engine.config.ServerConfig.init(ServerConfig.java:109) - 是否关闭消耗钻石:true
+2017-11-13 16:04:56.709 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-13 16:04:56.720 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-13 16:04:57.001 ERROR com.jery.ngsp.server.dirtyword.impl.DirtyWordsManagerImpl.loadData(DirtyWordsManagerImpl.java:54) - ------------------- 脏词表 加载成功 -------------------9922
+2017-11-13 16:04:57.002  WARN com.wk.db.IbatisDbServer.initDB(IbatisDbServer.java:36) - 开始加载ibatis配置！
+2017-11-13 16:04:57.264  WARN com.wk.db.IbatisDbServer.initDB(IbatisDbServer.java:45) - 完成加载ibatis配置！
+2017-11-13 16:04:57.301  WARN com.wk.engine.ModuleManager.addSystemModuleAbs(ModuleManager.java:39) - 初始化---bus连接gs---SystemModuleAbs
+2017-11-13 16:04:57.302  WARN com.wk.engine.ModuleManager.addSystemModuleAbs(ModuleManager.java:39) - 初始化---other-gs连接gs---SystemModuleAbs
+2017-11-13 16:04:57.329  WARN com.wk.engine.ModuleManager.addModuleI(ModuleManager.java:50) - 加入---登陆---模块
+2017-11-13 16:04:57.331 ERROR com.wk.server.logic.room.TimeConfig.init(TimeConfig.java:38) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-13 16:04:57.331  WARN com.wk.engine.ModuleManager.addModuleI(ModuleManager.java:50) - 加入---房间---模块
+2017-11-13 16:04:57.332  WARN com.wk.engine.ModuleManager.addModuleI(ModuleManager.java:50) - 加入---公会---模块
+2017-11-13 16:04:57.764 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-13 16:04:57.765  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:04:57.766  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:04:57.767  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:04:57.767  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:05:27.777  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:2,活跃线程数/核心线程数/高峰线程数:3/20/6
+2017-11-13 16:05:57.768  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:3,活跃线程数/核心线程数/高峰线程数:1/20/7
+2017-11-13 16:06:27.770  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:6,活跃线程数/核心线程数/高峰线程数:1/20/10
+2017-11-13 16:06:57.771  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:9,活跃线程数/核心线程数/高峰线程数:1/20/13
+2017-11-13 16:07:27.772  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:12,活跃线程数/核心线程数/高峰线程数:1/20/16
+2017-11-13 16:07:57.773  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:15,活跃线程数/核心线程数/高峰线程数:1/20/19
+2017-11-13 16:08:27.774  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:18,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:08:57.775  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:21,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:09:27.777  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:24,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:09:57.779  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:27,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:10:27.779  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:30,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:10:57.780  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:33,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:11:27.782  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:36,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:11:57.783  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:39,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:12:28.010 ERROR com.wk.engine.config.ServerConfig.init(ServerConfig.java:109) - 是否关闭消耗钻石:true
+2017-11-13 16:12:28.021 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-13 16:12:28.031 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-13 16:12:28.320 ERROR com.jery.ngsp.server.dirtyword.impl.DirtyWordsManagerImpl.loadData(DirtyWordsManagerImpl.java:54) - ------------------- 脏词表 加载成功 -------------------9922
+2017-11-13 16:12:28.321  WARN com.wk.db.IbatisDbServer.initDB(IbatisDbServer.java:36) - 开始加载ibatis配置！
+2017-11-13 16:12:28.591  WARN com.wk.db.IbatisDbServer.initDB(IbatisDbServer.java:45) - 完成加载ibatis配置！
+2017-11-13 16:12:28.637  WARN com.wk.engine.ModuleManager.addSystemModuleAbs(ModuleManager.java:39) - 初始化---bus连接gs---SystemModuleAbs
+2017-11-13 16:12:28.637  WARN com.wk.engine.ModuleManager.addSystemModuleAbs(ModuleManager.java:39) - 初始化---other-gs连接gs---SystemModuleAbs
+2017-11-13 16:12:28.659  WARN com.wk.engine.ModuleManager.addModuleI(ModuleManager.java:50) - 加入---登陆---模块
+2017-11-13 16:12:28.661 ERROR com.wk.server.logic.room.TimeConfig.init(TimeConfig.java:38) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-13 16:12:28.661  WARN com.wk.engine.ModuleManager.addModuleI(ModuleManager.java:50) - 加入---房间---模块
+2017-11-13 16:12:28.662  WARN com.wk.engine.ModuleManager.addModuleI(ModuleManager.java:50) - 加入---公会---模块
+2017-11-13 16:12:29.068 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-13 16:12:29.069  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:12:29.070  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:12:29.071  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:12:29.071  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:14:16.380 ERROR com.wk.engine.config.ServerConfig.init(ServerConfig.java:109) - 是否关闭消耗钻石:true
+2017-11-13 16:14:16.390 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-13 16:14:16.400 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-13 16:14:16.663 ERROR com.jery.ngsp.server.dirtyword.impl.DirtyWordsManagerImpl.loadData(DirtyWordsManagerImpl.java:54) - ------------------- 脏词表 加载成功 -------------------9922
+2017-11-13 16:14:16.666  WARN com.wk.db.IbatisDbServer.initDB(IbatisDbServer.java:36) - 开始加载ibatis配置！
+2017-11-13 16:14:16.916  WARN com.wk.db.IbatisDbServer.initDB(IbatisDbServer.java:45) - 完成加载ibatis配置！
+2017-11-13 16:14:16.963  WARN com.wk.engine.ModuleManager.addSystemModuleAbs(ModuleManager.java:39) - 初始化---bus连接gs---SystemModuleAbs
+2017-11-13 16:14:16.964  WARN com.wk.engine.ModuleManager.addSystemModuleAbs(ModuleManager.java:39) - 初始化---other-gs连接gs---SystemModuleAbs
+2017-11-13 16:14:16.985  WARN com.wk.engine.ModuleManager.addModuleI(ModuleManager.java:50) - 加入---登陆---模块
+2017-11-13 16:14:16.987 ERROR com.wk.server.logic.room.TimeConfig.init(TimeConfig.java:38) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-13 16:14:16.987  WARN com.wk.engine.ModuleManager.addModuleI(ModuleManager.java:50) - 加入---房间---模块
+2017-11-13 16:14:16.988  WARN com.wk.engine.ModuleManager.addModuleI(ModuleManager.java:50) - 加入---公会---模块
+2017-11-13 16:14:17.387 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-13 16:14:17.388  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:14:17.389  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:14:17.390  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:14:17.390  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:14:17.766 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerListCastBusToGs
+2017-11-13 16:14:17.772 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerListCastBusToGsbk true
+2017-11-13 16:14:32.616 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:14:32.733 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:14:47.393  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:0,活跃线程数/核心线程数/高峰线程数:1/20/4
+2017-11-13 16:15:02.615 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:15:02.620 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:15:17.391  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:3,活跃线程数/核心线程数/高峰线程数:1/20/7
+2017-11-13 16:15:32.612 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:15:32.614 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:15:47.393  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:6,活跃线程数/核心线程数/高峰线程数:1/20/10
+2017-11-13 16:16:02.613 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:16:02.617 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:16:17.394  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:9,活跃线程数/核心线程数/高峰线程数:1/20/13
+2017-11-13 16:16:32.614 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:16:32.616 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:16:47.395  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:12,活跃线程数/核心线程数/高峰线程数:1/20/16
+2017-11-13 16:17:02.617 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:17:02.622 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:17:17.396  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:15,活跃线程数/核心线程数/高峰线程数:1/20/19
+2017-11-13 16:17:32.616 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:17:32.618 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:17:47.398  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:18,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:18:02.618 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:18:02.620 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:25:07.238 ERROR com.wk.engine.config.ServerConfig.init(ServerConfig.java:109) - 是否关闭消耗钻石:true
+2017-11-13 16:25:07.249 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-13 16:25:07.259 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-13 16:25:07.533 ERROR com.jery.ngsp.server.dirtyword.impl.DirtyWordsManagerImpl.loadData(DirtyWordsManagerImpl.java:54) - ------------------- 脏词表 加载成功 -------------------9922
+2017-11-13 16:25:07.534  WARN com.wk.db.IbatisDbServer.initDB(IbatisDbServer.java:36) - 开始加载ibatis配置！
+2017-11-13 16:25:07.794  WARN com.wk.db.IbatisDbServer.initDB(IbatisDbServer.java:45) - 完成加载ibatis配置！
+2017-11-13 16:25:07.838  WARN com.wk.engine.ModuleManager.addSystemModuleAbs(ModuleManager.java:39) - 初始化---bus连接gs---SystemModuleAbs
+2017-11-13 16:25:07.839  WARN com.wk.engine.ModuleManager.addSystemModuleAbs(ModuleManager.java:39) - 初始化---other-gs连接gs---SystemModuleAbs
+2017-11-13 16:25:07.859  WARN com.wk.engine.ModuleManager.addModuleI(ModuleManager.java:50) - 加入---登陆---模块
+2017-11-13 16:25:07.862 ERROR com.wk.server.logic.room.TimeConfig.init(TimeConfig.java:38) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-13 16:25:07.862  WARN com.wk.engine.ModuleManager.addModuleI(ModuleManager.java:50) - 加入---房间---模块
+2017-11-13 16:25:07.864  WARN com.wk.engine.ModuleManager.addModuleI(ModuleManager.java:50) - 加入---公会---模块
+2017-11-13 16:25:08.357 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-13 16:25:08.358  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:25:08.359  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:25:08.361  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:25:08.361  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:25:08.816 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerListCastBusToGs
+2017-11-13 16:25:08.824 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerListCastBusToGsbk true
+2017-11-13 16:25:25.527 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:25:25.685 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:25:38.367  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:2,活跃线程数/核心线程数/高峰线程数:1/20/6
+2017-11-13 16:25:55.525 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:25:55.527 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:26:08.362  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:3,活跃线程数/核心线程数/高峰线程数:1/20/7
+2017-11-13 16:26:25.526 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:26:25.527 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:26:38.363  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:6,活跃线程数/核心线程数/高峰线程数:1/20/10
+2017-11-13 16:26:55.528 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:26:55.532 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:27:08.364  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:9,活跃线程数/核心线程数/高峰线程数:1/20/13
+2017-11-13 16:27:25.529 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:27:25.531 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:27:38.365  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:12,活跃线程数/核心线程数/高峰线程数:1/20/16
+2017-11-13 16:27:55.532 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:27:55.537 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:28:08.367  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:15,活跃线程数/核心线程数/高峰线程数:1/20/19
+2017-11-13 16:28:25.531 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:28:25.533 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:28:38.368  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:18,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:28:55.533 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:28:55.534 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:29:08.369  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:21,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:29:25.534 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:29:25.536 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:29:38.370  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:24,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:29:55.535 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:29:55.537 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:30:08.371  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:27,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:30:25.536 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:30:25.538 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:30:38.373  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:30,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:30:55.538 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:30:55.539 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:31:08.374  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:33,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:31:25.540 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:31:25.545 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:31:38.375  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:36,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:31:55.541 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:31:55.543 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:32:08.376  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:39,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:32:25.541 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:32:25.542 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:32:38.378  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:42,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:32:55.541 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:32:55.542 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:33:08.379  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:45,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:33:25.545 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:33:25.547 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:33:38.380  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:48,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:33:55.545 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:33:55.547 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:34:08.381  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:51,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:34:25.547 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:34:25.549 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:34:38.382  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:54,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:34:55.546 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:34:55.547 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:35:08.384  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:57,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:35:25.548 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:35:25.550 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:35:38.385  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:60,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:35:55.550 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:35:55.552 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:36:08.386  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:63,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:36:25.551 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:36:25.552 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:36:38.387  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:66,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:36:55.552 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:36:55.554 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:37:08.388  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:69,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:37:25.553 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:37:25.555 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:37:38.390  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:72,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:37:55.554 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:37:55.556 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:38:08.391  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:75,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:38:25.556 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:38:25.560 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:38:38.393  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:78,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:38:55.556 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:38:55.557 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:39:08.393  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:81,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:39:25.558 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:39:25.560 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:39:38.395  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:84,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:39:55.558 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:39:55.559 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:40:08.397  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:87,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:40:25.561 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:40:25.563 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:40:38.397  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:90,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:40:55.562 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:40:55.564 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:41:08.398  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:93,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:41:25.563 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:41:25.565 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:41:38.399  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:96,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:41:55.564 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:41:55.566 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:42:08.402  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:99,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:42:25.565 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:42:25.567 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:42:38.402  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:102,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:42:55.567 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:42:55.570 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:43:08.403  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:105,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:43:25.568 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:43:25.570 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:43:38.404  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:108,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:43:55.569 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:43:55.588 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:44:08.406  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:111,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:44:25.570 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:44:25.571 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:44:38.407  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:114,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:44:55.571 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:44:55.572 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:45:08.408  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:117,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:45:25.574 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:45:25.576 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true
+2017-11-13 16:45:38.409  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.log(JavaScheduleTaskManager.java:86) - 完成任务数:120,活跃线程数/核心线程数/高峰线程数:1/20/20
+2017-11-13 16:45:55.575 DEBUG com.wk.engine.codec.ByteBufToIoMessageDecoder.decode(ByteBufToIoMessageDecoder.java:123) - get innerMsgId:ServerStatusBusToGs
+2017-11-13 16:45:55.577 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGsbk true

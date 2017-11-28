@@ -1,0 +1,124 @@
+package com.wk.puke;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.wk.puke.enun.PaiType;
+import com.wk.util.NRandom;
+
+import msg.BullMessage.Puke;
+import msg.BullMessage.Puke.Builder;
+
+public class Pai implements Comparable<Pai> {
+	private static List<Pai> noFlowerPaiList;
+	private static List<Pai> flowerPaiList;
+
+	/**
+	 * 生成随机牌
+	 * 
+	 * @param 是否要有花色
+	 * @return
+	 */
+	public static List<Pai> genRanPaiList(boolean isFlower) {
+		if (isFlower)
+			return NRandom.genArrayListSequence(getFlowerPaiList());
+		else {
+			return NRandom.genArrayListSequence(getNoFlowerPaiList());
+		}
+	}
+
+	private static List<Pai> getNoFlowerPaiList() {
+		if (noFlowerPaiList == null) {
+			synchronized (Pai.class) {
+				noFlowerPaiList = new ArrayList<Pai>();
+				for (PaiType paiType : PaiType.values()) {
+					noFlowerPaiList.addAll(paiType.getNoFlowerPaiList());
+				}
+			}
+		}
+		return noFlowerPaiList;
+	}
+
+	private static List<Pai> getFlowerPaiList() {
+		if (flowerPaiList == null) {
+			synchronized (Pai.class) {
+				flowerPaiList = new ArrayList<Pai>();
+				for (PaiType paiType : PaiType.values()) {
+					flowerPaiList.addAll(paiType.getFlowerPaiList());
+				}
+			}
+		}
+		return flowerPaiList;
+	}
+
+	/** 编号  1-13*/
+	private final int num;
+	/** 花色 */
+	private final PaiType color;
+	/** 点数 */
+	private final int point;
+	/** 扑克消息 */
+	private final Puke puke;
+
+	/**
+	 * 
+	 * @param num
+	 *            编号
+	 * @param color
+	 */
+	public Pai(int num, PaiType color) {
+		super();
+		this.num = num;
+		this.color = color;
+		this.point = this.num > 10 ? 10 : this.num;
+		this.puke = Puke.newBuilder().setNum(this.num)
+				.setType(this.color.getType()).build();
+	}
+
+	public int getNum() {
+		return num;
+	}
+
+	public PaiType getColor() {
+		return color;
+	}
+
+	public int getPoint() {
+		return point;
+	}
+
+	/**
+	 * 比较牌大小
+	 * 
+	 * @param p
+	 * @return
+	 */
+	public boolean biggerThan(Pai p) {
+		return this.compareTo(p) > 0;
+	}
+
+	@Override
+	public int compareTo(Pai p) {
+		if (this.num >= p.num) {
+			if (this.num == p.num) {
+				if (this.color.getType() > p.color.getType()) {
+					return 1;
+				} else {
+					return -1;
+				}
+			} else {
+				return 1;
+			}
+		} else {
+			return -1;
+		}
+	}
+
+	public Puke getPuke() {
+		return puke;
+	}
+
+	public static Pai get(Puke puke) {
+		return PaiType.getEnum(puke.getType()).getNum(puke.getNum());
+	}
+}

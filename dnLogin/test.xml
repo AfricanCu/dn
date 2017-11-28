@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="myssh2" default="test">
+	<target name="test">
+		<delete dir="WebRoot/WEB-INF/classes">
+		</delete>
+		<copydir dest="WebRoot/WEB-INF/classes" src="bin">
+		</copydir>
+	</target>
+</project>

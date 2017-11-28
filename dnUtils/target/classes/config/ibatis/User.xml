@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<!-- ALTER TABLE USER AUTO_INCREMENT=10000; -->
+<sqlMap namespace="user">
+	<parameterMap class="com.wk.user.bean.UserBean" id="UserParameter">
+		<parameter property="nickname" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="puid" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="deviceId" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="platId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="password" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="sessionCode" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="head" javaType="String" jdbcType="VARCHAR" />
+		<parameter property="sex" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="registerTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<parameter property="loginTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<parameter property="logoutTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<parameter property="serverId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="roomId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="myGuild" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="joinGuild" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="proxy" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="diamond" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="expires_in" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="accessTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<parameter property="refreshTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<parameter property="gameRecord" jdbcType="BLOB"
+			typeHandler="com.ibatis.sqlmap.engine.type.ByteArrayTypeHandler" />
+		<parameter property="proxyRecord" jdbcType="BLOB"
+			typeHandler="com.ibatis.sqlmap.engine.type.ByteArrayTypeHandler" />
+		<parameter property="dbca" javaType="String" jdbcType="VARCHAR" />
+		<parameter property="myAgency" javaType="java.lang.Integer"
+			jdbcType="INT" />
+	</parameterMap>
+	<!-- 插入玩家 -->
+	<insert id="insertUser" parameterMap="UserParameter">
+		<![CDATA[
+			insert into user values(null,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+		]]>
+		<selectKey keyProperty="uid" resultClass="java.lang.Long">
+		<![CDATA[  
+        	SELECT LAST_INSERT_ID() AS id
+        ]]>
+		</selectKey>
+	</insert>
+	<resultMap id="User" class="com.wk.user.bean.UserBean">
+		<result property="uid" column="uid" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+		<result property="nickname" column="nickname" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="puid" column="puid" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="deviceId" column="deviceId" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="platId" column="platId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="password" column="password" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="sessionCode" column="sessionCode" javaType="String"
+			jdbcType="VARCHAR" />
+		<result property="head" column="head" javaType="String"
+			jdbcType="VARCHAR" />
+		<result property="sex" column="sex" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="registerTime" column="registerTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<result property="loginTime" column="loginTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<result property="logoutTime" column="logoutTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<result property="serverId" column="serverId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="roomId" column="roomId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="myGuild" column="myGuild" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="joinGuild" column="joinGuild" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="proxy" column="proxy" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="diamond" column="diamond" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="expires_in" column="expires_in" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="accessTime" column="accessTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<result property="refreshTime" column="refreshTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<result property="gameRecord" column="gameRecord" jdbcType="BLOB"
+			typeHandler="com.ibatis.sqlmap.engine.type.ByteArrayTypeHandler" />
+		<result property="proxyRecord" column="proxyRecord" jdbcType="BLOB"
+			typeHandler="com.ibatis.sqlmap.engine.type.ByteArrayTypeHandler" />
+		<result property="dbca" column="dbca" javaType="String"
+			jdbcType="VARCHAR" />
+		<result property="myAgency" column="myAgency" javaType="java.lang.Integer"
+			jdbcType="INT" />
+	</resultMap>
+	<select id="queryUser" resultMap="User" parameterClass="java.lang.Long">
+	<![CDATA[
+		select * from user where uid = #codes#
+	]]>
+	</select>
+	<select id="queryUserByNickname" resultMap="User"
+		parameterClass="java.lang.String">
+	<![CDATA[
+		select * from user where nickname = #codes#
+	]]>
+	</select>
+	<parameterMap class="java.util.Map" id="queryPlatUserParams">
+		<parameter property="puid" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="platId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+	</parameterMap>
+	<select id="queryPlatUser" resultMap="User" parameterMap="queryPlatUserParams">
+	<![CDATA[
+		select * from user where puid = ? and platId = ?
+	]]>
+	</select>
+	<parameterMap class="java.util.Map" id="updateUserIdParams">
+		<parameter property="nUId" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+		<parameter property="oldUId" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+	</parameterMap>
+	<update id="updateUserId" parameterMap="updateUserIdParams">
+	<![CDATA[
+		UPDATE user SET `uid` = ? WHERE `uid` = ?;
+	]]>
+	</update>
+
+	<!-- 查询活跃人数 -->
+	<select id="queryActiveUser" parameterClass="java.lang.Integer"
+		resultClass="java.lang.Integer">
+		SELECT count(*) from user where <![CDATA[date(loginTime)>=DATE_SUB(curdate(),INTERVAL $day$ DAY) ]]>
+		<isGreaterThan compareValue="0">
+		<![CDATA[&&DATE(loginTime)<DATE(now())]]>
+		</isGreaterThan>
+	</select>
+
+	<!-- 查询总用户量 -->
+	<select id="queryTotal" resultClass="java.lang.Integer">
+		<![CDATA[
+			select count(*) from user
+		]]>
+	</select>
+
+	<!-- 查询新增玩家数 -->
+	<select id="queryRegister" parameterClass="java.lang.Integer"
+		resultClass="java.lang.Integer">
+		<![CDATA[SELECT count(*) from user where date(registerTime)=DATE_SUB(curdate(),INTERVAL #day# DAY)]]>
+	</select>
+
+	<!-- 查询代理下玩家某段时间的新增玩家数 -->
+	<select id="myPlayerCount" parameterClass="java.util.Map"
+		resultClass="java.lang.Integer">
+		<![CDATA[SELECT count(*) from user where myAgency=#agency#]]>
+		<isNotEqual prepend="and" property="day" compareValue="-1">
+			<![CDATA[date(registerTime)>=DATE_SUB(curdate(),INTERVAL #day# DAY)]]>
+		</isNotEqual>
+	</select>
+
+	<!-- 查询代理下的玩家 -->
+	<select id="myUsers" parameterClass="java.util.Map" resultMap="User">
+		<![CDATA[SELECT * from user where myAgency=#agency#]]>
+		<isEqual prepend="and" property="flag" compareValue="1">
+			<![CDATA[date(registerTime)>DATE_SUB(curdate(),INTERVAL 7 DAY) and DATE(registerTime)<=date(now())]]>
+		</isEqual>
+		<isEqual prepend="and" property="flag" compareValue="2">
+			<![CDATA[date(registerTime)<DATE_SUB(curdate(),INTERVAL 30 DAY)]]>
+		</isEqual>
+	</select>
+
+	<!-- 修改玩家信息 -->
+	<update id="updateUser" parameterClass="java.util.Map">
+		<![CDATA[update user set myAgency=#agency# where uid=#uid#]]>
+	</update>
+</sqlMap>
+

@@ -1,0 +1,200 @@
+2017-11-17 13:07:51.492  WARN com.wk.engine.config.ServerConfig.init(ServerConfig.java:117) - -----------加载游戏服务器配置-------------
+2017-11-17 13:07:51.710 ERROR com.wk.logic.enm.MsgId.gRErrMsg(MsgId.java:363) - com.wk.server.DnServer.main(DnServer.java:71),消息:房主创建房间请求,CreateRoomCm,error:已经在房间中,code:120
+2017-11-17 13:07:51.919  WARN com.wk.server.DnServer.netRun(DnServer.java:154) - 0.0.0.0:8044 netty启动ok！bossGroupNThreads：16,workerGroupNThreads:64
+2017-11-17 13:07:52.698  WARN com.wk.server.DnServer.main(DnServer.java:81) - 由于上次宕机备份的房间数:3
+2017-11-17 13:07:53.074 ERROR com.wk.engine.inner.BusConnect.registerClient(BusConnect.java:78) - bus<=>gs 注册连接!
+2017-11-17 13:07:53.096  WARN com.wk.engine.inner.BusConnect.checkClient(BusConnect.java:50) - gs登陆bus http请求返回:{"code": 1}
+2017-11-17 16:53:33.256  WARN com.wk.engine.config.ServerConfig.init(ServerConfig.java:117) - -----------加载游戏服务器配置-------------
+2017-11-17 16:53:33.492 ERROR com.wk.logic.enm.MsgId.gRErrMsg(MsgId.java:363) - com.wk.server.DnServer.main(DnServer.java:71),消息:房主创建房间请求,CreateRoomCm,error:已经在房间中,code:120
+2017-11-17 16:53:33.716  WARN com.wk.server.DnServer.netRun(DnServer.java:154) - 0.0.0.0:8044 netty启动ok！bossGroupNThreads：16,workerGroupNThreads:64
+2017-11-17 16:53:33.907  WARN com.wk.server.DnServer.main(DnServer.java:81) - 由于上次宕机备份的房间数:0
+2017-11-17 16:53:34.020 ERROR com.wk.engine.inner.BusConnect.registerClient(BusConnect.java:78) - bus<=>gs 注册连接!
+2017-11-17 16:53:34.088  WARN com.wk.engine.inner.BusConnect.checkClient(BusConnect.java:50) - gs登陆bus http请求返回:{"code": 1}
+2017-11-17 16:53:34.128  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：123M,状态：流畅
+2017-11-17 16:54:03.442  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：116M,状态：流畅
+2017-11-17 16:54:33.443  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：114M,状态：流畅
+2017-11-17 16:55:03.440  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：114M,状态：流畅
+2017-11-17 16:55:33.442  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：114M,状态：流畅
+2017-11-17 16:56:03.444  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：113M,状态：流畅
+2017-11-17 16:56:33.444  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：112M,状态：流畅
+2017-11-17 16:57:03.445  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：111M,状态：流畅
+2017-11-17 16:57:33.448  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-17 16:58:03.449  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-17 16:58:33.449  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-17 16:59:03.452  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-17 16:59:33.451  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-17 17:00:03.452  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：109M,状态：流畅
+2017-11-17 17:00:33.456  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：109M,状态：流畅
+2017-11-17 17:01:03.456  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：109M,状态：流畅
+2017-11-17 17:01:33.459  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：109M,状态：流畅
+2017-11-17 17:02:03.464  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：109M,状态：流畅
+2017-11-17 17:02:33.460  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：108M,状态：流畅
+2017-11-17 17:03:03.460  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：108M,状态：流畅
+2017-11-17 17:03:33.463  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：108M,状态：流畅
+2017-11-17 17:04:03.462  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：108M,状态：流畅
+2017-11-17 17:04:33.463  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：108M,状态：流畅
+2017-11-17 17:05:03.465  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：108M,状态：流畅
+2017-11-17 17:05:33.468  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：107M,状态：流畅
+2017-11-17 17:06:03.470  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：107M,状态：流畅
+2017-11-17 17:06:33.468  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：107M,状态：流畅
+2017-11-17 17:07:03.472  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：107M,状态：流畅
+2017-11-17 17:07:33.472  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：107M,状态：流畅
+2017-11-17 17:08:03.473  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：106M,状态：流畅
+2017-11-17 17:08:33.474  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：106M,状态：流畅
+2017-11-17 17:09:03.475  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：105M,状态：流畅
+2017-11-17 17:09:33.477  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：105M,状态：流畅
+2017-11-17 17:10:03.480  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：104M,状态：流畅
+2017-11-17 17:10:33.478  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：103M,状态：流畅
+2017-11-17 17:10:40.652 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:295,nick:周明军 登陆！
+2017-11-17 17:10:40.655 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:11:03.482  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：1,缓存数据数：1,在房间人数：0,netty会话数：2	最大内存：1797M,分配内存：154M,空闲内存：102M,状态：流畅
+2017-11-17 17:11:03.773 ERROR com.wk.server.logic.login.LoginModule.backDb(LoginModule.java:293) - 批量更新玩家数据,size:0
+2017-11-17 17:11:12.182 ERROR com.wk.server.logic.room.RoomManager.createRoom(RoomManager.java:222) - 创房000295,guildId:0,num:0
+2017-11-17 17:11:12.185 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set roomId = ?  where `uid` = ? ;
+2017-11-17 17:11:16.117 ERROR com.wk.server.logic.room.RoomBase.pauseGame(RoomBase.java:473) - 暂停游戏
+2017-11-17 17:11:16.118 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set logoutTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:11:16.174 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.unregisterClient(User.java:81) -登出！uid:295,nick:周明军
+2017-11-17 17:11:33.481  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：1,在房间人数：1,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：101M,状态：流畅
+2017-11-17 17:11:33.770 ERROR com.wk.server.logic.login.LoginModule.backDb(LoginModule.java:293) - 批量更新玩家数据,size:0
+2017-11-17 17:11:39.947 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:295,nick:周明军 登陆！
+2017-11-17 17:11:39.949 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:11:40.067 ERROR com.wk.server.logic.room.RoomBase.wakeupGame(RoomBase.java:481) - 唤醒游戏
+2017-11-17 17:11:42.488 ERROR com.wk.server.logic.room.RoomBase.pauseGame(RoomBase.java:473) - 暂停游戏
+2017-11-17 17:11:42.489 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set logoutTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:11:42.520 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.unregisterClient(User.java:81) -登出！uid:295,nick:周明军
+2017-11-17 17:11:50.804 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:295,nick:周明军 登陆！
+2017-11-17 17:11:50.806 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:11:50.884 ERROR com.wk.server.logic.room.RoomBase.wakeupGame(RoomBase.java:481) - 唤醒游戏
+2017-11-17 17:11:58.055 ERROR com.wk.server.logic.room.RoomBase.pauseGame(RoomBase.java:473) - 暂停游戏
+2017-11-17 17:11:58.056 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set logoutTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:11:58.091 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.unregisterClient(User.java:81) -登出！uid:295,nick:周明军
+2017-11-17 17:12:03.483  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：1,在房间人数：1,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：99M,状态：流畅
+2017-11-17 17:12:03.774 ERROR com.wk.server.logic.login.LoginModule.backDb(LoginModule.java:293) - 批量更新玩家数据,size:0
+2017-11-17 17:12:09.618 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:296,nick:ranUser1 登陆！
+2017-11-17 17:12:09.619 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:12:09.659 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set roomId = ?  where `uid` = ? ;
+2017-11-17 17:12:09.699 ERROR com.wk.server.logic.room.RoomBase.wakeupGame(RoomBase.java:481) - 唤醒游戏
+2017-11-17 17:12:10.952 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:295,nick:周明军 登陆！
+2017-11-17 17:12:10.956 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:12:14.639 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set logoutTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:12:14.698 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.unregisterClient(User.java:81) -登出！uid:295,nick:周明军
+2017-11-17 17:12:16.076 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:297,nick:ranUser2 登陆！
+2017-11-17 17:12:16.084 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:12:16.134 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set roomId = ?  where `uid` = ? ;
+2017-11-17 17:12:17.329 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:295,nick:周明军 登陆！
+2017-11-17 17:12:17.330 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:12:24.681 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set logoutTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:12:24.719 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.unregisterClient(User.java:81) -登出！uid:295,nick:周明军
+2017-11-17 17:12:27.126 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:295,nick:周明军 登陆！
+2017-11-17 17:12:27.127 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:12:33.488  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：3,缓存数据数：3,在房间人数：3,netty会话数：4	最大内存：1797M,分配内存：154M,空闲内存：96M,状态：流畅
+2017-11-17 17:12:33.773 ERROR com.wk.server.logic.login.LoginModule.backDb(LoginModule.java:293) - 批量更新玩家数据,size:0
+2017-11-17 17:12:35.448 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set logoutTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:12:35.489 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.unregisterClient(User.java:81) -登出！uid:295,nick:周明军
+2017-11-17 17:12:38.622 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:298,nick:ranUser3 登陆！
+2017-11-17 17:12:38.625 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:12:38.677 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set roomId = ?  where `uid` = ? ;
+2017-11-17 17:12:40.037 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:295,nick:周明军 登陆！
+2017-11-17 17:12:40.039 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:12:44.003 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set logoutTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:12:44.051 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.unregisterClient(User.java:81) -登出！uid:295,nick:周明军
+2017-11-17 17:12:45.346 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:299,nick:ranUser4 登陆！
+2017-11-17 17:12:45.353 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:12:45.404 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set roomId = ?  where `uid` = ? ;
+2017-11-17 17:12:46.406 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:295,nick:周明军 登陆！
+2017-11-17 17:12:46.408 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:12:50.710 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set logoutTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:12:50.779 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.unregisterClient(User.java:81) -登出！uid:295,nick:周明军
+2017-11-17 17:12:58.747 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:295,nick:周明军 登陆！
+2017-11-17 17:12:58.749 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:13:02.663 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set logoutTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:13:02.697 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.unregisterClient(User.java:81) -登出！uid:295,nick:周明军
+2017-11-17 17:13:03.487  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：5,在房间人数：5,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：93M,状态：流畅
+2017-11-17 17:13:03.775 ERROR com.wk.server.logic.login.LoginModule.backDb(LoginModule.java:293) - 批量更新玩家数据,size:0
+2017-11-17 17:13:06.619 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:295,nick:周明军 登陆！
+2017-11-17 17:13:06.620 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:13:08.860 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set logoutTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:13:08.891 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.unregisterClient(User.java:81) -登出！uid:295,nick:周明军
+2017-11-17 17:13:12.470 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:295,nick:周明军 登陆！
+2017-11-17 17:13:12.472 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:13:14.649 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set logoutTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:13:14.713 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.unregisterClient(User.java:81) -登出！uid:295,nick:周明军
+2017-11-17 17:13:19.034 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:295,nick:周明军 登陆！
+2017-11-17 17:13:19.037 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:13:33.487  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：5,缓存数据数：5,在房间人数：5,netty会话数：6	最大内存：1797M,分配内存：154M,空闲内存：91M,状态：流畅
+2017-11-17 17:13:33.776 ERROR com.wk.server.logic.login.LoginModule.backDb(LoginModule.java:293) - 批量更新玩家数据,size:0
+2017-11-17 17:14:03.488  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：5,缓存数据数：5,在房间人数：5,netty会话数：6	最大内存：1797M,分配内存：154M,空闲内存：87M,状态：流畅
+2017-11-17 17:14:33.522 ERROR com.wk.logic.enm.MsgId.gRErrMsg(MsgId.java:363) - com.wk.server.logic.room.RoomAbs.nextRound(RoomAbs.java:81),消息:下一轮请求,NextRoundCm,error:已经选择了下一局,code:251
+2017-11-17 17:14:33.536  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：5,缓存数据数：5,在房间人数：5,netty会话数：6	最大内存：1797M,分配内存：154M,空闲内存：87M,状态：流畅
+2017-11-17 17:15:03.492  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：5,缓存数据数：5,在房间人数：5,netty会话数：6	最大内存：1797M,分配内存：154M,空闲内存：86M,状态：流畅
+2017-11-17 17:15:31.564 ERROR com.wk.logic.enm.MsgId.gRErrMsg(MsgId.java:363) - com.wk.server.logic.room.RoomAbs.qiangZhuang(RoomAbs.java:174),消息:抢庄请求,QiangZhuangCm,error:已经操作了抢庄,code:252
+2017-11-17 17:15:33.494  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：5,缓存数据数：5,在房间人数：5,netty会话数：6	最大内存：1797M,分配内存：154M,空闲内存：84M,状态：流畅
+2017-11-17 17:15:46.523 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set logoutTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:15:46.583 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.unregisterClient(User.java:81) -登出！uid:295,nick:周明军
+2017-11-17 17:15:49.562 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:295,nick:周明军 登陆！
+2017-11-17 17:15:49.563 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:15:53.981 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set logoutTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:15:54.011 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.unregisterClient(User.java:81) -登出！uid:295,nick:周明军
+2017-11-17 17:16:03.493  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：5,在房间人数：5,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：82M,状态：流畅
+2017-11-17 17:16:03.784 ERROR com.wk.server.logic.login.LoginModule.backDb(LoginModule.java:293) - 批量更新玩家数据,size:0
+2017-11-17 17:16:33.497  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：5,在房间人数：5,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：80M,状态：流畅
+2017-11-17 17:16:49.800 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:295,nick:周明军 登陆！
+2017-11-17 17:16:49.802 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:17:03.496  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：5,缓存数据数：5,在房间人数：5,netty会话数：6	最大内存：1797M,分配内存：154M,空闲内存：79M,状态：流畅
+2017-11-17 17:17:03.786 ERROR com.wk.server.logic.login.LoginModule.backDb(LoginModule.java:293) - 批量更新玩家数据,size:0
+2017-11-17 17:17:28.570 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.util.GameDayTask.isWeekChange(GameDayTask.java:80) -天:4 ,小时：17 , 隔周：false
+2017-11-17 17:17:28.571 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.util.GameDayTask.isWeekChange(GameDayTask.java:80) -天:4 ,小时：17 , 隔周：false
+2017-11-17 17:17:28.572 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.util.GameDayTask.isWeekChange(GameDayTask.java:80) -天:4 ,小时：17 , 隔周：false
+2017-11-17 17:17:28.575 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.util.GameDayTask.isWeekChange(GameDayTask.java:80) -天:4 ,小时：17 , 隔周：false
+2017-11-17 17:17:28.580 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.util.GameDayTask.isWeekChange(GameDayTask.java:80) -天:4 ,小时：17 , 隔周：false
+2017-11-17 17:17:28.592 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.util.GameDayTask.isWeekChange(GameDayTask.java:80) -天:4 ,小时：17 , 隔周：false
+2017-11-17 17:17:28.594 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set roomId = ?  ,  gameRecord = ?  where `uid` = ? ;
+2017-11-17 17:17:28.632 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.util.GameDayTask.isWeekChange(GameDayTask.java:80) -天:4 ,小时：17 , 隔周：false
+2017-11-17 17:17:28.632 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set roomId = ?  ,  gameRecord = ?  where `uid` = ? ;
+2017-11-17 17:17:28.662 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.util.GameDayTask.isWeekChange(GameDayTask.java:80) -天:4 ,小时：17 , 隔周：false
+2017-11-17 17:17:28.662 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set roomId = ?  ,  gameRecord = ?  where `uid` = ? ;
+2017-11-17 17:17:28.690 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.util.GameDayTask.isWeekChange(GameDayTask.java:80) -天:4 ,小时：17 , 隔周：false
+2017-11-17 17:17:28.691 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set roomId = ?  ,  gameRecord = ?  where `uid` = ? ;
+2017-11-17 17:17:28.723 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.util.GameDayTask.isWeekChange(GameDayTask.java:80) -天:4 ,小时：17 , 隔周：false
+2017-11-17 17:17:28.723 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set roomId = ?  ,  gameRecord = ?  where `uid` = ? ;
+2017-11-17 17:17:28.760 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.logic.room.RoomBase.dissolveRoom(RoomBase.java:854) -没有下个庄了
+2017-11-17 17:17:28.761 ERROR com.wk.logic.enm.MsgId.gRErrMsg(MsgId.java:363) - com.wk.server.logic.room.RoomAbs.nextRound(RoomAbs.java:78),消息:下一轮请求,NextRoundCm,error:游戏已经结束,code:133
+2017-11-17 17:17:33.498  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：5,缓存数据数：5,在房间人数：0,netty会话数：6	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:17:33.787 ERROR com.wk.server.logic.login.LoginModule.backDb(LoginModule.java:293) - 批量更新玩家数据,size:0
+2017-11-17 17:18:03.499  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：5,缓存数据数：5,在房间人数：0,netty会话数：6	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:18:33.503  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：5,缓存数据数：5,在房间人数：0,netty会话数：6	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:19:03.502  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：5,缓存数据数：5,在房间人数：0,netty会话数：6	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:19:33.504  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：5,缓存数据数：5,在房间人数：0,netty会话数：6	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:19:39.910  WARN com.wk.engine.net.handler.SimpleChannelDuplexHandler.userEventTriggered(SimpleChannelDuplexHandler.java:61) - 未收到user心跳!uid:295,nickname:周明军
+2017-11-17 17:19:39.915 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set logoutTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:19:39.984 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.unregisterClient(User.java:81) -登出！uid:295,nick:周明军
+2017-11-17 17:20:03.505  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:20:03.794 ERROR com.wk.server.logic.login.LoginModule.backDb(LoginModule.java:293) - 批量更新玩家数据,size:0
+2017-11-17 17:20:33.507  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:21:03.507  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:21:33.508  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:22:03.509  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:22:33.511  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:23:03.511  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:23:33.512  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:24:03.517  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:24:33.515  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:25:03.517  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:25:33.521  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:26:03.519  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:26:33.523  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:27:03.525  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：78M,状态：流畅
+2017-11-17 17:27:33.526  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：77M,状态：流畅
+2017-11-17 17:28:03.525  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：77M,状态：流畅
+2017-11-17 17:28:33.527  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：77M,状态：流畅
+2017-11-17 17:29:03.532  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：77M,状态：流畅
+2017-11-17 17:29:33.532  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：77M,状态：流畅
+2017-11-17 17:30:03.531  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：77M,状态：流畅
+2017-11-17 17:30:33.533  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：77M,状态：流畅
+2017-11-17 17:31:03.534  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：77M,状态：流畅
+2017-11-17 17:31:33.534  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：4,缓存数据数：4,在房间人数：0,netty会话数：5	最大内存：1797M,分配内存：154M,空闲内存：77M,状态：流畅
+2017-11-17 17:31:44.198 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.ibatis.select.User.registerClient(User.java:106) -uid:295,nick:周明军 登陆！
+2017-11-17 17:31:44.200 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.user.bean.UserBean.createPreparedStatement(UserBean.java:775) -update user set loginTime = ?  ,  dbca = ?  where `uid` = ? ;
+2017-11-17 17:31:44.238 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.util.GameDayTask.isWeekChange(GameDayTask.java:80) -天:4 ,小时：17 , 隔周：false
+2017-11-17 17:32:03.534  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：5,缓存数据数：5,在房间人数：0,netty会话数：6	最大内存：1797M,分配内存：154M,空闲内存：77M,状态：流畅
+2017-11-17 17:32:03.824 ERROR com.wk.server.logic.login.LoginModule.backDb(LoginModule.java:293) - 批量更新玩家数据,size:0

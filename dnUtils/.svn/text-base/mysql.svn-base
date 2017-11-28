@@ -1,0 +1,65 @@
+mysql -umajiang -pMj123456987 -hrm-wz91szcv5egx4cx38.mysql.rds.aliyuncs.com
+
+/*[21:51:29][29 ms]*/ ALTER TABLE `niuniu`.`user` ADD COLUMN `proxy` VARCHAR(512) NULL COMMENT '代理开房记录' AFTER `roomId`; 
+/*[21:49:59][28 ms]*/ ALTER TABLE `yt3dmj1`.`user` ADD COLUMN `myAgency` INT DEFAULT '0' COMMENT '代理' AFTER `dbca`; 
+
+SELECT DISTINCT CONCAT('User: ''',USER,'''@''',HOST,''';') AS QUERY FROM mysql.user;
+SHOW GRANTS FOR 'guest'@'%';
+1、创建备份目录
+# root 用户,创建备份目录
+mkdir -p /bak/mysqlbak
+cd /bak/mysqlbak
+2、编写运行脚本
+vi  /usr/sbin/backup.sh
+#vi /backup/backup.sh
+#!/bin/bash
+backupdir=/mnt/mysql_bak
+time=` date +%Y%m%d%H `
+mysqldump -u root -p passwd bcmall | gzip > $backupdir/bcmall-$time.sql.gz
+#
+#超过30天的自动删除之。
+find $backupdir -name "bcmall-*.sql.gz" -type f -mtime +30 -exec rm {} \; > /dev/null 2>&1
+3、为脚本添加执行权限
+# chmod +x /usr/sbin/backup.sh
+4 设置crontab定时执行
+crontab -e
+#在最后一行中加入：  
+00 3 * * * root /mnt/backup_shell/backup_mysql_shell.sh
+#表示每天3点00分执行备份
+
+
+ALTER TABLE room CHANGE updateTime updateTime TIMESTAMP NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间';
+alter table test rename test1; --修改表名 
+alter table test add  column name varchar(10); --添加表列 
+alter table test drop  column name; --删除表列 
+alter table test modify address char(10) --修改表列类型 
+||alter table test change address address  char(40) 
+alter table test change  column address address1 varchar(30)--修改表列名
+
+
+
+TINYTEXT 最大长度是 255 (2^8 - 1) 个字符。
+TEXT 最大长度是 65535 (2^16 - 1) 个字符。
+MEDIUMTEXT 最大长度是 16777215 (2^24 - 1) 个字符。
+LONGTEXT 最大长度是 4294967295 (2^32 - 1) 个字符
+
+
+1、linux下mysql安装完后是默认：区分表名的大小写，不区分列名的大小写； 
+2、用root帐号登录后，在/etc/my.cnf 中的[mysqld]后添加添加lower_case_table_names=1，重启MYSQL服务，这时已设置成功：不区分表名的大小写； 
+lower_case_table_names参数详解： 
+lower_case_table_names = 0 
+其中 0：区分大小写，1：不区分大小写 
+MySQL在Linux下数据库名、表名、列名、别名大小写规则是这样的： 
+　　 1、数据库名与表名是严格区分大小写的； 
+　　 2、表的别名是严格区分大小写的； 
+　　 3、列名与列的别名在所有的情况下均是忽略大小写的； 
+　　 4、变量名也是严格区分大小写的； 
+MySQL在Windows下都不区分大小写。 
+3、如果想在查询时区分字段值的大小写，则：字段值需要设置BINARY属性，设置的方法有多种： 
+A、创建时设置： 
+CREATE TABLE T( 
+A VARCHAR(10) BINARY 
+); 
+B、使用alter修改： 
+ALTER TABLE `tablename` MODIFY COLUMN `cloname` VARCHAR(45) BINARY; 
+C、mysql table editor中直接勾选BINARY项。

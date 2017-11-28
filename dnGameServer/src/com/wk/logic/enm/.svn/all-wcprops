@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/WolfTemptation_Server/!svn/ver/4008/dn/dnGameServer/src/com/wk/logic/enm
+END
+GameState.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WolfTemptation_Server/!svn/ver/3801/dn/dnGameServer/src/com/wk/logic/enm/GameState.java
+END
+Bunko.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WolfTemptation_Server/!svn/ver/3440/dn/dnGameServer/src/com/wk/logic/enm/Bunko.java
+END
+MemberDisType.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/WolfTemptation_Server/!svn/ver/3440/dn/dnGameServer/src/com/wk/logic/enm/MemberDisType.java
+END
+SwType.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/WolfTemptation_Server/!svn/ver/3440/dn/dnGameServer/src/com/wk/logic/enm/SwType.java
+END
+MsgId.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WolfTemptation_Server/!svn/ver/3801/dn/dnGameServer/src/com/wk/logic/enm/MsgId.java
+END
+BankerMode.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/WolfTemptation_Server/!svn/ver/3519/dn/dnGameServer/src/com/wk/logic/enm/BankerMode.java
+END
+CutPukeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WolfTemptation_Server/!svn/ver/3519/dn/dnGameServer/src/com/wk/logic/enm/CutPukeType.java
+END
+PType.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WolfTemptation_Server/!svn/ver/3620/dn/dnGameServer/src/com/wk/logic/enm/PType.java
+END
+UserGTGType.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WolfTemptation_Server/!svn/ver/4006/dn/dnGameServer/src/com/wk/logic/enm/UserGTGType.java
+END
+RoundType.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WolfTemptation_Server/!svn/ver/4008/dn/dnGameServer/src/com/wk/logic/enm/RoundType.java
+END
+ChatType.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WolfTemptation_Server/!svn/ver/3440/dn/dnGameServer/src/com/wk/logic/enm/ChatType.java
+END
+TimesRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WolfTemptation_Server/!svn/ver/3440/dn/dnGameServer/src/com/wk/logic/enm/TimesRule.java
+END
+CreateRoomType.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WolfTemptation_Server/!svn/ver/3801/dn/dnGameServer/src/com/wk/logic/enm/CreateRoomType.java
+END
+GuildGTGType.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WolfTemptation_Server/!svn/ver/3519/dn/dnGameServer/src/com/wk/logic/enm/GuildGTGType.java
+END

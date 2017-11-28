@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//resource/config/timeConfig.properties=UTF-8
+encoding//resource/engine/server.properties=UTF-8
+encoding//test/dbcp.properties=UTF-8
+encoding//test/test/client/gameServerLog4j.properties=UTF-8
+encoding/<project>=UTF-8

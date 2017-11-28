@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="agencyBill">
+	<resultMap class="com.wk.gm.bean.AgencyBillBean" id="agencyBill">
+		<result property="id" column="id" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+		<result property="orderId" column="orderId" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="operation" column="operation" javaType="java.lang.Integer"
+			jdbcType="INT" />	
+		<result property="agency" column="agency" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="money" column="money" javaType="java.lang.Float"
+			jdbcType="FLOAT" />
+		<result property="rebate" column="rebate" javaType="java.lang.Float"
+			jdbcType="FLOAT" />
+		<result property="createTime" column="createTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+	</resultMap>
+
+	<parameterMap class="com.wk.gm.bean.AgencyBillBean" id="parameterAgencyBill">
+		<parameter property="id" javaType="java.lang.Long" jdbcType="BIGINT" />
+		<parameter property="orderId" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="operation" javaType="java.lang.Integer"
+			jdbcType="INT" />	
+		<parameter property="agency" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="money" javaType="java.lang.Float"
+			jdbcType="FLOAT" />
+		<parameter property="rebate" javaType="java.lang.Float"
+			jdbcType="FLOAT" />
+		<parameter property="createTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+	</parameterMap>
+	
+	<!-- 插入代理返佣数据 -->
+	<insert id="insertAgencyBill" parameterMap="parameterAgencyBill" >
+			<![CDATA[INSERT INTO agency_bill VALUES(?,?,?,?,?,?,?)]]>
+	</insert>
+	
+	<!-- 查询返利 -->
+	<select id="queryRebate" parameterClass="java.util.Map" resultClass="java.lang.Float">
+		<![CDATA[SELECT sum(rebate) from agency_bill where agency= #agency# and date(createTime)>=#startTime# and date(createTime)<=#endTime#]]>
+	</select>
+	
+	<!-- 按时间查询旗下代理给的返利账单 -->
+	<select id="queryAgencyBills" parameterClass="java.util.Map" resultMap="agencyBill">
+		<![CDATA[SELECT * from agency_bill where agency= #agency# and date(createTime)>=#startTime# and date(createTime)<=#endTime# ORDER BY id desc LIMIT #page#,5 ]]>
+	</select>
+	
+	<!-- 查询总返利金额 -->
+	<select id="queryRebateCount" parameterClass="java.util.Map" resultClass="java.lang.Float">
+		<![CDATA[SELECT sum(rebate) from agency_bill where agency= #agency#]]>
+		<isEqual prepend="and" property="operation" compareValue="1">
+			operation=1
+		</isEqual>
+		<isEqual prepend="and" property="operation" compareValue="2">
+			operation=2
+		</isEqual>
+	</select>
+</sqlMap>
+

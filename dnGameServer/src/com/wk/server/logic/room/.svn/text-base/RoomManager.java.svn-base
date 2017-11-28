@@ -1,0 +1,450 @@
+package com.wk.server.logic.room;
+
+import java.sql.SQLException;
+import java.util.Stack;
+
+import msg.BackMessage.BattleBackCm;
+import msg.RoomMessage;
+import msg.RoomMessage.CreateRoomBeforeCm;
+import msg.RoomMessage.CreateRoomBeforeSm;
+import msg.RoomMessage.CreateRoomCm;
+import msg.RoomMessage.CreateRoomSm;
+import msg.RoomMessage.JoinRoomBeforeCm;
+import msg.RoomMessage.JoinRoomBeforeSm;
+import msg.RoomMessage.JoinRoomCm;
+import msg.RoomMessage.JulebuRoom;
+import msg.RoomMessage.PlayType;
+import msg.RoomMessage.PrepareRoomCm;
+import msg.RoomMessage.ProxyCreateRoomBeforeCm;
+import msg.RoomMessage.ProxyCreateRoomBeforeSm;
+import msg.RoomMessage.ProxyCreateRoomCm;
+import msg.RoomMessage.ProxyCreateRoomSm;
+import msg.RoomMessage.ProxyRoomsDissovleCm;
+
+import com.jery.ngsp.server.log.LoggerService;
+import com.wk.bean.RoomBean;
+import com.wk.bean.SystemConstantsAbs;
+import com.wk.db.dao.BattlebackDao;
+import com.wk.db.dao.RoomDao;
+import com.wk.engine.config.ServerConfig;
+import com.wk.engine.config.SystemConstants;
+import com.wk.engine.inner.BusSysModule;
+import com.wk.engine.inner.GsSysModule;
+import com.wk.logic.config.ConfigTemplate;
+import com.wk.logic.config.DissolveRoomType;
+import com.wk.logic.config.NTxt;
+import com.wk.logic.enm.BankerMode;
+import com.wk.logic.enm.CreateRoomType;
+import com.wk.logic.enm.MsgId;
+import com.wk.logic.enm.PType;
+import com.wk.logic.enm.RoundType;
+import com.wk.logic.enm.SwType;
+import com.wk.server.ibatis.select.IncomeUserI;
+import com.wk.server.logic.guild.Guild;
+import com.wk.server.logic.guild.GuildManager;
+import com.wk.server.logic.item.ItemTemplate;
+import com.wk.server.logic.login.LoginModule;
+
+public class RoomManager {
+
+	public static byte[] proxyRoomsDissovle(IncomeUserI user,
+			ProxyRoomsDissovleCm messageLite) {
+		int roomId = Integer.parseInt(messageLite.getRoomId());
+		RoomAbs roomAbs = RoomModule.getInstance().getRoom(roomId);
+		if (roomAbs == null) {
+			return MsgId.ProxyRoomsDissovleCm.gRErrMsg(NTxt.NOT_FOUND_ROOM);
+		}
+		if (roomAbs.isProxy() && user.getUid() == roomAbs.getMasterId()
+				&& !roomAbs.isStart()) {
+			roomAbs.dissolveRoom(DissolveRoomType.PROXY_OPERA);
+			return NTxt.PROXY_ROOMS_DISSOLVE_SUCCESS;
+		} else
+			return MsgId.ProxyRoomsDissovleCm.gRErrMsg(NTxt.COMMON_ERROR);
+	}
+
+	public static byte[] proxyCreateRoomBefore(IncomeUserI user,
+			ProxyCreateRoomBeforeCm messageLite) {
+		PlayType playType = RoomManager
+				.checkPlayType(messageLite.getPlayType());
+		if (playType == null) {
+			return MsgId.ProxyCreateRoomBeforeCm.gRErrMsg(NTxt.INFO_ERROR);
+		}
+		if (RoomModule.getInstance().getRoom(user) != null) {
+			return MsgId.ProxyCreateRoomBeforeCm
+					.gRErrMsg(NTxt.BEFORE_ROOM_ALREADY);
+		}
+		if (LoginModule.getInstance().getStatus().isFull()) {
+			RoomMessage.SwServer.Builder sw = GsSysModule.getInstance().getSw(
+					BusSysModule.getInstance().getOserverId(),
+					SwType.proxyCreateRoom, user);
+			if (sw == null) {
+				return MsgId.ProxyCreateRoomBeforeCm
+						.gRErrMsg(NTxt.BEFORE_SW_EMPTY);
+			}
+			return ProxyCreateRoomBeforeSm.newBuilder().setSw(sw)
+					.setPlayType(playType).setCode(NTxt.SERVER_NEED_SWITCH)
+					.build().toByteArray();
+		} else {
+			byte[] proxyCreateRoom = proxyCreateRoom(user, playType);
+			user.sendMessage(MsgId.ProxyCreateRoomSm, proxyCreateRoom);
+			return null;
+		}
+	}
+
+	public static byte[] createRoomBefore(IncomeUserI user,
+			CreateRoomBeforeCm messageLite) {
+		PlayType playType = RoomManager
+				.checkPlayType(messageLite.getPlayType());
+		if (playType == null) {
+			return MsgId.CreateRoomBeforeCm.gRErrMsg(NTxt.INFO_ERROR);
+		}
+		if (RoomModule.getInstance().getRoom(user) != null) {
+			return MsgId.CreateRoomBeforeCm.gRErrMsg(NTxt.BEFORE_ROOM_ALREADY);
+		}
+		if (LoginModule.getInstance().getStatus().isFull()) {
+			RoomMessage.SwServer.Builder sw = GsSysModule.getInstance().getSw(
+					BusSysModule.getInstance().getOserverId(),
+					SwType.createRoom, user);
+			if (sw == null) {
+				return MsgId.CreateRoomBeforeCm.gRErrMsg(NTxt.BEFORE_SW_EMPTY);
+			}
+			return CreateRoomBeforeSm.newBuilder().setSw(sw)
+					.setPlayType(playType).setCode(NTxt.SERVER_NEED_SWITCH)
+					.build().toByteArray();
+		} else {
+			byte[] createRoom = createRoom(user, playType);
+			user.sendMessage(MsgId.CreateRoomSm, createRoom);
+			return null;
+		}
+	}
+
+	/**
+	 * 检测
+	 * 
+	 * @param playType
+	 * @return
+	 */
+	public static PlayType checkPlayType(PlayType playType) {
+		RoundType roundType = RoundType.getEnum(playType.getRound());
+		if (roundType == null) {
+			NTxt.println(String.format("局数设置错误！%s", roundType));
+			return null;
+		}
+		PType pType = PType.getEnum(playType.getPType());
+		if (pType == null) {
+			NTxt.println(String.format("游戏模式错误！%s", pType));
+			return null;
+		}
+		BankerMode bankerMode = BankerMode.getEnum(playType.getBankerMode());
+		if (bankerMode == null) {
+			NTxt.println(String.format("庄家模式错误！%s", bankerMode));
+			return null;
+		}
+
+		return playType;
+	}
+
+	public static byte[] joinRoomBefore(IncomeUserI user,
+			JoinRoomBeforeCm messageLite) throws SQLException {
+		int roomId = Integer.parseInt(messageLite.getRoomId());
+		if (RoomModule.getInstance().getRoom(user) != null) {
+			return MsgId.JoinRoomBeforeCm.gRErrMsg(NTxt.BEFORE_ROOM_ALREADY);
+		}
+		int serverIdByRoomId = RoomDao.serverIdByRoomId(roomId);
+		if (serverIdByRoomId == SystemConstantsAbs.NoServerId) {
+			return MsgId.JoinRoomBeforeCm
+					.gRErrMsg(NTxt.JOIN_ROOM_BEFORE_NOT_FOUND_ROOM);
+		}
+		if (serverIdByRoomId != ServerConfig.serverId) {
+			RoomMessage.SwServer.Builder sw = GsSysModule.getInstance().getSw(
+					serverIdByRoomId, SwType.joinRoom, user);
+			if (sw == null) {
+				return MsgId.JoinRoomBeforeCm
+						.gRErrMsg(NTxt.JOIN_ROOM_BEFORE_SW_EMPTY);
+			}
+			return JoinRoomBeforeSm.newBuilder()
+					.setCode(NTxt.SERVER_NEED_SWITCH).setSw(sw)
+					.setRoomId(messageLite.getRoomId()).build().toByteArray();
+		} else {
+			byte[] joinRoom = joinRoom(user, roomId);
+			user.sendMessage(MsgId.JoinRoomSm, joinRoom);
+			return null;
+		}
+	}
+
+	/**
+	 * 创建房间
+	 * 
+	 * @param playType
+	 *            玩法
+	 * @param createRoomType
+	 *            创房类型
+	 * @param masterId
+	 *            房主ID
+	 * @param areaType
+	 *            麻将区域玩法类型
+	 * @param julebuRoom
+	 *            俱乐部房间
+	 * @param reloadRoomId
+	 *            传一个房间ID,重新加载房间数据时
+	 * @return
+	 * @throws Exception
+	 */
+	public static RoomAbs createRoom(PlayType playType,
+			CreateRoomType createRoomType, long masterId,
+			JulebuRoom julebuRoom, int reloadRoomId) throws Exception {
+		if (masterId == SystemConstants.NoUid) {
+			throw new Exception("房主不能为空！");
+		}
+		Stack<RoomAbs> stack = RoomModule.getInstance().getCacheRoomStack();
+		RoomAbs room = null;
+		if (stack.empty()) {
+			room = RoomUtils.createRoom();
+		} else {
+			try {
+				room = stack.pop();
+			} catch (Exception e) {
+				LoggerService.getRoomlogs().error(e.getMessage(), e);
+				room = RoomUtils.createRoom();
+			}
+		}
+		int id;
+		if (reloadRoomId == SystemConstantsAbs.NoRoomId)
+			id = RoomUtils.genRoomId(masterId);
+		else
+			id = reloadRoomId;
+		if (id == SystemConstants.NoRoomId) {
+			throw new Exception("随机房间号失败!");
+		}
+		room.init(playType, createRoomType, masterId, julebuRoom, id);
+		if (id != reloadRoomId) {
+			room.save();
+		}
+		RoomModule.getInstance().putRoom(room);
+		LoggerService.getLogicLog().error(
+				"创房{},guildId:{},num:{}",
+				new Object[] { room.getIdStr(), room.getJulebuRoom().getId(),
+						room.getJulebuRoom().getNum() });
+		return room;
+	}
+
+	public static byte[] joinRoom(IncomeUserI user, JoinRoomCm messageLite) {
+		JulebuRoom julebuRoom = messageLite.getJulebuRoom();
+		int id = julebuRoom.getId();
+		int num = julebuRoom.getNum();
+		if (id != SystemConstantsAbs.NoGuildId) {
+			Guild guild = GuildManager.getInstance().getAndReloadGuild(id);
+			if (guild == null) {
+				return MsgId.JoinRoomCm.gRErrMsg(NTxt.NO_FOUND_GUILD);
+			}
+			if (!guild.isMasterOrAssistOrMember(user.getUid())) {
+				return MsgId.JoinRoomCm
+						.gRErrMsg(NTxt.NOT_GUILD_MASTER_OR_ASSIST_OR_MEMBER);
+			}
+			return guild.joinRoom(user, num);
+		} else {
+			int roomId = Integer.parseInt(messageLite.getRoomId());
+			return joinRoom(user, roomId);
+		}
+	}
+
+	/**
+	 * 进入普通房间
+	 * 
+	 * @param user
+	 * @param roomId
+	 * @return
+	 */
+	private static byte[] joinRoom(IncomeUserI user, int roomId) {
+		if (RoomModule.getInstance().getRoom(user) != null) {
+			return MsgId.JoinRoomCm.gRErrMsg(NTxt.BEFORE_ROOM_ALREADY);
+		}
+		RoomAbs room = RoomModule.getInstance().getRoom(roomId);
+		if (room == null) {
+			return MsgId.JoinRoomCm.gRErrMsg(NTxt.JOIN_ROOM_NOT_FOUND_ROOM);
+		}
+		byte[] joinRoom = room.joinRoom(user, true);
+		return joinRoom;
+	}
+
+	public static byte[] proxyCreateRoom(IncomeUserI user,
+			ProxyCreateRoomCm messageLite) {
+		PlayType playType = RoomManager
+				.checkPlayType(messageLite.getPlayType());
+		if (playType == null) {
+			return MsgId.ProxyCreateRoomCm.gRErrMsg(NTxt.INFO_ERROR);
+		}
+		return proxyCreateRoom(user, playType);
+	}
+
+	private static byte[] proxyCreateRoom(IncomeUserI user, PlayType playType) {
+		if (user.getProxyRoomNumber() >= ConfigTemplate.getConfigTemplate()
+				.getProxyCreateRoomMax()) {
+			return MsgId.ProxyCreateRoomCm
+					.gRErrMsg(NTxt.PROXY_CREATE_ROOM_NOT_ENOUGH);
+		}
+		RoundType roundType = RoundType.getEnum(playType.getRound());
+		if (user.getDiamond() < roundType.getNeedDiamond()) {
+			return MsgId.ProxyCreateRoomCm
+					.gRErrMsg(NTxt.NOT_ENOUGH_DIAMOND);
+		}
+		if (BusSysModule.getInstance().isCloseCreateRoom()) {
+			return MsgId.ProxyCreateRoomCm
+					.gRErrMsg(NTxt.CREATE_ROOM_SERVER_FIXING);
+		}
+		try {
+			RoomAbs createRoom = createRoom(playType, CreateRoomType.PROXY,
+					user.getUid(), JulebuRoom.getDefaultInstance(),
+					SystemConstantsAbs.NoRoomId);
+			user.addItem(ItemTemplate.Diamond_ID, -roundType.getNeedDiamond(),
+					true, NTxt.PROXY_CREATE_ROOM);
+			createRoom.checkAllOffLine();
+			return ProxyCreateRoomSm.newBuilder().setCode(NTxt.SUCCESS)
+					.setRoomId(createRoom.getIdStr())
+					.setPlayType(createRoom.getPlayType()).build()
+					.toByteArray();
+		} catch (Exception e) {
+			LoggerService.getRoomlogs().error(e.getMessage(), e);
+			return MsgId.ProxyCreateRoomCm
+					.gRErrMsg(NTxt.PROXY_CREATE_ROOM_EXCEPTION);
+		}
+	}
+
+	public static byte[] createRoom(IncomeUserI user, CreateRoomCm messageLite) {
+		PlayType playType = RoomManager
+				.checkPlayType(messageLite.getPlayType());
+		if (playType == null) {
+			return MsgId.CreateRoomCm.gRErrMsg(NTxt.INFO_ERROR);
+		}
+		return createRoom(user, playType);
+	}
+
+	/**
+	 * 普通创房
+	 * 
+	 * @param user
+	 *            既是房主又是房间玩家
+	 * @param playType
+	 * @return
+	 */
+	private static byte[] createRoom(IncomeUserI user, PlayType playType) {
+		if (BusSysModule.getInstance().isCloseCreateRoom()) {
+			return MsgId.CreateRoomCm.gRErrMsg(NTxt.CREATE_ROOM_SERVER_FIXING);
+		}
+		if (RoomModule.getInstance().getRoom(user) != null) {
+			return MsgId.CreateRoomCm.gRErrMsg(NTxt.BEFORE_ROOM_ALREADY);
+		}
+		RoundType roundType = RoundType.getEnum(playType.getRound());
+		if (roundType == null) {
+			return MsgId.CreateRoomCm.gRErrMsg(NTxt.CREATE_ROOM_PTYPE_EMPTY);
+		}
+		PType pType = PType.getEnum(playType.getPType());
+		if (pType == null) {
+			return MsgId.CreateRoomCm.gRErrMsg(NTxt.CREATE_ROOM_PTYPE_EMPTY);
+		}
+		BankerMode bankerMode = BankerMode.getEnum(playType.getBankerMode());
+		if (bankerMode == null) {
+			return MsgId.CreateRoomCm.gRErrMsg(NTxt.CREATE_ROOM_PTYPE_EMPTY);
+		}
+		if (user.getDiamond() < roundType.getNeedDiamond()) {
+			return MsgId.CreateRoomCm
+					.gRErrMsg(NTxt.NOT_ENOUGH_DIAMOND);
+		}
+		try {
+			RoomAbs room = createRoom(playType, CreateRoomType.MASTER,
+					user.getUid(), JulebuRoom.getDefaultInstance(),
+					SystemConstantsAbs.NoRoomId);
+			byte[] code = room.joinRoom(user, false);
+			if (code != null) {
+				throw new Exception(String.format("房主加入失败!code:%s",
+						NTxt.getCode(code)));
+			}
+			Seat seat = room.getSeat(user);
+			CreateRoomSm.Builder createRoomSm = CreateRoomSm.newBuilder()
+					.setCode(NTxt.SUCCESS).setChatRoomId(room.getImId())
+					.setPlayType(room.getPlayType()).setRoomId(room.getIdStr());
+			seat.setUserInfo(createRoomSm.getInfoBuilder());
+			return createRoomSm.build().toByteArray();
+		} catch (Exception e) {
+			LoggerService.getRoomlogs().error(e.getMessage(), e);
+			return MsgId.CreateRoomCm.gRErrMsg(NTxt.CREATE_ROOM_EXCEPTION);
+		}
+	}
+
+	/**
+	 * 公会创房
+	 * 
+	 * @param masterUser
+	 *            会长
+	 * @param julebuRoom
+	 * @param playType
+	 * @return
+	 */
+	public static RoomAbs julebuCreateRoom(long masterId,
+			JulebuRoom julebuRoom, PlayType playType) {
+		try {
+			RoomAbs room = createRoom(playType, CreateRoomType.JULEBU,
+					masterId, julebuRoom, SystemConstantsAbs.NoRoomId);
+			return room;
+		} catch (Exception e) {
+			LoggerService.getRoomlogs().error(e.getMessage(), e);
+			return null;
+		}
+	}
+
+	/**
+	 * 重新加载房间数据
+	 * 
+	 * @param bean
+	 * @return
+	 * @throws Exception
+	 */
+	public static RoomAbs reloadRoom(RoomBean bean) throws Exception {
+		// ByteBuf in = Unpooled.buffer();
+		// in.writeBytes(bean.getBack());
+		// SerializeObj serializeObj = new SerializeObj(in);
+		// TODO
+		RoomDao.resetRoom(bean.getId());
+		return null;
+	}
+
+	public static byte[] battleBack(IncomeUserI user,
+			BattleBackCm genMessageLite) {
+		int id = genMessageLite.getId();
+		try {
+			return BattlebackDao.queryRecord(id).getData();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	public static byte[] prepareRoom(IncomeUserI user,
+			PrepareRoomCm genMessageLite) {
+		RoomAbs room = RoomModule.getInstance().getRoom(user);
+		if (room == null) {
+			return MsgId.PrepareRoomCm.gRErrMsg(NTxt.NOT_FOUND_ROOM);
+		}
+		Seat seat = room.getSeat(user);
+		if (seat == null) {
+			return MsgId.PrepareRoomCm.gRErrMsg(NTxt.NOT_FOUND_SEAT);
+		}
+		return room.prepareRoom(seat);
+	}
+
+	public static byte[] nextRound(IncomeUserI user) {
+		if (user.sendCacheGameOverCast()) {
+			return MsgId.NextRoundCm.gRErrMsg(NTxt.GAME_OVER);
+		} else {
+			RoomAbs room = RoomModule.getInstance().getRoom(user);
+			if (room == null) {
+				return MsgId.NextRoundCm.gRErrMsg(NTxt.NOT_FOUND_ROOM);
+			}
+			Seat seat = room.getSeat(user);
+			if (seat == null) {
+				return MsgId.NextRoundCm.gRErrMsg(NTxt.NOT_FOUND_SEAT);
+			}
+			return room.nextRound(seat);
+		}
+	}
+}

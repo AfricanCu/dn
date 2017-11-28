@@ -1,0 +1,6 @@
+﻿iD,district,rechargeNum,giftNum,spendNum
+Int,Int,Int,Int,Int
+1,1,1,0,6
+2,1,5,0,30
+3,1,10,0,50
+4,1,17,0,88

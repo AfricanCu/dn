@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/WolfTemptation_Server/!svn/ver/3808/dn/dnGameServer/resource/config
+END
+timeConfig.properties
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WolfTemptation_Server/!svn/ver/3808/dn/dnGameServer/resource/config/timeConfig.properties
+END
+gameServerLog4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WolfTemptation_Server/!svn/ver/3440/dn/dnGameServer/resource/config/gameServerLog4j.properties
+END

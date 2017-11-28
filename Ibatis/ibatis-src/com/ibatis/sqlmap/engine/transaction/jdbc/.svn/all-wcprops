@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/transaction/jdbc
+END
+JdbcTransactionConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/transaction/jdbc/JdbcTransactionConfig.java
+END
+JdbcTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/transaction/jdbc/JdbcTransaction.java
+END

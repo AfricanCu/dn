@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/result/loader
+END
+ResultLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/result/loader/ResultLoader.java
+END
+EnhancedLazyResultLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/result/loader/EnhancedLazyResultLoader.java
+END
+LazyResultLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/mapping/result/loader/LazyResultLoader.java
+END

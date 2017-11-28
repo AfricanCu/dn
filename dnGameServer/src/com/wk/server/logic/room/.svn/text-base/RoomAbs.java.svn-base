@@ -1,0 +1,437 @@
+package com.wk.server.logic.room;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.ScheduledFuture;
+import java.util.concurrent.ThreadLocalRandom;
+import java.util.concurrent.TimeUnit;
+
+import msg.BullMessage.BankerCast;
+import msg.BullMessage.BetOnBeginCast;
+import msg.BullMessage.BetOnCm;
+import msg.BullMessage.QiangZhuangCm;
+import msg.BullMessage.QzBeginCast;
+
+import com.wk.logic.config.ConfigTemplate;
+import com.wk.logic.config.DissolveRoomType;
+import com.wk.logic.config.NTxt;
+import com.wk.logic.enm.BankerMode;
+import com.wk.logic.enm.GameState;
+import com.wk.logic.enm.MsgId;
+import com.wk.puke.Pai;
+import com.wk.server.ibatis.select.IncomeUserI;
+import com.wk.server.logic.item.ItemTemplate;
+import com.wk.util.TimeTaskUtil;
+
+/**
+ * 房间抽象类
+ * 
+ * @author ems
+ *
+ */
+public abstract class RoomAbs extends RoomBase {
+	private static final byte[] qzBeginCast = QzBeginCast.newBuilder().build()
+			.toByteArray();
+	private static final byte[] betOnBeginCast = BetOnBeginCast.newBuilder()
+			.build().toByteArray();
+	private ScheduledFuture<?> betOnAutoTask;
+	private ScheduledFuture<?> finishPukeAutoTask;
+	private ScheduledFuture<?> nextRoundAutoTask;
+	private ScheduledFuture<?> qiangZhuangAutoTask;
+
+	public RoomAbs() {
+		for (int i = 1; i <= SEAT_MAX; i++) {
+			this.addCacheSeat(new Seat(this, i));
+		}
+	}
+
+	protected ScheduledFuture<?> submitOneTimeTask(RoomTaskType roomTaskType) {
+		if (roomTaskType == RoomTaskType.nextRoundAuto) {
+			int timeInMillis = 5000 + (this.getUserNum() - 2) * 500;
+			return TimeTaskUtil.getTaskmanager().submitOneTimeTask(
+					roomTaskType.getTask(this), timeInMillis,
+					TimeUnit.MILLISECONDS);
+		} else {
+			return TimeTaskUtil.getTaskmanager().submitOneTimeTask(
+					roomTaskType.getTask(this), roomTaskType.getTimeInSecond(),
+					TimeUnit.SECONDS);
+		}
+	}
+
+	@Override
+	protected void start() {
+		super.start();
+		this.begin();
+		this.updateGuildRoomNum();
+	}
+
+	/**
+	 * 继续下一局
+	 * 
+	 * @param seat
+	 * @return
+	 */
+	public byte[] nextRound(Seat seat) {
+		if (this.getRound() >= this.getTotalRound()) {
+			IncomeUserI user = seat.getUser();
+			this.dissolveRoom(DissolveRoomType.GAME_OVER_NO_NEXT_BANKER);
+			user.sendCacheGameOverCast();
+			return MsgId.NextRoundCm.gRErrMsg(NTxt.GAME_OVER);
+		}
+		if (seat.isNextRounded()) {
+			return MsgId.NextRoundCm.gRErrMsg(NTxt.ALREADY_NEXT_ROUND);
+		}
+		if (!seat.nextRound(false)) {
+			return MsgId.NextRoundCm.gRErrMsg(NTxt.NO_IN_STATE);
+		}
+		if (isAllNextRound()) {
+			nextRoundAuto();
+		}
+		return null;
+	}
+
+	private boolean isAllNextRound() {
+		for (Seat st : this.getSeats()) {
+			if (!st.isNextRounded()) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	protected void nextRoundAuto() {
+		if (this.nextRoundAutoTask == null) {
+			return;
+		}
+		rwLock.writeLock().lock();
+		try {
+			if (this.nextRoundAutoTask == null) {
+				return;
+			}
+			this.nextRoundAutoTask = null;
+			if (this.getRound() >= this.getTotalRound()) {
+				this.dissolveRoom(DissolveRoomType.GAME_OVER_NO_NEXT_BANKER);
+				return;
+			}
+			for (Seat st : this.getSeats()) {
+				if (!st.isNextRounded())
+					st.nextRound(true);
+			}
+			begin();
+		} finally {
+			rwLock.writeLock().unlock();
+		}
+	}
+
+	protected void begin() {
+		this.roundBeginCast();
+		switch (this.getBankerMode()) {
+		case qiangzhaung:
+			this.qzBeginCast();
+			break;
+		case gudingzhuang:
+			betOnCast();
+			break;
+		case lunzhuang:
+			betOnCast();
+			break;
+		default:
+			break;
+		}
+	}
+
+	private void roundBeginCast() {
+		super.nextBanker();
+		List<Pai> genRanPaiList = Pai.genRanPaiList(true);
+		for (int i = 0; i < this.getUserNum(); i++) {
+			Seat seat = this.getSeats().get(i);
+			List<Pai> pais = new ArrayList<Pai>(5);
+			for (int j = i * 5; j < i * 5 + 5; j++) {
+				pais.add(genRanPaiList.get(j));
+			}
+			Object[] calcNiuType = NiuType.calcNiuType(pais);
+			NiuType niuType = NiuType.class.cast(calcNiuType[0]);
+			int[] niuIndexs = int[].class.cast(calcNiuType[1]);
+			if (seat.isGameMinusTooMuch()
+					&& ConfigTemplate.getConfigTemplate().isDownNiu(niuType)
+					&& ThreadLocalRandom.current().nextInt(100) < ConfigTemplate
+							.getConfigTemplate().getFiveNineNiuPercent()) {// 输的太多，还小于牛5
+				Pai p = null;
+				for (int j = this.getUserNum() * 5; j < genRanPaiList.size(); j++) {
+					if (p != null
+							&& p.getPoint() == genRanPaiList.get(j).getPoint()) {
+						continue;
+					}
+					p = genRanPaiList.get(j);
+					pais.set(4, p);
+					calcNiuType = NiuType.calcNiuType(pais);
+					niuType = NiuType.class.cast(calcNiuType[0]);
+					niuIndexs = int[].class.cast(calcNiuType[1]);
+					if (!ConfigTemplate.getConfigTemplate().isDownNiu(niuType)) {
+						NTxt.println(String.format("随机到一个大于牛5的！%s", niuType));
+						break;
+					}
+				}
+			}
+			seat.setPukes(pais, niuType, niuIndexs);
+		}
+	}
+
+	public void qzBeginCast() {
+		TimeTaskUtil.getTaskmanager().submitOneTimeTask(new Runnable() {
+			@Override
+			public void run() {
+				RoomAbs.this.qiangZhuangAutoTask = RoomAbs.this.submitOneTimeTask(RoomTaskType.qiangZhuangAuto);
+				setAllGstate(GameState.noQiangZhuang);
+				RoomAbs.this.broadCast(MsgId.QzBeginCast, qzBeginCast);
+			}
+		}, 2500, TimeUnit.MILLISECONDS);
+	}
+
+	public byte[] qiangZhuang(Seat seat, QiangZhuangCm genMessageLite) {
+		boolean qiang = genMessageLite.getQiang();
+		if (seat.isQiangZhuanged()) {
+			return MsgId.QiangZhuangCm.gRErrMsg(NTxt.QIANG_ZHUANG_ALREADY);
+		}
+		if (!seat.qiang(qiang, false)) {
+			return MsgId.QiangZhuangCm.gRErrMsg(NTxt.NOT_IN_STATE);
+		}
+		if (this.isAllQiangZhuang()) {
+			this.qiangZhuangAuto();
+		}
+		return null;
+	}
+
+	private boolean isAllQiangZhuang() {
+		for (Seat st : this.getSeats()) {
+			if (!st.isQiangZhuanged()) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	/** 完成抢庄，多个选择则随机庄，发最后一张牌 */
+	protected void qiangZhuangAuto() {
+		if (this.qiangZhuangAutoTask == null) {
+			return;
+		}
+		rwLock.writeLock().lock();
+		try {
+			if (this.qiangZhuangAutoTask == null) {
+				return;
+			}
+			this.qiangZhuangAutoTask = null;
+			ArrayList<Integer> list = new ArrayList<>();
+			for (Seat st : this.getSeats()) {
+				if (!st.isQiangZhuanged())
+					st.qiang(false, true);
+				if (st.getQiang())
+					list.add(st.getId());
+			}
+			Seat zhuangSeat;
+			BankerCast.Builder bankerCast = BankerCast.newBuilder();
+			if (list.isEmpty()) {
+				zhuangSeat = this.getSeatByIndex(ThreadLocalRandom.current()
+						.nextInt(this.getSeats().size()));
+				bankerCast.setRan(true);
+				for (Seat st : this.getSeats()) {
+					bankerCast.addSt(st.getId());
+				}
+			} else if (list.size() > 1) {
+				zhuangSeat = this.getSeatById(list.get(ThreadLocalRandom
+						.current().nextInt(list.size())));
+				bankerCast.setRan(true).addAllSt(list);
+			} else {
+				zhuangSeat = this.getSeatById(list.get(0));
+				bankerCast.setRan(false);
+			}
+			if (zhuangSeat == null) {
+				NTxt.println("严重错误！");
+			}
+			bankerCast.setSeetIndex(zhuangSeat.getId());
+			this.setBankerSeat(zhuangSeat);
+			this.broadCast(MsgId.BankerCast, bankerCast.build().toByteArray());
+			RoomAbs.this.betOnCast();
+		} finally {
+			rwLock.writeLock().unlock();
+		}
+	}
+
+	public void betOnCast() {
+		int times;
+		if (this.getBankerMode() != BankerMode.qiangzhaung) {
+			times = 2500;
+		} else {
+			times = 1000;
+		}
+		TimeTaskUtil.getTaskmanager().submitOneTimeTask(new Runnable() {
+			@Override
+			public void run() {
+				RoomAbs.this.betOnAutoTask = RoomAbs.this.submitOneTimeTask(RoomTaskType.betOnAuto);
+				setAllGstate(GameState.noBetOn);
+				RoomAbs.this.broadCast(MsgId.BetOnBeginCast, betOnBeginCast,
+						RoomAbs.this.getBankerSeat());
+			}
+		}, times, TimeUnit.MILLISECONDS);
+	}
+
+	/**
+	 * 押注请求
+	 * 
+	 * @param seat
+	 * @param genMessageLite
+	 * @return
+	 */
+	public byte[] betOn(Seat seat, BetOnCm genMessageLite) {
+		BetTimesType betTimesType = BetTimesType.getEnum(genMessageLite
+				.getBetTimes());
+		if (betTimesType == null) {
+			return MsgId.BetOnCm.gRErrMsg(NTxt.BET_ON_TYPE_ERROR);
+		}
+		if (this.isBanker(seat)) {
+			return MsgId.BetOnCm.gRErrMsg(NTxt.BET_ON_NO_RIGHT_TO_DO);
+		}
+		if (seat.isBetOned()) {
+			return MsgId.BetOnCm.gRErrMsg(NTxt.BET_ON_ALREADY);
+		}
+		if (!seat.betCoin(betTimesType, false)) {
+			return MsgId.BetOnCm.gRErrMsg(NTxt.BET_ON_ALREADY);
+		}
+		if (isAllBet()) {
+			this.betOnAuto();
+		}
+		return null;
+	}
+
+	/****/
+	private boolean isAllBet() {
+		for (Seat st : getSeats()) {
+			if (this.isBanker(st)) {
+				continue;
+			}
+			if (!st.isBetOned()) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	/** 押注完或押注倒计时完，发最后一张牌 **/
+	void betOnAuto() {
+		if (betOnAutoTask == null) {
+			return;
+		}
+		rwLock.writeLock().lock();
+		try {
+			if (betOnAutoTask == null) {
+				return;
+			}
+			this.betOnAutoTask = null;
+			for (Seat st : getSeats()) {
+				if (!st.isBetOned()) {
+					st.betCoin(BetTimesType.oneTimes, true);
+				}
+			}
+			faLastPuke();
+		} finally {
+			rwLock.writeLock().unlock();
+		}
+	}
+
+	private void faLastPuke() {
+		this.finishPukeAutoTask = this
+				.submitOneTimeTask(RoomTaskType.finishPukeAuto);
+		this.setAllGstate(GameState.noFinish);
+		for (Seat st : getSeats()) {
+			st.faLastPuke();
+		}
+	}
+
+	/**
+	 * 完成拼牛
+	 * 
+	 * @param seat
+	 * @return
+	 */
+	public byte[] finishPuke(Seat seat) {
+		if (seat.isFinished()) {
+			return MsgId.FinishPukeCm.gRErrMsg(NTxt.FINISH_PUKE_ALREADY);
+		}
+		if (!seat.finishPuke(false)) {
+			return MsgId.FinishPukeCm.gRErrMsg(NTxt.FINISH_PUKE_ALREADY);
+		}
+		if (isAllFinishPuke()) {
+			finishPukeAuto();
+		}
+		return null;
+	}
+
+	private boolean isAllFinishPuke() {
+		for (Seat st : getSeats()) {
+			if (!st.isFinished()) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	protected void finishPukeAuto() {
+		if (this.finishPukeAutoTask == null) {
+			return;
+		}
+		rwLock.writeLock().lock();
+		try {
+			if (this.finishPukeAutoTask == null) {
+				return;
+			}
+			this.finishPukeAutoTask = null;
+			for (Seat st : this.getSeats()) {
+				if (!st.isFinished()) {
+					st.finishPuke(true);
+				}
+			}
+			bullResult();
+			this.nextRoundAutoTask = this
+					.submitOneTimeTask(RoomTaskType.nextRoundAuto);
+			this.setAllGstate(GameState.noNextRound);
+		} finally {
+			rwLock.writeLock().unlock();
+		}
+	}
+
+	public void bullResult() {
+
+		for (Seat st : this.getSeats()) {
+			if (this.isBanker(st)) {
+				continue;
+			}
+			st.calcXianJiaResult();
+		}
+		this.getBankerSeat().calcZhuangJiaResult();
+		ArrayList<Seat> arrayList = new ArrayList<>();
+		for (Seat st : this.getSeats()) {
+			if (!st.isBanker())
+				resultSeatSort.insert(arrayList, st);
+		}
+		for (Seat st : arrayList)
+			bullResultCast.addRs(st.getBullResult());
+		bullResultCast.addRs(this.getBankerSeat().getBullResult());
+		roundBuilder.clearCoin();
+		for (Seat st : this.getSeats()) {
+			roundBuilder.addCoin(st.getChangeCoin());
+		}
+		roundBuilder.setTime(System.currentTimeMillis());
+		roundBuilder.setBankerSeetIndex(this.getBankerSeat().getId());
+		roundBuilder.setBattlebackIndex(this.recordBattleback());
+		this.gameRecordSm.addRound(roundBuilder.build());
+		this.broadCast(MsgId.BullResultCast, bullResultCast.build()
+				.toByteArray());
+	}
+
+	public void setAllGstate(GameState gameState) {
+		for (Seat st : this.getSeats()) {
+			st.setGstate(gameState);
+		}
+	}
+}

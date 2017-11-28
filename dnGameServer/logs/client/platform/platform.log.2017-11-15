@@ -1,0 +1,73 @@
+2017-11-15 10:00:32.256 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-15 10:00:32.272 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-15 10:00:32.303 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-15 10:01:06.136 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-15 10:01:06.136 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-15 10:01:06.151 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-15 10:06:11.754 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-15 10:06:11.754 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-15 10:06:11.769 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-15 10:06:30.886 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-15 10:06:30.886 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-15 10:06:30.902 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-15 10:07:21.273 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-15 10:07:21.273 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-15 10:07:21.288 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-15 11:27:22.735 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-15 11:27:22.738 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-15 11:27:22.752 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-15 11:47:20.404 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-15 11:47:20.408 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-15 11:47:20.421 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-15 11:47:31.498 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-15 11:47:31.499 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-15 11:47:31.587 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-15 11:47:31.589  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-15 11:47:31.591 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-15 11:47:31.614  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-15 11:47:31.656  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-15 11:47:31.661  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-15 11:47:31.666  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-15 11:47:31.696  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-15 11:47:31.697  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-15 11:47:31.698  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-15 11:47:31.924  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-15 11:47:31.951  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-15 11:48:11.853 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-15 11:48:11.857 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-15 11:48:11.870 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-15 11:48:19.348 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-15 11:48:19.349 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-15 11:48:19.354  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-15 11:48:19.396  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-15 11:48:19.397  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-15 11:48:19.401  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-15 11:48:19.402  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-15 11:48:37.131 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-15 11:48:37.153  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-15 11:48:37.206  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-15 11:48:37.207  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-15 11:48:37.209  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-15 11:48:37.244 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-15 11:48:37.251  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-15 11:48:37.314  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-15 11:48:37.315  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-15 11:48:37.316  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-15 11:48:49.883 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-15 11:48:49.887 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-15 11:48:49.901 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-15 11:48:53.892 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-15 11:48:53.893 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-15 11:48:53.898  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-15 11:48:53.943  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-15 11:48:53.945  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-15 11:48:53.948  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-15 11:48:53.950  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-15 11:49:05.534 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-15 11:49:05.557  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-15 11:49:05.608  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-15 11:49:05.609  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-15 11:49:05.612  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-15 15:05:56.980 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-15 15:05:56.984 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-15 15:05:56.998 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162

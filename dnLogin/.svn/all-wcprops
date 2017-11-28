@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/WolfTemptation_Server/!svn/ver/3776/dn/dnLogin
+END
+stop.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/WolfTemptation_Server/!svn/ver/3592/dn/dnLogin/stop.sh
+END
+start.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/WolfTemptation_Server/!svn/ver/3592/dn/dnLogin/start.sh
+END
+log
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/WolfTemptation_Server/!svn/ver/3441/dn/dnLogin/log
+END
+commons-lang-2.3-src.zip
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/WolfTemptation_Server/!svn/ver/3441/dn/dnLogin/commons-lang-2.3-src.zip
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/WolfTemptation_Server/!svn/ver/3441/dn/dnLogin/pom.xml
+END
+delsvn.bat
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/WolfTemptation_Server/!svn/ver/3441/dn/dnLogin/delsvn.bat
+END
+SqlMapConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/WolfTemptation_Server/!svn/ver/3441/dn/dnLogin/SqlMapConfig.xml
+END
+stop.bat
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/WolfTemptation_Server/!svn/ver/3441/dn/dnLogin/stop.bat
+END
+start.bat
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/WolfTemptation_Server/!svn/ver/3441/dn/dnLogin/start.bat
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/WolfTemptation_Server/!svn/ver/3441/dn/dnLogin/.project
+END
+test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/WolfTemptation_Server/!svn/ver/3441/dn/dnLogin/test.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/WolfTemptation_Server/!svn/ver/3454/dn/dnLogin/.classpath
+END

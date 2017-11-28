@@ -1,0 +1,475 @@
+2017-11-13 16:15:18.134 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-13 16:15:18.138 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-13 16:15:18.152 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-13 16:16:51.964 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-13 16:16:51.968 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-13 16:16:51.982 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-13 16:17:08.852 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:17:08.853 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-13 16:17:08.864  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:17:08.909  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:17:08.912  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:17:08.915  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:17:08.917  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-13 16:17:30.572 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:17:30.579  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-13 16:17:39.044 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:17:39.047  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-13 16:17:40.284 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:17:40.286 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:17:40.296  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:17:52.707 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:17:52.709 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:17:52.719  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:17:53.382 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:17:53.382 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:17:53.394  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:17:53.401  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:17:53.402  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:17:53.404  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:17:53.420  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-13 16:17:53.431  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-13 16:17:54.193 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:17:54.195 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:17:54.203  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:17:54.213  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:17:54.214  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:17:54.215  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:17:54.229  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-13 16:17:54.232  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-13 16:17:54.235  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-13 16:17:54.906 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:17:54.907 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:17:54.917  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:17:54.926  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:17:54.928  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:17:54.929  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:17:54.941  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-13 16:17:54.944  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-13 16:17:54.944  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-13 16:17:54.948  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-13 16:17:55.602 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:17:55.603 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:17:55.617  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:17:55.622  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:17:55.624  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:17:55.625  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:17:55.641  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-13 16:17:55.644  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-13 16:17:55.645  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-13 16:17:55.645  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-13 16:17:55.646  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomCast 206
+2017-11-13 16:17:56.183 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:17:56.185 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:17:56.193  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:17:56.201  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:17:56.203  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:17:56.205  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:17:56.211  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-13 16:26:07.314 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-13 16:26:07.317 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-13 16:26:07.332 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-13 16:26:35.255 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:26:35.255 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-13 16:26:35.270  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:26:35.309  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:26:35.311  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:26:35.316  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:26:35.318  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-13 16:26:48.445 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:26:48.449  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-13 16:26:50.931 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:26:50.933 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:26:50.951  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:26:50.953  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:26:50.965  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:26:50.966  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:26:50.973  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-13 16:27:02.940  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.941  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.942  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.943  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.944  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.946  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.947  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.948  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.949  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.950  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.951  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.952  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.953  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.954  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.955  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.956  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.958  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.959  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.960  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.962  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.963  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.964  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.966  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.967  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.967  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.968  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.968  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.968  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.969  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.969  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.969  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.970  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.970  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.970  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.971  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.971  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.971  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.972  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.972  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.972  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.972  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.973  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.973  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.973  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.974  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.974  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.974  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.975  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.975  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.975  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.976  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.976  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.976  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.977  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.977  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.977  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.978  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.978  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.978  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.979  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.979  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.979  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.980  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.980  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.980  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.981  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.981  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.981  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.981  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.982  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.982  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.982  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.983  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.983  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.983  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.984  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.984  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.984  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.985  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.985  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.985  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.986  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.986  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.986  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.987  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.987  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.987  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.988  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.988  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.988  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.989  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.989  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.989  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.990  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.990  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.990  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.990  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.991  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.991  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:02.991  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-11-13 16:27:04.632 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:04.635  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:04.644  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:04.646  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:04.647  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:05.684 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:05.693  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:05.701  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:05.703  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:05.704  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:05.811 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:05.821  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:05.830  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:05.832  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:05.833  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:09.918 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:09.930  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:09.944  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:09.946  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:09.947  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:10.119 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:10.166  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:10.175  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:10.176  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:10.177  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:10.502 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:10.514  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:10.522  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:10.525  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:10.527  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:11.102 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:11.113  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:11.128  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:11.133  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:11.140  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:11.397 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:11.407  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:11.416  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:11.417  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:11.418  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:12.711 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:12.721  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:12.728  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:12.731  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:12.733  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:15.746 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:15.757  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:15.764  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:15.765  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:15.766  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:17.016 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:17.030  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:17.034  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:17.036  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:17.037  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:17.198 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:17.209  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:17.218  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:17.219  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:17.220  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:17.375 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:17.385  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:17.393  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:17.396  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:17.397  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:18.014 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:18.028  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:18.052  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:18.053  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:18.054  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:19.392 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:19.401  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:19.408  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:19.409  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:19.413  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:19.447 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:19.463  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:19.482  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:19.483  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:19.484  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:19.802 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:19.813  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:19.821  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:19.823  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:19.823  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:20.110 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:20.121  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:20.130  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:20.131  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:20.132  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:22.179 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:22.189  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:22.197  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:22.199  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:22.200  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:22.822 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:22.834  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:22.845  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:22.846  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:22.847  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:23.184 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:23.194  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:23.211  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:23.212  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:23.213  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:23.307 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:23.318  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:23.327  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:23.329  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:23.330  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:24.905 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:24.916  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:24.925  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:24.927  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:24.928  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:26.705 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:26.715  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:26.723  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:26.728  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:26.729  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:26.810 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:26.820  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:26.828  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:26.830  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:26.831  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:28.054 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:28.068  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:28.078  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:28.079  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:28.080  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:28.086 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:28.097  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:28.105  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:28.107  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:28.108  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:28.213 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:28.223  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:28.231  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:28.233  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:28.234  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:30.663 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:30.679  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:30.688  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:30.688  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:30.689  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:31.496 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:31.512  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:31.519  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:31.521  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:31.522  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:31.532 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:31.541  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:31.549  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:31.550  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:31.551  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:33.936 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:33.947  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:33.954  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:33.956  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:33.957  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:34.099 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:34.110  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:34.117  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:34.119  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:34.120  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:34.131 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:34.141  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:34.148  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:34.149  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:34.150  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:35.527 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:35.537  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:35.545  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:35.561  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:35.562  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:38.430 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:38.439  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:38.447  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:38.448  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:38.449  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:39.903 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:39.913  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:39.920  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:39.922  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:39.923  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:41.740 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:41.751  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:41.759  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:41.761  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:41.762  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:41.969 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:41.980  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:41.994  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:41.995  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:41.995  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:43.336 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:43.348  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:43.362  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:43.364  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:43.365  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:43.984 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:43.994  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:44.003  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:44.004  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:44.006  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:44.182 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:44.199  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:44.233  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:44.235  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:44.236  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:44.736 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:44.748  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:44.755  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:44.757  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:44.758  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:27:46.913 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:27:46.923  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:27:46.932  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:27:46.933  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:27:46.935  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:28:01.541 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-13 16:28:01.545 ERROR com.wk.logic.config.TimeConfig.init(TimeConfig.java:43) - 加载配置成功！./resource/config/timeConfig.properties
+2017-11-13 16:28:01.559 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：162
+2017-11-13 16:28:18.356 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:28:18.357 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateRoomCm 200 true
+2017-11-13 16:28:18.367  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:28:18.405  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:28:18.406  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:28:18.408  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:28:18.409  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateRoomSm 201
+2017-11-13 16:28:32.613 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:28:32.617  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-13 16:28:33.762 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:28:33.765 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:28:33.771  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:28:33.779  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:28:33.780  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:28:33.782  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:28:33.789  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-13 16:29:27.290 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:29:27.292 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:29:27.304  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:29:27.312  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:29:27.313  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:29:27.320  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:29:27.321  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-13 16:29:41.224 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:29:41.226 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:29:41.234  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:29:41.242  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:29:41.245  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:29:41.248  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:29:41.249  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-13 16:29:51.361 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:29:51.362 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:29:51.368  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:29:51.374  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:29:51.380  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:29:51.382  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:29:51.384  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-13 16:29:53.594 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:29:53.596 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:29:53.608  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:29:53.617  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:29:53.618  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:29:53.619  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:29:53.622  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-13 16:29:56.023 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:29:56.025 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:29:56.033  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:29:56.039  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:29:56.041  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:29:56.042  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:29:56.044  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-11-13 16:29:58.835 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:29:58.837 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:29:58.845  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:29:58.852  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:29:58.855  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:29:58.856  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:29:58.862  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205
+2017-11-13 16:30:19.554 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-11-13 16:30:19.555 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-11-13 16:30:19.562  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-11-13 16:30:19.570  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-11-13 16:30:19.573  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-11-13 16:30:19.575  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ProxyRecordCast 11
+2017-11-13 16:30:19.579  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomSm 205

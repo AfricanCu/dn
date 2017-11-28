@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="proxyCharge">
+
+	<delete id="delProxyCharge" parameterClass="java.lang.String">
+		<![CDATA[
+			DELETE from proxy_charge where orderId=#orderId# and status = 0
+		]]>
+	</delete>
+
+	<update id="updateStatus" parameterClass="java.lang.String">
+	<![CDATA[
+		Update proxy_charge set status = 1, chargeTime = now()  WHERE `orderId` = #codes# and status = 0;
+	]]>
+	</update>
+	<update id="updateStatusTwo" parameterClass="java.lang.String">
+	<![CDATA[
+		Update proxy_charge set status = 2  WHERE orderId = #orderId#
+	]]>
+	</update>
+	<resultMap class="com.wk.gm.bean.ProxyChargeBean" id="ProxyCharge">
+		<result property="orderId" column="orderId" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="uid" column="uid" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="invitation" column="invitation" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="status" column="status" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="platId" column="platId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="diamond" column="diamond" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="money" column="money" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="chargeTime" column="chargeTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<result property="orderTime" column="orderTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<result property="operation" column="operation" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="district" column="district" javaType="java.lang.Integer"
+			jdbcType="INT" />
+	</resultMap>
+	<select id="queryProxyCharge" parameterClass="java.lang.String"
+		resultMap="ProxyCharge">
+	<![CDATA[
+		select * from proxy_charge WHERE `orderId` = #codes#;
+	]]>
+	</select>
+	<parameterMap class="java.util.Map" id="queryPlatUserParams">
+		<parameter property="uid" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="beginTime" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="endTime" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="operation" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="district" javaType="java.lang.Integer"
+			jdbcType="INT" />
+	</parameterMap>
+	<select id="queryProxyChargeList" parameterMap="queryPlatUserParams"
+		resultMap="ProxyCharge">
+	<![CDATA[
+		select * from proxy_charge WHERE uid = ? and `chargeTime` between ? and ?;
+	]]>
+	</select>
+	<parameterMap class="com.wk.gm.bean.ProxyChargeBean" id="ProxyChargeParameter">
+		<parameter property="orderId" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="uid" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="invitation" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="status" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="platId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="diamond" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="money" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="chargeTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<parameter property="orderTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<parameter property="operation" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="district" javaType="java.lang.Integer"
+			jdbcType="INT" />
+	</parameterMap>
+	<insert id="insertCharge" parameterMap="ProxyChargeParameter">
+	<![CDATA[
+		replace into proxy_charge values(?,?,?,?,?,?,?,?,?,?,?)
+	]]>
+	</insert>
+
+	<!-- 查询充值金额 -->
+	<select id="queryCredit" parameterClass="java.util.Map"
+		resultClass="java.lang.Integer">
+		<![CDATA[SELECT sum(money) from proxy_charge where status=#status#]]>
+		<isNotNull prepend="and" property="chargeTime">
+			<![CDATA[date(chargeTime)=#chargeTime#]]>
+		</isNotNull>
+	</select>
+</sqlMap>
+

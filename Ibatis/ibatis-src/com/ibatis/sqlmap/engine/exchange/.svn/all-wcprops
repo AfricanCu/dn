@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/exchange
+END
+JavaBeanDataExchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/exchange/JavaBeanDataExchange.java
+END
+DomDataExchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/exchange/DomDataExchange.java
+END
+BaseDataExchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/exchange/BaseDataExchange.java
+END
+ComplexDataExchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/exchange/ComplexDataExchange.java
+END
+DataExchangeFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/exchange/DataExchangeFactory.java
+END
+DataExchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/exchange/DataExchange.java
+END
+ListDataExchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/exchange/ListDataExchange.java
+END
+MapDataExchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/exchange/MapDataExchange.java
+END
+PrimitiveDataExchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/exchange/PrimitiveDataExchange.java
+END

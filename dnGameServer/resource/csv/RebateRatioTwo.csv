@@ -1,0 +1,6 @@
+﻿iD,district,sellCardPrice,purchasingCost
+Int,Int,Float,Float
+1,1,0.3,0.15
+2,1,0.3,0.2
+3,2,0.4,0.15
+4,2,0.4,0.25

@@ -1,0 +1,954 @@
+2017-11-13 16:14:00.353  WARN com.wk.db.IbatisDbServer.initDB(IbatisDbServer.java:36) - 开始加载ibatis配置！
+2017-11-13 16:14:00.599  WARN com.wk.db.IbatisDbServer.initDB(IbatisDbServer.java:45) - 完成加载ibatis配置！
+2017-11-13 16:14:00.603 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：6
+2017-11-13 16:14:00.605 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-13 16:14:00.606  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:14:03.765 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8044
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8044
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:14:04.783 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:14:17.751 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerListCastBusToGs true
+2017-11-13 16:14:17.773  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerListCastBusToGsbk
+2017-11-13 16:14:32.614 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:14:32.733  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:14:33.628 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:15:02.611 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:15:02.617  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:15:03.643 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:15:32.625 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:15:32.627  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:15:33.638 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:16:02.613 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:16:02.618  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:16:03.632 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:16:32.614 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:16:32.616  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:16:33.643 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:17:02.615 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:17:02.619  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:17:03.635 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:17:32.616 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:17:32.618  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:17:33.636 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:18:02.621 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:18:02.622  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:18:03.640 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:24:23.253  WARN com.wk.db.IbatisDbServer.initDB(IbatisDbServer.java:36) - 开始加载ibatis配置！
+2017-11-13 16:24:23.512  WARN com.wk.db.IbatisDbServer.initDB(IbatisDbServer.java:45) - 完成加载ibatis配置！
+2017-11-13 16:24:23.516 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：6
+2017-11-13 16:24:23.519 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-11-13 16:24:23.520  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitTask(JavaScheduleTaskManager.java:60) - 提交时效！
+2017-11-13 16:24:26.647 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8044
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8044
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:24:27.671 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:24:56.535 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8044
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8044
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:24:57.569 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:25:08.810 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerListCastBusToGs true
+2017-11-13 16:25:08.825  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerListCastBusToGsbk
+2017-11-13 16:25:25.527 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:25:25.685  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:25:26.545 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:25:55.525 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:25:55.527  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:25:56.540 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:26:25.526 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:26:25.527  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:26:26.538 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:26:55.528 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:26:55.534  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:26:56.557 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:27:25.529 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:27:25.531  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:27:26.548 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:27:55.531 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:27:55.534  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:27:56.550 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:28:25.531 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:28:25.533  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:28:26.548 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:28:55.533 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:28:55.535  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:28:56.557 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:29:25.534 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:29:25.536  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:29:26.550 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:29:55.535 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:29:55.538  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:29:56.553 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:30:25.536 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:30:25.539  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:30:26.559 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:30:55.537 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:30:55.540  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:30:56.563 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:31:25.538 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:31:25.542  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:31:26.565 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:31:55.552 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:31:55.553  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:31:56.568 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:32:25.542 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:32:25.542  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:32:26.556 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:32:55.541 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:32:55.542  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:32:56.556 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:33:25.544 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:33:25.547  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:33:26.561 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:33:55.544 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:33:55.546  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:33:56.558 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:34:25.546 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:34:25.554  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:34:26.559 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:34:55.546 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:34:55.547  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:34:56.551 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:35:25.548 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:35:25.550  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:35:26.564 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:35:55.550 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:35:55.553  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:35:56.566 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:36:25.551 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:36:25.552  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:36:26.560 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:36:55.552 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:36:55.554  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:36:56.574 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:37:25.553 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:37:25.555  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:37:26.576 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:37:55.554 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:37:55.556  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:37:56.580 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:38:25.556 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:38:25.560  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:38:26.578 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:38:55.556 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:38:55.557  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:38:56.567 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:39:25.558 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:39:25.560  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:39:26.581 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:39:55.558 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:39:55.560  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:39:56.572 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:40:25.561 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:40:25.564  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:40:26.586 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:40:55.562 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:40:55.564  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:40:56.590 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:41:25.563 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:41:25.565  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:41:26.582 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:41:55.564 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:41:55.567  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:41:56.589 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:42:25.566 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:42:25.568  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:42:26.591 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:42:55.567 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:42:55.569  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:42:56.578 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:43:25.568 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:43:25.570  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:43:26.597 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:43:55.569 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:43:55.588  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:43:56.582 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:44:25.569 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:44:25.571  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:44:26.579 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:44:55.571 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:44:55.572  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:44:56.585 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:45:25.581 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:45:25.582  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:45:26.604 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+2017-11-13 16:45:55.574 ERROR com.wk.engine.net.InnerMessageManager$1.operationComplete(InnerMessageManager.java:40) - send InnerMsg:ServerStatusBusToGs true
+2017-11-13 16:45:55.577  WARN com.wk.engine.net.handler.ByteBufToInnerIoMessageDecoder.decode(ByteBufToInnerIoMessageDecoder.java:78) - get-inner:ServerStatusBusToGsbk
+2017-11-13 16:45:56.592 ERROR com.wk.util.SocketUtil.createInnerSocketClientSync(SocketUtil.java:67) - Connection refused: no further information: /127.0.0.1:8045
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8045
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:259)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:634)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more

@@ -1,0 +1,157 @@
+mysql -uthj -pThjgame123987 -hrm-wz9muml94000dlv04.mysql.rds.aliyuncs.com
+`myAgency` int(11) DEFAULT '0' COMMENT '我的代理',
+ALTER TABLE `user` ADD COLUMN `myAgency` int(11) DEFAULT '0' COMMENT '我的代理' AFTER `dbca`; 
+/*[14:14:40][1396 ms]*/ ALTER TABLE `user` ADD COLUMN `district` INT NULL COMMENT '区域类型' AFTER `myAgency`; 
+/*[14:17:13][39 ms]*/ ALTER TABLE `user` CHANGE `diamond` `diamond` TINYTEXT NULL COMMENT '钻石数'; 
+
+ALTER TABLE `user` CHANGE `diamond` `diamond` TINYTEXT NULL COMMENT '钻石数'; 
+微信昵称改了要更新？
+图片改了要重写
+
+微信支付商户号
+1489373632
+商户平台登录帐号
+1489373632@1489373632
+商户平台登录密码
+287476
+申请对应的应用
+土豪金麻将3D（）
+应用APPID
+wx4043e25ad5e000bd
+127.0.0.1 关服只能这个地址关！！我在代码中写死了
+2017-09-23 16:54:51.945:WARN:oejs.AbstractHttpConnection:/shutdown
+java.lang.UnsatisfiedLinkError: no net in java.library.path
+        at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1889)
+        at java.lang.Runtime.loadLibrary0(Runtime.java:849)
+        at java.lang.System.loadLibrary(System.java:1088)
+        at sun.security.action.LoadLibraryAction.run(LoadLibraryAction.java:67)
+        at sun.security.action.LoadLibraryAction.run(LoadLibraryAction.java:47)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at java.net.NetworkInterface.<clinit>(NetworkInterface.java:56)
+        at gm.server.util.jsp.ShutdownHandler.getLocalIps(ShutdownHandler.java:172)
+        at gm.server.util.jsp.ShutdownHandler.requestFromLocalhost(ShutdownHandler.java:142)
+        at gm.server.util.jsp.ShutdownHandler.handle(ShutdownHandler.java:119)
+        at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+        at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+        at org.eclipse.jetty.server.Server.handle(Server.java:369)
+        at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+        at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:944)
+        at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1005)
+        at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:865)
+        at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+        at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+        at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+        at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+        at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+        at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+        at java.lang.Thread.run(Thread.java:748)
+
+2017-09-08 12:44:22.329 ERROR gm.server.logic.FunctionServlet.login(FunctionServlet.java:244) - Error: executeQueryForObject returned too many results.
+java.sql.SQLException: Error: executeQueryForObject returned too many results.
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForObject(MappedStatement.java:124)
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForObject(SqlMapExecutorDelegate.java:518)
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForObject(SqlMapExecutorDelegate.java:493)
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForObject(SqlMapSessionImpl.java:106)
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForObject(SqlMapClientImpl.java:82)
+	at com.wk.db.dao.UserDao.queryUser(UserDao.java:63)
+	at gm.server.logic.FunctionServlet.login(FunctionServlet.java:207)
+	at gm.server.logic.FunctionServlet.doPost(FunctionServlet.java:78)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1317)
+	at gm.server.filter.AuthorityFilter.doFilter(AuthorityFilter.java:81)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at gm.server.util.jsp.QoSFilter.doFilter(QoSFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:369)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1005)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:865)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-08 12:44:22.350 ERROR gm.server.logic.FunctionServlet.login(FunctionServlet.java:195) - 耗时：0
+按照有房间的玩家数来规定玩家缓存lru极限，
+
+平胡抢杠胡
+1.只让BUS检测Gs的连接，如果断开就尝试连（间隔：xx秒）
+测试用例4,8,12,LRU：20
+随着人数的增多，，服务器状态不一样
+
+
+超级bug gs-bus连接了，，发送了消息，，消息返回不了？？？？？？直接关闭服务器会导致!!!!!!!!!!!
+GM gmServer.properties debug
+web.xml welcomefile shop.jsp
+
+房间列表功能，关服前30分钟不能开房了
+手机号存储
+代理升级
+代理分级 代理分地区
+代理列表查看代理的创造价值
+
+
+
+苹果
+下订单 URL GET http://www.hunanshikecao.com:8115/Login/genOrderIdServlet?pay_id=xxx&uid=xxx
+沙箱测试充值通知URL POST http://www.hunanshikecao.com:8115/Login/iosSandboxChargeServletServlet
+正式充值通知URL POST http://www.hunanshikecao.com:8115/Login/iosChargeServlet
+	orderId=xxx&apple_receipt=xxx
+
+Android
+支付宝充值页面 http://pay.hunanshikecao.com/single/shopList.jsp?pay_id=xxx&uid=xxx
+
+登录 
+GET http://www.hunanshikecao.com:8115/Login/functionServlet
+第一次登陆
+?type=login&code=登陆凭证&platformId=平台类型(&roomId=魔窗跳转房间ID)
+有session缓存的登陆
+?type=login&sessionCode=会话缓存&platformId=平台类型(&roomId=魔窗跳转房间ID)
+登陆凭证||会话缓存只选其一发送
+平台类型：android(1), ios(2), pc(3), ios_visitor(4);
+
+资源更新 
+http://abc.hunanshikecao.com/1_0
+
+
+安全建设，，安全策略
+www.hunanshikecao.com abc.hunanshikecao.com
+axis 资源下载、apk下载 
+安全bug 回执
+代开房？
+见牛翻？ok
+房间列表查询？
+1.每个渠道 uid 起点不同
+
+
+
+
+
+注意启动的一个流程，不要乱了 
+重新加载配置，这个肯定要搞
+重登没有解决
+两个服数据没有同步
+如果已经有房间，服务器列表只会出现这个房间的服务器
+有个多登 的可能，同时socket连接多个服务器
+如果服务器宕机，超时才返回！
+如果玩家在另一个服务器登录 ，先把当前服务器踢下线再登录另一个服务器，
+如果检测不到当前服务器的连接状态，则视为当前服务器已经停服或者宕机，
+则将服务器id修改为空服务器id，再登录另一个服务器。ok
+------------苹果登录处理-----------
+游客登录传设备id当作唯一id,平台类型为苹果游客,,,这只是内部人员审核用

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="gamerecord">
+	<resultMap id="Gamerecord" class="com.wk.bean.GamerecordBean">
+		<result property="id" column="id" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="data" column="data" jdbcType="BLOB"
+			typeHandler="com.ibatis.sqlmap.engine.type.ByteArrayTypeHandler" />
+	</resultMap>
+	<parameterMap class="com.wk.bean.GamerecordBean" id="GamerecordParameter">
+		<parameter property="data" jdbcType="BLOB"
+			typeHandler="com.ibatis.sqlmap.engine.type.ByteArrayTypeHandler" />
+	</parameterMap>
+	<!-- 随机一个房间id -->
+	<select id="queryGamerecord" parameterClass="java.lang.Integer"
+		resultMap="Gamerecord">
+	<![CDATA[
+		SELECT * FROM gamerecord WHERE `id` = #codes#;
+	]]>
+	</select>
+	<insert id="insertGamerecord" parameterMap="GamerecordParameter">
+		<![CDATA[
+			insert into gamerecord (id,data)  values(null,?)
+		]]>
+		<selectKey keyProperty="id" resultClass="java.lang.Integer">
+		<![CDATA[  
+        	SELECT LAST_INSERT_ID() AS id
+        ]]>
+		</selectKey>
+	</insert>
+	<delete id="deleteGamerecord" parameterClass="java.lang.Integer">
+	    <![CDATA[
+			delete from gamerecord where id = #code#;
+		]]>
+	</delete>
+</sqlMap>
+

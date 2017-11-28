@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/bean
+END
+ShopTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/bean/ShopTemplate.java
+END
+ProxyBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/bean/ProxyBean.java
+END
+AgencyBroadcast.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/bean/AgencyBroadcast.java
+END
+AgencyBillBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/bean/AgencyBillBean.java
+END
+TotalBillBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/bean/TotalBillBean.java
+END
+MinusCreditsBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/bean/MinusCreditsBean.java
+END
+AnnouncementBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/bean/AnnouncementBean.java
+END
+AddDiamondBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/bean/AddDiamondBean.java
+END
+ProxyChargeBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/bean/ProxyChargeBean.java
+END

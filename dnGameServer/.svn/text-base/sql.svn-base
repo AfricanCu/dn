@@ -1,0 +1,17 @@
+房间加载还原的sql
+SELECT * FROM room WHERE serverId = 2;
+
+UPDATE room SET masterUid = NULL , back = NULL, serverId = 0 WHERE serverId= 2;
+
+SELECT * FROM USER WHERE roomId !=0 AND serverId = 2;
+
+UPDATE USER SET roomId = 0 WHERE serverId = 2; 
+
+GRANT ALL PRIVILEGES ON gm_tools_system.* TO 'guest'@'172.18.217.155' IDENTIFIED BY '52a74c235a4b4834aa411a6c' WITH GRANT OPTION; 
+GRANT SELECT,INSERT ON niuniu.`charge` TO 'guest'@'172.18.217.155';
+GRANT ALL PRIVILEGES ON niuniu.`proxy` TO 'guest'@'172.18.217.155'; 
+GRANT ALL PRIVILEGES ON niuniu.`proxy_charge` TO 'guest'@'172.18.217.155';
+GRANT ALL PRIVILEGES ON niuniu.`minus_credits` TO 'guest'@'172.18.217.155';
+GRANT SELECT ON niuniu.`adddiamond` TO 'guest'@'172.18.217.155';  
+GRANT SELECT ON niuniu.user TO 'guest'@'172.18.217.155';
+FLUSH PRIVILEGES;

@@ -1,0 +1,4 @@
+2017-11-15 13:54:47.349 ERROR com.wk.server.ibatis.select.IncomeUserI.setRoom(IncomeUserI.java:303) - 退出房间了，但玩家已经离线了！uid:2,nickranUser2
+2017-11-15 13:54:47.354 ERROR com.wk.server.ibatis.select.IncomeUserI.setRoom(IncomeUserI.java:303) - 退出房间了，但玩家已经离线了！uid:1,nickranUser1
+2017-11-15 13:54:47.405  WARN com.wk.server.logic.room.RoomBase.dissolveRoom(RoomBase.java:846) - 移除房间！roomid:000002,普通房间有人，一直不开始，多久解散房间
+2017-11-15 13:54:47.433  WARN com.wk.server.logic.room.RoomBase.dissolveRoom(RoomBase.java:846) - 移除房间！roomid:000001,普通房间有人，一直不开始，多久解散房间

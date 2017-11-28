@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/common/jdbc
+END
+DbcpConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/common/jdbc/DbcpConfiguration.java
+END
+ScriptRunner.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/common/jdbc/ScriptRunner.java
+END
+SimpleDataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/common/jdbc/SimpleDataSource.java
+END

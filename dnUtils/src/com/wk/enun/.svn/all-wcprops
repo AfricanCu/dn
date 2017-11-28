@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/WolfTemptation_Server/!svn/ver/3802/dn/dnUtils/src/com/wk/enun
+END
+GmType.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/WolfTemptation_Server/!svn/ver/3621/dn/dnUtils/src/com/wk/enun/GmType.java
+END
+BusFuncType.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/enun/BusFuncType.java
+END
+PlatformType.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WolfTemptation_Server/!svn/ver/3802/dn/dnUtils/src/com/wk/enun/PlatformType.java
+END
+DistrictType.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WolfTemptation_Server/!svn/ver/3522/dn/dnUtils/src/com/wk/enun/DistrictType.java
+END
+ChargeStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WolfTemptation_Server/!svn/ver/3802/dn/dnUtils/src/com/wk/enun/ChargeStatus.java
+END
+UserState.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/enun/UserState.java
+END
+ServerStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/enun/ServerStatus.java
+END
+ThrongType.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/enun/ThrongType.java
+END
+FriendState.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/enun/FriendState.java
+END
+OperationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/enun/OperationType.java
+END

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+copy class 文件小工具
+-->
+<project default="download-libs" xmlns:artifact="urn:maven-artifact-ant" basedir="D:\mj\mjLogin">
+	<property file="${basedir}/expMaven/ant.properties" />
+	<path id="maven-ant-tasks.classpath">
+		<fileset dir="${antlibdir}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+	<typedef resource="org/apache/maven/artifact/ant/antlib.xml" uri="urn:maven-artifact-ant" classpathref="maven-ant-tasks.classpath" />
+	<artifact:pom id="maven.project" file="${pompath}" />
+	<artifact:dependencies filesetId="deps.fileset.compile" useScope="compile">
+		<!--<pom file="pom.xml"/>-->
+		<pom refid="maven.project" />
+	</artifact:dependencies>
+	<path id="junit-classpath">
+		<pathelement location="${clazzdir}" />
+		<pathelement location="${bdir}/src/" />
+		<fileset dir="E:/eclipse jee/eclipse/plugins/">
+			<include name="org.junit_4.11.0.v201303080030/junit.jar" />
+			<include name="org.hamcrest.core_1.3.0.v201303031735.jar" />
+		</fileset>
+	</path>
+	<path id="classpath">
+		<pathelement location="${clazzdir}" />
+		<fileset dir="${lib}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+	<target name="download-libs">
+		<copy todir="${lib}">
+			<fileset refid="deps.fileset.compile" />
+			<mapper type="flatten" />
+		</copy>
+	</target>
+	<target name="run" depends="download-libs">
+		<java fork="true" failonerror="yes" classname="gm.server.GmServer">
+			<classpath refid="classpath">
+			</classpath>
+			<arg line="admin@test.com" />
+		</java>
+	</target>
+	<target name="test" depends="download-libs">
+		<junit>
+			<classpath refid="junit-classpath">
+			</classpath>
+			<test name="test.Test" />
+			<formatter type="brief" usefile="false" />
+		</junit>
+	</target>
+</project>

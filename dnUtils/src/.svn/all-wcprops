@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/WolfTemptation_Server/!svn/ver/4216/dn/dnUtils/src
+END
+DirtyWords.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/DirtyWords.xml
+END
+system.properties
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/system.properties
+END
+mj.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/mj.properties
+END
+dbcp.properties
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/dbcp.properties
+END
+gameServerLog4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/gameServerLog4j.properties
+END
+bak.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/bak.txt
+END

@@ -1,0 +1,83 @@
+hb400-3daladn1
+120.78.174.39 
+(公)
+192.168.2.175 
+(私有)
+root
+Ems358BGRx9z6A2
+
+本地资源目录
+ http://www.dlmy1998.com/douniu6 
+ /www/web/douniu/public_html/douniu6   
+http://192.168.0.207:8088/sys/file?p=%2fwww%2fweb%2fdouniu%2fpublic_html/douniu6&act=list&t=d
+客户端url配置  
+http://douniu2.oss-cn-shenzhen.aliyuncs.com/douniu6/serverConfig.json 
+http://douniu1.oss-cn-shenzhen.aliyuncs.com/douniu6/serverConfig.json
+ /www/web/url_dn/public_html/douniu6
+http://192.168.0.207:8088/sys/file?p=%2fwww%2fweb%2furl_dn%2fpublic_html/douniu6&act=list&t=d
+ 用户,密码:
+thj111 123456
+
+
+yum install mysql 按照mysql客户端
+
+Unable to locate package，这个错误执行 ：apt-get update
+安装 ：apt-get install lrzsz
+
+
+
+To start mysqld at boot time you have to copy
+support-files/mysql.server to the right place for your system
+
+PLEASE REMEMBER TO SET A PASSWORD FOR THE MySQL root USER !
+To do so, start the server, then issue the following commands:
+
+/alidata/server/mysql/bin/mysqladmin -u root password 'new-password'
+/alidata/server/mysql/bin/mysqladmin -u root -h iZwz9ca2xnrv004nmd7998Z password 'new-password'
+
+Alternatively you can run:
+/alidata/server/mysql/bin/mysql_secure_installation
+
+which will also give you the option of removing the test
+databases and anonymous user created by default.  This is
+strongly recommended for production servers.
+
+See the manual for more instructions.
+
+You can start the MySQL daemon with:
+cd /alidata/server/mysql ; /alidata/server/mysql/bin/mysqld_safe &
+
+You can test the MySQL daemon with mysql-test-run.pl
+cd /alidata/server/mysql/mysql-test ; perl mysql-test-run.pl
+
+Please report any problems at http://bugs.mysql.com/
+
+Starting MySQL
+ * Couldn't find MySQL server (/usr/bin/mysqld_safe)
+
+安装 mysql
+检测是否已经安装
+dpkg -l|grep mysql
+删除 mysql
+sudo apt-get autoremove --purge mysql-server-5.5
+sudo apt-get remove mysql-server
+sudo apt-get autoremove mysql-server
+sudo apt-get remove mysql-common //这个很重要
+上面的其实有一些是多余的
+清理残留数据
+dpkg -l |grep ^rc|awk '{print $2}' |sudo xargs dpkg -P
+安装 mysql
+sudo apt-get install mysql-server
+sudo apt-get install mysql-client
+sudo apt-get install php5-mysql 
+// 安装php5-mysql 是将php和mysql连接起来
+一旦安装完成，MySQL 服务器应该自动启动。您可以在终端提示符后运行以下命令来检查 MySQL 服务器是否正在运行：
+sudo netstat -tap | grep mysql
+当您运行该命令时，您可以看到类似下面的行：
+tcp 0 0 localhost.localdomain:mysql *:* LISTEN -
+如果服务器不能正常运行，您可以通过下列命令启动它：
+sudo /etc/init.d/mysql restart
+进入mysql
+$mysql -uroot -p 管理员密码
+配置 MySQL 的管理员密码：
+sudo mysqladmin -u root password newpassword

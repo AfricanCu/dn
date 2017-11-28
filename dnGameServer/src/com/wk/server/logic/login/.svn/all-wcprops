@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WolfTemptation_Server/!svn/ver/3996/dn/dnGameServer/src/com/wk/server/logic/login
+END
+LoginOuterCallImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/WolfTemptation_Server/!svn/ver/3440/dn/dnGameServer/src/com/wk/server/logic/login/LoginOuterCallImpl.java
+END
+SwLoginManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/WolfTemptation_Server/!svn/ver/3440/dn/dnGameServer/src/com/wk/server/logic/login/SwLoginManager.java
+END
+LoginModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WolfTemptation_Server/!svn/ver/3996/dn/dnGameServer/src/com/wk/server/logic/login/LoginModule.java
+END
+CloseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/WolfTemptation_Server/!svn/ver/3440/dn/dnGameServer/src/com/wk/server/logic/login/CloseType.java
+END
+UserManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WolfTemptation_Server/!svn/ver/3440/dn/dnGameServer/src/com/wk/server/logic/login/UserManager.java
+END

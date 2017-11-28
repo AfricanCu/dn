@@ -1,0 +1,3 @@
+﻿iD,proxyCreateRoomMax,guildCreateRoomMax,guildMemberMax,notice,gameMinusTooMuch,niuToNiu,fiveNineNiuPercent
+Int,Int,Int,Int,String,String,String,int
+1,12,8,500,xxx,3;-200#5;-300#10;-400#,5#9,40

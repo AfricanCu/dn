@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/expMaven
+END
+ant.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/expMaven/ant.xml
+END
+delsvn.bat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/expMaven/delsvn.bat
+END
+ant.properties
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/expMaven/ant.properties
+END

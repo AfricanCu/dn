@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="proxy">
+	<resultMap id="Proxy" class="com.wk.gm.bean.ProxyBean">
+		<result property="uid" column="uid" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="password" column="password" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="invitation" column="invitation" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="parent" column="parent" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="authorization" column="authorization"
+			javaType="java.lang.Integer" jdbcType="INT" />
+		<result property="agencyMode" column="agencyMode" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="nickname" column="nickname" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="phone" column="phone" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="weChat" column="weChat" javaType="String"
+			jdbcType="VARCHAR" />
+		<result property="bankId" column="bankId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="bankCard" column="bankCard" javaType="String"
+			jdbcType="VARCHAR" />
+		<result property="sessionCode" column="sessionCode" javaType="String"
+			jdbcType="VARCHAR" />
+		<result property="head" column="head" javaType="String"
+			jdbcType="VARCHAR" />
+		<result property="registerTime" column="registerTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<result property="loginTime" column="loginTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<result property="logoutTime" column="logoutTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<result property="buyCard" column="buyCard" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="sellCard" column="sellCard" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="diamond" column="diamond" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="credits" column="credits" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="dbca" column="dbca" javaType="String"
+			jdbcType="VARCHAR" />
+		<result property="flag" column="flag" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="district" column="district" javaType="java.lang.Integer"
+			jdbcType="INT" />
+	</resultMap>
+	<parameterMap class="com.wk.gm.bean.ProxyBean" id="ProxyParameter">
+		<parameter property="uid" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="password" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="invitation" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="parent" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="authorization" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="agencyMode" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="nickname" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="phone" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="weChat" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="bankId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="bankCard" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="sessionCode" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="head" javaType="String" jdbcType="VARCHAR" />
+		<parameter property="registerTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<parameter property="loginTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<parameter property="logoutTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<parameter property="buyCard" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="sellCard" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="diamond" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="credits" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="dbca" javaType="String" jdbcType="VARCHAR" />
+		<parameter property="flag" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="district" javaType="java.lang.Integer"
+			jdbcType="INT" />
+	</parameterMap>
+	<insert id="insertProxy" parameterMap="ProxyParameter">
+	<![CDATA[
+		replace into proxy values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+	]]>
+	</insert>
+	<select id="queryProxy" resultMap="Proxy" parameterClass="java.lang.String">
+	<![CDATA[
+		select * from proxy where uid = #codes# and flag>0
+	]]>
+	</select>
+	<!-- 注册查询代理-->
+	<select id="zcQueryProxy" resultMap="Proxy" parameterClass="java.lang.String">
+	<![CDATA[
+		select * from proxy where uid = #uid# 
+	]]>
+	</select>
+	<select id="queryProxys" resultMap="Proxy" parameterClass="java.util.List">
+	<![CDATA[
+		select * from proxy where uid IN
+	]]>
+		<iterate conjunction="," open="(" close=")">
+	 <![CDATA[
+	 	#codes[]#
+	 ]]>
+		</iterate>
+	</select>
+	<select id="queryAllProxys" resultMap="Proxy">
+	<![CDATA[
+		select * from proxy
+	]]>
+	</select>
+	<parameterMap class="java.util.Map" id="updateProxyIdParams">
+		<parameter property="nUId" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="oldUId" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+	</parameterMap>
+	<update id="updateProxyId" parameterClass="java.lang.String">
+	<![CDATA[
+		UPDATE proxy SET `uid` = ? WHERE `uid` = ?;
+	]]>
+	</update>
+
+
+
+
+	<resultMap class="com.wk.gm.bean.ProxyBean" id="ProxyPartner">
+		<result property="invitation" column="invitation" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="parent" column="parent" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="agencyMode" column="agencyMode" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="district" column="district" javaType="java.lang.Integer"
+			jdbcType="INT" />
+	</resultMap>
+
+	<!-- 查询代理 -->
+	<select id="queryAgency" resultMap="Proxy"
+		parameterClass="java.lang.Integer">
+		<![CDATA[
+			select *  from proxy  where invitation=#invitation# and flag=2
+		]]>
+	</select>
+	<!-- 查询我的下级代理信息 -->
+	<select id="queryAgenys" resultMap="Proxy" parameterClass="java.lang.Integer">
+		<![CDATA[
+			select * from proxy where parent=#Invitation# and flag=2
+		]]>
+	</select>
+	<!-- 查询我的下级代理信息2 -->
+	<select id="queryAgenyTwos" resultMap="Proxy" parameterClass="java.util.Map">
+		<![CDATA[
+			select * from proxy where parent=#invitation# ORDER BY  flag asc LIMIT #page#,5
+		]]>
+	</select>
+	<!-- 查询我的下级代理个数 -->
+	<select id="agencyCount" resultClass="java.lang.Integer"
+		parameterClass="java.util.Map">
+		<![CDATA[select count(*) from proxy where parent=#invitation# and district=#district# and flag>0]]>
+	</select>
+	<!-- 查询邀请码是否存在 -->
+	<select id="queryInvitation" resultClass="java.lang.Integer"
+		parameterClass="java.lang.Integer">
+		<![CDATA[
+			select count(*) from proxy where invitation=#Invitation#
+		]]>
+	</select>
+	<!-- 通过授权码找代理 -->
+	<select id="queryAgenyTwo" resultMap="Proxy" parameterClass="java.lang.Integer">
+		<![CDATA[
+			select * from proxy where authorization=#authorization# and flag=2
+		]]>
+	</select>
+	<!-- 查询授权码是否存在 -->
+	<select id="queryuthorization" resultClass="java.lang.Integer"
+		parameterClass="java.lang.Integer">
+		<![CDATA[
+			select count(*) from proxy where authorization=#authorization#
+		]]>
+	</select>
+
+	<!-- 查询今日新增代理个数 -->
+	<select id="queryDateAgencyCount" resultClass="java.lang.Integer"
+		parameterClass="java.lang.Integer">
+		<![CDATA[select count(*) from proxy where parent=#invitation# and flag=2 and date(registerTime)=date(now())]]>
+	</select>
+
+	<!-- 修改代理状态 -->
+	<update id="activateAgency" parameterClass="java.util.Map">
+	<![CDATA[
+		UPDATE proxy SET flag = #flag# WHERE uid = #uid#;
+	]]>
+	</update>
+
+	<!-- 删除代理 -->
+	<delete id="delAgency" parameterClass="java.lang.String">
+		<![CDATA[DELETE from proxy where uid=#uid#]]>
+	</delete>
+	
+	<!-- 修改代理已拥有，买卖钻石数量 -->
+	<update id="updateDiamond" parameterClass="java.util.Map">
+		<![CDATA[update proxy set diamond=diamond+#diamond#]]>
+		<isNotEqual prepend="," property="buyCard" compareValue="0">
+			<![CDATA[buyCard=buyCard+#buyCard#]]>
+		</isNotEqual>
+		<isNotEqual prepend="," property="sellCard" compareValue="0">
+			<![CDATA[sellCard=sellCard+#sellCard#]]>
+		</isNotEqual>
+		<![CDATA[where uid=#uid#]]>
+	</update>
+	
+	<!-- 修改代理已拥有，买卖钻石数量 -->
+	<update id="updateDiamondTwo" parameterClass="java.util.Map">
+		<![CDATA[update proxy set diamond=diamond+#diamond#]]>
+		<isNotEqual prepend="," property="buyCard" compareValue="0">
+			<![CDATA[buyCard=buyCard+#buyCard#]]>
+		</isNotEqual>
+		<isNotEqual prepend="," property="sellCard" compareValue="0">
+			<![CDATA[sellCard=sellCard+#sellCard#]]>
+		</isNotEqual>
+		<![CDATA[where invitation=#invitation#]]>
+	</update>
+</sqlMap>
+

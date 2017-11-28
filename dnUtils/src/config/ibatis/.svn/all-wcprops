@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/WolfTemptation_Server/!svn/ver/4007/dn/dnUtils/src/config/ibatis
+END
+Room.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/WolfTemptation_Server/!svn/ver/3821/dn/dnUtils/src/config/ibatis/Room.xml
+END
+AgencyBroadcast.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/config/ibatis/AgencyBroadcast.xml
+END
+Battleback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/config/ibatis/Battleback.xml
+END
+ProxyCharge.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/config/ibatis/ProxyCharge.xml
+END
+Gamerecord.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WolfTemptation_Server/!svn/ver/3804/dn/dnUtils/src/config/ibatis/Gamerecord.xml
+END
+Announcement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/config/ibatis/Announcement.xml
+END
+MinusCredits.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/config/ibatis/MinusCredits.xml
+END
+totalBill.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/config/ibatis/totalBill.xml
+END
+User.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/WolfTemptation_Server/!svn/ver/4007/dn/dnUtils/src/config/ibatis/User.xml
+END
+agencyBill.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/config/ibatis/agencyBill.xml
+END
+Proxy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/config/ibatis/Proxy.xml
+END
+AddDiamond.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/config/ibatis/AddDiamond.xml
+END
+Guild.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/config/ibatis/Guild.xml
+END
+Charge.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/config/ibatis/Charge.xml
+END
+Shop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/config/ibatis/Shop.xml
+END

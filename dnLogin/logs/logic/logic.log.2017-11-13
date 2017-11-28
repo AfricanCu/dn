@@ -1,0 +1,425 @@
+2017-11-13 16:14:01.121  WARN gm.server.DnJettyServer.main(DnJettyServer.java:34) - 服务器启动完毕！
+2017-11-13 16:14:02.751 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:2 注册连接！
+2017-11-13 16:14:03.765 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:2 注销连接！
+2017-11-13 16:14:03.783 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:14:04.783 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:14:04.791 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:false,
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:14:17.725 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:2 注册连接！
+2017-11-13 16:14:32.630 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:14:32.734 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:14:33.628 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:14:33.644 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:15:02.619 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:15:02.625 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:15:03.643 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:15:03.645 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:15:32.628 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:15:32.637 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:15:33.638 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:15:33.647 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:16:02.620 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:16:02.633 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:16:03.632 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:16:03.657 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:16:32.618 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:16:32.632 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:16:33.643 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:16:33.651 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:17:02.620 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:17:02.631 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:17:03.635 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:17:03.649 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:17:32.620 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:17:32.634 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:17:33.635 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:17:33.644 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:18:02.624 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:18:02.635 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:18:03.640 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:18:03.690 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:24:24.050  WARN gm.server.DnJettyServer.main(DnJettyServer.java:34) - 服务器启动完毕！
+2017-11-13 16:24:25.642 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:2 注册连接！
+2017-11-13 16:24:26.647 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:2 注销连接！
+2017-11-13 16:24:26.667 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:24:27.671 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:24:27.683 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:false,
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:24:55.537 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:2 注册连接！
+2017-11-13 16:24:56.535 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:2 注销连接！
+2017-11-13 16:24:56.566 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:24:57.567 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:24:57.603 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:false,
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:25:08.787 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:2 注册连接！
+2017-11-13 16:25:25.543 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:25:25.686 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:25:26.545 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:25:26.556 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:25:55.529 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:25:55.539 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:25:56.540 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:25:56.560 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:26:25.527 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:26:25.532 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:26:26.538 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:26:26.550 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:26:55.536 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:26:55.549 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:26:56.557 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:26:56.574 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:27:25.533 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:27:25.548 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:27:26.547 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:27:26.556 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:27:55.536 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:27:55.546 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:27:56.550 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:27:56.568 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:28:25.535 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:28:25.550 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:28:26.548 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:28:26.568 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:28:55.536 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:28:55.549 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:28:56.557 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:28:56.566 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:29:25.539 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:29:25.547 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:29:26.550 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:29:26.590 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:29:55.539 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:29:55.552 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:29:56.553 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:29:56.568 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:30:25.541 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:30:25.561 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:30:26.559 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:30:26.567 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:30:55.541 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:30:55.556 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:30:56.563 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:30:56.580 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:31:25.544 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:31:25.558 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:31:26.565 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:31:26.568 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:31:55.555 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:31:55.563 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:31:56.565 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:31:56.588 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:32:25.544 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:32:25.551 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:32:26.556 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:32:26.585 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:32:55.545 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:32:55.549 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:32:56.556 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:32:56.558 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:33:25.549 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:33:25.565 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:33:26.561 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:33:26.565 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:33:55.546 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:33:55.552 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:33:56.558 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:33:56.564 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:34:25.556 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:34:25.559 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:34:26.559 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:34:26.564 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:34:55.548 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:34:55.551 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:34:56.551 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:34:56.557 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:35:25.552 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:35:25.562 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:35:26.564 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:35:26.568 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:35:55.554 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:35:55.566 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:35:56.566 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:35:56.580 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:36:25.553 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:36:25.564 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:36:26.560 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:36:26.567 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:36:55.556 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:36:55.570 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:36:56.574 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:36:56.584 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:37:25.557 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:37:25.570 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:37:26.575 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:37:26.584 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:37:55.558 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:37:55.572 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:37:56.580 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:37:56.587 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:38:25.562 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:38:25.571 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:38:26.578 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:38:26.580 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:38:55.558 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:38:55.561 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:38:56.567 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:38:56.571 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:39:25.562 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:39:25.576 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:39:26.581 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:39:26.585 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:39:55.561 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:39:55.567 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:39:56.572 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:39:56.575 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:40:25.565 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:40:25.580 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:40:26.586 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:40:26.602 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:40:55.566 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:40:55.584 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:40:56.590 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:40:56.598 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:41:25.567 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:41:25.581 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:41:26.581 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:41:26.586 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:41:55.568 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:41:55.582 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:41:56.589 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:41:56.597 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:42:25.569 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:42:25.585 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:42:26.591 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:42:26.600 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:42:55.570 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:42:55.576 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:42:56.578 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:42:56.594 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:43:25.572 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:43:25.586 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:43:26.594 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:43:26.606 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:43:55.583 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:43:55.589 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:43:56.582 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:43:56.589 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:44:25.572 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:44:25.583 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:44:26.579 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:44:26.597 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:44:55.573 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:44:55.578 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:44:56.585 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:44:56.601 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:45:25.584 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:45:25.600 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:45:26.604 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:45:26.612 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:45:55.579 ERROR gm.server.logic.config.ServerTemplate.channelRead0(ServerTemplate.java:277) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,
+2017-11-13 16:45:55.591 ERROR gm.server.logic.config.ServerTemplate.registerClient(ServerTemplate.java:259) - bus <=> serverId:3 注册连接！
+2017-11-13 16:45:56.592 ERROR gm.server.logic.config.ServerTemplate.unregisterClient(ServerTemplate.java:266) - bus <=> serverId:3 注销连接！
+2017-11-13 16:45:56.597 ERROR gm.server.logic.task.ServerTask.run(ServerTask.java:24) - 
+服务器id：2,服务器名：2服,host:192.168.0.42,port:8044,isUpdate:true,	在线人数:0,在房间人数:0,缓存数:0,会话数:1,状态:流畅
+服务器id：3,服务器名：3服,host:192.168.0.42,port:8045,isUpdate:false,

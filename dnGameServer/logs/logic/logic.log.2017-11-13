@@ -1,0 +1,79 @@
+2017-11-13 15:55:24.954  WARN com.wk.engine.config.ServerConfig.init(ServerConfig.java:117) - -----------加载游戏服务器配置-------------
+2017-11-13 15:55:25.181 ERROR com.wk.logic.enm.MsgId.gRErrMsg(MsgId.java:363) - com.wk.server.DnServer.main(DnServer.java:71),消息:房主创建房间请求,CreateRoomCm,error:已经在房间中,code:120
+2017-11-13 15:55:25.378  WARN com.wk.server.DnServer.netRun(DnServer.java:154) - 0.0.0.0:8044 netty启动ok！bossGroupNThreads：16,workerGroupNThreads:64
+2017-11-13 15:55:30.028 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.DnServer$2.run(DnServer.java:99) -移除hook完成！
+2017-11-13 15:55:30.034 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.DnServer$2.run(DnServer.java:107) -执行ShutDown时间完成！
+2017-11-13 15:55:30.034 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - com.wk.server.DnServer$2.run(DnServer.java:110) -关闭数据库回写缓存完成！
+2017-11-13 15:55:30.041 ERROR com.wk.server.DnServer$2.run(DnServer.java:114) - 关闭netty完成：true true
+2017-11-13 16:04:57.333  WARN com.wk.engine.config.ServerConfig.init(ServerConfig.java:117) - -----------加载游戏服务器配置-------------
+2017-11-13 16:04:57.551 ERROR com.wk.logic.enm.MsgId.gRErrMsg(MsgId.java:363) - com.wk.server.DnServer.main(DnServer.java:71),消息:房主创建房间请求,CreateRoomCm,error:已经在房间中,code:120
+2017-11-13 16:04:57.761  WARN com.wk.server.DnServer.netRun(DnServer.java:154) - 0.0.0.0:8044 netty启动ok！bossGroupNThreads：16,workerGroupNThreads:64
+2017-11-13 16:04:58.584  WARN com.wk.server.DnServer.main(DnServer.java:81) - 由于上次宕机备份的房间数:0
+2017-11-13 16:12:28.662  WARN com.wk.engine.config.ServerConfig.init(ServerConfig.java:117) - -----------加载游戏服务器配置-------------
+2017-11-13 16:12:28.873 ERROR com.wk.logic.enm.MsgId.gRErrMsg(MsgId.java:363) - com.wk.server.DnServer.main(DnServer.java:71),消息:房主创建房间请求,CreateRoomCm,error:已经在房间中,code:120
+2017-11-13 16:12:29.066  WARN com.wk.server.DnServer.netRun(DnServer.java:154) - 0.0.0.0:8044 netty启动ok！bossGroupNThreads：16,workerGroupNThreads:64
+2017-11-13 16:12:29.279  WARN com.wk.server.DnServer.main(DnServer.java:81) - 由于上次宕机备份的房间数:0
+2017-11-13 16:14:16.988  WARN com.wk.engine.config.ServerConfig.init(ServerConfig.java:117) - -----------加载游戏服务器配置-------------
+2017-11-13 16:14:17.194 ERROR com.wk.logic.enm.MsgId.gRErrMsg(MsgId.java:363) - com.wk.server.DnServer.main(DnServer.java:71),消息:房主创建房间请求,CreateRoomCm,error:已经在房间中,code:120
+2017-11-13 16:14:17.384  WARN com.wk.server.DnServer.netRun(DnServer.java:154) - 0.0.0.0:8044 netty启动ok！bossGroupNThreads：16,workerGroupNThreads:64
+2017-11-13 16:14:17.591  WARN com.wk.server.DnServer.main(DnServer.java:81) - 由于上次宕机备份的房间数:0
+2017-11-13 16:14:17.768 ERROR com.wk.engine.inner.BusConnect.registerClient(BusConnect.java:78) - bus<=>gs 注册连接!
+2017-11-13 16:14:17.791  WARN com.wk.engine.inner.BusConnect.checkClient(BusConnect.java:50) - gs登陆bus http请求返回:{"code": 1}
+2017-11-13 16:14:32.734  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：119M,状态：流畅
+2017-11-13 16:15:02.622  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：117M,状态：流畅
+2017-11-13 16:15:32.616  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：116M,状态：流畅
+2017-11-13 16:16:02.618  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：116M,状态：流畅
+2017-11-13 16:16:32.618  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：114M,状态：流畅
+2017-11-13 16:17:02.623  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：113M,状态：流畅
+2017-11-13 16:17:32.620  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：113M,状态：流畅
+2017-11-13 16:18:02.627  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：113M,状态：流畅
+2017-11-13 16:18:09.285 ERROR com.wk.engine.inner.BusConnect.unregisterClient(BusConnect.java:90) - bus<=>gs 注销连接!
+2017-11-13 16:25:07.864  WARN com.wk.engine.config.ServerConfig.init(ServerConfig.java:117) - -----------加载游戏服务器配置-------------
+2017-11-13 16:25:08.118 ERROR com.wk.logic.enm.MsgId.gRErrMsg(MsgId.java:363) - com.wk.server.DnServer.main(DnServer.java:71),消息:房主创建房间请求,CreateRoomCm,error:已经在房间中,code:120
+2017-11-13 16:25:08.355  WARN com.wk.server.DnServer.netRun(DnServer.java:154) - 0.0.0.0:8044 netty启动ok！bossGroupNThreads：16,workerGroupNThreads:64
+2017-11-13 16:25:08.643  WARN com.wk.server.DnServer.main(DnServer.java:81) - 由于上次宕机备份的房间数:0
+2017-11-13 16:25:08.819 ERROR com.wk.engine.inner.BusConnect.registerClient(BusConnect.java:78) - bus<=>gs 注册连接!
+2017-11-13 16:25:08.866  WARN com.wk.engine.inner.BusConnect.checkClient(BusConnect.java:50) - gs登陆bus http请求返回:{"code": 1}
+2017-11-13 16:25:25.686  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：118M,状态：流畅
+2017-11-13 16:25:55.528  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：116M,状态：流畅
+2017-11-13 16:26:25.527  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：116M,状态：流畅
+2017-11-13 16:26:55.534  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：116M,状态：流畅
+2017-11-13 16:27:25.532  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：115M,状态：流畅
+2017-11-13 16:27:55.539  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：115M,状态：流畅
+2017-11-13 16:28:25.535  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：114M,状态：流畅
+2017-11-13 16:28:55.536  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：114M,状态：流畅
+2017-11-13 16:29:25.537  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：114M,状态：流畅
+2017-11-13 16:29:55.539  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：113M,状态：流畅
+2017-11-13 16:30:25.540  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：113M,状态：流畅
+2017-11-13 16:30:55.541  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：113M,状态：流畅
+2017-11-13 16:31:25.547  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：113M,状态：流畅
+2017-11-13 16:31:55.544  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：112M,状态：流畅
+2017-11-13 16:32:25.543  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：112M,状态：流畅
+2017-11-13 16:32:55.543  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：112M,状态：流畅
+2017-11-13 16:33:25.548  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：112M,状态：流畅
+2017-11-13 16:33:55.548  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：111M,状态：流畅
+2017-11-13 16:34:25.551  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：111M,状态：流畅
+2017-11-13 16:34:55.548  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：111M,状态：流畅
+2017-11-13 16:35:25.551  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-13 16:35:55.554  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-13 16:36:25.553  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-13 16:36:55.558  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-13 16:37:25.569  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-13 16:37:55.564  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-13 16:38:25.562  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-13 16:38:55.557  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-13 16:39:25.562  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-13 16:39:55.560  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-13 16:40:25.565  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-13 16:40:55.567  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：110M,状态：流畅
+2017-11-13 16:41:25.567  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：109M,状态：流畅
+2017-11-13 16:41:55.569  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：109M,状态：流畅
+2017-11-13 16:42:25.569  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：109M,状态：流畅
+2017-11-13 16:42:55.571  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：109M,状态：流畅
+2017-11-13 16:43:25.572  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：109M,状态：流畅
+2017-11-13 16:43:55.589  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：109M,状态：流畅
+2017-11-13 16:44:25.577  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：109M,状态：流畅
+2017-11-13 16:44:55.573  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：109M,状态：流畅
+2017-11-13 16:45:25.579  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：109M,状态：流畅
+2017-11-13 16:45:55.578  WARN com.wk.server.logic.login.LoginModule.serverStatusbk(LoginModule.java:276) - 当前在线人数：0,缓存数据数：0,在房间人数：0,netty会话数：1	最大内存：1797M,分配内存：154M,空闲内存：108M,状态：流畅
+2017-11-13 16:46:04.080 ERROR com.wk.engine.inner.BusConnect.unregisterClient(BusConnect.java:90) - bus<=>gs 注销连接!

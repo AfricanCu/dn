@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/WolfTemptation_Server/!svn/ver/3804/dn/dnUtils/src/com/wk/db/dao
+END
+GamerecordDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WolfTemptation_Server/!svn/ver/3804/dn/dnUtils/src/com/wk/db/dao/GamerecordDao.java
+END
+ChargeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/db/dao/ChargeDao.java
+END
+RoomDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/db/dao/RoomDao.java
+END
+BattlebackDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/db/dao/BattlebackDao.java
+END

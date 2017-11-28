@@ -1,0 +1,53 @@
+package gm.server;
+
+import gm.server.logic.task.ServerTask;
+
+import java.io.FileInputStream;
+
+import org.eclipse.jetty.server.Server;
+import org.eclipse.jetty.xml.XmlConfiguration;
+
+import com.jery.ngsp.server.InterfaceFactoryManager;
+import com.jery.ngsp.server.log.LoggerService;
+import com.jery.ngsp.server.scheduletask.ScheduleTaskManager;
+
+public class DnJettyServer {
+
+	private static Server server;
+	public static final ScheduleTaskManager taskManager = InterfaceFactoryManager
+			.getInterfaceFactory().getTimeTaskManager();
+
+	public static void main(String[] args) {
+		try {
+			BusConfig.initLog4J();
+			BusConfig.init();
+			taskManager.start("时效线程池", 4, true);
+			taskManager.submitTask(new ServerTask());
+			Runtime.getRuntime().addShutdownHook(hook);
+			// Cp.main(null);
+			/* jetty Server */
+			server = new Server();
+			/* 配置jetty */
+			new XmlConfiguration(new FileInputStream(BusConfig.jettyXml))
+					.configure(server);
+			server.start();
+			LoggerService.getLogicLog().warn("服务器启动完毕！");
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.exit(0);
+		}
+	}
+
+	private static final Thread hook = new Thread(new Runnable() {
+		@Override
+		public void run() {
+			if (server != null) {
+				try {
+					server.stop();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	});
+}

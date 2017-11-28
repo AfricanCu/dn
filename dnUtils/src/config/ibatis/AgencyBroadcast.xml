@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="agencyBroadcast">
+	<resultMap class="com.wk.gm.bean.AgencyBroadcast" id="agencyBroadcast">
+		<result property="id" column="id" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+		<result property="agency" column="agency" javaType="java.lang.Integer"
+			jdbcType="INT" />	
+		<result property="operation" column="operation" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="card" column="card" javaType="java.lang.Integer"
+			jdbcType="INT" />	
+		<result property="gains" column="gains" javaType="java.lang.Float"
+			jdbcType="FLOAT" nullValue="0"/>
+		<result property="nickName" column="nickName" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="uid" column="uid" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+		<result property="head" column="head" javaType="java.lang.String"
+			jdbcType="VARCHAR" />	
+		<result property="createTime" column="createTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+	</resultMap>
+
+	<parameterMap class="com.wk.gm.bean.AgencyBroadcast" id="parameterAgencyBroadcast">
+		<parameter property="id" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+		<parameter property="agency" javaType="java.lang.Integer"
+			jdbcType="INT" />	
+		<parameter property="operation" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="card"  javaType="java.lang.Integer"
+			jdbcType="INT"/>	
+		<parameter property="gains" javaType="java.lang.Float"
+			jdbcType="FLOAT"/>
+		<parameter property="nickName"  javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="uid"  javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+		<parameter property="head"  javaType="java.lang.String"
+			jdbcType="VARCHAR" />	
+		<parameter property="createTime"  javaType="java.util.Date"
+			jdbcType="DATETIME" />
+	</parameterMap>
+	
+	<!-- 插入个人广播 -->
+	<insert id="insertBroadcast" parameterMap="parameterAgencyBroadcast">
+		<![CDATA[insert into agency_broadcast values(?,?,?,?,?,?,?,?,?)]]>
+	</insert>
+	
+	<!-- 查询代理的个人广播 -->
+	<select id="queryBroadcast" parameterClass="java.util.Map" resultMap="agencyBroadcast">
+		<![CDATA[select * from agency_broadcast where agency=#agency# ORDER BY id desc LIMIT #page#,5]]>
+	</select>
+	
+	<resultMap class="com.wk.gm.bean.AgencyBroadcast" id="agencyBroadcastTwo">
+		<result property="uid" column="uid" javaType="java.lang.Long"
+			jdbcType="BIGINT" />
+		<result property="nickName" column="nickName" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="head" column="head" javaType="java.lang.String"
+			jdbcType="VARCHAR" />			
+		<result property="zhi" column="zhi" javaType="java.lang.Integer"
+			jdbcType="INT" nullValue="0"/>
+		<result property="dai" column="dai" javaType="java.lang.Integer"
+			jdbcType="INT"  nullValue="0"/>	
+	</resultMap>
+	<!-- 查询代理的玩家列表 -->
+	<select id="queryPlayer" parameterClass="java.util.Map" resultMap="agencyBroadcastTwo">
+	<![CDATA[
+		SELECT a.uid,a.nickName, a.head, 
+		(SELECT sum(card) from agency_broadcast where  operation=1 and uid=a.uid and agency=#agency#) as zhi, 
+		(SELECT sum(card) from agency_broadcast where  operation=2  and uid=a.uid and agency=#agency#) as dai 
+		from agency_broadcast a where a.agency=#agency# and a.operation<=2 GROUP BY a.uid 
+		LIMIT #page#,5
+	]]>
+	</select>
+	
+	<!-- 代理的玩家 -->
+	<select id="myPlayer" parameterClass="java.lang.Integer" resultClass="java.lang.Integer">
+	<![CDATA[select COUNT(DISTINCT uid)  from agency_broadcast where agency=#agency# and operation<=2]]>
+	</select>
+	
+	<!-- 代理的直充玩家 -->
+	<select id="qbPlayerCount" parameterClass="java.lang.Integer" resultClass="java.lang.Integer">
+	<![CDATA[select COUNT(DISTINCT uid)  from agency_broadcast where agency=#agency# and operation=1]]>
+	</select>
+	
+	<resultMap class="com.wk.gm.bean.AgencyBroadcast" id="agencyBroadcastThree">
+		<result property="nickName" column="nickName" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="agency" column="agency" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="head" column="head" javaType="java.lang.String"
+			jdbcType="VARCHAR" />			
+		<result property="zhi" column="zhi" javaType="java.lang.Integer"
+			jdbcType="INT" nullValue="0"/>
+		<result property="dai" column="dai" javaType="java.lang.Integer"
+			jdbcType="INT"  nullValue="0"/>
+		<result property="zong" column="zong" javaType="java.lang.Integer"
+			jdbcType="INT"  nullValue="0"/>			
+	</resultMap>
+	
+	<!-- 查询代理的旗下代理列表 -->
+	<select id="queryAgency" parameterClass="java.util.Map" resultMap="agencyBroadcastThree">
+		<![CDATA[
+			select p.nickname as nickName,p.invitation as agency,p.head as head,
+			(select sum(card) from agency_broadcast where agency=p.invitation and  operation=1) as zhi,
+			(select sum(card) from agency_broadcast where agency=p.invitation and  operation=2) as dai,
+			(select COUNT(DISTINCT uid)  from agency_broadcast where agency=p.invitation and operation<=2) as zong
+			from proxy p where p.parent=#parent# and p.flag>0 LIMIT #page#,5
+		]]>		
+	</select>
+	
+	<!-- 查询房卡记录 -->
+	<select id="queryCardRecords" parameterClass="java.util.Map" resultMap="agencyBroadcast">
+		<![CDATA[
+			SELECT * from agency_broadcast 
+			where agency=#agency# and operation=1 
+			or (agency=#agency# and operation=2) 
+			or (agency=#agency# and operation=3) 
+			LIMIT #page#,5
+		]]>
+	</select>
+</sqlMap>
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<!-- 公会 -->
+<sqlMap namespace="guild">
+	<resultMap id="Guild" class="com.wk.guild.bean.GuildBean">
+		<result property="id" column="id" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="name" column="name" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="master" column="master" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="notice" column="notice" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="playType" column="playType" jdbcType="BLOB"
+			typeHandler="com.ibatis.sqlmap.engine.type.ByteArrayTypeHandler" />
+		<result property="registerTime" column="registerTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<result property="serverId" column="serverId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="member" column="member" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="apply" column="apply" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="gameRecord" column="gameRecord" jdbcType="BLOB"
+			typeHandler="com.ibatis.sqlmap.engine.type.ByteArrayTypeHandler" />
+		<result property="dbca" column="dbca" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+	</resultMap>
+	<!-- 查询公会 -->
+	<select id="queryGuild" parameterClass="java.lang.Integer"
+		resultMap="Guild">
+	<![CDATA[
+		SELECT * FROM guild WHERE `id` = #codes#;
+	]]>
+	</select>
+	<parameterMap class="com.wk.guild.bean.GuildBean" id="GuildParameter">
+		<parameter property="name" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="master" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="notice" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="playType" jdbcType="BLOB"
+			typeHandler="com.ibatis.sqlmap.engine.type.ByteArrayTypeHandler" />
+		<parameter property="registerTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+		<parameter property="serverId" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="member" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="apply" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<parameter property="gameRecord" jdbcType="BLOB"
+			typeHandler="com.ibatis.sqlmap.engine.type.ByteArrayTypeHandler" />
+		<parameter property="dbca" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+	</parameterMap>
+	<!-- 插入公会 -->
+	<insert id="insertGuild" parameterMap="GuildParameter">
+		<![CDATA[
+			insert into guild values(null,?,?,?,?,?,?,?,?,?,?)
+		]]>
+		<selectKey keyProperty="id" resultClass="java.lang.Integer">
+		<![CDATA[  
+        	SELECT LAST_INSERT_ID() AS id
+        ]]>
+		</selectKey>
+	</insert>
+	<delete id="deleteGuild" parameterClass="java.lang.Integer">
+	    <![CDATA[
+			delete from guild where id = #code#;
+		]]>
+	</delete>
+</sqlMap>
+

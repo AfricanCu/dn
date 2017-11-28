@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/jery/ngsp/server/scheduletask/type
+END
+DayFixedTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/jery/ngsp/server/scheduletask/type/DayFixedTask.java
+END
+MinuteTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/jery/ngsp/server/scheduletask/type/MinuteTask.java
+END
+SecondTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/jery/ngsp/server/scheduletask/type/SecondTask.java
+END
+MilliSecondTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/jery/ngsp/server/scheduletask/type/MilliSecondTask.java
+END
+HourFixedTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/jery/ngsp/server/scheduletask/type/HourFixedTask.java
+END
+WeekFixedTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/jery/ngsp/server/scheduletask/type/WeekFixedTask.java
+END

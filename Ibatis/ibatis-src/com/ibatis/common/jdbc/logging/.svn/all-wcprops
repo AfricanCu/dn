@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/common/jdbc/logging
+END
+ResultSetLogProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/common/jdbc/logging/ResultSetLogProxy.java
+END
+PreparedStatementLogProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/common/jdbc/logging/PreparedStatementLogProxy.java
+END
+BaseLogProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/common/jdbc/logging/BaseLogProxy.java
+END
+StatementLogProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/common/jdbc/logging/StatementLogProxy.java
+END
+ConnectionLogProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/common/jdbc/logging/ConnectionLogProxy.java
+END

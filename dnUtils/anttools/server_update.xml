@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 更新服务器 -->
+<!--注意：${}不能嵌套使用
+-->
+<project xmlns:antcontrib="antlib:net.sf.antcontrib" name="myssh2" default="download_files">
+	<!-- 全局变量 -->
+	<property name="lib.dir" value="./libs" />
+	<property name="jarPath" value="./bb.jar" />
+	<property name="target.classes.dir" value="../target/classes">
+	</property>
+	<path id="project.classpath">
+		<fileset dir="${lib.dir}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+	<!-- 自定义task对象  -->
+	<taskdef name="deleteFiles" classname="lix.anttools.DeleteFiles" classpathref="project.classpath" />
+	<taskdef name="secureTask" classname="lix.anttools.SecureTask" classpathref="project.classpath" />
+	<taskdef name="BrowserShell" classname="lix.anttools.BareBonesBrowserLaunchTask" classpathref="project.classpath" />
+	<taskdef name="LoadProperiesFile" classname="lix.anttools.LoadPropertiesTask" classpathref="project.classpath" />
+	<taskdef name="Dialog" classname="lix.anttools.DialogTask" classpathref="project.classpath" />
+	<taskdef name="Check" classname="lix.anttools.CheckTask" classpathref="project.classpath" />
+	<taskdef name="svn" classname="org.tigris.subversion.svnant.SvnTask" classpathref="project.classpath" />
+	<!-- if for比较方便 -->
+	<taskdef uri="antlib:net.sf.antcontrib" resource="net/sf/antcontrib/antlib.xml" classpathref="project.classpath" />
+	<!-- 打jar包 -->
+	<target name="jar" description="JARs the Task">
+		<delete file="${jarPath}">
+		</delete>
+		<jar destfile="${jarPath}" basedir="${target.classes.dir}" encoding="UTF-8" />
+	</target>
+	<!-- 选择加载properties文件 -->
+	<target name="loadProperties" depends="jar">
+		<LoadProperiesFile path="./properties" />
+	</target>
+	<!-- 下载 工程文件 -->
+	<target name="download_files" depends="loadProperties">
+		<echo>下载工程文件</echo>
+		<property name="download_dir" value="${gmdir}" />
+		<antcall target="localcopy" />
+		<Check description="是否删除无需上传的文件?" delimiter="," paramlist="yes,no" propertyname="deleteNotNeedFiles">
+		</Check>
+		<antcontrib:if>
+			<equals arg1="${deleteNotNeedFiles}" arg2="yes" />
+			<then>
+				<echo>删除无需上传的文件</echo>
+				<deleteFiles>
+					<filepath path="${gmDeleteFiles}" />
+				</deleteFiles>
+			</then>
+			<else>
+				<echo>不删除无需上传的文件</echo>
+			</else>
+		</antcontrib:if>
+		<antcall target="pack">
+			<param name="rootproject" value="${download_dir}" />
+			<param name="uploadtar" value="${gmuptar}" />
+		</antcall>
+	</target>
+	<!-- 本地拷贝文件 -->
+	<target name="localcopy">
+		<antcontrib:for list="${copy_dirs}" param="dirname" delimiter=",">
+			<sequential>
+				<copy todir="${download_dir}//@{dirname}" overwrite="true">
+					<fileset dir="${projectpath}//@{dirname}" excludes=".svn//" />
+				</copy>
+			</sequential>
+		</antcontrib:for>
+	</target>
+	<!-- 打包文件 -->
+	<target name="pack">
+		<echo>打包${rootproject}文件为${uploadtar}.tar,${uploadtar}.zip</echo>
+		<Dialog title="输入tar打包的文件夹" propertyName="dowhat" delimiter="," paramlist="${copy_dirs}" />
+		<echo>${dowhat}</echo>
+		<mkdir dir="${download_dir}//lib" />
+		<copy file="${jarPath}" verbose="true" todir="${download_dir}//lib" overwrite="true">
+		</copy>
+		<echo>打包的文件为${dowhat}</echo>
+		<delete>
+			<fileset file="${uploadtar}.tar">
+			</fileset>
+			<fileset file="${uploadtar}.zip">
+			</fileset>
+		</delete>
+		<echo>${dowhat},lib/bb.jar</echo>
+		<!--<tar basedir="${rootproject}" destfile="${uploadtar}.tar" includes="${dowhat}" />-->
+		<Check description="是否打包bb.jar?" delimiter="," paramlist="yes,no" propertyname="bb.jar.upload">
+		</Check>
+		<antcontrib:if>
+			<equals arg1="${bb.jar.upload}" arg2="yes" />
+			<then>
+				<echo>打包bb.jar</echo>
+				<zip basedir="${rootproject}" destfile="${uploadtar}.zip" includes="${dowhat},lib/bb.jar" />
+			</then>
+			<else>
+				<echo>不打包bb.jar</echo>
+				<zip basedir="${rootproject}" destfile="${uploadtar}.zip" includes="${dowhat}" />
+			</else>
+		</antcontrib:if>
+		<delete dir="${download_dir}">
+		</delete>
+	</target>
+</project>
+

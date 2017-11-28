@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- web应用的描述 -->
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	metadata-complete="true" version="2.5">
+	<servlet>
+		<servlet-name>functionServlet</servlet-name>
+		<servlet-class>gm.server.logic.FunctionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>functionServlet</servlet-name>
+		<url-pattern>/functionServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>innerServlet</servlet-name>
+		<servlet-class>gm.server.logic.InnerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>innerServlet</servlet-name>
+		<url-pattern>/innerServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>chargeServlet</servlet-name>
+		<servlet-class>gm.server.logic.charge.ChargeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>chargeServlet</servlet-name>
+		<url-pattern>/chargeServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>iosSandboxChargeServlet</servlet-name>
+		<servlet-class>gm.server.logic.charge.IosSandboxChargeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>iosSandboxChargeServlet</servlet-name>
+		<url-pattern>/iosSandboxChargeServletServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>iosChargeServlet</servlet-name>
+		<servlet-class>gm.server.logic.charge.IosChargeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>iosChargeServlet</servlet-name>
+		<url-pattern>/iosChargeServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>genOrderIdServlet</servlet-name>
+		<servlet-class>gm.server.logic.charge.GenOrderIdServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>genOrderIdServlet</servlet-name>
+		<url-pattern>/genOrderIdServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- 过滤器 ：限制访问量 -->
+	<filter>
+		<filter-name>QoSFilter</filter-name>
+		<filter-class>gm.server.util.jsp.QoSFilter</filter-class>
+		<init-param>
+			<param-name>maxRequests</param-name>
+			<param-value>100</param-value>
+		</init-param>
+		<!-- length of time, in milliseconds, to wait while trying to accept a 
+			new request. Used when the maxRequests limit is reached. Default is 50 ms. -->
+		<init-param>
+			<param-name>waitMs</param-name>
+			<param-value>50</param-value>
+		</init-param>
+		<!-- length of time, in milliseconds, that the request will be suspended 
+			if it is not accepted immediately. If not set, the container's default suspend 
+			period applies. Default is -1 ms. -->
+		<init-param>
+			<param-name>suspendMs</param-name>
+			<param-value>-1</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>QoSFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<!-- 过滤器 ：设置访问权限的 -->
+	<filter>
+		<filter-name>authorityFilter</filter-name>
+		<filter-class>gm.server.filter.AuthorityFilter</filter-class>
+		<!-- 防止sql注入的正则表达式 -->
+		<init-param>
+			<param-name>regex</param-name>
+			<!-- (?s)开启了dotall %和;不能有 -->
+			<param-value><![CDATA[(?s).*(\sand\s|exec\s|insert\s|select\s|delete\s|update\s|\scount|\schr|\smid|\smaster|\struncate|\schar|declare\s|\sor\s).*]]></param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>authorityFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<!-- ==================================================================== -->
+	<!-- 默认servlet -->
+	<!-- 这个 servlet, 通常映射到 /, 提供对静态内容的处理, OPTIONS and TRACE methods for the 
+		context. -->
+	<servlet>
+		<servlet-name>default</servlet-name>
+		<servlet-class>org.eclipse.jetty.servlet.DefaultServlet</servlet-class>
+		<init-param>
+			<param-name>aliases</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<init-param>
+			<param-name>acceptRanges</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>
+			<!-- 如果true，如果没有welcome页面就返回目录列表 . 否则 403 禁止 -->
+			<param-name>dirAllowed</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<init-param>
+			<param-name>welcomeServlets</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<init-param>
+			<!-- 是重定位到而不是跳转到 -->
+			<param-name>redirectWelcome</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<init-param>
+			<param-name>maxCacheSize</param-name>
+			<param-value>256000000</param-value>
+		</init-param>
+		<init-param>
+			<param-name>maxCachedFileSize</param-name>
+			<param-value>200000000</param-value>
+		</init-param>
+		<init-param>
+			<param-name>maxCachedFiles</param-name>
+			<param-value>2048</param-value>
+		</init-param>
+		<init-param>
+			<param-name>gzip</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<!-- 是否用文件映射缓存，调试时候设置为false -->
+		<init-param>
+			<param-name>useFileMappedBuffer</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<!-- <init-param> <param-name>resourceCache</param-name> <param-value>resourceCache</param-value> 
+			</init-param> -->
+		<!-- <init-param> <param-name>cacheControl</param-name> <param-value>max-age=3600,public</param-value> 
+			</init-param> -->
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>default</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+	<!-- ==================================================================== -->
+	<locale-encoding-mapping-list>
+		<locale-encoding-mapping>
+			<locale>ar</locale>
+			<encoding>ISO-8859-6</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>be</locale>
+			<encoding>ISO-8859-5</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>bg</locale>
+			<encoding>ISO-8859-5</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>ca</locale>
+			<encoding>ISO-8859-1</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>cs</locale>
+			<encoding>ISO-8859-2</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>da</locale>
+			<encoding>ISO-8859-1</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>de</locale>
+			<encoding>ISO-8859-1</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>el</locale>
+			<encoding>ISO-8859-7</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>en</locale>
+			<encoding>ISO-8859-1</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>es</locale>
+			<encoding>ISO-8859-1</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>et</locale>
+			<encoding>ISO-8859-1</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>fi</locale>
+			<encoding>ISO-8859-1</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>fr</locale>
+			<encoding>ISO-8859-1</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>hr</locale>
+			<encoding>ISO-8859-2</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>hu</locale>
+			<encoding>ISO-8859-2</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>is</locale>
+			<encoding>ISO-8859-1</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>it</locale>
+			<encoding>ISO-8859-1</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>iw</locale>
+			<encoding>ISO-8859-8</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>ja</locale>
+			<encoding>Shift_JIS</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>ko</locale>
+			<encoding>EUC-KR</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>lt</locale>
+			<encoding>ISO-8859-2</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>lv</locale>
+			<encoding>ISO-8859-2</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>mk</locale>
+			<encoding>ISO-8859-5</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>nl</locale>
+			<encoding>ISO-8859-1</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>no</locale>
+			<encoding>ISO-8859-1</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>pl</locale>
+			<encoding>ISO-8859-2</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>pt</locale>
+			<encoding>ISO-8859-1</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>ro</locale>
+			<encoding>ISO-8859-2</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>ru</locale>
+			<encoding>ISO-8859-5</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>sh</locale>
+			<encoding>ISO-8859-5</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>sk</locale>
+			<encoding>ISO-8859-2</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>sl</locale>
+			<encoding>ISO-8859-2</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>sq</locale>
+			<encoding>ISO-8859-2</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>sr</locale>
+			<encoding>ISO-8859-5</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>sv</locale>
+			<encoding>ISO-8859-1</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>tr</locale>
+			<encoding>ISO-8859-9</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>uk</locale>
+			<encoding>ISO-8859-5</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>zh</locale>
+			<encoding>GB2312</encoding>
+		</locale-encoding-mapping>
+		<locale-encoding-mapping>
+			<locale>zh_TW</locale>
+			<encoding>Big5</encoding>
+		</locale-encoding-mapping>
+	</locale-encoding-mapping-list>
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>Disable
+				TRACE</web-resource-name>
+			<url-pattern>/</url-pattern>
+			<http-method>TRACE</http-method>
+		</web-resource-collection>
+		<auth-constraint />
+	</security-constraint>
+</web-app>
+

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/libs
+END
+lix_ssh.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/libs/lix_ssh.jar
+END
+jsch-0.1.51.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/libs/jsch-0.1.51.jar
+END
+ganymed.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/libs/ganymed.jar
+END
+svnClientAdapter.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/libs/svnClientAdapter.jar
+END
+ant-contrib-1.0b3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/libs/ant-contrib-1.0b3.jar
+END
+svnkit.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/libs/svnkit.jar
+END
+jetty-util-7.6.15.v20140411.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/libs/jetty-util-7.6.15.v20140411.jar
+END
+svnant.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/libs/svnant.jar
+END
+log4j-1.2.16.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/libs/log4j-1.2.16.jar
+END
+MyTask.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/libs/MyTask.jar
+END
+svnjavahl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/libs/svnjavahl.jar
+END

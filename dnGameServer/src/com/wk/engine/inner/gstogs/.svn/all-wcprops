@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/WolfTemptation_Server/!svn/ver/4006/dn/dnGameServer/src/com/wk/engine/inner/gstogs
+END
+UserGTGHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/WolfTemptation_Server/!svn/ver/4006/dn/dnGameServer/src/com/wk/engine/inner/gstogs/UserGTGHandler.java
+END
+GsToGsHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/WolfTemptation_Server/!svn/ver/3440/dn/dnGameServer/src/com/wk/engine/inner/gstogs/GsToGsHandler.java
+END
+GuildGTGHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/WolfTemptation_Server/!svn/ver/3440/dn/dnGameServer/src/com/wk/engine/inner/gstogs/GuildGTGHandler.java
+END
+DeferredHandleI.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/WolfTemptation_Server/!svn/ver/3440/dn/dnGameServer/src/com/wk/engine/inner/gstogs/DeferredHandleI.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/WolfTemptation_Server/!svn/ver/4005/dn/dnUtils/src/msg
+END
+BackMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/WolfTemptation_Server/!svn/ver/3522/dn/dnUtils/src/msg/BackMessage.java
+END
+LoginMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/WolfTemptation_Server/!svn/ver/3548/dn/dnUtils/src/msg/LoginMessage.java
+END
+RoomMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/WolfTemptation_Server/!svn/ver/3898/dn/dnUtils/src/msg/RoomMessage.java
+END
+BullMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/WolfTemptation_Server/!svn/ver/3561/dn/dnUtils/src/msg/BullMessage.java
+END
+GuildMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/WolfTemptation_Server/!svn/ver/3615/dn/dnUtils/src/msg/GuildMessage.java
+END
+InnerMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/WolfTemptation_Server/!svn/ver/4005/dn/dnUtils/src/msg/InnerMessage.java
+END

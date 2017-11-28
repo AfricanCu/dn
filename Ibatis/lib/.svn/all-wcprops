@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/WolfTemptation_Server/!svn/ver/140/Ibatis/lib
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/WolfTemptation_Server/!svn/ver/140/Ibatis/lib/commons-logging-1.1.1.jar
+END
+asm-3.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/WolfTemptation_Server/!svn/ver/140/Ibatis/lib/asm-3.3.1.jar
+END
+oscache-2.0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/WolfTemptation_Server/!svn/ver/140/Ibatis/lib/oscache-2.0.2.jar
+END
+commons-dbcp-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/WolfTemptation_Server/!svn/ver/140/Ibatis/lib/commons-dbcp-1.4.jar
+END
+javax.transaction-1.1.1.v201105210645-sources.jar
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WolfTemptation_Server/!svn/ver/140/Ibatis/lib/javax.transaction-1.1.1.v201105210645-sources.jar
+END
+cglib-2.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/WolfTemptation_Server/!svn/ver/140/Ibatis/lib/cglib-2.2.2.jar
+END
+javax.transaction-1.1.1.v201105210645.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WolfTemptation_Server/!svn/ver/140/Ibatis/lib/javax.transaction-1.1.1.v201105210645.jar
+END
+log4j-1.2.16.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/WolfTemptation_Server/!svn/ver/140/Ibatis/lib/log4j-1.2.16.jar
+END
+commons-pool-1.5.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/WolfTemptation_Server/!svn/ver/140/Ibatis/lib/commons-pool-1.5.4.jar
+END

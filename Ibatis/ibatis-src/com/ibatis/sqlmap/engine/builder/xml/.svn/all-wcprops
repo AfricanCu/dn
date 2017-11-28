@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/builder/xml
+END
+SqlStatementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/builder/xml/SqlStatementParser.java
+END
+SqlMapConfigParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/builder/xml/SqlMapConfigParser.java
+END
+SqlMapParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/builder/xml/SqlMapParser.java
+END
+XmlParserState.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/builder/xml/XmlParserState.java
+END
+SqlMapClasspathEntityResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/builder/xml/SqlMapClasspathEntityResolver.java
+END
+sql-map-2.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/builder/xml/sql-map-2.dtd
+END
+sql-map-config-2.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/builder/xml/sql-map-config-2.dtd
+END
+XMLSqlSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/engine/builder/xml/XMLSqlSource.java
+END

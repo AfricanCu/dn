@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="totalBill">
+	<resultMap class="com.wk.gm.bean.TotalBillBean" id="totalBill">
+		<result property="id" column="id" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="agency" column="agency" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="money" column="money" javaType="java.lang.Float"
+			jdbcType="FLOAT" />
+		<result property="startTime" column="startTime" javaType="java.util.Date"
+			jdbcType="DATE" />
+		<result property="endTime" column="endTime" javaType="java.util.Date"
+			jdbcType="DATE" />
+		<result property="voucher" column="voucher" javaType="java.lang.String"
+			jdbcType="VARCHAR" />
+		<result property="settlementTime" column="settlementTime"
+			javaType="java.util.Date" jdbcType="DATETIME" />
+	</resultMap>
+
+	<parameterMap class="com.wk.gm.bean.TotalBillBean" id="parameterTotalBill">
+		<parameter property="id" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="agency" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<parameter property="money" javaType="java.lang.Float"
+			jdbcType="FLOAT" />
+		<parameter property="startTime" javaType="java.util.Date"
+			jdbcType="DATE" />
+		<parameter property="endTime" javaType="java.util.Date"
+		jdbcType="DATE" />
+		<parameter property="voucher" javaType="java.lang.String"
+			jdbcType="VARCHAR" />	
+		<parameter property="settlementTime" javaType="java.util.Date"
+			jdbcType="DATETIME" />
+	</parameterMap>
+
+	<!-- 插入代理返佣数据 -->
+	<insert id="insertTotalBill" parameterMap="parameterTotalBill">
+		<![CDATA[INSERT INTO total_bill VALUES(?,?,?,?,?,?,?)]]>
+	</insert>
+	
+	<!-- 查询总账单 -->
+	<select id="queryTotalBill" resultMap="totalBill" parameterClass="java.util.Map">
+		<![CDATA[
+			select * from total_bill  where agency=#agency# 
+		]]>
+		<isNotNull prepend="and" property="startTime">
+			<![CDATA[date(startTime)=#startTime#]]>
+		</isNotNull>
+		<isNotNull prepend="and" property="startTime">
+			<![CDATA[date(endTime)=#endTime#]]>
+		</isNotNull>
+		<![CDATA[ORDER BY startTime desc ]]>
+	</select>
+	
+	<!-- 修改总账单数据 -->
+	<update id="updateTotalBill" parameterClass="java.util.Map">
+		<![CDATA[update total_bill set money=money+#money# where id=#id#]]>
+	</update>
+	
+	<!-- 通过id 查询总账单 -->
+	<select id="queryIdTotalBill" parameterClass="java.util.Map" resultMap="totalBill">
+		<![CDATA[select * from total_bill where id=#id# and agency=#invitation#]]>
+	</select>
+	
+	<!-- 通过id 查询总账单 -->
+	<select id="totalRevenue" parameterClass="java.util.Map" resultClass="java.lang.Float">
+		<![CDATA[select sum(money) from total_bill where agency=#invitation#]]>
+		<isEqual compareValue="1" property="flag" prepend="and">
+			<![CDATA[voucher is null and settlementTime is null]]>
+		</isEqual>
+	</select>
+	
+	<!-- 分页查询总账单 -->
+	<select id="queryTotalBillPage" parameterClass="java.util.Map" resultMap="totalBill">
+		<![CDATA[select * from total_bill where  agency=#invitation# LIMIT #page#,5]]>
+	</select>
+</sqlMap>
+

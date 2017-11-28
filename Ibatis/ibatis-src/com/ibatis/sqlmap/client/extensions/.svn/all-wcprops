@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/client/extensions
+END
+ParameterSetter.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/client/extensions/ParameterSetter.java
+END
+ResultGetter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/client/extensions/ResultGetter.java
+END
+TypeHandlerCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/client/extensions/TypeHandlerCallback.java
+END

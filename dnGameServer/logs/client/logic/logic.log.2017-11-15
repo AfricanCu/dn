@@ -1,0 +1,93 @@
+2017-11-15 10:00:34.050 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 10:00:34.066 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 10:00:34.081 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 10:00:34.098 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - julebuRoomBuilder
+2017-11-15 10:00:34.581 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择房主创建房间请求  200
+2017-11-15 10:00:34.581 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:245) - 选择1
+2017-11-15 10:01:06.463 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 10:01:06.463 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 10:01:06.479 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 10:01:06.494 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - julebuRoomBuilder
+2017-11-15 10:01:06.728 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择房主创建房间请求  200
+2017-11-15 10:01:06.728 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:245) - 选择1
+2017-11-15 11:27:23.058 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 11:27:23.068 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 11:27:23.078 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 11:27:23.094 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - julebuRoomBuilder
+2017-11-15 11:27:23.323 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择房主创建房间请求  200
+2017-11-15 11:27:23.327 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:245) - 选择1
+2017-11-15 11:47:20.750 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 11:47:20.762 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 11:47:20.775 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 11:47:20.791 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - julebuRoomBuilder
+2017-11-15 11:47:21.067 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择房主创建房间请求  200
+2017-11-15 11:47:21.071 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:245) - 选择1
+2017-11-15 11:47:31.305 ERROR test.client.TestClient.login(TestClient.java:185) - {"uid":1,"sessionCode":"{\"uid\":1,\"accessTime\":1510717651230,\"refreshTime\":1510717651230}","target":{"port":8044,"sessionCode":"{\"uid\":1,\"time\":1510717651231}","loginTime":"1510717651291","serverIp":"192.168.0.111"},"code":1}
+2017-11-15 11:47:31.580 ERROR test.client.TestClient.login(TestClient.java:185) - {"uid":2,"sessionCode":"{\"uid\":2,\"accessTime\":1510717651517,\"refreshTime\":1510717651517}","target":{"port":8044,"sessionCode":"{\"uid\":2,\"time\":1510717651517}","loginTime":"1510717651579","serverIp":"192.168.0.111"},"code":1}
+2017-11-15 11:47:31.647  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - LoginSm：{"code": 1,"nickname": "ranUser1","headimg": "http://192.168.0.111:8118/Login/wechatHeaders1/1","createJ": true,"notice": "xxx"}
+2017-11-15 11:47:31.647  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - LoginSm：{"code": 1,"nickname": "ranUser2","headimg": "http://192.168.0.111:8118/Login/wechatHeaders2/2","createJ": true,"notice": "xxx"}
+2017-11-15 11:47:31.658  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - PlayerCast：{"diamond": 5}
+2017-11-15 11:47:31.665  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - PlayerRecordCast：{"record": [{"nickname": ["ranUser1","ranUser2","ranUser3","ranUser4"],"coin": [1,-2,-1,2],"round": 1,"roomId": "000001","time": 1510655732561,"index": 1},{"nickname": ["ranUser1","ranUser2","ranUser3","ranUser4"],"coin": [7,2,1,-10],"round": 10,"roomId": "000001","time": 1510659074739,"index": 2}]}
+2017-11-15 11:47:31.667  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - ProxyRecordCast：{}
+2017-11-15 11:47:31.696  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - PlayerCast：{"diamond": 5}
+2017-11-15 11:47:31.698  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - PlayerRecordCast：{"record": [{"nickname": ["ranUser1","ranUser2","ranUser3","ranUser4"],"coin": [1,-2,-1,2],"round": 1,"roomId": "000001","time": 1510655732561,"index": 1},{"nickname": ["ranUser1","ranUser2","ranUser3","ranUser4"],"coin": [7,2,1,-10],"round": 10,"roomId": "000001","time": 1510659074739,"index": 2}]}
+2017-11-15 11:47:31.699  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - ProxyRecordCast：{}
+2017-11-15 11:47:31.964  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - CreateRoomSm：{"code": 1,"roomId": "000001","chatRoomId": "8044041121446670823","info": {"uid": 1,"seetIndex": 1,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": true,"headimg": "http://192.168.0.111:8118/Login/wechatHeaders1/1","nickname": "ranUser1","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"},"playType": {"round": 1,"pType": 1,"bankerMode": 1}}
+2017-11-15 11:47:31.965  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - CreateRoomSm：{"code": 1,"roomId": "000002","chatRoomId": "6194658851379396402","info": {"uid": 2,"seetIndex": 1,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": true,"headimg": "http://192.168.0.111:8118/Login/wechatHeaders2/2","nickname": "ranUser2","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"},"playType": {"round": 1,"pType": 1,"bankerMode": 1}}
+2017-11-15 11:47:41.041 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择加入房间请求  204
+2017-11-15 11:47:50.665 ERROR test.client.MessageImpl.getMessage(MessageImpl.java:385) - 消息格式填写错误！！！！！！！！！！！！！！！！JoinRoom
+2017-11-15 11:48:12.201 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 11:48:12.211 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 11:48:12.222 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 11:48:12.234 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - julebuRoomBuilder
+2017-11-15 11:48:12.460 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择房主创建房间请求  200
+2017-11-15 11:48:12.464 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:245) - 选择1
+2017-11-15 11:48:19.192 ERROR test.client.TestClient.login(TestClient.java:185) - {"uid":1,"sessionCode":"{\"uid\":1,\"accessTime\":1510717699097,\"refreshTime\":1510717699097}","target":{"port":8044,"sessionCode":"{\"uid\":1,\"time\":1510717699097}","loginTime":"1510717699157","serverIp":"192.168.0.111"},"code":1}
+2017-11-15 11:48:19.395  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - LoginSm：{"code": 1,"nickname": "ranUser1","headimg": "http://192.168.0.111:8118/Login/wechatHeaders1/1","roomId": "000001","createJ": true,"notice": "xxx"}
+2017-11-15 11:48:19.397  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - PlayerCast：{"diamond": 5}
+2017-11-15 11:48:19.401  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - PlayerRecordCast：{"record": [{"nickname": ["ranUser1","ranUser2","ranUser3","ranUser4"],"coin": [1,-2,-1,2],"round": 1,"roomId": "000001","time": 1510655732561,"index": 1},{"nickname": ["ranUser1","ranUser2","ranUser3","ranUser4"],"coin": [7,2,1,-10],"round": 10,"roomId": "000001","time": 1510659074739,"index": 2}]}
+2017-11-15 11:48:19.402  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - ProxyRecordCast：{}
+2017-11-15 11:48:19.403  WARN test.client.MessageImpl$12.resp(MessageImpl.java:150) - 创建房间失败！！143
+2017-11-15 11:48:19.407 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:368) -ranUser1,143,创建房间失败，已经在房间中
+2017-11-15 11:48:19.412  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - CreateRoomSm：{"code": 143}
+2017-11-15 11:48:25.305 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择加入房间请求  204
+2017-11-15 11:48:33.289 ERROR test.client.MessageImpl.getMessage(MessageImpl.java:385) - 消息格式填写错误！！！！！！！！！！！！！！！！JoinRoom
+2017-11-15 11:48:37.118 ERROR test.client.TestClient.login(TestClient.java:185) - {"uid":2,"sessionCode":"{\"uid\":2,\"accessTime\":1510717717067,\"refreshTime\":1510717717067}","target":{"port":8044,"sessionCode":"{\"uid\":2,\"time\":1510717717068}","loginTime":"1510717717114","serverIp":"192.168.0.111"},"code":1}
+2017-11-15 11:48:37.126 ERROR test.client.MessageImpl.getMessage(MessageImpl.java:385) - 消息格式填写错误！！！！！！！！！！！！！！！！JoinRoom
+2017-11-15 11:48:37.155  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - LoginSm：{"code": 1,"nickname": "ranUser2","headimg": "http://192.168.0.111:8118/Login/wechatHeaders2/2","roomId": "000002","createJ": true,"notice": "xxx"}
+2017-11-15 11:48:37.206  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - PlayerCast：{"diamond": 5}
+2017-11-15 11:48:37.208  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - PlayerRecordCast：{"record": [{"nickname": ["ranUser1","ranUser2","ranUser3","ranUser4"],"coin": [1,-2,-1,2],"round": 1,"roomId": "000001","time": 1510655732561,"index": 1},{"nickname": ["ranUser1","ranUser2","ranUser3","ranUser4"],"coin": [7,2,1,-10],"round": 10,"roomId": "000001","time": 1510659074739,"index": 2}]}
+2017-11-15 11:48:37.209  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - ProxyRecordCast：{}
+2017-11-15 11:48:37.239 ERROR test.client.TestClient.login(TestClient.java:185) - {"uid":3,"sessionCode":"{\"uid\":3,\"accessTime\":1510717717188,\"refreshTime\":1510717717188}","target":{"port":8044,"sessionCode":"{\"uid\":3,\"time\":1510717717188}","loginTime":"1510717717238","serverIp":"192.168.0.111"},"code":1}
+2017-11-15 11:48:37.242 ERROR test.client.MessageImpl.getMessage(MessageImpl.java:385) - 消息格式填写错误！！！！！！！！！！！！！！！！JoinRoom
+2017-11-15 11:48:37.252  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - LoginSm：{"code": 1,"nickname": "ranUser3","headimg": "http://192.168.0.111:8118/Login/wechatHeaders3/3","createJ": true,"notice": "xxx"}
+2017-11-15 11:48:37.314  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - PlayerCast：{"diamond": 5}
+2017-11-15 11:48:37.316  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - PlayerRecordCast：{"record": [{"nickname": ["ranUser1","ranUser2","ranUser3","ranUser4"],"coin": [1,-2,-1,2],"round": 1,"roomId": "000001","time": 1510655732561,"index": 1},{"nickname": ["ranUser1","ranUser2","ranUser3","ranUser4"],"coin": [7,2,1,-10],"round": 10,"roomId": "000001","time": 1510659074739,"index": 2}]}
+2017-11-15 11:48:37.316  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - ProxyRecordCast：{}
+2017-11-15 11:48:50.234 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 11:48:50.244 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 11:48:50.256 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 11:48:50.272 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - julebuRoomBuilder
+2017-11-15 11:48:50.494 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择房主创建房间请求  200
+2017-11-15 11:48:50.497 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:245) - 选择1
+2017-11-15 11:48:53.712 ERROR test.client.TestClient.login(TestClient.java:185) - {"uid":1,"sessionCode":"{\"uid\":1,\"accessTime\":1510717733669,\"refreshTime\":1510717733669}","target":{"port":8044,"sessionCode":"{\"uid\":1,\"time\":1510717733669}","loginTime":"1510717733704","serverIp":"192.168.0.111"},"code":1}
+2017-11-15 11:48:53.943  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - LoginSm：{"code": 1,"nickname": "ranUser1","headimg": "http://192.168.0.111:8118/Login/wechatHeaders1/1","roomId": "000001","createJ": true,"notice": "xxx"}
+2017-11-15 11:48:53.944  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - PlayerCast：{"diamond": 5}
+2017-11-15 11:48:53.948  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - PlayerRecordCast：{"record": [{"nickname": ["ranUser1","ranUser2","ranUser3","ranUser4"],"coin": [1,-2,-1,2],"round": 1,"roomId": "000001","time": 1510655732561,"index": 1},{"nickname": ["ranUser1","ranUser2","ranUser3","ranUser4"],"coin": [7,2,1,-10],"round": 10,"roomId": "000001","time": 1510659074739,"index": 2}]}
+2017-11-15 11:48:53.949  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - ProxyRecordCast：{}
+2017-11-15 11:48:53.950  WARN test.client.MessageImpl$12.resp(MessageImpl.java:150) - 创建房间失败！！143
+2017-11-15 11:48:53.954 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:368) -ranUser1,143,创建房间失败，已经在房间中
+2017-11-15 11:48:53.959  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - CreateRoomSm：{"code": 143}
+2017-11-15 11:48:59.073 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择加入房间请求  204
+2017-11-15 11:49:05.499 ERROR test.client.TestClient.login(TestClient.java:185) - {"uid":2,"sessionCode":"{\"uid\":2,\"accessTime\":1510717745446,\"refreshTime\":1510717745446}","target":{"port":8044,"sessionCode":"{\"uid\":2,\"time\":1510717745447}","loginTime":"1510717745496","serverIp":"192.168.0.111"},"code":1}
+2017-11-15 11:49:05.535 ERROR test.client.MessageImpl.getMessage(MessageImpl.java:385) - 消息格式填写错误！！！！！！！！！！！！！！！！JoinRoom
+2017-11-15 11:49:05.557  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - LoginSm：{"code": 1,"nickname": "ranUser2","headimg": "http://192.168.0.111:8118/Login/wechatHeaders2/2","roomId": "000002","createJ": true,"notice": "xxx"}
+2017-11-15 11:49:05.609  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - PlayerCast：{"diamond": 5}
+2017-11-15 11:49:05.610  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - PlayerRecordCast：{"record": [{"nickname": ["ranUser1","ranUser2","ranUser3","ranUser4"],"coin": [1,-2,-1,2],"round": 1,"roomId": "000001","time": 1510655732561,"index": 1},{"nickname": ["ranUser1","ranUser2","ranUser3","ranUser4"],"coin": [7,2,1,-10],"round": 10,"roomId": "000001","time": 1510659074739,"index": 2}]}
+2017-11-15 11:49:05.612  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:377) - ProxyRecordCast：{}
+2017-11-15 15:05:57.342 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 15:05:57.352 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 15:05:57.364 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-15 15:05:57.379 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - julebuRoomBuilder
+2017-11-15 15:05:57.619 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择房主创建房间请求  200
+2017-11-15 15:05:57.623 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:245) - 选择1

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/db/dao
+END
+ProxyChargeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/db/dao/ProxyChargeDao.java
+END
+AddDiamondDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/db/dao/AddDiamondDao.java
+END
+PlatformDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/db/dao/PlatformDao.java
+END
+StatisticsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/db/dao/StatisticsDao.java
+END
+ShopDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/db/dao/ShopDao.java
+END
+AnnouncementDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/db/dao/AnnouncementDao.java
+END
+MinusCreditsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/db/dao/MinusCreditsDao.java
+END
+TotalBillDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/db/dao/TotalBillDao.java
+END
+AgencyBillDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/db/dao/AgencyBillDao.java
+END
+AgencyBroadcastDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/db/dao/AgencyBroadcastDao.java
+END
+ProxyDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/src/com/wk/gm/db/dao/ProxyDao.java
+END

@@ -1,0 +1,2 @@
+2017-11-14 18:35:32.733  WARN com.wk.server.logic.room.RoomBase.dissolveRoom(RoomBase.java:846) - 移除房间！roomid:000001,没有下个庄了
+2017-11-14 19:31:14.949  WARN com.wk.server.logic.room.RoomBase.dissolveRoom(RoomBase.java:846) - 移除房间！roomid:000001,没有下个庄了

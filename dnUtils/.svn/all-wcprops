@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/WolfTemptation_Server/!svn/ver/4216/dn/dnUtils
+END
+mysql
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/WolfTemptation_Server/!svn/ver/3594/dn/dnUtils/mysql
+END
+linux
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/WolfTemptation_Server/!svn/ver/3598/dn/dnUtils/linux
+END
+log
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/WolfTemptation_Server/!svn/ver/3598/dn/dnUtils/log
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/pom.xml
+END
+XXX
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/XXX
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/.project
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/.classpath
+END

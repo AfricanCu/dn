@@ -1,0 +1,75 @@
+package com.wk.engine.net.I;
+
+import io.netty.channel.Channel;
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.SimpleChannelInboundHandler;
+
+import com.google.protobuf.MessageLite;
+import com.jery.ngsp.server.log.LoggerService;
+import com.wk.engine.net.InnerIoMessage;
+import com.wk.engine.net.InnerMessageManager;
+import com.wk.engine.net.InnerMsgId;
+
+/**
+ * 内部 c/s 客户端抽象
+ * 
+ * @author ems
+ *
+ */
+public abstract class InnerCsConnectAbs extends
+		SimpleChannelInboundHandler<InnerIoMessage> implements
+		CsConnectI<InnerMsgId> {
+	/**
+	 * 客户端
+	 */
+	protected Channel client;
+
+	public void sendMessage(InnerMsgId msgId, MessageLite.Builder builder) {
+		this.sendMessage(msgId, builder.build().toByteArray());
+	}
+
+	public void sendMessage(InnerMsgId msgId, MessageLite messageLite) {
+		this.sendMessage(msgId, messageLite.toByteArray());
+	}
+
+	public void sendMessage(InnerMsgId msgId, byte[] bytes) {
+		if (client == null) {
+			checkClient();
+		}
+		InnerMessageManager.sendInnerMessage(client, msgId, bytes);
+	}
+
+	@Override
+	public final void channelRegistered(ChannelHandlerContext ctx)
+			throws Exception {
+		try {
+			this.registerClient(ctx.channel());
+		} catch (Exception e) {
+			LoggerService.getPlatformLog().error(e.getMessage(), e);
+		} finally {
+			super.channelRegistered(ctx);
+		}
+	}
+
+	// @Override
+	// public void channelActive(ChannelHandlerContext ctx) throws Exception {
+	// super.channelActive(ctx);
+	// }
+
+	@Override
+	public final void channelUnregistered(ChannelHandlerContext ctx)
+			throws Exception {
+		try {
+			this.unregisterClient();
+		} catch (Exception e) {
+			LoggerService.getPlatformLog().error(e.getMessage(), e);
+		} finally {
+			super.channelUnregistered(ctx);
+		}
+	}
+
+	// @Override
+	// public void channelInactive(ChannelHandlerContext ctx) throws Exception {
+	// super.channelInactive(ctx);
+	// }
+}

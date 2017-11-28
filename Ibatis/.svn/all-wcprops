@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/WolfTemptation_Server/!svn/ver/2903/Ibatis
+END
+run.bat
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/run.bat
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/WolfTemptation_Server/!svn/ver/1447/Ibatis/pom.xml
+END
+start.bat
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/start.bat
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/.project
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/WolfTemptation_Server/!svn/ver/1447/Ibatis/.classpath
+END

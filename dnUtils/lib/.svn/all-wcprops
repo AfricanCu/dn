@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/lib
+END
+commons-lang-2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/lib/commons-lang-2.3.jar
+END
+jdeferred-core-1.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/lib/jdeferred-core-1.2.2.jar
+END
+log4j-1.2.16.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/lib/log4j-1.2.16.jar
+END
+mysql-connector-java-5.1.24-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/lib/mysql-connector-java-5.1.24-bin.jar
+END

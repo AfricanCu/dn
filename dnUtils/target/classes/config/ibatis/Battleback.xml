@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<!-- 回放 -->
+<sqlMap namespace="battleback">
+	<resultMap id="Battleback" class="com.wk.bean.BattlebackBean">
+		<result property="id" column="id" javaType="java.lang.Integer"
+			jdbcType="INT" />
+		<result property="data" column="data" jdbcType="BLOB"
+			typeHandler="com.ibatis.sqlmap.engine.type.ByteArrayTypeHandler" />
+	</resultMap>
+	<!-- 查询回放 -->
+	<select id="queryBattleback" parameterClass="java.lang.Integer"
+		resultMap="Battleback">
+	<![CDATA[
+		SELECT * FROM battleback WHERE `id` = #codes#;
+	]]>
+	</select>
+	<parameterMap class="com.wk.bean.BattlebackBean" id="BattlebackParameter">
+		<parameter property="data" jdbcType="BLOB"
+			typeHandler="com.ibatis.sqlmap.engine.type.ByteArrayTypeHandler" />
+	</parameterMap>
+	<!-- 插入回放 -->
+	<insert id="insertBattleback" parameterMap="BattlebackParameter">
+		<![CDATA[
+			insert into battleback values(null,?)
+		]]>
+		<selectKey keyProperty="id" resultClass="java.lang.Integer">
+		<![CDATA[  
+        	SELECT LAST_INSERT_ID() AS id
+        ]]>
+		</selectKey>
+	</insert>
+</sqlMap>
+

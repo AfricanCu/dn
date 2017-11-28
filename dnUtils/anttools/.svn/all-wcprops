@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/WolfTemptation_Server/!svn/ver/3708/dn/dnUtils/anttools
+END
+run.bat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/run.bat
+END
+log
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/log
+END
+bb.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/WolfTemptation_Server/!svn/ver/3443/dn/dnUtils/anttools/bb.jar
+END
+server_update.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/WolfTemptation_Server/!svn/ver/3586/dn/dnUtils/anttools/server_update.xml
+END

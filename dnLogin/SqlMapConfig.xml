@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMapConfig PUBLIC "-//ibatis.apache.org//DTD SQL Map Config 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-config-2.dtd">
+<!-- 流水查询配置 -->
+<sqlMapConfig>
+	<settings cacheModelsEnabled="true" enhancementEnabled="true"
+		lazyLoadingEnabled="true" errorTracingEnabled="true" maxRequests="32"
+		maxSessions="10" maxTransactions="5" useStatementNamespaces="true" />
+	<!-- Configure a built-in transaction manager. If you're using an app server, 
+		you probably want to use its transaction manager and a managed datasource -->
+	<transactionManager type="JDBC" commitRequired="false">
+		<dataSource type="DBCP">
+			<property name="JDBC.Driver" value="com.mysql.jdbc.Driver" />
+			<property name="JDBC.ConnectionURL"
+				value="jdbc:mysql://127.0.0.1:3306/threemjtest?rewriteBatchedStatements=true&amp;useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;failOverReadOnly=false" />
+			<property name="JDBC.Username" value="thj" />
+			<property name="JDBC.Password" value="thjgame123987" />
+			<property name="Pool.MaximumActiveConnections" value="15" />
+			<property name="Pool.MaximumIdleConnections" value="15" />
+			<property name="Pool.MaximumWait" value="60000" />
+			<property name="Pool.ValidationQuery" value="SELECT 1" />
+			<property name="Pool.testOnBorrow" value="true" />
+		</dataSource>
+	</transactionManager>
+	<!-- List the SQL Map XML files. They can be loaded from the classpath, 
+		as they are here (com.domain.data...) -->
+	<sqlMap resource="config/ibatis/User.xml" />
+	<sqlMap resource="config/ibatis/Room.xml" />
+	<sqlMap resource="config/ibatis/Charge.xml" />
+</sqlMapConfig>
+

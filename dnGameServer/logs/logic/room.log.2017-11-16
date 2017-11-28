@@ -1,0 +1,10 @@
+2017-11-16 11:29:11.576  WARN com.wk.server.logic.room.RoomBase.dissolveRoom(RoomBase.java:846) - 移除房间！roomid:000001,没有下个庄了
+2017-11-16 17:59:36.884  WARN com.wk.server.logic.room.RoomBase.dissolveRoom(RoomBase.java:852) - 移除房间！roomid:000001,没有下个庄了
+2017-11-16 18:43:36.387 ERROR com.wk.server.ibatis.select.IncomeUserI.setRoom(IncomeUserI.java:303) - 退出房间了，但玩家已经离线了！uid:1,nickranUser1
+2017-11-16 18:43:36.475  WARN com.wk.server.logic.room.RoomBase.dissolveRoom(RoomBase.java:852) - 移除房间！roomid:000010,没有下个庄了
+2017-11-16 18:48:00.429  WARN com.wk.server.logic.room.RoomBase.dissolveRoom(RoomBase.java:852) - 移除房间！roomid:008238,没有下个庄了
+2017-11-16 18:53:36.451  WARN com.wk.server.logic.room.RoomBase.dissolveRoom(RoomBase.java:852) - 移除房间！roomid:002010,没有下个庄了
+2017-11-16 20:04:48.347  WARN com.wk.server.logic.room.RoomBase.dissolveRoom(RoomBase.java:852) - 移除房间！roomid:002994,没有下个庄了
+2017-11-16 20:17:22.113  WARN com.wk.server.logic.room.RoomBase.dissolveRoom(RoomBase.java:852) - 移除房间！roomid:000010,没有下个庄了
+2017-11-16 20:24:45.003  WARN com.wk.server.logic.room.RoomBase.dissolveRoom(RoomBase.java:852) - 移除房间！roomid:003009,没有下个庄了
+2017-11-16 21:51:16.417  WARN com.wk.server.logic.room.RoomBase.dissolveRoom(RoomBase.java:852) - 移除房间！roomid:000011,房主解散操作

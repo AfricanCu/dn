@@ -1,0 +1,580 @@
+2017-11-13 16:15:18.729 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-13 16:15:18.739 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-13 16:15:18.750 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-13 16:15:18.765 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - julebuRoomBuilder
+2017-11-13 16:15:19.181 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择房主创建房间请求  200
+2017-11-13 16:15:19.185 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:245) - 选择1
+2017-11-13 16:15:42.499 ERROR test.client.TestClient.login(TestClient.java:183) - {"code":10024}
+2017-11-13 16:15:42.500 ERROR test.client.TestClient.login(TestClient.java:186) - 登录失败！！！10024
+2017-11-13 16:15:42.500 ERROR test.client.TestClient.connect(TestClient.java:150) - {"code":10024}
+2017-11-13 16:15:46.730 ERROR test.client.TestClient.login(TestClient.java:183) - {"code":10024}
+2017-11-13 16:15:46.731 ERROR test.client.TestClient.login(TestClient.java:186) - 登录失败！！！10024
+2017-11-13 16:15:46.732 ERROR test.client.TestClient.connect(TestClient.java:150) - {"code":10024}
+2017-11-13 16:15:56.119 ERROR test.client.TestClient.login(TestClient.java:183) - {"code":10024}
+2017-11-13 16:15:56.120 ERROR test.client.TestClient.login(TestClient.java:186) - 登录失败！！！10024
+2017-11-13 16:15:56.121 ERROR test.client.TestClient.connect(TestClient.java:150) - {"code":10024}
+2017-11-13 16:15:56.763 ERROR test.client.TestClient.login(TestClient.java:183) - {"code":5}
+2017-11-13 16:15:56.763 ERROR test.client.TestClient.login(TestClient.java:186) - 登录失败！！！5
+2017-11-13 16:15:56.764 ERROR test.client.TestClient.connect(TestClient.java:150) - {"code":5}
+2017-11-13 16:16:52.318 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-13 16:16:52.328 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-13 16:16:52.339 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-13 16:16:52.351 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - julebuRoomBuilder
+2017-11-13 16:16:52.593 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择房主创建房间请求  200
+2017-11-13 16:16:52.597 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:245) - 选择1
+2017-11-13 16:17:05.421 ERROR test.client.TestClient.login(TestClient.java:183) - {"code":10024}
+2017-11-13 16:17:05.422 ERROR test.client.TestClient.login(TestClient.java:186) - 登录失败！！！10024
+2017-11-13 16:17:05.423 ERROR test.client.TestClient.connect(TestClient.java:150) - {"code":10024}
+2017-11-13 16:17:08.663 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":268,"sessionCode":"{\"uid\":268,\"accessTime\":1510561028359,\"refreshTime\":1510561028359}","target":{"port":8044,"sessionCode":"{\"uid\":268,\"time\":1510561028359}","loginTime":"1510561028366","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:17:08.908  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser1","headimg": "http://192.168.0.42:8118/Login/wechatHeaders268/268","join": [{"id": 1000023,"name": "q","masterUid": 287,"masterName": "q","headimg": "http://192.168.0.42:8118/Login/wechatHeaders287/287","state": 2,"playType": "20局 疯狂加倍 轮庄","num": 0}],"my": [{"id": 22,"name": "ranUser1","masterUid": 268,"masterName": "ranUser1","headimg": "http://192.168.0.42:8118/Login/wechatHeaders268/268","state": 3,"playType": "10局 经典玩法 抢庄","num": 0}],"createJ": true,"notice": "xxx"}
+2017-11-13 16:17:08.911  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 0}
+2017-11-13 16:17:08.915  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{"record": [{"nickname": ["q","ranUser1"],"coin": [5,-5],"round": 1,"roomId": "000391","time": 1510311985100,"index": 37},{"nickname": ["q","ranUser1"],"coin": [2,-2],"round": 1,"roomId": "002960","time": 1510312035697,"index": 38},{"nickname": ["q","ranUser1"],"coin": [3,-3],"round": 1,"roomId": "004007","time": 1510312083794,"index": 39},{"nickname": ["q","ranUser1"],"coin": [-9,9],"round": 1,"roomId": "006305","time": 1510312179654,"index": 40}]}
+2017-11-13 16:17:08.916  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:17:08.923  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - CreateRoomSm：{"code": 1,"roomId": "000268","chatRoomId": "828900832259425637","info": {"uid": 268,"seetIndex": 1,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": true,"headimg": "http://192.168.0.42:8118/Login/wechatHeaders268/268","nickname": "ranUser1","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"},"playType": {"round": 1,"pType": 1,"bankerMode": 1}}
+2017-11-13 16:17:25.011 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择加入房间请求  204
+2017-11-13 16:17:29.179 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择房主加入房间预处理请求  202
+2017-11-13 16:17:30.580  WARN test.client.MessageImpl$21.resp(MessageImpl.java:259) - 加入房间预处理失败！！5
+2017-11-13 16:17:30.584 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser1,5,异常
+2017-11-13 16:17:30.585  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomBeforeSm：{"code": 5}
+2017-11-13 16:17:39.048  WARN test.client.MessageImpl$21.resp(MessageImpl.java:259) - 加入房间预处理失败！！213
+2017-11-13 16:17:39.049 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser1,213,已经在房间中，无能创房
+2017-11-13 16:17:39.050  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomBeforeSm：{"code": 213}
+2017-11-13 16:17:40.272 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":275,"sessionCode":"{\"uid\":275,\"accessTime\":1509457145000,\"refreshTime\":1509457145000}","target":{"port":8044,"sessionCode":"{\"uid\":275,\"time\":1510561059970}","loginTime":"1510561059976","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:17:40.298  WARN test.client.MessageImpl$17.resp(MessageImpl.java:199) - 登陆失败！！216
+2017-11-13 16:17:40.301 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser2,216,双登
+2017-11-13 16:17:40.302  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 216}
+2017-11-13 16:17:40.322 ERROR test.client.TestClient$MessageInboundHandler.channelInactive(TestClient.java:253) - 断线275！！！！！！！！！！！！
+2017-11-13 16:17:52.698 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":278,"sessionCode":"{\"uid\":278,\"accessTime\":1509007281000,\"refreshTime\":1509007281000}","target":{"port":8044,"sessionCode":"{\"uid\":278,\"time\":1510561072395}","loginTime":"1510561072402","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:17:52.722  WARN test.client.MessageImpl$17.resp(MessageImpl.java:199) - 登陆失败！！216
+2017-11-13 16:17:52.724 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser3,216,双登
+2017-11-13 16:17:52.725  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 216}
+2017-11-13 16:17:52.728 ERROR test.client.TestClient$MessageInboundHandler.channelInactive(TestClient.java:253) - 断线278！！！！！！！！！！！！
+2017-11-13 16:17:53.375 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":295,"sessionCode":"{\"uid\":295,\"accessTime\":1510561073074,\"refreshTime\":1510561073074}","target":{"port":8044,"sessionCode":"{\"uid\":295,\"time\":1510561073074}","loginTime":"1510561073081","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:17:53.395  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser4","headimg": "http://192.168.0.42:8118/Login/wechatHeaders295/295","createJ": true,"notice": "xxx"}
+2017-11-13 16:17:53.402  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:17:53.403  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:17:53.404  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:17:53.421  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomSm：{"code": 1,"seatIndex": 2,"chatRoomId": "828900832259425637","users": [{"uid": 268,"seetIndex": 1,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": true,"headimg": "http://192.168.0.42:8118/Login/wechatHeaders268/268","nickname": "ranUser1","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"},{"uid": 295,"seetIndex": 2,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": false,"headimg": "http://192.168.0.42:8118/Login/wechatHeaders295/295","nickname": "ranUser4","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"}],"playType": {"round": 1,"pType": 1,"bankerMode": 1},"roomId": "000268","julebuRoom": {}}
+2017-11-13 16:17:53.433  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomCast：{"addUser": {"uid": 295,"seetIndex": 2,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": false,"headimg": "http://192.168.0.42:8118/Login/wechatHeaders295/295","nickname": "ranUser4","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"}}
+2017-11-13 16:17:54.180 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":296,"sessionCode":"{\"uid\":296,\"accessTime\":1510561073878,\"refreshTime\":1510561073878}","target":{"port":8044,"sessionCode":"{\"uid\":296,\"time\":1510561073878}","loginTime":"1510561073885","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:17:54.205  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser5","headimg": "http://192.168.0.42:8118/Login/wechatHeaders296/296","createJ": true,"notice": "xxx"}
+2017-11-13 16:17:54.214  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:17:54.215  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:17:54.216  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:17:54.232  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomSm：{"code": 1,"seatIndex": 3,"chatRoomId": "828900832259425637","users": [{"uid": 268,"seetIndex": 1,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": true,"headimg": "http://192.168.0.42:8118/Login/wechatHeaders268/268","nickname": "ranUser1","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"},{"uid": 295,"seetIndex": 2,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": false,"headimg": "http://192.168.0.42:8118/Login/wechatHeaders295/295","nickname": "ranUser4","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"},{"uid": 296,"seetIndex": 3,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": false,"headimg": "http://192.168.0.42:8118/Login/wechatHeaders296/296","nickname": "ranUser5","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"}],"playType": {"round": 1,"pType": 1,"bankerMode": 1},"roomId": "000268","julebuRoom": {}}
+2017-11-13 16:17:54.233  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomCast：{"addUser": {"uid": 296,"seetIndex": 3,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": false,"headimg": "http://192.168.0.42:8118/Login/wechatHeaders296/296","nickname": "ranUser5","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"}}
+2017-11-13 16:17:54.236  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomCast：{"addUser": {"uid": 296,"seetIndex": 3,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": false,"headimg": "http://192.168.0.42:8118/Login/wechatHeaders296/296","nickname": "ranUser5","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"}}
+2017-11-13 16:17:54.893 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":297,"sessionCode":"{\"uid\":297,\"accessTime\":1510561074590,\"refreshTime\":1510561074590}","target":{"port":8044,"sessionCode":"{\"uid\":297,\"time\":1510561074591}","loginTime":"1510561074598","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:17:54.919  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser6","headimg": "http://192.168.0.42:8118/Login/wechatHeaders297/297","createJ": true,"notice": "xxx"}
+2017-11-13 16:17:54.927  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:17:54.928  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:17:54.929  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:17:54.945  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomCast：{"addUser": {"uid": 297,"seetIndex": 4,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": false,"headimg": "http://192.168.0.42:8118/Login/wechatHeaders297/297","nickname": "ranUser6","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"}}
+2017-11-13 16:17:54.945  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomCast：{"addUser": {"uid": 297,"seetIndex": 4,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": false,"headimg": "http://192.168.0.42:8118/Login/wechatHeaders297/297","nickname": "ranUser6","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"}}
+2017-11-13 16:17:54.948  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomSm：{
+ "seatIndex": 4,
+ "users": [
+  {
+   "userState": 1,
+   "uid": 268,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "ranUser1",
+   "gstate": 0,
+   "coin": 0,
+   "headimg": "http://192.168.0.42:8118/Login/wechatHeaders268/268",
+   "isMaster": true,
+   "seetIndex": 1,
+   "ip": "192.168.0.111"
+  },
+  {
+   "userState": 1,
+   "uid": 295,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "ranUser4",
+   "gstate": 0,
+   "coin": 0,
+   "headimg": "http://192.168.0.42:8118/Login/wechatHeaders295/295",
+   "isMaster": false,
+   "seetIndex": 2,
+   "ip": "192.168.0.111"
+  },
+  {
+   "userState": 1,
+   "uid": 296,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "ranUser5",
+   "gstate": 0,
+   "coin": 0,
+   "headimg": "http://192.168.0.42:8118/Login/wechatHeaders296/296",
+   "isMaster": false,
+   "seetIndex": 3,
+   "ip": "192.168.0.111"
+  },
+  {
+   "userState": 1,
+   "uid": 297,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "ranUser6",
+   "gstate": 0,
+   "coin": 0,
+   "headimg": "http://192.168.0.42:8118/Login/wechatHeaders297/297",
+   "isMaster": false,
+   "seetIndex": 4,
+   "ip": "192.168.0.111"
+  }
+ ],
+ "chatRoomId": "828900832259425637",
+ "roomId": "000268",
+ "playType": {
+  "bankerMode": 1,
+  "round": 1,
+  "pType": 1
+ },
+ "code": 1,
+ "julebuRoom": {}
+}
+2017-11-13 16:17:54.963  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomCast：{"addUser": {"uid": 297,"seetIndex": 4,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": false,"headimg": "http://192.168.0.42:8118/Login/wechatHeaders297/297","nickname": "ranUser6","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"}}
+2017-11-13 16:17:55.589 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":298,"sessionCode":"{\"uid\":298,\"accessTime\":1510561075286,\"refreshTime\":1510561075286}","target":{"port":8044,"sessionCode":"{\"uid\":298,\"time\":1510561075287}","loginTime":"1510561075294","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:17:55.618  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser7","headimg": "http://192.168.0.42:8118/Login/wechatHeaders298/298","createJ": true,"notice": "xxx"}
+2017-11-13 16:17:55.622  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:17:55.624  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:17:55.625  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:17:55.645  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomCast：{"addUser": {"uid": 298,"seetIndex": 5,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": false,"headimg": "http://192.168.0.42:8118/Login/wechatHeaders298/298","nickname": "ranUser7","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"}}
+2017-11-13 16:17:55.645  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomSm：{
+ "seatIndex": 5,
+ "users": [
+  {
+   "userState": 1,
+   "uid": 268,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "ranUser1",
+   "gstate": 0,
+   "coin": 0,
+   "headimg": "http://192.168.0.42:8118/Login/wechatHeaders268/268",
+   "isMaster": true,
+   "seetIndex": 1,
+   "ip": "192.168.0.111"
+  },
+  {
+   "userState": 1,
+   "uid": 295,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "ranUser4",
+   "gstate": 0,
+   "coin": 0,
+   "headimg": "http://192.168.0.42:8118/Login/wechatHeaders295/295",
+   "isMaster": false,
+   "seetIndex": 2,
+   "ip": "192.168.0.111"
+  },
+  {
+   "userState": 1,
+   "uid": 296,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "ranUser5",
+   "gstate": 0,
+   "coin": 0,
+   "headimg": "http://192.168.0.42:8118/Login/wechatHeaders296/296",
+   "isMaster": false,
+   "seetIndex": 3,
+   "ip": "192.168.0.111"
+  },
+  {
+   "userState": 1,
+   "uid": 297,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "ranUser6",
+   "gstate": 0,
+   "coin": 0,
+   "headimg": "http://192.168.0.42:8118/Login/wechatHeaders297/297",
+   "isMaster": false,
+   "seetIndex": 4,
+   "ip": "192.168.0.111"
+  },
+  {
+   "userState": 1,
+   "uid": 298,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "ranUser7",
+   "gstate": 0,
+   "coin": 0,
+   "headimg": "http://192.168.0.42:8118/Login/wechatHeaders298/298",
+   "isMaster": false,
+   "seetIndex": 5,
+   "ip": "192.168.0.111"
+  }
+ ],
+ "chatRoomId": "828900832259425637",
+ "roomId": "000268",
+ "playType": {
+  "bankerMode": 1,
+  "round": 1,
+  "pType": 1
+ },
+ "code": 1,
+ "julebuRoom": {}
+}
+2017-11-13 16:17:55.646  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomCast：{"addUser": {"uid": 298,"seetIndex": 5,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": false,"headimg": "http://192.168.0.42:8118/Login/wechatHeaders298/298","nickname": "ranUser7","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"}}
+2017-11-13 16:17:55.647  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomCast：{"addUser": {"uid": 298,"seetIndex": 5,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": false,"headimg": "http://192.168.0.42:8118/Login/wechatHeaders298/298","nickname": "ranUser7","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"}}
+2017-11-13 16:17:55.648  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomCast：{"addUser": {"uid": 298,"seetIndex": 5,"gstate": 0,"userState": 1,"imSeatIndex": 0,"isMaster": false,"headimg": "http://192.168.0.42:8118/Login/wechatHeaders298/298","nickname": "ranUser7","coin": 0,"sex": 1,"ns": {},"ip": "192.168.0.111"}}
+2017-11-13 16:17:56.171 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":299,"sessionCode":"{\"uid\":299,\"accessTime\":1510561075869,\"refreshTime\":1510561075869}","target":{"port":8044,"sessionCode":"{\"uid\":299,\"time\":1510561075870}","loginTime":"1510561075876","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:17:56.196  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser8","headimg": "http://192.168.0.42:8118/Login/wechatHeaders299/299","createJ": true,"notice": "xxx"}
+2017-11-13 16:17:56.202  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:17:56.204  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:17:56.208  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:17:56.212  WARN test.client.MessageImpl$20.resp(MessageImpl.java:235) - 加入房间失败！！123
+2017-11-13 16:17:56.213 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser8,123,加房间无剩余位置
+2017-11-13 16:17:56.214  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomSm：{"code": 123}
+2017-11-13 16:26:07.671 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-13 16:26:07.681 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-13 16:26:07.694 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-13 16:26:07.709 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - julebuRoomBuilder
+2017-11-13 16:26:07.941 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择房主创建房间请求  200
+2017-11-13 16:26:07.944 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:245) - 选择1
+2017-11-13 16:26:30.400 ERROR test.client.TestClient.login(TestClient.java:183) - {"code":10024}
+2017-11-13 16:26:30.400 ERROR test.client.TestClient.login(TestClient.java:186) - 登录失败！！！10024
+2017-11-13 16:26:30.401 ERROR test.client.TestClient.connect(TestClient.java:150) - {"code":10024}
+2017-11-13 16:26:35.071 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":268,"sessionCode":"{\"uid\":268,\"accessTime\":1510561594772,\"refreshTime\":1510561594772}","target":{"port":8044,"sessionCode":"{\"uid\":268,\"time\":1510561594772}","loginTime":"1510561594780","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:26:35.308  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser1","headimg": "http://192.168.0.42:8118/Login/wechatHeaders268/268","roomId": "000268","join": [{"id": 1000023,"name": "q","masterUid": 287,"masterName": "q","headimg": "http://192.168.0.42:8118/Login/wechatHeaders287/287","state": 2,"playType": "20局 疯狂加倍 轮庄","num": 0}],"my": [{"id": 22,"name": "ranUser1","masterUid": 268,"masterName": "ranUser1","headimg": "http://192.168.0.42:8118/Login/wechatHeaders268/268","state": 3,"playType": "10局 经典玩法 抢庄","num": 0}],"createJ": true,"notice": "xxx"}
+2017-11-13 16:26:35.311  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 0}
+2017-11-13 16:26:35.315  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{"record": [{"nickname": ["q","ranUser1"],"coin": [3,-3],"round": 1,"roomId": "004007","time": 1510312083794,"index": 39},{"nickname": ["q","ranUser1"],"coin": [-9,9],"round": 1,"roomId": "006305","time": 1510312179654,"index": 40}]}
+2017-11-13 16:26:35.317  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:26:35.318  WARN test.client.MessageImpl$12.resp(MessageImpl.java:150) - 创建房间失败！！143
+2017-11-13 16:26:35.321 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser1,143,创建房间失败，已经在房间中
+2017-11-13 16:26:35.326  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - CreateRoomSm：{"code": 143}
+2017-11-13 16:26:41.099 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择房主加入房间预处理请求  202
+2017-11-13 16:26:48.450  WARN test.client.MessageImpl$21.resp(MessageImpl.java:259) - 加入房间预处理失败！！213
+2017-11-13 16:26:48.452 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser1,213,已经在房间中，无能创房
+2017-11-13 16:26:48.453  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomBeforeSm：{"code": 213}
+2017-11-13 16:26:50.921 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":275,"sessionCode":"{\"uid\":275,\"accessTime\":1509457145000,\"refreshTime\":1509457145000}","target":{"port":8044,"sessionCode":"{\"uid\":275,\"time\":1510561610624}","loginTime":"1510561610630","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:26:50.953  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser2","headimg": "http://192.168.0.42:8118/Login/wechatHeaders275/275","join": [{"id": 1000023,"name": "q","masterUid": 287,"masterName": "q","headimg": "http://192.168.0.42:8118/Login/wechatHeaders287/287","state": 2,"playType": "20局 疯狂加倍 轮庄","num": 0}],"createJ": true,"notice": "xxx"}
+2017-11-13 16:26:50.954  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:26:50.966  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{"record": [{"nickname": ["q","ranUser2"],"coin": [-7,7],"round": 1,"roomId": "007060","time": 1510365932553,"index": 52}]}
+2017-11-13 16:26:50.967  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:26:50.973  WARN test.client.MessageImpl$20.resp(MessageImpl.java:235) - 加入房间失败！！123
+2017-11-13 16:26:50.974 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser2,123,加房间无剩余位置
+2017-11-13 16:26:50.974  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomSm：{"code": 123}
+2017-11-13 16:27:04.611 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":300,"sessionCode":"{\"uid\":300,\"accessTime\":1510561624313,\"refreshTime\":1510561624313}","target":{"port":8044,"sessionCode":"{\"uid\":300,\"time\":1510561624313}","loginTime":"1510561624321","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:04.637  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot0","headimg": "http://192.168.0.42:8118/Login/wechatHeaders300/300","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:04.645  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:04.647  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:04.647  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:05.668 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":301,"sessionCode":"{\"uid\":301,\"accessTime\":1510561625370,\"refreshTime\":1510561625370}","target":{"port":8044,"sessionCode":"{\"uid\":301,\"time\":1510561625370}","loginTime":"1510561625378","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:05.695  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot1","headimg": "http://192.168.0.42:8118/Login/wechatHeaders301/301","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:05.702  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:05.703  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:05.705  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:05.791 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":302,"sessionCode":"{\"uid\":302,\"accessTime\":1510561625493,\"refreshTime\":1510561625493}","target":{"port":8044,"sessionCode":"{\"uid\":302,\"time\":1510561625493}","loginTime":"1510561625501","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:05.822  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot2","headimg": "http://192.168.0.42:8118/Login/wechatHeaders302/302","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:05.831  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:05.832  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:05.833  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:09.900 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":303,"sessionCode":"{\"uid\":303,\"accessTime\":1510561629603,\"refreshTime\":1510561629603}","target":{"port":8044,"sessionCode":"{\"uid\":303,\"time\":1510561629603}","loginTime":"1510561629610","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:09.931  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot3","headimg": "http://192.168.0.42:8118/Login/wechatHeaders303/303","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:09.945  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:09.946  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:09.947  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:10.113 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":304,"sessionCode":"{\"uid\":304,\"accessTime\":1510561629815,\"refreshTime\":1510561629815}","target":{"port":8044,"sessionCode":"{\"uid\":304,\"time\":1510561629815}","loginTime":"1510561629824","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:10.166  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot4","headimg": "http://192.168.0.42:8118/Login/wechatHeaders304/304","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:10.175  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:10.176  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:10.177  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:10.484 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":305,"sessionCode":"{\"uid\":305,\"accessTime\":1510561630186,\"refreshTime\":1510561630186}","target":{"port":8044,"sessionCode":"{\"uid\":305,\"time\":1510561630187}","loginTime":"1510561630194","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:10.516  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot5","headimg": "http://192.168.0.42:8118/Login/wechatHeaders305/305","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:10.524  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:10.526  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:10.527  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:11.087 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":306,"sessionCode":"{\"uid\":306,\"accessTime\":1510561630788,\"refreshTime\":1510561630788}","target":{"port":8044,"sessionCode":"{\"uid\":306,\"time\":1510561630788}","loginTime":"1510561630797","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:11.115  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot6","headimg": "http://192.168.0.42:8118/Login/wechatHeaders306/306","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:11.129  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:11.139  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:11.140  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:11.380 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":307,"sessionCode":"{\"uid\":307,\"accessTime\":1510561631082,\"refreshTime\":1510561631082}","target":{"port":8044,"sessionCode":"{\"uid\":307,\"time\":1510561631083}","loginTime":"1510561631089","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:11.408  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot7","headimg": "http://192.168.0.42:8118/Login/wechatHeaders307/307","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:11.416  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:11.417  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:11.419  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:12.697 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":308,"sessionCode":"{\"uid\":308,\"accessTime\":1510561632400,\"refreshTime\":1510561632400}","target":{"port":8044,"sessionCode":"{\"uid\":308,\"time\":1510561632400}","loginTime":"1510561632407","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:12.722  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot8","headimg": "http://192.168.0.42:8118/Login/wechatHeaders308/308","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:12.729  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:12.732  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:12.733  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:15.731 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":309,"sessionCode":"{\"uid\":309,\"accessTime\":1510561635433,\"refreshTime\":1510561635433}","target":{"port":8044,"sessionCode":"{\"uid\":309,\"time\":1510561635433}","loginTime":"1510561635440","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:15.757  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot9","headimg": "http://192.168.0.42:8118/Login/wechatHeaders309/309","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:15.764  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:15.766  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:15.767  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:17.000 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":310,"sessionCode":"{\"uid\":310,\"accessTime\":1510561636703,\"refreshTime\":1510561636703}","target":{"port":8044,"sessionCode":"{\"uid\":310,\"time\":1510561636703}","loginTime":"1510561636710","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:17.031  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot10","headimg": "http://192.168.0.42:8118/Login/wechatHeaders310/310","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:17.035  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:17.037  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:17.037  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:17.180 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":311,"sessionCode":"{\"uid\":311,\"accessTime\":1510561636881,\"refreshTime\":1510561636881}","target":{"port":8044,"sessionCode":"{\"uid\":311,\"time\":1510561636881}","loginTime":"1510561636890","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:17.210  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot11","headimg": "http://192.168.0.42:8118/Login/wechatHeaders311/311","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:17.218  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:17.220  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:17.221  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:17.360 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":312,"sessionCode":"{\"uid\":312,\"accessTime\":1510561637054,\"refreshTime\":1510561637054}","target":{"port":8044,"sessionCode":"{\"uid\":312,\"time\":1510561637054}","loginTime":"1510561637070","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:17.387  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot12","headimg": "http://192.168.0.42:8118/Login/wechatHeaders312/312","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:17.395  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:17.397  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:17.398  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:17.996 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":313,"sessionCode":"{\"uid\":313,\"accessTime\":1510561637700,\"refreshTime\":1510561637700}","target":{"port":8044,"sessionCode":"{\"uid\":313,\"time\":1510561637700}","loginTime":"1510561637706","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:18.051  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot13","headimg": "http://192.168.0.42:8118/Login/wechatHeaders313/313","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:18.053  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:18.054  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:18.055  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:19.374 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":314,"sessionCode":"{\"uid\":314,\"accessTime\":1510561639078,\"refreshTime\":1510561639078}","target":{"port":8044,"sessionCode":"{\"uid\":314,\"time\":1510561639079}","loginTime":"1510561639084","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:19.403  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot14","headimg": "http://192.168.0.42:8118/Login/wechatHeaders314/314","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:19.408  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:19.412  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:19.413  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:19.438 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":315,"sessionCode":"{\"uid\":315,\"accessTime\":1510561639142,\"refreshTime\":1510561639142}","target":{"port":8044,"sessionCode":"{\"uid\":315,\"time\":1510561639142}","loginTime":"1510561639149","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:19.464  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot15","headimg": "http://192.168.0.42:8118/Login/wechatHeaders315/315","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:19.482  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:19.483  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:19.484  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:19.794 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":316,"sessionCode":"{\"uid\":316,\"accessTime\":1510561639498,\"refreshTime\":1510561639498}","target":{"port":8044,"sessionCode":"{\"uid\":316,\"time\":1510561639498}","loginTime":"1510561639505","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:19.814  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot16","headimg": "http://192.168.0.42:8118/Login/wechatHeaders316/316","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:19.822  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:19.823  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:19.824  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:20.093 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":317,"sessionCode":"{\"uid\":317,\"accessTime\":1510561639795,\"refreshTime\":1510561639796}","target":{"port":8044,"sessionCode":"{\"uid\":317,\"time\":1510561639796}","loginTime":"1510561639803","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:20.122  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot17","headimg": "http://192.168.0.42:8118/Login/wechatHeaders317/317","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:20.131  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:20.132  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:20.133  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:22.163 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":318,"sessionCode":"{\"uid\":318,\"accessTime\":1510561641864,\"refreshTime\":1510561641864}","target":{"port":8044,"sessionCode":"{\"uid\":318,\"time\":1510561641864}","loginTime":"1510561641872","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:22.191  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot18","headimg": "http://192.168.0.42:8118/Login/wechatHeaders318/318","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:22.198  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:22.199  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:22.201  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:22.811 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":319,"sessionCode":"{\"uid\":319,\"accessTime\":1510561642515,\"refreshTime\":1510561642515}","target":{"port":8044,"sessionCode":"{\"uid\":319,\"time\":1510561642515}","loginTime":"1510561642522","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:22.835  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot19","headimg": "http://192.168.0.42:8118/Login/wechatHeaders319/319","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:22.845  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:22.846  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:22.848  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:23.164 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":320,"sessionCode":"{\"uid\":320,\"accessTime\":1510561642867,\"refreshTime\":1510561642868}","target":{"port":8044,"sessionCode":"{\"uid\":320,\"time\":1510561642868}","loginTime":"1510561642874","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:23.210  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot20","headimg": "http://192.168.0.42:8118/Login/wechatHeaders320/320","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:23.212  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:23.212  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:23.213  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:23.282 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":321,"sessionCode":"{\"uid\":321,\"accessTime\":1510561642984,\"refreshTime\":1510561642984}","target":{"port":8044,"sessionCode":"{\"uid\":321,\"time\":1510561642984}","loginTime":"1510561642992","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:23.319  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot21","headimg": "http://192.168.0.42:8118/Login/wechatHeaders321/321","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:23.328  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:23.329  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:23.330  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:24.878 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":322,"sessionCode":"{\"uid\":322,\"accessTime\":1510561644581,\"refreshTime\":1510561644581}","target":{"port":8044,"sessionCode":"{\"uid\":322,\"time\":1510561644581}","loginTime":"1510561644588","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:24.918  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot22","headimg": "http://192.168.0.42:8118/Login/wechatHeaders322/322","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:24.926  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:24.928  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:24.928  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:26.692 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":323,"sessionCode":"{\"uid\":323,\"accessTime\":1510561646395,\"refreshTime\":1510561646395}","target":{"port":8044,"sessionCode":"{\"uid\":323,\"time\":1510561646396}","loginTime":"1510561646402","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:26.716  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot23","headimg": "http://192.168.0.42:8118/Login/wechatHeaders323/323","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:26.723  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:26.728  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:26.729  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:26.790 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":324,"sessionCode":"{\"uid\":324,\"accessTime\":1510561646492,\"refreshTime\":1510561646492}","target":{"port":8044,"sessionCode":"{\"uid\":324,\"time\":1510561646492}","loginTime":"1510561646500","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:26.821  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot24","headimg": "http://192.168.0.42:8118/Login/wechatHeaders324/324","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:26.829  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:26.830  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:26.831  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:28.032 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":325,"sessionCode":"{\"uid\":325,\"accessTime\":1510561647734,\"refreshTime\":1510561647734}","target":{"port":8044,"sessionCode":"{\"uid\":325,\"time\":1510561647734}","loginTime":"1510561647742","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:28.069  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot25","headimg": "http://192.168.0.42:8118/Login/wechatHeaders325/325","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:28.074 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":326,"sessionCode":"{\"uid\":326,\"accessTime\":1510561647771,\"refreshTime\":1510561647771}","target":{"port":8044,"sessionCode":"{\"uid\":326,\"time\":1510561647771}","loginTime":"1510561647784","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:28.078  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:28.079  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:28.081  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:28.098  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot26","headimg": "http://192.168.0.42:8118/Login/wechatHeaders326/326","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:28.106  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:28.107  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:28.108  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:28.184 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":327,"sessionCode":"{\"uid\":327,\"accessTime\":1510561647886,\"refreshTime\":1510561647886}","target":{"port":8044,"sessionCode":"{\"uid\":327,\"time\":1510561647886}","loginTime":"1510561647894","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:28.225  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot27","headimg": "http://192.168.0.42:8118/Login/wechatHeaders327/327","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:28.232  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:28.233  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:28.234  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:30.646 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":328,"sessionCode":"{\"uid\":328,\"accessTime\":1510561650348,\"refreshTime\":1510561650348}","target":{"port":8044,"sessionCode":"{\"uid\":328,\"time\":1510561650348}","loginTime":"1510561650354","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:30.680  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot28","headimg": "http://192.168.0.42:8118/Login/wechatHeaders328/328","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:30.688  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:30.688  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:30.689  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:31.474 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":329,"sessionCode":"{\"uid\":329,\"accessTime\":1510561651177,\"refreshTime\":1510561651177}","target":{"port":8044,"sessionCode":"{\"uid\":329,\"time\":1510561651177}","loginTime":"1510561651184","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:31.513  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot29","headimg": "http://192.168.0.42:8118/Login/wechatHeaders329/329","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:31.520  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:31.521  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:31.522  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:31.523 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":330,"sessionCode":"{\"uid\":330,\"accessTime\":1510561651227,\"refreshTime\":1510561651227}","target":{"port":8044,"sessionCode":"{\"uid\":330,\"time\":1510561651227}","loginTime":"1510561651234","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:31.542  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot30","headimg": "http://192.168.0.42:8118/Login/wechatHeaders330/330","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:31.549  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:31.550  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:31.551  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:33.914 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":331,"sessionCode":"{\"uid\":331,\"accessTime\":1510561653616,\"refreshTime\":1510561653616}","target":{"port":8044,"sessionCode":"{\"uid\":331,\"time\":1510561653616}","loginTime":"1510561653624","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:33.949  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot31","headimg": "http://192.168.0.42:8118/Login/wechatHeaders331/331","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:33.955  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:33.957  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:33.958  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:34.079 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":332,"sessionCode":"{\"uid\":332,\"accessTime\":1510561653783,\"refreshTime\":1510561653783}","target":{"port":8044,"sessionCode":"{\"uid\":332,\"time\":1510561653783}","loginTime":"1510561653790","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:34.111  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot32","headimg": "http://192.168.0.42:8118/Login/wechatHeaders332/332","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:34.118  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:34.119  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:34.120  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:34.121 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":333,"sessionCode":"{\"uid\":333,\"accessTime\":1510561653825,\"refreshTime\":1510561653825}","target":{"port":8044,"sessionCode":"{\"uid\":333,\"time\":1510561653826}","loginTime":"1510561653832","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:34.141  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot33","headimg": "http://192.168.0.42:8118/Login/wechatHeaders333/333","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:34.148  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:34.149  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:34.150  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:35.503 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":334,"sessionCode":"{\"uid\":334,\"accessTime\":1510561655207,\"refreshTime\":1510561655207}","target":{"port":8044,"sessionCode":"{\"uid\":334,\"time\":1510561655207}","loginTime":"1510561655213","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:35.539  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot34","headimg": "http://192.168.0.42:8118/Login/wechatHeaders334/334","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:35.561  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:35.562  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:35.562  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:38.409 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":335,"sessionCode":"{\"uid\":335,\"accessTime\":1510561658112,\"refreshTime\":1510561658112}","target":{"port":8044,"sessionCode":"{\"uid\":335,\"time\":1510561658113}","loginTime":"1510561658119","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:38.440  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot35","headimg": "http://192.168.0.42:8118/Login/wechatHeaders335/335","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:38.447  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:38.448  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:38.450  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:39.886 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":336,"sessionCode":"{\"uid\":336,\"accessTime\":1510561659590,\"refreshTime\":1510561659590}","target":{"port":8044,"sessionCode":"{\"uid\":336,\"time\":1510561659590}","loginTime":"1510561659596","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:39.914  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot36","headimg": "http://192.168.0.42:8118/Login/wechatHeaders336/336","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:39.920  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:39.922  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:39.923  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:41.712 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":337,"sessionCode":"{\"uid\":337,\"accessTime\":1510561661414,\"refreshTime\":1510561661414}","target":{"port":8044,"sessionCode":"{\"uid\":337,\"time\":1510561661415}","loginTime":"1510561661423","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:41.753  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot37","headimg": "http://192.168.0.42:8118/Login/wechatHeaders337/337","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:41.760  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:41.761  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:41.763  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:41.961 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":338,"sessionCode":"{\"uid\":338,\"accessTime\":1510561661665,\"refreshTime\":1510561661665}","target":{"port":8044,"sessionCode":"{\"uid\":338,\"time\":1510561661666}","loginTime":"1510561661673","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:41.981  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot38","headimg": "http://192.168.0.42:8118/Login/wechatHeaders338/338","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:41.995  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:41.995  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:41.995  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:43.322 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":339,"sessionCode":"{\"uid\":339,\"accessTime\":1510561663026,\"refreshTime\":1510561663026}","target":{"port":8044,"sessionCode":"{\"uid\":339,\"time\":1510561663026}","loginTime":"1510561663033","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:43.349  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot39","headimg": "http://192.168.0.42:8118/Login/wechatHeaders339/339","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:43.363  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:43.364  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:43.365  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:43.961 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":340,"sessionCode":"{\"uid\":340,\"accessTime\":1510561663663,\"refreshTime\":1510561663663}","target":{"port":8044,"sessionCode":"{\"uid\":340,\"time\":1510561663663}","loginTime":"1510561663671","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:43.996  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot40","headimg": "http://192.168.0.42:8118/Login/wechatHeaders340/340","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:44.003  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:44.005  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:44.006  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:44.155 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":341,"sessionCode":"{\"uid\":341,\"accessTime\":1510561663857,\"refreshTime\":1510561663857}","target":{"port":8044,"sessionCode":"{\"uid\":341,\"time\":1510561663858}","loginTime":"1510561663866","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:44.200  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot41","headimg": "http://192.168.0.42:8118/Login/wechatHeaders341/341","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:44.233  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:44.235  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:44.236  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:44.714 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":342,"sessionCode":"{\"uid\":342,\"accessTime\":1510561664416,\"refreshTime\":1510561664416}","target":{"port":8044,"sessionCode":"{\"uid\":342,\"time\":1510561664416}","loginTime":"1510561664424","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:44.749  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot42","headimg": "http://192.168.0.42:8118/Login/wechatHeaders342/342","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:44.756  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:44.757  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:44.758  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:27:46.897 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":343,"sessionCode":"{\"uid\":343,\"accessTime\":1510561666601,\"refreshTime\":1510561666601}","target":{"port":8044,"sessionCode":"{\"uid\":343,\"time\":1510561666601}","loginTime":"1510561666608","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:27:46.924  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "robot43","headimg": "http://192.168.0.42:8118/Login/wechatHeaders343/343","createJ": true,"notice": "xxx"}
+2017-11-13 16:27:46.932  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:27:46.934  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:27:46.935  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:28:01.885 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-13 16:28:01.894 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-13 16:28:01.904 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - playTypeBuilder
+2017-11-13 16:28:01.916 ERROR test.client.MessageImpl.genTips(MessageImpl.java:304) - julebuRoomBuilder
+2017-11-13 16:28:02.139 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择房主创建房间请求  200
+2017-11-13 16:28:02.142 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:245) - 选择1
+2017-11-13 16:28:15.126 ERROR test.client.TestClient.login(TestClient.java:183) - {"code":10024}
+2017-11-13 16:28:15.127 ERROR test.client.TestClient.login(TestClient.java:186) - 登录失败！！！10024
+2017-11-13 16:28:15.127 ERROR test.client.TestClient.connect(TestClient.java:150) - {"code":10024}
+2017-11-13 16:28:18.186 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":268,"sessionCode":"{\"uid\":268,\"accessTime\":1510561697888,\"refreshTime\":1510561697888}","target":{"port":8044,"sessionCode":"{\"uid\":268,\"time\":1510561697889}","loginTime":"1510561697895","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:28:18.404  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser1","headimg": "http://192.168.0.42:8118/Login/wechatHeaders268/268","roomId": "000268","join": [{"id": 1000023,"name": "q","masterUid": 287,"masterName": "q","headimg": "http://192.168.0.42:8118/Login/wechatHeaders287/287","state": 2,"playType": "20局 疯狂加倍 轮庄","num": 0}],"my": [{"id": 22,"name": "ranUser1","masterUid": 268,"masterName": "ranUser1","headimg": "http://192.168.0.42:8118/Login/wechatHeaders268/268","state": 3,"playType": "10局 经典玩法 抢庄","num": 0}],"createJ": true,"notice": "xxx"}
+2017-11-13 16:28:18.406  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 0}
+2017-11-13 16:28:18.408  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:28:18.409  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:28:18.410  WARN test.client.MessageImpl$12.resp(MessageImpl.java:150) - 创建房间失败！！143
+2017-11-13 16:28:18.413 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser1,143,创建房间失败，已经在房间中
+2017-11-13 16:28:18.416  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - CreateRoomSm：{"code": 143}
+2017-11-13 16:28:22.252 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:251) - 选择房主加入房间预处理请求  202
+2017-11-13 16:28:32.618  WARN test.client.MessageImpl$21.resp(MessageImpl.java:259) - 加入房间预处理失败！！213
+2017-11-13 16:28:32.620 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser1,213,已经在房间中，无能创房
+2017-11-13 16:28:32.621  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomBeforeSm：{"code": 213}
+2017-11-13 16:28:33.750 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":275,"sessionCode":"{\"uid\":275,\"accessTime\":1510561713452,\"refreshTime\":1510561713452}","target":{"port":8044,"sessionCode":"{\"uid\":275,\"time\":1510561713452}","loginTime":"1510561713460","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:28:33.773  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser2","headimg": "http://192.168.0.42:8118/Login/wechatHeaders275/275","join": [{"id": 1000023,"name": "q","masterUid": 287,"masterName": "q","headimg": "http://192.168.0.42:8118/Login/wechatHeaders287/287","state": 2,"playType": "20局 疯狂加倍 轮庄","num": 0}],"createJ": true,"notice": "xxx"}
+2017-11-13 16:28:33.780  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:28:33.780  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:28:33.782  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:28:33.789  WARN test.client.MessageImpl$20.resp(MessageImpl.java:235) - 加入房间失败！！123
+2017-11-13 16:28:33.790 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser2,123,加房间无剩余位置
+2017-11-13 16:28:33.791  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomSm：{"code": 123}
+2017-11-13 16:29:27.279 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":278,"sessionCode":"{\"uid\":278,\"accessTime\":1509007281000,\"refreshTime\":1509007281000}","target":{"port":8044,"sessionCode":"{\"uid\":278,\"time\":1510561766983}","loginTime":"1510561766989","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:29:27.305  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser3","headimg": "http://192.168.0.42:8118/Login/wechatHeaders278/278","join": [{"id": 22,"name": "ranUser1","masterUid": 268,"masterName": "ranUser1","headimg": "http://192.168.0.42:8118/Login/wechatHeaders268/268","state": 2,"playType": "10局 经典玩法 抢庄","num": 0}],"createJ": true,"notice": "xxx"}
+2017-11-13 16:29:27.313  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:29:27.314  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:29:27.320  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:29:27.322  WARN test.client.MessageImpl$20.resp(MessageImpl.java:235) - 加入房间失败！！123
+2017-11-13 16:29:27.323 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser3,123,加房间无剩余位置
+2017-11-13 16:29:27.323  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomSm：{"code": 123}
+2017-11-13 16:29:41.212 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":295,"sessionCode":"{\"uid\":295,\"accessTime\":1510561780916,\"refreshTime\":1510561780916}","target":{"port":8044,"sessionCode":"{\"uid\":295,\"time\":1510561780916}","loginTime":"1510561780923","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:29:41.236  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser4","headimg": "http://192.168.0.42:8118/Login/wechatHeaders295/295","roomId": "000268","createJ": true,"notice": "xxx"}
+2017-11-13 16:29:41.243  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:29:41.246  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:29:41.248  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:29:41.249  WARN test.client.MessageImpl$21.resp(MessageImpl.java:259) - 加入房间预处理失败！！213
+2017-11-13 16:29:41.250 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser4,213,已经在房间中，无能创房
+2017-11-13 16:29:41.250  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomBeforeSm：{"code": 213}
+2017-11-13 16:29:51.346 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":296,"sessionCode":"{\"uid\":296,\"accessTime\":1510561791052,\"refreshTime\":1510561791052}","target":{"port":8044,"sessionCode":"{\"uid\":296,\"time\":1510561791052}","loginTime":"1510561791057","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:29:51.370  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser5","headimg": "http://192.168.0.42:8118/Login/wechatHeaders296/296","roomId": "000268","createJ": true,"notice": "xxx"}
+2017-11-13 16:29:51.376  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:29:51.381  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:29:51.383  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:29:51.385  WARN test.client.MessageImpl$21.resp(MessageImpl.java:259) - 加入房间预处理失败！！213
+2017-11-13 16:29:51.386 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser5,213,已经在房间中，无能创房
+2017-11-13 16:29:51.387  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomBeforeSm：{"code": 213}
+2017-11-13 16:29:53.582 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":297,"sessionCode":"{\"uid\":297,\"accessTime\":1510561793285,\"refreshTime\":1510561793285}","target":{"port":8044,"sessionCode":"{\"uid\":297,\"time\":1510561793285}","loginTime":"1510561793293","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:29:53.609  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser6","headimg": "http://192.168.0.42:8118/Login/wechatHeaders297/297","roomId": "000268","createJ": true,"notice": "xxx"}
+2017-11-13 16:29:53.617  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:29:53.618  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:29:53.619  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:29:53.622  WARN test.client.MessageImpl$21.resp(MessageImpl.java:259) - 加入房间预处理失败！！213
+2017-11-13 16:29:53.623 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser6,213,已经在房间中，无能创房
+2017-11-13 16:29:53.623  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomBeforeSm：{"code": 213}
+2017-11-13 16:29:56.011 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":298,"sessionCode":"{\"uid\":298,\"accessTime\":1510561795716,\"refreshTime\":1510561795716}","target":{"port":8044,"sessionCode":"{\"uid\":298,\"time\":1510561795716}","loginTime":"1510561795722","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:29:56.035  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser7","headimg": "http://192.168.0.42:8118/Login/wechatHeaders298/298","roomId": "000268","createJ": true,"notice": "xxx"}
+2017-11-13 16:29:56.040  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:29:56.041  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:29:56.042  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:29:56.045  WARN test.client.MessageImpl$21.resp(MessageImpl.java:259) - 加入房间预处理失败！！213
+2017-11-13 16:29:56.046 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser7,213,已经在房间中，无能创房
+2017-11-13 16:29:56.046  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomBeforeSm：{"code": 213}
+2017-11-13 16:29:58.822 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":299,"sessionCode":"{\"uid\":299,\"accessTime\":1510561798525,\"refreshTime\":1510561798525}","target":{"port":8044,"sessionCode":"{\"uid\":299,\"time\":1510561798525}","loginTime":"1510561798533","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:29:58.847  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser8","headimg": "http://192.168.0.42:8118/Login/wechatHeaders299/299","createJ": true,"notice": "xxx"}
+2017-11-13 16:29:58.854  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:29:58.856  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:29:58.857  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:29:58.862  WARN test.client.MessageImpl$20.resp(MessageImpl.java:235) - 加入房间失败！！123
+2017-11-13 16:29:58.863 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser8,123,加房间无剩余位置
+2017-11-13 16:29:58.864  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomSm：{"code": 123}
+2017-11-13 16:30:14.987 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:245) - 选择3
+2017-11-13 16:30:19.541 ERROR test.client.TestClient.login(TestClient.java:183) - {"uid":344,"sessionCode":"{\"uid\":344,\"accessTime\":1510561819245,\"refreshTime\":1510561819245}","target":{"port":8044,"sessionCode":"{\"uid\":344,\"time\":1510561819245}","loginTime":"1510561819252","serverIp":"192.168.0.42"},"code":1}
+2017-11-13 16:30:19.564  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - LoginSm：{"code": 1,"nickname": "ranUser9","headimg": "http://192.168.0.42:8118/Login/wechatHeaders344/344","createJ": true,"notice": "xxx"}
+2017-11-13 16:30:19.571  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerCast：{"diamond": 5}
+2017-11-13 16:30:19.574  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - PlayerRecordCast：{}
+2017-11-13 16:30:19.576  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - ProxyRecordCast：{}
+2017-11-13 16:30:19.580  WARN test.client.MessageImpl$20.resp(MessageImpl.java:235) - 加入房间失败！！123
+2017-11-13 16:30:19.582 ERROR com.wk.bean.NTxtAbs.println(NTxtAbs.java:188) - test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:366) -ranUser9,123,加房间无剩余位置
+2017-11-13 16:30:19.583  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:375) - JoinRoomSm：{"code": 123}

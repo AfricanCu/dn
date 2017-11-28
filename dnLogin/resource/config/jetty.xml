@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure.dtd">
+
+<!-- =============================================================== -->
+<!-- Configure the Jetty Server -->
+<!-- -->
+<!-- Documentation of this file format can be found at: -->
+<!-- http://wiki.eclipse.org/Jetty/Reference/jetty.xml_syntax -->
+<!-- -->
+<!-- Additional configuration files are available in $JETTY_HOME/etc -->
+<!-- and can be mixed in. For example: -->
+<!-- java -jar start.jar etc/jetty-ssl.xml -->
+<!-- -->
+<!-- See start.ini file for the default configuraton files -->
+<!-- =============================================================== -->
+
+
+<Configure id="Server" class="org.eclipse.jetty.server.Server">
+
+	<!-- =========================================================== -->
+	<!-- 配置服务器线程池 -->
+	<!-- =========================================================== -->
+	<Set name="ThreadPool">
+		<!-- 默认为阻塞队列的线程池 -->
+		<New class="org.eclipse.jetty.util.thread.QueuedThreadPool">
+			<!-- 参数 设置一个最大容量的阻塞队列 跟设置MaxQueued一个意思 -->
+			<!-- <Arg> <New class="java.util.concurrent.ArrayBlockingQueue"> <Arg 
+				type="int">6000</Arg> </New> </Arg> -->
+			<!-- 设置线程池使用队列的最大容量 超过了限度，任务就不会处理 -->
+			<Set name="maxQueued">60000</Set>
+			<!-- 设置最少线程数 -->
+			<Set name="minThreads">20</Set>
+			<!-- 设置最大线程数 -->
+			<Set name="maxThreads">200</Set>
+			<!-- 设置线程空闲时间 超过空闲时间 就会委托给命名或匿名的线程池 -->
+			<Set name="maxIdleTimeMs">1000</Set>
+			<!-- 是否对线程池进行详细快照 -->
+			<Set name="detailedDump">false</Set>
+		</New>
+	</Set>
+
+	<!-- =========================================================== -->
+	<!-- Set connectors -->
+	<!-- =========================================================== -->
+
+	<Call name="addConnector">
+		<Arg>
+			<!--new一个SelectChannelConnector对象 -->
+			<New class="org.eclipse.jetty.server.nio.SelectChannelConnector">
+				<!-- 调用当前SelectChannelConnector对象的setHost方法， host表示Connector需要监听的IP地址或者hostname -->
+				<Set name="host">
+					<Property name="jetty.host" default="0.0.0.0" />
+				</Set>
+				<!-- 监听端口 -->
+				<Set name="port">
+					<Property name="jetty.port" default="8118" />
+				</Set>
+				<!-- 一个连接的最大空闲时间 -->
+				<Set name="maxIdleTime">300000</Set>
+				<!-- Acceptor线程数量，Accepto的功能是接收客户端连接然后分配个ThreadPool处理 -->
+				<Set name="Acceptors">2</Set>
+				<!-- 是否开启统计功能 -->
+				<Set name="statsOn">false</Set>
+				<!-- 秘密端口 -->
+				<Set name="confidentialPort">8443</Set>
+				<!-- 连接数量达到该数值时，Jetty会认为服务器资源已被耗尽 -->
+				<Set name="lowResourcesConnections">20000</Set>
+				<!-- 当资源饱和时，连接最大等待时间，时间单位是毫秒 -->
+				<Set name="lowResourcesMaxIdleTime">5000</Set>
+			</New>
+		</Arg>
+	</Call>
+
+	<!-- =========================================================== -->
+	<!-- Set handler Collection Structure -->
+	<!-- =========================================================== -->
+	<Set name="handler">
+		<New id="Handlers" class="org.eclipse.jetty.server.handler.HandlerCollection">
+			<Set name="handlers">
+				<Array type="org.eclipse.jetty.server.Handler">
+					<Item>
+						<New class="gm.server.util.jsp.ShutdownHandler">
+							<Arg>
+								<Ref id="Server"></Ref>
+							</Arg>
+							<Arg type="String">secret password</Arg>
+							<Set name="exitJvm">true</Set>
+						</New>
+					</Item>
+					<!-- <Item> ContextHandler的集合 <New id="Contexts" class="org.eclipse.jetty.server.handler.ContextHandlerCollection" 
+						/> </Item> -->
+					<!-- <Item> 默认的处理器，处理url图标，url目录 <New id="DefaultHandler" class="org.eclipse.jetty.server.handler.DefaultHandler" 
+						/> </Item> -->
+					<Item>
+						<!-- 请求日志记录器 -->
+						<New id="RequestLog" class="org.eclipse.jetty.server.handler.RequestLogHandler" />
+					</Item>
+				</Array>
+			</Set>
+		</New>
+	</Set>
+
+	<New id="Webapp" class="org.eclipse.jetty.webapp.WebAppContext">
+		<!-- parent The parent HandlerContainer -->
+		<Arg>
+			<Ref id="Handlers" />
+		</Arg>
+		<!-- webApp The URL or filename of the webapp directory or war file. -->
+		<Arg>./WebRoot</Arg>
+		<!-- contextPath The context path -->
+		<Arg>/Login</Arg>
+		<!-- 加载jar -->
+		<Call name="setAttribute">
+			<Arg>org.eclipse.jetty.server.webapp.ContainerIncludeJarPattern</Arg>
+			<Arg>.*/.*jsp-api-[^/]*\.jar$|.*/.*jsp-[^/]*\.jar$|.*/.*taglibs[^/]*\.jar$</Arg>
+		</Call>
+		<!-- web xml文件路径，否则默认为WEB-INF/web.xml路径 -->
+		<!-- <Set name="descriptor">./resource/config/web.xml</Set> -->
+		<!-- Max Form Size 限制客户端发来form表单的数据的量 -->
+		<Set name="maxFormContentSize">200000</Set>
+		<!-- 临时文件目录 -->
+		<Set name="tempDirectory">./logs/servlet</Set>
+		<!-- 设置session的， -->
+		<Set name="sessionHandler">
+			<New class="org.eclipse.jetty.server.session.SessionHandler">
+				<Arg>
+					<New class="org.eclipse.jetty.server.session.HashSessionManager">
+						<!-- 让session数据持久化，测试用 -->
+						<Set name="storeDirectory">./logs/session</Set>
+						<!-- 设置session保存时效时间 单位秒 -->
+						<Set name="savePeriod">10</Set>
+						<!-- 延迟加载 -->
+						<Set name="lazyLoad">false</Set>
+					</New>
+				</Arg>
+			</New>
+		</Set>
+		<!-- 配置错误页面处理器 -->
+		<Set name="errorHandler">
+			<New class="gm.server.util.jsp.MyErrorHandler" />
+		</Set>
+	</New>
+	<!-- 请求log文件 -->
+	<Ref id="RequestLog">
+		<Set name="requestLog">
+			<New id="RequestLogImpl" class="org.eclipse.jetty.server.NCSARequestLog">
+				<Arg>./logs/yyyy_mm_dd.request.log</Arg>
+				<Set name="retainDays">1</Set>
+				<Set name="append">true</Set>
+				<Set name="extended">false</Set>
+				<Set name="LogTimeZone">GMT+8:00</Set>
+			</New>
+		</Set>
+	</Ref>
+	<!-- =========================================================== -->
+	<!-- extra options -->
+	<!-- =========================================================== -->
+	<Set name="stopAtShutdown">true</Set>
+	<Set name="sendServerVersion">true</Set>
+	<Set name="sendDateHeader">true</Set>
+	<Set name="gracefulShutdown">1000</Set>
+	<Set name="dumpAfterStart">false</Set>
+	<Set name="dumpBeforeStop">false</Set>
+	<!-- jsp 编译器 -->
+	<!-- 否则出现 org.apache.jasper.JasperException: java.err.nojdk -->
+	<Call class="java.lang.System" name="setProperty">
+		<Arg>org.apache.jasper.compiler.disablejsr199</Arg>
+		<Arg>true</Arg>
+	</Call>
+</Configure>

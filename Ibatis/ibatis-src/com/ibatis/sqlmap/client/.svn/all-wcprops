@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/client
+END
+SqlMapTransactionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/client/SqlMapTransactionManager.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/client/package.html
+END
+SqlMapClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/client/SqlMapClient.java
+END
+SqlMapSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/client/SqlMapSession.java
+END
+SqlMapClientBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/client/SqlMapClientBuilder.java
+END
+SqlMapException.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/client/SqlMapException.java
+END
+SqlMapExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/WolfTemptation_Server/!svn/ver/137/Ibatis/ibatis-src/com/ibatis/sqlmap/client/SqlMapExecutor.java
+END

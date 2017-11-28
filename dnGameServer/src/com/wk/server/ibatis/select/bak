@@ -1,0 +1,90 @@
+////
+// @Override
+// public byte[] getProxyRecord() {
+// return this.proxyRecordCast.build().toByteArray();
+// }
+// public void recordProxyGame(GameRecord record) {
+// if (this.proxyRecordCast.getRecordCount() >= TimeConfig
+// .getProxyrecordmax()) {
+// this.proxyRecordCast.removeRecord(0);
+// }
+// this.proxyRecordCast.addRecord(record);
+// this.bitSet.set(proxyRecord_key);
+// this.sendProxyRecordCast();
+// }
+// /**
+// * proxy 游戏记录
+// *
+// * @return
+// */
+// public IncomeUserI sendProxyRecordCast() {
+// this.sendMessage(MsgId.ProxyRecordCast, this.proxyRecordCast);
+// return this;
+// }
+//
+// /**
+// * 这里检测一下代理现有的房间
+// *
+// * @return
+// */
+// public IncomeUserI sendProxyRoomsCast() {
+// if (!this.proxy.isEmpty()) {
+// ProxyRoomsCast.Builder proxyRoomsCast = ProxyRoomsCast.newBuilder();
+// for (Iterator<Integer> iter = this.proxy.keySet().iterator(); iter
+// .hasNext();) {
+// int roomId = iter.next();
+// RoomAbs room2 = RoomModule.getInstance().getRoom(roomId);
+// if (room2 != null && !room2.isGameOver()) {
+// proxyRoomsCast.addRooms(room2.getProxyRoom());
+// } else {
+// iter.remove();
+// this.bitSet.set(proxy_key);
+// LoggerService.getLogicLog().error("房间已经解散！{}", roomId);
+// }
+// }
+// this.sendMessage(MsgId.ProxyRoomsCast, proxyRoomsCast);
+// }
+// return this;
+// }
+//
+// public void addProxy(int id, ProxyRoom proxyRoom) {
+// this.proxy.put(id, null);
+// this.bitSet.set(proxy_key);
+// ProxyRoomsAddCast.Builder proxyRoomsAddCast = ProxyRoomsAddCast
+// .newBuilder();
+// proxyRoomsAddCast.addRooms(proxyRoom);
+// this.sendMessage(MsgId.ProxyRoomsAddCast, proxyRoomsAddCast);
+// }
+//
+// public void removeProxy(int id) {
+// this.proxy.remove(id);
+// this.bitSet.set(proxy_key);
+// ProxyRoomsDelCast.Builder proxyRoomsDelCast = ProxyRoomsDelCast
+// .newBuilder().addRoomIds(ServerConfig.getRoomStr(id));
+// this.sendMessage(MsgId.ProxyRoomsDelCast, proxyRoomsDelCast);
+// }
+//
+// public void updateProxyRoom(int id, ProxyRoom proxyRoom) {
+// this.proxy.put(id, proxyRoom);
+// if (this.proxyRoomTask != null) {
+// return;
+// }
+// if (this.proxyRoomTask == null) {
+// this.proxyRoomTask = TimeTaskUtil.getTaskmanager()
+// .submitOneTimeTask(new Runnable() {
+// @Override
+// public void run() {
+// ProxyRoomsUpdateCast.Builder proxyRoomsUpdateCast =
+// ProxyRoomsUpdateCast.newBuilder();
+// for (ProxyRoom rr : IncomeUserI.this.proxy.values()) {
+// if (rr != null)
+// proxyRoomsUpdateCast.addRooms(rr);
+// }
+// IncomeUserI.this.sendMessage(
+// MsgId.ProxyRoomsUpdateCast,
+// proxyRoomsUpdateCast.build().toByteArray());
+// IncomeUserI.this.proxyRoomTask = null;
+// }
+// }, 5, TimeUnit.SECONDS);
+// }
+// }
