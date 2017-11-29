@@ -1,0 +1,312 @@
+option java_package = "msg";
+option java_outer_classname = "GuildMessage";
+package msg.GuildMessage;
+import "roomMessage.proto";
+import "loginMessage.proto";
+//加俱乐部广播
+message AddJulebuCast{
+	optional int32 type = 1;//1申请 2创建  
+	optional LoginMessage.Julebu my = 2;
+}
+//删除俱乐部广播
+message DelJulebuCast{
+	optional int32 type = 1;//1拒绝加入 2踢出 3解散 4主动退出
+	optional int32 id = 2;
+}
+//更新俱乐部广播
+message UpdateJulebuCast{
+	optional int32 type = 1;//1同意加入2更新俱乐部修改信息3人数更新
+	optional LoginMessage.Julebu my = 2;
+}
+//创建俱乐部预处理请求
+message CreateJulebuBeforeCm{
+	optional RoomMessage.PlayType playType  = 1; //玩法
+}
+//创建俱乐部预处理返回
+message CreateJulebuBeforeSm{
+	optional int32 code = 1; //1成功 2失败
+	optional RoomMessage.SwServer sw = 2;
+	optional RoomMessage.PlayType playType = 3;//玩法设置
+}
+//创建俱乐部请求
+message CreateJulebuCm{
+	optional RoomMessage.PlayType playType  = 1; //玩法
+}
+//创建俱乐部返回
+message CreateJulebuSm{
+	optional int32 code = 1; //1成功 2失败
+	optional RoomMessage.PlayType playType = 2;//玩法设置
+	optional int32 id = 3;//俱乐部ID
+	optional string name = 4;//俱乐部名称
+}
+//信息设置请求
+message InfoSetCm{
+	optional int32 id = 1;//俱乐部ID
+	optional string name = 2;//俱乐部名称
+	optional string notice = 3;//俱乐部公告
+}
+//信息设置返回
+message InfoSetSm{
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+	optional string name = 3;//俱乐部名称
+	optional string notice = 4;//俱乐部公告
+}
+//玩法设置请求
+message PlaySetCm{
+	optional int32 id = 1;//俱乐部ID
+	optional RoomMessage.PlayType playType  = 2; //玩法
+}
+//玩法设置返回
+message PlaySetSm{
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+	optional RoomMessage.PlayType playType  = 3; //玩法
+}
+//其他设置请求
+message OtherSetCm{
+	optional int32 id = 1;//俱乐部ID
+	optional bool prohibitIp  = 2; //同ip禁止同桌
+}
+//其他设置返回
+message OtherSetSm{
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+	optional bool prohibitIp  = 3; //同ip禁止同桌
+	optional bool agree = 4;//入俱乐部需审核
+}
+//解散俱乐部请求
+message DissolveJulebuCm {
+	optional int32 id = 1;//俱乐部ID
+}
+//解散俱乐部返回
+message DissolveJulebuSm {
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+}
+//桌子信息
+message TableInfo{
+	optional int32 index = 1;//桌子号
+	optional int32 num = 2;//人数
+	optional bool run = 3;//是否已经开始
+	repeated RoomMessage.UserInfo userinfo = 4;//玩家信息
+}
+//进入俱乐部大厅预处理请求
+message InJulebuBeforeCm {
+	optional int32 id = 1;//俱乐部ID
+}
+//进入俱乐部大厅预处理返回
+message InJulebuBeforeSm {
+	optional int32 code = 1;// 2需要切
+	optional RoomMessage.SwServer sw = 2;
+	optional int32 id = 3;//俱乐部ID
+}
+//进入俱乐部大厅请求
+message InJulebuCm {
+	optional int32 id = 1;//俱乐部ID
+}
+//进入俱乐部大厅返回
+message InJulebuSm {
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//ID
+	optional string name = 3;//名称
+	optional string notice = 4;//公告
+	optional int32 job = 5;//职位 1成员 2副会长 3会长
+	optional RoomMessage.PlayType playType  = 6; //玩法
+	optional string playTypeDesc  = 7; //玩法
+	optional bool prohibitIp  = 8; //同ip禁止同桌
+}
+//退出俱乐部请求
+message QuitJulebuCm{
+	optional int32 id = 1;//俱乐部ID
+}
+//退出俱乐部返回
+message QuitJulebuSm {
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+}
+//俱乐部大厅桌子信息请求
+message TableInfoCm {
+	optional int32 id = 1;//俱乐部ID
+}
+//俱乐部大厅桌子信息返回
+message TableInfoSm {
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+	repeated TableInfo table = 3;//
+}
+//申请人
+message ApplyMember {
+	optional int64 uid = 1;//玩家id
+	optional string name = 2;//玩家名
+	optional string headimg = 3;//头像
+}
+//申请俱乐部请求
+message ApplyJulebuCm{
+	optional int32 id = 1;//俱乐部ID
+}
+//申请俱乐部返回
+message ApplyJulebuSm{
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+}
+//申请人列表请求
+message ApplyMemberListCm{
+	optional int32 id = 1;//俱乐部ID
+}
+//申请人列表返回
+message ApplyMemberListSm{
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+	repeated ApplyMember apply = 3;//申请人列表
+}
+//同意加入请求
+message AgreeApplyCm{
+	optional int32 id = 1;//俱乐部ID
+	optional int64 uid = 2;//玩家id
+}
+//同意加入返回
+message AgreeApplySm{
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+	optional int64 uid = 3;//玩家id
+}
+//拒绝加入请求
+message DisagreeApplyCm{
+	optional int32 id = 1;//俱乐部ID
+	optional int64 uid = 2;//玩家id
+}
+//拒绝加入返回
+message DisagreeApplySm{
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+	optional int64 uid = 3;//玩家id
+}
+//成员列表请求
+message JulebuMemberListCm {
+	optional int32 id = 1;//俱乐部ID
+	optional int32 index = 2;//页数,从1开始
+}
+//俱乐部成员
+message JulebuMember {
+	optional int64 uid = 1;//玩家id
+	optional string name = 2;//玩家名
+	optional string headimg = 3;//头像
+	optional int32 job = 4;//职位 1成员 2副会长 3会长
+	optional int32 active = 5;//周活跃度
+}
+//成员列表返回
+message JulebuMemberListSm {
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+	optional int32 index = 3;//页数,从1开始
+	repeated JulebuMember member = 4;//成员列表
+	optional int32 totalNum = 5;//成员总数
+	optional int32 pageNum = 6;//每页多少个
+}
+//踢俱乐部成员请求
+message KickJulebuMemberCm {
+	optional int32 id = 1;//俱乐部ID
+	optional int64 uid = 2;//玩家id
+	optional int32 index = 3;//页数,从1开始
+}
+//踢俱乐部成员返回
+message KickJulebuMemberSm {
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+	optional int64 uid = 3;//玩家id
+	optional int32 index = 4;//页数,从1开始
+	repeated JulebuMember member = 5;//成员列表
+	optional int32 totalNum = 6;//成员总数
+	optional int32 pageNum = 7;//每页多少个
+}
+//晋升成员请求
+message LevelupMemberCm{
+	optional int32 id = 1;//俱乐部ID
+	optional int64 uid = 2;//玩家id
+	optional int32 job = 3;//职位 1成员 2副会长 3会长
+}
+//晋升成员返回
+message LevelupMemberSm{
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+	optional int64 uid = 3;//玩家id
+	optional int32 job = 4;//职位 1成员 2副会长 3会长
+}
+//俱乐部游戏记录请求
+message JulebuRecordCm{
+	optional int32 id = 1;//俱乐部ID
+}
+//俱乐部游戏记录返回
+message JulebuRecordSm{
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+	repeated LoginMessage.GameRecord record = 3;//游戏记录
+}
+//桌子详情请求
+message TableDetailCm{
+	optional int32 id = 1;//俱乐部ID
+	optional int32 index = 2;//桌子编号
+}
+//详情
+message Detail {
+	optional int64 uid = 1;//玩家id
+	optional string nickname = 2;//玩家昵称
+	optional string headimg = 3;//头像
+	optional string ip = 4;//玩家ip
+}
+//桌子详情返回
+message TableDetailSm{
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+	optional int32 index = 3;//桌子编号
+	repeated Detail detail = 4;//
+}
+//大赢家列表请求
+message WinnerCm{
+	optional int32 id = 1;//俱乐部ID
+	optional int32 index = 2;//页数,从1开始
+}
+//大赢家
+message Winner {
+	optional int64 uid = 1;//玩家id
+	optional string nickname = 2;//玩家昵称
+	optional string headimg = 3;//头像
+	optional int32 num = 4;//赢牌次数
+}
+//大赢家列表返回
+message WinnerSm{
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+	optional int32 index = 3;//页数,从1开始
+	repeated Winner winner = 4;
+	optional int32 totalNum = 5;//成员总数
+	optional int32 pageNum = 6;//每页多少个
+}
+//清除大赢家请求
+message ClearWinnerCm {
+	optional int32 id = 1;//俱乐部ID
+	optional string info = 2;//uid#num#uid2#num2
+	optional int32 index = 3;//页数,从1开始
+}
+//清除大赢家返回
+message ClearWinnerSm {
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+	optional int32 index = 3;//页数,从1开始
+	repeated Winner winner = 4;
+	optional int32 totalNum = 5;//成员总数
+	optional int32 pageNum = 6;//每页多少个
+}
+//搜索成员请求
+message SearchMemberCm {
+	optional int32 id = 1;//俱乐部ID
+	optional string nickname = 2;//昵称模糊查找
+}
+//搜索成员返回
+message SearchMemberSm {
+	optional int32 code = 1; //1成功 2失败
+	optional int32 id = 2;//俱乐部ID
+	optional string nickname = 3;//昵称模糊查找
+	repeated JulebuMember member = 4;
+}

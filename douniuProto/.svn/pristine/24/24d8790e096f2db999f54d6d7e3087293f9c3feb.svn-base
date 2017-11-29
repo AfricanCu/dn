@@ -1,0 +1,264 @@
+option java_package = "msg";
+option java_outer_classname = "RoomMessage";
+package msg.RoomMessage;
+
+//俱乐部房间
+message JulebuRoom{
+	optional int32 id = 1;//俱乐部ID
+	optional int32 num = 2;//房间编号
+}
+//玩家设置玩法
+message PlayType{
+	optional int32 round = 1;//1固定10把 2固定20把
+	optional int32 pType = 2;//1、经典玩法 2、疯狂加倍
+	optional int32 bankerMode = 3;//1、抢庄 2、轮庄 3、固定庄
+}
+//经纬请求
+message NsCm{
+	optional float j = 1;//经度
+	optional float w = 2;//纬度
+	optional string ad = 3;//详细地址
+	optional string country = 4;//国家
+	optional string province = 5;//省份
+	optional string city = 6;//城市
+	optional string district = 7;//地区
+	optional string street = 8;//街道
+	optional string houseNumber = 9;//门牌号
+}
+//经纬返回
+message NsSm{
+	optional int32 code = 1;//1成功
+}
+//经纬广播
+message NsCast{
+	optional NsCm ns = 1;
+	optional int32 seetIndex = 2;
+}
+//玩家信息
+message UserInfo{
+	optional int64 uid = 1;//玩家名
+	optional int32 seetIndex = 2;//座位
+	optional int32 gstate = 3;//游戏状态 0未准备 1准备 2未抢庄 3已抢庄 4未押注 5已押注 6未完成拼牛 7已完成拼牛 8未选继续 9已选继续
+	optional int32 userState = 4;//玩家状态 1在线 2断线
+	optional int32 imSeatIndex = 5;//语音房间座位号
+	optional bool isMaster = 6;//是否房主
+	optional string headimg = 7;//头像
+	optional string nickname = 8;//玩家昵称
+	optional int32 coin = 9;//当前积分
+	optional int32 sex = 10;//普通用户性别，1为男性，2为女性
+	optional NsCm ns = 11;//地理信息
+	optional string ip = 12;//ip
+}
+//切服信息
+message SwServer{
+	optional int32 sId = 1; //服务器id
+	optional string host = 2;//ip
+	optional int32 port = 3;//port
+	optional string myCode = 4;//code
+	optional int32 type = 5;//切服类型 1加入房间 2创建房间 3代理创建房间
+}
+//房主创建房间预处理请求
+message CreateRoomBeforeCm {
+	optional PlayType playType = 1;//玩法设置
+}
+
+//房主创建房间预处理返回
+message CreateRoomBeforeSm {
+	optional int32 code = 1;// 2需要切
+	optional SwServer sw = 2;
+	optional PlayType playType = 3;//玩法设置
+}
+//代理创建房间预处理请求
+message ProxyCreateRoomBeforeCm {
+	optional PlayType playType = 1;//玩法设置
+}
+
+//代理创建房间预处理返回
+message ProxyCreateRoomBeforeSm {
+	optional int32 code = 1;// 2需要切
+	optional SwServer sw = 2;
+	optional PlayType playType = 3;//玩法设置
+}
+//房主创建房间请求
+message CreateRoomCm {
+	optional PlayType playType = 1;//玩法设置
+}
+//房主创建房间返回
+message CreateRoomSm {
+	optional int32 code = 1; //1成功 2失败
+	optional string roomId = 2;//房间ID
+	optional string chatRoomId = 3;//聊天室ID
+	optional UserInfo info = 4;//
+	optional PlayType playType = 5;//玩法
+}
+//房主加入房间预处理请求
+message JoinRoomBeforeCm {
+	optional string roomId = 1;
+}
+//房主加入房间预处理返回
+message JoinRoomBeforeSm {
+	optional int32 code = 1;//1不用切服务器 2需要切
+	optional SwServer sw = 2;
+	optional string roomId = 3;
+}
+//加入房间请求
+message JoinRoomCm {
+	optional string roomId = 1;
+	optional JulebuRoom julebuRoom = 2;
+}
+//加入房间返回
+message JoinRoomSm {
+	optional int32 code = 1;//1成功
+	optional int32	seatIndex = 2;//座位号
+	optional string chatRoomId = 3;//聊天室
+	repeated UserInfo users = 4;//玩家列表
+	optional PlayType playType = 5;//玩法
+	optional string roomId = 6;
+	optional JulebuRoom julebuRoom = 7;
+}
+//房间加入推送
+message JoinRoomCast {
+	optional int32 delSeatIndex = 1;//退出房间的座位号
+	optional UserInfo addUser = 2;//加入房间的
+}
+//准备请求
+message PrepareRoomCm{
+}
+//准备返回
+message PrepareRoomSm{
+	optional int32 code = 1;//1成功
+}
+//准备广播
+message PrepareRoomCast{
+	optional int32 seatIndex = 1;//座位号
+}
+//离开房间请求
+message LeaveRoomCm {
+}
+//离开房间返回
+message LeaveRoomSm {
+	optional int32 code = 1;//1成功
+}
+//解散房间请求
+message DissolveRoomCm {
+}
+//解散房间返回
+message DissolveRoomSm {
+	optional int32 code = 1;//1成功
+}
+//解散房间广播
+message DissolveRoomCast {
+}
+//玩家解散房间请求
+message MemberDissolveRoomCm {
+	optional bool agree = 1;//
+}
+//玩家解散房间返回
+message MemberDissolveRoomSm {
+	optional int32 code = 1;//1成功
+}
+//玩家解散房间广播
+message MemberDissolveRoomCast {
+	optional int32 isOk = 1;//是否解散成功 0等待 1成功 2失败 
+	repeated int32 agreeSeetIndex = 2;//同意解散
+	repeated int32 disagreeSeetIndex = 3;//拒绝解散
+	optional int64 memberDisInMillis = 4;//解散剩余（毫秒）
+}
+//断线广播
+message OfflineCast {
+	optional int32 seetIndex = 1;//座位号
+	optional int32 isOk = 2;//2断线了1上线了
+}
+//语音房间信息保存请求
+message ImInfoSaveCm{
+	optional int32 index = 1;
+}
+//语音房间信息保存返回
+message ImInfoSaveSm{
+	optional int32 code = 1;//1成功
+}
+//语音房间信息保存广播
+message ImInfoSaveCast{
+	optional int32 seetIndex = 1;
+	optional int32 imSeatIndex = 2;
+}
+//聊天请求
+message ChatCm{
+	optional int32 id = 1;
+	optional string content = 2;
+	optional int32 type = 3;
+}
+//聊天返回
+message ChatSm{
+	optional int32 code = 1;//1成功
+}
+//聊天广播
+message ChatCast{
+	optional int32 seetIndex = 1;
+	optional int32 type= 2; //1表示表情，2表示固定聊天条目，3表示自定义文字
+    optional int32 id= 3;  //表情id或者固定聊天id
+	optional string content = 4;//自定义聊天消息内容
+}
+//语音请求
+message ImCm{
+	optional string fileid = 1;
+}
+//语音返回
+message ImSm{
+	optional int32 code = 1;//1成功
+}
+//语音广播
+message ImCast{
+	optional  string fileid = 1;
+	optional int32 seetIndex = 2;
+}
+//代开房请求
+message ProxyCreateRoomCm{
+	optional PlayType playType = 1;//玩法设置
+}
+//代开房返回
+message ProxyCreateRoomSm{
+	optional int32 code = 1; //1成功 2失败
+	optional string roomId = 2 ;
+	optional PlayType playType = 3;//玩法设置
+}
+message ProxyUserInfo{
+	optional int64 uid = 1;//玩家名
+	optional string headimg = 2;//头像
+	optional string nickname = 3;//玩家昵称
+}
+message ProxyRoom{
+	optional string roomId = 1;//房间ID
+	optional PlayType playType = 2;//玩法
+	optional int32 state = 3;//状态 1未开始 2已经开始 3结束
+	repeated ProxyUserInfo user = 4;//玩家列表
+	optional int64 time = 5;//创房时间
+}
+//房间列表推送
+message ProxyRoomsCast{
+	repeated ProxyRoom rooms = 1;
+}
+//增加房间推送
+message ProxyRoomsAddCast{
+	repeated ProxyRoom rooms = 1;
+}
+//解散房间推送
+message ProxyRoomsDelCast{
+	repeated string roomIds = 1;
+}
+//房间状态改变推送
+message ProxyRoomsUpdateCast{
+	repeated ProxyRoom rooms = 1;
+}
+//代理解散房间请求
+message ProxyRoomsDissovleCm{
+	optional string roomId = 1;
+}
+
+//代理解散房间返回
+message ProxyRoomsDissovleSm{
+	optional int32 code = 1; //1成功 2失败
+}
+
+
+

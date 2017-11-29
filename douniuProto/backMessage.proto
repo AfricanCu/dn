@@ -1,0 +1,39 @@
+option java_package = "msg";
+option java_outer_classname = "BackMessage";
+package msg.BackMessage;
+import "roomMessage.proto";
+
+//战斗回放请求
+message BattleBackCm{
+	optional int32 id = 1;
+}
+//初始牌
+message InitPai{
+	optional int64 uid = 1;//玩家名
+	optional int32 seetIndex = 2;//座位
+	optional bool isMaster = 3;//是否房主
+	optional string headimg = 4;//头像
+	optional string nickname = 5;//玩家昵称
+	optional int32 coin = 6;//当前积分
+	optional int32 sex = 7;//普通用户性别，1为男性，2为女性
+}
+//座位操作
+message SeetOpera{
+	optional int32 sIndex = 1;//哪个位置
+	optional int32 opera = 2;//1报听2不报听3抓牌4自摸5暗杠6明杠7打牌8接炮9接杠10碰牌11吃12杠碰吃过13抢杠胡14抢杠过15接杠广播16碰牌广播17吃牌广播9,10,11客户端不解析
+	optional int32 seetIndex = 3;//谁出的
+	optional int32 chi = 5;//1吃小边 2吃中间 3吃大边 
+}
+//战斗回放返回
+message BattleBackSm{
+	optional int32 code = 1;//1ok
+	optional RoomMessage.PlayType playType  = 2; //玩法
+	optional string roomId = 3;//房间id
+	optional int32 round = 4;
+	repeated int32 shaizi = 5;
+	repeated InitPai initPai = 6;
+	repeated SeetOpera opera = 7;
+	repeated int32 rs = 8;//结果
+	optional bool isProxy = 9;
+	optional int32 bankerSeetIndex = 10;//庄家位置
+}

@@ -1,0 +1,54 @@
+2017-10-12 09:09:44.253 ERROR test.client.TestClient.<clinit>(TestClient.java:99) - 127.0.0.1
+2017-10-12 09:10:46.274 ERROR test.client.TestClient.<clinit>(TestClient.java:99) - 127.0.0.1
+2017-10-12 09:10:47.132 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-10-12 09:10:47.179 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-10-12 09:10:47.179 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-10-12 09:10:47.210 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-10-12 09:10:47.210 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-10-12 09:10:47.226 ERROR test.client.MessageImpl.genTips(MessageImpl.java:576) - sId
+2017-10-12 09:10:47.226 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - julebuRoomBuilder
+2017-10-12 09:10:47.241 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - mjBuilder
+2017-10-12 09:10:47.241 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - mjBuilder
+2017-10-12 09:10:47.241 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - mjBuilder
+2017-10-12 09:10:48.327 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:401) - 选择1
+2017-10-12 09:10:48.327 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择创建俱乐部预处理请求  1504
+2017-10-12 09:10:55.254 ERROR test.client.TestClient.login(TestClient.java:295) - {"uid":11081,"sessionCode":"{\"uid\":11081,\"accessTime\":1507770655238,\"refreshTime\":1507770655238}","target":{"port":8034,"sessionCode":"{\"uid\":11081,\"time\":1507770655238}","loginTime":"1507770655238","serverIp":"192.168.0.42"},"code":1}
+2017-10-12 09:10:55.832  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:727) - LoginSm：{
+ "nickname": "ranUser1",
+ "headimg": "http://192.168.0.42:8116/Login/wechatHeaders81/11081",
+ "code": 1
+}
+2017-10-12 09:10:55.832  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:727) - PlayerCast：{"diamond": 5}
+2017-10-12 09:10:55.848  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:727) - PlayerRecordCast：{}
+2017-10-12 09:10:55.879  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:727) - AddJulebuCast：{
+ "type": 2,
+ "my": {
+  "id": 1000501,
+  "masterName": "ranUser1",
+  "num": 0,
+  "masterUid": 11081,
+  "headimg": "http://192.168.0.42:8116/Login/wechatHeaders81/11081",
+  "name": "沅江麻将",
+  "state": 3,
+  "playType": "沅江麻将,8局,报听,门清,"
+ }
+}
+2017-10-12 09:10:55.879  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:727) - CreateJulebuSm：{
+ "id": 1000501,
+ "name": "沅江麻将",
+ "playType": {
+  "sumN": 108,
+  "menQing": true,
+  "timesLimit": 2,
+  "yiZiQiao": true,
+  "yiTiaoLong": true,
+  "area": 1,
+  "severalNiao": 0,
+  "zhaNiao": 1,
+  "jiangJiangHu": false,
+  "bankerMode": 1,
+  "baoTing": true,
+  "diHu": false
+ },
+ "code": 1
+}

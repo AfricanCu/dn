@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMapConfig PUBLIC "-//ibatis.apache.org//DTD SQL Map Config 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-config-2.dtd">
+<sqlMapConfig>
+	<settings cacheModelsEnabled="true" enhancementEnabled="true"
+		lazyLoadingEnabled="true" errorTracingEnabled="true" maxRequests="32"
+		maxSessions="10" maxTransactions="5" useStatementNamespaces="true" />
+	<transactionManager type="JDBC" commitRequired="false">
+		<dataSource type="DBCP">
+			<property name="JDBC.Driver" value="com.mysql.jdbc.Driver" />
+			<property name="JDBC.ConnectionURL"
+				value="jdbc:mysql://127.0.0.1:3306/niuniu?rewriteBatchedStatements=true&amp;useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;failOverReadOnly=false" />
+			<property name="JDBC.Username" value="root" />
+			<property name="JDBC.Password" value="1234" />
+			<property name="Pool.MaximumActiveConnections" value="15" />
+			<property name="Pool.MaximumIdleConnections" value="15" />
+			<property name="Pool.MaximumWait" value="60000" />
+			<property name="Pool.ValidationQuery" value="SELECT 1" />
+			<property name="Pool.testOnBorrow" value="true" />
+		</dataSource>
+	</transactionManager>
+	<sqlMap resource="config/ibatis/User.xml" />
+	<sqlMap resource="config/ibatis/Room.xml" />
+	<sqlMap resource="config/ibatis/Gamerecord.xml"/>
+	<sqlMap resource="config/ibatis/Proxy.xml" />
+	<sqlMap resource="config/ibatis/AddDiamond.xml" />
+</sqlMapConfig>
+

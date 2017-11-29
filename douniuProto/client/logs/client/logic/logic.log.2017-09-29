@@ -1,0 +1,2230 @@
+2017-09-29 19:12:38.968 ERROR test.client.TestClient.<clinit>(TestClient.java:99) - 127.0.0.1
+2017-09-29 19:12:40.024 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-09-29 19:12:40.079 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-09-29 19:12:40.079 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-09-29 19:12:40.095 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-09-29 19:12:40.095 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-09-29 19:12:40.121 ERROR test.client.MessageImpl.genTips(MessageImpl.java:576) - sId
+2017-09-29 19:12:40.130 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - julebuRoomBuilder
+2017-09-29 19:12:40.137 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - mjBuilder
+2017-09-29 19:12:40.140 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - mjBuilder
+2017-09-29 19:12:40.144 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - mjBuilder
+2017-09-29 19:12:41.227 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:401) - 选择1
+2017-09-29 19:12:41.229 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择创建俱乐部预处理请求  1504
+2017-09-29 19:12:49.999 ERROR test.client.TestClient.login(TestClient.java:292) - {"uid":10887,"sessionCode":"{\"uid\":10887,\"accessTime\":1506683569975,\"refreshTime\":1506683569975}","target":{"port":8035,"sessionCode":"{\"uid\":10887,\"time\":1506683569976}","loginTime":"1506683569983","serverIp":"192.168.0.42"},"code":1}
+2017-09-29 19:12:50.467  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - LoginSm：{
+ "nickname": "ranUser1",
+ "headimg": "http://192.168.0.42:8116/Login/wechatHeaders887/10887",
+ "code": 1
+}
+2017-09-29 19:12:50.479  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerCast：{"diamond": 15000}
+2017-09-29 19:12:50.484  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerRecordCast：{}
+2017-09-29 19:12:50.516  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - AddJulebuCast：{
+ "type": 2,
+ "my": {
+  "id": 1000448,
+  "masterName": "ranUser1",
+  "masterUid": 10887,
+  "headimg": "http://192.168.0.42:8116/Login/wechatHeaders887/10887",
+  "name": "沅江麻将",
+  "state": 3,
+  "playType": "沅江麻将,8局,报听,门清,"
+ }
+}
+2017-09-29 19:12:50.523  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - CreateJulebuSm：{
+ "id": 1000448,
+ "name": "沅江麻将",
+ "playType": {
+  "sumN": 108,
+  "menQing": true,
+  "timesLimit": 1,
+  "yiZiQiao": true,
+  "yiTiaoLong": true,
+  "area": 1,
+  "severalNiao": 0,
+  "zhaNiao": 1,
+  "jiangJiangHu": false,
+  "bankerMode": 1,
+  "baoTing": true,
+  "diHu": false
+ },
+ "code": 1
+}
+2017-09-29 19:12:53.208 ERROR test.client.TestClient.login(TestClient.java:292) - {"uid":10882,"sessionCode":"{\"uid\":10882,\"accessTime\":1506683322000,\"refreshTime\":1506683322000}","target":{"port":8035,"sessionCode":"{\"uid\":10882,\"time\":1506683573199}","loginTime":"1506683573205","serverIp":"192.168.0.42"},"code":1}
+2017-09-29 19:12:53.292 ERROR test.client.TestClient.login(TestClient.java:292) - {"uid":10883,"sessionCode":"{\"uid\":10883,\"accessTime\":1506683322000,\"refreshTime\":1506683322000}","target":{"port":8035,"sessionCode":"{\"uid\":10883,\"time\":1506683573273}","loginTime":"1506683573288","serverIp":"192.168.0.42"},"code":1}
+2017-09-29 19:12:53.368 ERROR test.client.TestClient.login(TestClient.java:292) - {"uid":10884,"sessionCode":"{\"uid\":10884,\"accessTime\":1506683322000,\"refreshTime\":1506683322000}","target":{"port":8035,"sessionCode":"{\"uid\":10884,\"time\":1506683573360}","loginTime":"1506683573365","serverIp":"192.168.0.42"},"code":1}
+2017-09-29 19:12:53.441 ERROR test.client.TestClient.login(TestClient.java:292) - {"uid":10885,"sessionCode":"{\"uid\":10885,\"accessTime\":1506683322000,\"refreshTime\":1506683322000}","target":{"port":8035,"sessionCode":"{\"uid\":10885,\"time\":1506683573433}","loginTime":"1506683573438","serverIp":"192.168.0.42"},"code":1}
+2017-09-29 19:12:53.743  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - LoginSm：{
+ "nickname": "robot3",
+ "headimg": "http://192.168.0.42:8116/Login/wechatHeaders882/10882",
+ "roomId": "000873",
+ "code": 1
+}
+2017-09-29 19:12:53.750  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerCast：{"diamond": 15000}
+2017-09-29 19:12:53.761  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerRecordCast：{"record": [{
+ "index": 1671,
+ "time": 1506682220677,
+ "nickname": [
+  "robot0",
+  "robot1",
+  "robot2",
+  "robot3"
+ ],
+ "coin": [
+  6,
+  6,
+  -2,
+  -10
+ ],
+ "roomId": "007684",
+ "round": 8,
+ "playType": 1
+}]}
+2017-09-29 19:12:53.819  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ReconnectSm：{
+ "users": [
+  {
+   "userState": 2,
+   "uid": 10885,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot0",
+   "gstate": 2,
+   "coin": -3,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders885/10885",
+   "isMaster": true,
+   "seetIndex": 1,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 2,
+   "uid": 10884,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot1",
+   "gstate": 2,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders884/10884",
+   "isMaster": false,
+   "seetIndex": 2,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 2,
+   "uid": 10883,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot2",
+   "gstate": 2,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders883/10883",
+   "isMaster": false,
+   "seetIndex": 3,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10882,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot3",
+   "gstate": 5,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders882/10882",
+   "isMaster": false,
+   "seetIndex": 4,
+   "ip": "192.168.0.42"
+  }
+ ],
+ "chatRoomId": "8658693074280267814",
+ "usersRound": [
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 1,
+   "mj": [{
+    "num": 9,
+    "type": 3
+   }]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 2,
+   "mj": [{
+    "num": 3,
+    "type": 3
+   }]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 3,
+   "mj": [
+    {
+     "num": 9,
+     "type": 2
+    },
+    {
+     "num": 3,
+     "type": 1
+    }
+   ]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 4,
+   "mj": [{
+    "num": 2,
+    "type": 1
+   }]
+  }
+ ],
+ "start": true,
+ "bankerSeetIndex": 3,
+ "roomId": "000873",
+ "round": 4,
+ "playType": {
+  "sumN": 108,
+  "menQing": true,
+  "timesLimit": 1,
+  "yiZiQiao": true,
+  "yiTiaoLong": true,
+  "area": 1,
+  "severalNiao": 0,
+  "zhaNiao": 1,
+  "jiangJiangHu": false,
+  "bankerMode": 1,
+  "baoTing": true,
+  "diHu": false
+ },
+ "code": 1,
+ "my": {
+  "pais": [
+   {
+    "num": 1,
+    "type": 1
+   },
+   {
+    "num": 2,
+    "type": 1
+   },
+   {
+    "num": 2,
+    "type": 1
+   },
+   {
+    "num": 6,
+    "type": 1
+   },
+   {
+    "num": 8,
+    "type": 1
+   },
+   {
+    "num": 3,
+    "type": 2
+   },
+   {
+    "num": 3,
+    "type": 2
+   },
+   {
+    "num": 5,
+    "type": 2
+   },
+   {
+    "num": 6,
+    "type": 2
+   },
+   {
+    "num": 7,
+    "type": 2
+   },
+   {
+    "num": 7,
+    "type": 2
+   },
+   {
+    "num": 8,
+    "type": 3
+   },
+   {
+    "num": 9,
+    "type": 3
+   }
+  ],
+  "hasBaoTing": false,
+  "buPaiNum": 0,
+  "leftPaiNum": 51,
+  "baoTing": false,
+  "shaizi": [
+   1,
+   2
+  ]
+ }
+}
+2017-09-29 19:12:53.837 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择打牌请求  814
+2017-09-29 19:12:53.846  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - LoginSm：{
+ "nickname": "robot2",
+ "headimg": "http://192.168.0.42:8116/Login/wechatHeaders883/10883",
+ "roomId": "000873",
+ "code": 1
+}
+2017-09-29 19:12:53.854  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerCast：{"diamond": 15000}
+2017-09-29 19:12:53.858  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerRecordCast：{"record": [{
+ "index": 1671,
+ "time": 1506682220677,
+ "nickname": [
+  "robot0",
+  "robot1",
+  "robot2",
+  "robot3"
+ ],
+ "coin": [
+  6,
+  6,
+  -2,
+  -10
+ ],
+ "roomId": "007684",
+ "round": 8,
+ "playType": 1
+}]}
+2017-09-29 19:12:53.875  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ReconnectSm：{
+ "users": [
+  {
+   "userState": 2,
+   "uid": 10885,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot0",
+   "gstate": 2,
+   "coin": -3,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders885/10885",
+   "isMaster": true,
+   "seetIndex": 1,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 2,
+   "uid": 10884,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot1",
+   "gstate": 2,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders884/10884",
+   "isMaster": false,
+   "seetIndex": 2,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10883,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot2",
+   "gstate": 2,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders883/10883",
+   "isMaster": false,
+   "seetIndex": 3,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10882,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot3",
+   "gstate": 5,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders882/10882",
+   "isMaster": false,
+   "seetIndex": 4,
+   "ip": "192.168.0.42"
+  }
+ ],
+ "chatRoomId": "8658693074280267814",
+ "usersRound": [
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 1,
+   "mj": [{
+    "num": 9,
+    "type": 3
+   }]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 2,
+   "mj": [{
+    "num": 3,
+    "type": 3
+   }]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 3,
+   "mj": [
+    {
+     "num": 9,
+     "type": 2
+    },
+    {
+     "num": 3,
+     "type": 1
+    }
+   ]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 4,
+   "mj": [{
+    "num": 2,
+    "type": 1
+   }]
+  }
+ ],
+ "start": true,
+ "bankerSeetIndex": 3,
+ "roomId": "000873",
+ "round": 4,
+ "playType": {
+  "sumN": 108,
+  "menQing": true,
+  "timesLimit": 1,
+  "yiZiQiao": true,
+  "yiTiaoLong": true,
+  "area": 1,
+  "severalNiao": 0,
+  "zhaNiao": 1,
+  "jiangJiangHu": false,
+  "bankerMode": 1,
+  "baoTing": true,
+  "diHu": false
+ },
+ "code": 1,
+ "my": {
+  "pais": [
+   {
+    "num": 1,
+    "type": 1
+   },
+   {
+    "num": 2,
+    "type": 1
+   },
+   {
+    "num": 4,
+    "type": 1
+   },
+   {
+    "num": 5,
+    "type": 1
+   },
+   {
+    "num": 2,
+    "type": 2
+   },
+   {
+    "num": 5,
+    "type": 2
+   },
+   {
+    "num": 8,
+    "type": 2
+   },
+   {
+    "num": 2,
+    "type": 3
+   },
+   {
+    "num": 4,
+    "type": 3
+   },
+   {
+    "num": 4,
+    "type": 3
+   },
+   {
+    "num": 6,
+    "type": 3
+   },
+   {
+    "num": 8,
+    "type": 3
+   },
+   {
+    "num": 9,
+    "type": 3
+   }
+  ],
+  "hasBaoTing": false,
+  "buPaiNum": 0,
+  "leftPaiNum": 51,
+  "baoTing": false,
+  "shaizi": [
+   1,
+   2
+  ]
+ }
+}
+2017-09-29 19:12:53.910  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:12:53.958  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - LoginSm：{
+ "nickname": "robot1",
+ "headimg": "http://192.168.0.42:8116/Login/wechatHeaders884/10884",
+ "roomId": "000873",
+ "code": 1
+}
+2017-09-29 19:12:53.967  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerCast：{"diamond": 15000}
+2017-09-29 19:12:53.969  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerRecordCast：{"record": [{
+ "index": 1671,
+ "time": 1506682220677,
+ "nickname": [
+  "robot0",
+  "robot1",
+  "robot2",
+  "robot3"
+ ],
+ "coin": [
+  6,
+  6,
+  -2,
+  -10
+ ],
+ "roomId": "007684",
+ "round": 8,
+ "playType": 1
+}]}
+2017-09-29 19:12:53.979  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - OfflineCast：{
+ "isOk": 1,
+ "seetIndex": 2
+}
+2017-09-29 19:12:53.986  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:53.993  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ReconnectSm：{
+ "users": [
+  {
+   "userState": 2,
+   "uid": 10885,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot0",
+   "gstate": 2,
+   "coin": -3,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders885/10885",
+   "isMaster": true,
+   "seetIndex": 1,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10884,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot1",
+   "gstate": 2,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders884/10884",
+   "isMaster": false,
+   "seetIndex": 2,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10883,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot2",
+   "gstate": 2,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders883/10883",
+   "isMaster": false,
+   "seetIndex": 3,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10882,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot3",
+   "gstate": 5,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders882/10882",
+   "isMaster": false,
+   "seetIndex": 4,
+   "ip": "192.168.0.42"
+  }
+ ],
+ "chatRoomId": "8658693074280267814",
+ "usersRound": [
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 1,
+   "mj": [{
+    "num": 9,
+    "type": 3
+   }]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 2,
+   "mj": [{
+    "num": 3,
+    "type": 3
+   }]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 3,
+   "mj": [
+    {
+     "num": 9,
+     "type": 2
+    },
+    {
+     "num": 3,
+     "type": 1
+    }
+   ]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 4,
+   "mj": [{
+    "num": 2,
+    "type": 1
+   }]
+  }
+ ],
+ "start": true,
+ "bankerSeetIndex": 3,
+ "roomId": "000873",
+ "round": 4,
+ "playType": {
+  "sumN": 108,
+  "menQing": true,
+  "timesLimit": 1,
+  "yiZiQiao": true,
+  "yiTiaoLong": true,
+  "area": 1,
+  "severalNiao": 0,
+  "zhaNiao": 1,
+  "jiangJiangHu": false,
+  "bankerMode": 1,
+  "baoTing": true,
+  "diHu": false
+ },
+ "code": 1,
+ "my": {
+  "pais": [
+   {
+    "num": 3,
+    "type": 1
+   },
+   {
+    "num": 8,
+    "type": 1
+   },
+   {
+    "num": 9,
+    "type": 1
+   },
+   {
+    "num": 2,
+    "type": 2
+   },
+   {
+    "num": 3,
+    "type": 2
+   },
+   {
+    "num": 4,
+    "type": 2
+   },
+   {
+    "num": 4,
+    "type": 2
+   },
+   {
+    "num": 6,
+    "type": 2
+   },
+   {
+    "num": 1,
+    "type": 3
+   },
+   {
+    "num": 1,
+    "type": 3
+   },
+   {
+    "num": 2,
+    "type": 3
+   },
+   {
+    "num": 3,
+    "type": 3
+   },
+   {
+    "num": 9,
+    "type": 3
+   }
+  ],
+  "hasBaoTing": false,
+  "buPaiNum": 0,
+  "leftPaiNum": 51,
+  "baoTing": false,
+  "shaizi": [
+   1,
+   2
+  ]
+ }
+}
+2017-09-29 19:12:54.033  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:12:54.034  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - OfflineCast：{
+ "isOk": 1,
+ "seetIndex": 1
+}
+2017-09-29 19:12:54.037  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - OfflineCast：{
+ "isOk": 1,
+ "seetIndex": 3
+}
+2017-09-29 19:12:54.037  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - OfflineCast：{
+ "isOk": 1,
+ "seetIndex": 1
+}
+2017-09-29 19:12:54.040  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - OfflineCast：{
+ "isOk": 1,
+ "seetIndex": 2
+}
+2017-09-29 19:12:54.043  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - OfflineCast：{
+ "isOk": 1,
+ "seetIndex": 1
+}
+2017-09-29 19:12:54.044  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - LoginSm：{
+ "nickname": "robot0",
+ "headimg": "http://192.168.0.42:8116/Login/wechatHeaders885/10885",
+ "roomId": "000873",
+ "code": 1
+}
+2017-09-29 19:12:54.052  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerCast：{"diamond": 14998}
+2017-09-29 19:12:54.054  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerRecordCast：{"record": [{
+ "index": 1671,
+ "time": 1506682220677,
+ "nickname": [
+  "robot0",
+  "robot1",
+  "robot2",
+  "robot3"
+ ],
+ "coin": [
+  6,
+  6,
+  -2,
+  -10
+ ],
+ "roomId": "007684",
+ "round": 8,
+ "playType": 1
+}]}
+2017-09-29 19:12:54.101  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ReconnectSm：{
+ "users": [
+  {
+   "userState": 1,
+   "uid": 10885,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot0",
+   "gstate": 2,
+   "coin": -3,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders885/10885",
+   "isMaster": true,
+   "seetIndex": 1,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10884,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot1",
+   "gstate": 2,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders884/10884",
+   "isMaster": false,
+   "seetIndex": 2,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10883,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot2",
+   "gstate": 2,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders883/10883",
+   "isMaster": false,
+   "seetIndex": 3,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10882,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot3",
+   "gstate": 5,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders882/10882",
+   "isMaster": false,
+   "seetIndex": 4,
+   "ip": "192.168.0.42"
+  }
+ ],
+ "chatRoomId": "8658693074280267814",
+ "usersRound": [
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 1,
+   "mj": [{
+    "num": 9,
+    "type": 3
+   }]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 2,
+   "mj": [{
+    "num": 3,
+    "type": 3
+   }]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 3,
+   "mj": [
+    {
+     "num": 9,
+     "type": 2
+    },
+    {
+     "num": 3,
+     "type": 1
+    }
+   ]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 4,
+   "mj": [{
+    "num": 2,
+    "type": 1
+   }]
+  }
+ ],
+ "start": true,
+ "bankerSeetIndex": 3,
+ "roomId": "000873",
+ "round": 4,
+ "playType": {
+  "sumN": 108,
+  "menQing": true,
+  "timesLimit": 1,
+  "yiZiQiao": true,
+  "yiTiaoLong": true,
+  "area": 1,
+  "severalNiao": 0,
+  "zhaNiao": 1,
+  "jiangJiangHu": false,
+  "bankerMode": 1,
+  "baoTing": true,
+  "diHu": false
+ },
+ "code": 1,
+ "my": {
+  "pais": [
+   {
+    "num": 3,
+    "type": 1
+   },
+   {
+    "num": 1,
+    "type": 2
+   },
+   {
+    "num": 2,
+    "type": 2
+   },
+   {
+    "num": 4,
+    "type": 2
+   },
+   {
+    "num": 4,
+    "type": 2
+   },
+   {
+    "num": 6,
+    "type": 2
+   },
+   {
+    "num": 7,
+    "type": 2
+   },
+   {
+    "num": 8,
+    "type": 2
+   },
+   {
+    "num": 9,
+    "type": 2
+   },
+   {
+    "num": 1,
+    "type": 3
+   },
+   {
+    "num": 5,
+    "type": 3
+   },
+   {
+    "num": 5,
+    "type": 3
+   },
+   {
+    "num": 7,
+    "type": 3
+   }
+  ],
+  "hasBaoTing": false,
+  "buPaiNum": 0,
+  "leftPaiNum": 51,
+  "baoTing": false,
+  "shaizi": [
+   1,
+   2
+  ]
+ }
+}
+2017-09-29 19:12:54.116  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:12:54.980  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:54.981  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:54.985  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:55.021 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择碰牌请求  822
+2017-09-29 19:12:55.055  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": true,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:55.070  WARN test.client.MessageImpl$13.resp(MessageImpl.java:158) - 加入房间预处理失败！！213
+2017-09-29 19:12:55.082  WARN test.client.MessageImpl$13.resp(MessageImpl.java:158) - 加入房间预处理失败！！213
+2017-09-29 19:12:55.083  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - JoinRoomBeforeSm：{"code": 213}
+2017-09-29 19:12:55.090  WARN test.client.MessageImpl$13.resp(MessageImpl.java:158) - 加入房间预处理失败！！213
+2017-09-29 19:12:55.093  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - JoinRoomBeforeSm：{"code": 213}
+2017-09-29 19:12:55.098  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - JoinRoomBeforeSm：{"code": 213}
+2017-09-29 19:12:56.060  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:56.060  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 3,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:56.060  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 3,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:56.060  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 3,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:56.079 ERROR test.client.util.ChannelCacheUtil.ranGetMjs(ChannelCacheUtil.java:73) - 随机打牌！八索
+2017-09-29 19:12:56.090  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 3,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:57.091  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:12:57.091  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:12:57.091  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:12:57.107  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:12:57.107  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:12:57.107  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:12:57.107 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择打牌请求  814
+2017-09-29 19:12:57.107  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:12:57.150  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:58.157  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:58.157  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:58.162  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:58.163  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:12:58.163  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:58.170  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:12:58.170  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:12:58.209  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:59.216  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:59.216  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:59.225  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:59.226  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:59.234  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:12:59.245  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:12:59.250  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:12:59.301  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:13:00.308  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:13:00.308  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:13:00.308  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:13:00.308  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:00.308  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:13:00.326  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:00.330  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:00.351  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 7,
+  "type": 3
+ }
+}
+2017-09-29 19:13:01.358  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 7,
+  "type": 3
+ }
+}
+2017-09-29 19:13:01.363  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 7,
+  "type": 3
+ }
+}
+2017-09-29 19:13:01.364  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 7,
+  "type": 3
+ }
+}
+2017-09-29 19:13:01.368  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 7,
+  "type": 3
+ }
+}
+2017-09-29 19:13:01.369  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:01.369  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:01.369  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:01.400  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 5,
+  "type": 2
+ }
+}
+2017-09-29 19:13:02.420  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 2
+ }
+}
+2017-09-29 19:13:02.422  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 5,
+  "type": 2
+ }
+}
+2017-09-29 19:13:02.424  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 2
+ }
+}
+2017-09-29 19:13:02.428  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:13:02.432  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:13:02.435  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 2
+ }
+}
+2017-09-29 19:13:02.443  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:13:02.448  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:03.461  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:03.461  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:03.461  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:03.461  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:03.478  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:03.487  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:03.493  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:03.510  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:04.515  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:04.521  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:04.523 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择碰牌请求  822
+2017-09-29 19:13:04.524  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:04.546  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": true,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:05.550  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:05.555  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 1,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:05.557  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 1,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:05.560  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 1,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:05.560 ERROR test.client.util.ChannelCacheUtil.ranGetMjs(ChannelCacheUtil.java:73) - 随机打牌！六索
+2017-09-29 19:13:05.566  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 1,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:06.567  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 6,
+  "type": 2
+ }
+}
+2017-09-29 19:13:06.567  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 6,
+  "type": 2
+ }
+}
+2017-09-29 19:13:06.567  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 6,
+  "type": 2
+ }
+}
+2017-09-29 19:13:06.567  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 6,
+  "type": 2
+ }
+}
+2017-09-29 19:13:06.567  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:06.567  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:06.583 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择打牌请求  814
+2017-09-29 19:13:06.583  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:06.618  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:07.623  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:07.625  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:07.629  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:07.630  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:07.635  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:07.636  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:07.640  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:07.660  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 7,
+  "type": 1
+ }
+}
+2017-09-29 19:13:08.667  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 7,
+  "type": 1
+ }
+}
+2017-09-29 19:13:08.667  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 7,
+  "type": 1
+ }
+}
+2017-09-29 19:13:08.667  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 7,
+  "type": 1
+ }
+}
+2017-09-29 19:13:08.667  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 7,
+  "type": 1
+ }
+}
+2017-09-29 19:13:08.682  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:08.682  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:08.682  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:08.711  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 2,
+  "type": 3
+ }
+}
+2017-09-29 19:13:09.718  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 2,
+  "type": 3
+ }
+}
+2017-09-29 19:13:09.718  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 2,
+  "type": 3
+ }
+}
+2017-09-29 19:13:09.721  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 2,
+  "type": 3
+ }
+}
+2017-09-29 19:13:09.728  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:13:09.730  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 2,
+  "type": 3
+ }
+}
+2017-09-29 19:13:09.730  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:13:09.740  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:13:09.752  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:10.759  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:10.760  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:10.762  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:10.766  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:10.768  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:10.770  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:10.782  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:10.789  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 6,
+  "type": 1
+ }
+}
+2017-09-29 19:13:11.794  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 6,
+  "type": 1
+ }
+}
+2017-09-29 19:13:11.794  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 6,
+  "type": 1
+ }
+}
+2017-09-29 19:13:11.794  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 6,
+  "type": 1
+ }
+}
+2017-09-29 19:13:11.801  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:11.802  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 6,
+  "type": 1
+ }
+}
+2017-09-29 19:13:11.807  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:11.811  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:11.820  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:12.829  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:12.829  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:12.844  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:12.847  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:12.850  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:12.855  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:12.856  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:12.858  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:13.860  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:13.861  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:13.863  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:13.867 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择碰牌请求  822
+2017-09-29 19:13:13.891  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": true,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:14.898  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:14.898  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 2,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:14.898  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 2,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:14.898  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 2,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:14.898 ERROR test.client.util.ChannelCacheUtil.ranGetMjs(ChannelCacheUtil.java:73) - 随机打牌！四索
+2017-09-29 19:13:14.918  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 2,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:15.926  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:15.927  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:15.931  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:15.945  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": true,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:16.948  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:16.951  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 1,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:16.956  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 1,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:16.957 ERROR test.client.util.ChannelCacheUtil.ranGetMjs(ChannelCacheUtil.java:73) - 随机打牌！一索
+2017-09-29 19:13:16.958  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 1,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:16.965  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 1,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:17.969  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:17.972  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:17.975  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:17.980  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:17.981  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:17.982  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:17.998 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择打牌请求  814
+2017-09-29 19:13:18.009  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:18.028  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:19.029  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:19.031  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:19.036  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:19.036  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:19.036  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:19.041  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:19.047  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:19.066  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:20.073  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:20.094  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:20.097  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:20.100  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:20.101  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:20.103  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:20.104  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:20.130  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 2,
+  "type": 3
+ }
+}

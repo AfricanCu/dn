@@ -1,0 +1,123 @@
+option java_package = "msg";
+option java_outer_classname = "LoginMessage";
+package msg.LoginMessage;
+
+//登陆请求
+message LoginCm {
+	optional int64 uid = 1;
+	optional string sessionCode = 2;
+	optional string loginTime = 3;
+}
+//俱乐部
+message Julebu {
+	optional int32 id = 1;//俱乐部id
+	optional string name = 2;//名称
+	optional int64 masterUid = 3;//会长id
+	optional string masterName = 4;//会长名字
+	optional string headimg = 5;//俱乐部头像
+	optional int32 state = 6;//1审批中 2加入的 3创建的
+	optional string playType = 7;
+	optional int32 num = 8;//当前在线人数
+}
+//登陆返回
+message LoginSm {
+	optional int32 code = 1; //1成功	
+	optional string nickname = 2;//昵称
+	optional string headimg = 3;//头像
+	optional string roomId = 4; //如果有房间？
+	repeated Julebu join = 5;//加入的俱乐部列表
+	repeated Julebu my = 6;//我的俱乐部列表
+	optional bool createJ = 7;//是否有权限创建俱乐部
+	optional string notice = 8;//公告
+}
+//切服登陆请求
+message SwLoginCm {
+	optional int64 uid = 1;
+	optional string swCode = 2;//切服code
+	optional int32 sId = 3;//从哪切过来
+	optional int32 type = 4;//切服类型 1加入房间
+}
+//切服登陆返回
+message SwLoginSm {
+	optional int32 code = 1; //1成功
+	optional LoginSm loginSm = 2;//登陆结果
+}
+//个人信息推送
+message PlayerCast{
+	optional int32 diamond = 1;//钻石数
+}
+
+//游戏记录 下标千万不能改！！！！！！！！！！！！！！！！！！！！！！
+message GameRecord {
+	repeated string nickname = 1;//昵称
+	repeated int32 coin = 2;//积分输赢
+	optional int32 round = 3;//几局
+	optional string roomId = 4;//房间id
+	optional int32 playType = 5;//什么玩法1、经典玩法 2、疯狂加倍
+	optional int64 time = 6;//结束时间
+	optional int32 index = 7;//索引
+	optional int32 winner = 8;//谁是大赢家下标
+}
+//局记录
+message Round{
+	repeated int32 coin = 1;//积分
+	optional int64 time = 2;//结束时间
+	optional int32 bankerSeetIndex = 3;//庄家
+	optional int32 battlebackIndex = 4;//战斗回放索引
+}
+//游戏记录请求
+message GameRecordCm{
+	optional int32 index = 1;
+}
+//游戏记录返回
+message GameRecordSm{
+	optional int32 code = 1; //1成功	
+	repeated Round round = 2;//
+	optional int32 index = 3;
+}
+//记录推送 下标千万不能改！！！！！！！！！！！！！！！！！！！！！！
+message PlayerRecordCast{
+	repeated GameRecord record = 2;//游戏记录
+}
+//proxy记录推送 下标千万不能改！！！！！！！！！！！！！！！！！！！！！！
+message ProxyRecordCast{
+	repeated GameRecord record = 1;//游戏记录
+}
+//充值成功推送
+message ChargeCast{
+	optional int32 diamond = 1;
+}
+//输入邀请码请求
+message InviteCodeCm{
+	optional string index = 1;
+}
+//输入邀请码返回
+message InviteCodeSm{
+	optional int32 code = 1; //1成功	
+	repeated Round round = 2;//
+	optional int32 index = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

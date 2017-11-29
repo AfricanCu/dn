@@ -1,0 +1,43 @@
+苹果
+下订单 URL GET 
+http://119.23.104.30:8116/Login/genOrderIdServlet?pay_id=xxx&uid=xxx
+如果店铺：&agency=xxx
+
+沙箱测试充值通知URL POST http://119.23.104.30:8116/Login/iosSandboxChargeServletServlet
+正式充值通知URL POST http://119.23.104.30:8116/Login/iosChargeServlet
+	orderId=xxx&apple_receipt=xxx
+
+Android
+支付宝充值页面 http://pay.hunanshikecao.com/single/shopList.jsp?pay_id=xxx&uid=xxx
+
+登录 
+GET http://119.23.104.30:8116/Login/functionServlet
+
+资源更新 
+http://updata.99thj.com/thj3dmj/1_0
+
+游戏下载地址
+http://download.hunanshikecao.com/index.html
+
+
+
+登陆http请求
+第一次登陆
+?type=login&code=登陆凭证&platformId=平台类型(&roomId=魔窗跳转房间ID)&district=1
+有session缓存的登陆
+?type=login&sessionCode=会话缓存&platformId=平台类型(&roomId=魔窗跳转房间ID)&district=1
+登陆凭证||会话缓存只选其一发送
+平台类型：android(1), ios(2), pc(3), ios_visitor(4);
+
+登陆返回
+{
+	code:int,
+	uid:long,
+	sessionCode:string,http请求sessioncode
+	target:{
+		sessionCode:string,socket登陆sessioncode
+		loginTime:string,
+		serverIp:string,
+		port:int
+	}
+}

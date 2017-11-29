@@ -1,0 +1,11 @@
+2017-10-12 09:09:44.268 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-10-12 09:09:44.331 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：100
+2017-10-12 09:10:46.290 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-10-12 09:10:46.336 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：100
+2017-10-12 09:10:55.692 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-10-12 09:10:55.707 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateJulebuBeforeCm 1504 true
+2017-10-12 09:10:55.739  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-10-12 09:10:55.832  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-10-12 09:10:55.848  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-10-12 09:10:55.848  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:AddJulebuCast 1500
+2017-10-12 09:10:55.879  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateJulebuSm 1507

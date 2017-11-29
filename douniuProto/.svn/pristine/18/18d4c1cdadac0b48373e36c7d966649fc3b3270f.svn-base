@@ -1,0 +1,127 @@
+option java_package = "msg";
+option java_outer_classname = "InnerMessage";
+package msg.InnerMessage;
+import "loginMessage.proto";
+///////////////////gs->bus//////////////////////////////////
+//gs登陆bus
+message GsLoginBusHttp {
+	optional int32 serverId = 1;
+	optional string code = 2;
+}
+//gs登陆bus
+message GsLoginBusHttpbk {
+	optional int32 code = 1;//1ok
+}
+////////////////////bus->gs////////////////////////////////////////
+//服务器状态请求
+message ServerStatusBusToGs {
+	//如果要切服，可以切这个服务器
+	optional int32 oserverId = 1;
+	optional string othost = 2;
+	optional int32 otport = 3;
+	optional string otswCode = 4;//切服code
+}
+//服务器状态返回
+message ServerStatusBusToGsbk {
+	optional int32 code = 1;//1ok
+	optional int32 onlineNum = 2;//在线人数
+	optional int32 cacheSize = 3;//缓存数据数
+	optional int32 sessionCount = 4;//会话数
+	optional int64 maxMemory = 5;//最大内存
+	optional int64 totalMemory = 6;//分配内存
+	optional int64 freeMemory = 7;//空闲内存
+	optional int32 status = 8;//服务器状态 0流畅 1繁忙 2爆满
+	optional string swCode = 9;//切服code
+	optional int32 roomUserNum = 10;//在房间人数
+}
+//服务器信息
+message Server{
+	optional int32 serverId = 1;
+	optional string name = 2;
+	optional bool isOpen = 3;
+	optional int32 status = 4;// 服务器状态
+	optional string host = 5;
+	optional string innerHost = 6;
+	optional int32 port = 7;
+	optional int32 strengthNeed = 8;
+}
+//服务器列表广播请求
+message ServerListCastBusToGs {
+	repeated Server server = 1;
+}
+//服务器列表广播返回
+message ServerListCastBusToGsbk {
+	optional int32 code = 1;//1ok
+}
+//踢人请求
+message KickBusToGs {
+	optional int64 uid = 1;
+}
+//踢人返回
+message KickBusToGsbk {
+	optional int32 code = 1;//1ok
+	optional int64 uid = 2;
+}
+//充值请求
+message ChargeBusToGs {
+	optional string orderId = 1;
+	optional int64 uid = 2;
+	optional int32 district = 3;
+	optional int32 diamond = 4;
+}
+//充值返回
+message ChargeBusToGsbk {
+	optional int32 code = 1;//1ok
+	optional string orderId = 2;
+}
+//gm请求
+message GmBusToGs {
+	optional string reqId = 1;
+	optional int32 gmType = 2;//请求类型
+	optional int64 uid = 3;
+	optional string json = 4;//请求数据
+}
+//gm返回
+message GmBusToGsbk {
+	optional int32 code = 1;//1ok
+	optional string reqId = 2;
+}
+//////////////////////////gs1->gs2//////////////////////////////////////////////
+//Guild请求
+message GuildGsToGs {
+	optional int32 reqId = 2;
+	optional int64 uid = 3;
+	optional int32 id = 4;//俱乐部id
+	optional int32 type = 5;//请求类型 1申请加入
+	optional string nickname = 6;//玩家昵称
+	optional string data = 7;
+}
+//Guild返回
+message GuildGsToGsbk {
+	optional int32 code = 1;//1ok
+	optional int32 reqId = 2;
+	optional int64 uid = 3;
+	optional int32 id = 4;//俱乐部id
+	optional int32 type = 5;//请求类型 1申请加入
+	optional string nickname = 6;//玩家昵称
+	optional string data = 7;
+}
+//玩家请求
+message UserGsToGs {
+	optional int32 reqId = 2;
+	optional int64 uid = 3;
+	optional int32 type = 4;//请求类型 1加减钻石
+	optional int32 district = 5;
+	optional int32 diamond = 6;
+	optional LoginMessage.GameRecord gameRecord = 7;//游戏记录
+}
+//玩家返回
+message UserGsToGsbk {
+	optional int32 code = 1;//1ok
+	optional int32 reqId = 2;
+	optional int64 uid = 3;
+	optional int32 type = 4;//请求类型 1加减钻石
+	optional int32 district = 5;
+	optional int32 diamond = 6;
+	optional LoginMessage.GameRecord gameRecord = 7;//游戏记录
+}

@@ -1,0 +1,7 @@
+#/////////////游戏设置////////////////
+#申请解散房间(秒)
+MemberDissolveRoomTimeInSecond=300
+seeOverTimeInSeconds=15
+GameRecordMax=20
+ProxyRecordMax=50
+PauseGameDissolveTimeInSecond=28800

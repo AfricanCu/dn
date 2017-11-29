@@ -1,0 +1,136 @@
+option java_package = "msg";
+option java_outer_classname = "BullMessage";
+package msg.BullMessage;
+import "roomMessage.proto";
+//扑克
+message Puke{
+	optional int32 num = 1;
+	optional int32 type = 2;//1黑 2红 3梅 4方
+}
+//开局信息推送
+message RoundBeginCast{
+	optional int32 round = 1;//第几把
+	repeated Puke puke = 2;//4张牌
+}
+//抢庄开始广播
+message QzBeginCast{
+}
+//抢庄请求
+message QiangZhuangCm {
+	optional bool qiang = 1;//抢吗
+}
+//抢庄返回
+message QiangZhuangSm {
+	optional int32 code = 1;//1ok
+	optional bool qiang = 2;//抢吗
+}
+//抢庄广播
+message QiangZhuangCast {
+	optional int32 seetIndex = 1;//位置 
+	optional bool qiang = 2;//抢吗
+}
+//庄广播
+message BankerCast {
+	optional int32 seetIndex = 1;//位置
+	optional bool ran = 2;//是否随机
+	repeated int32 st = 3;//随机座位
+}
+//押注开始广播
+message BetOnBeginCast{
+}
+//押注请求
+message BetOnCm{
+	optional int32 betTimes = 1;//下注倍数 1倍2倍3倍
+}
+//押注返回
+message BetOnSm{
+	optional int32 code = 1;//1ok
+	optional int32 betTimes = 2;//下注倍数 1倍2倍3倍
+}
+//玩家押注推送
+message BetOnCast{
+	optional int32 seetIndex = 1;//座位号
+	optional int32 betTimes = 2;//下注倍数 1倍2倍3倍
+}
+//发最后牌广播
+message FaLastPukeCast{
+	repeated Puke puke = 1;
+	optional int32 niu = 2;//牛几 0没牛
+	optional int32 maxIndex = 3;//哪个牌最大
+	repeated int32 niuIndex = 4;//哪几个位置组合成牛
+}
+//完成请求
+message FinishPukeCm{
+}
+//完成返回
+message FinishPukeSm{
+	optional int32 code = 1;//1ok
+}
+//完成推送
+message FinishPukeCast{
+	optional int32 seetIndex = 1;//哪个位置
+}
+//下一轮请求
+message NextRoundCm{
+}
+//下一轮请求
+message NextRoundSm{
+	optional int32 code = 1;//1ok
+}
+//下一局广播
+message NextRoundCast{
+	optional int32 seetIndex = 1;//哪个位置
+}
+//牛结果
+message BullResult{
+	optional int32 seetIndex = 1;//哪个位置
+	optional int32 coin = 2;//当前积分
+	optional int32 changeCoin = 3;//改变积分
+	repeated Puke puke = 4;
+	optional int32 niu = 5;//牛几 0没牛
+	optional int32 index = 6;//哪个牌最大
+	repeated int32 niuIndex = 7;//哪几个位置组合成牛
+}
+//牛结算推送
+message BullResultCast{
+	repeated BullResult rs = 1;//牌的信息
+}
+//战绩
+message SeetResult{
+	optional int32 seetIndex = 1;//哪个位置
+	optional int32 coin = 2;//积分输赢
+	optional int32 allWinTimes = 3;//胜利次数
+	optional int32 allFailTimes = 4;//失败次数
+	optional int32 niuNiuTimes = 5;//有牛次数
+	optional int32 noNiuTImes = 6;//没牛次数
+	optional int32 winTimes = 7;//胜利次数
+}
+//游戏结束广播
+message GameOverCast{
+	repeated SeetResult rs = 1;
+	repeated int32 seetIndex = 2;//大赢家
+}
+//断线重连请求
+message ReconnectCm {
+}
+message UserRoundInfo{
+	optional int32 seetIndex = 1;//哪个位置
+	optional int32 betTimes = 2;//下注积分
+	optional sint32 changeCoin = 3;//改变积分
+	optional bool qiang = 4;//是否抢
+	optional FaLastPukeCast faLastPukeCast = 5;
+}
+//断线重连返回
+message ReconnectSm {
+	optional int32 code = 1;//1ok
+	repeated RoomMessage.UserInfo users = 2;//玩家列表
+	optional RoomMessage.PlayType playType  = 3; //玩法
+	optional string roomId = 4;//房间id
+	optional string chatRoomId = 5;//
+	repeated UserRoundInfo usersRound = 6;
+	optional bool start = 7;//游戏是否开始
+	optional int32 round = 8;//第几局
+	optional RoomMessage.JulebuRoom julebuRoom = 9;//俱乐部信息
+	optional BullResultCast bullResultCast = 10;//小结算
+	optional int32 bankerIndex = 11;//庄
+}

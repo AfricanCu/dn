@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure.dtd">
+<!-- 模块的配置 -->
+<!-- 语法格式文档：http://wiki.eclipse.org/Jetty/Reference/jetty.xml_syntax -->
+<!-- =============================================================== -->
+<Configure id="config">
+	<Call class="com.wk.engine.ModuleManager" name="addSystemModuleAbs">
+		<Arg>
+			<Array type="com.wk.engine.SystemModuleAbs">
+				<Item>
+					<New class="com.wk.engine.inner.BusSysModule">
+						<!-- 模块名 -->
+						<Set name="name">bus连接gs</Set>
+						<!-- 消息开始，包含 -->
+						<Set name="downerMsgId">-1000</Set>
+						<!-- 消息结束，包含 -->
+						<Set name="upperMsgId">-500</Set>
+					</New>
+				</Item>
+				<Item>
+					<New class="com.wk.engine.inner.GsSysModule">
+						<!-- 模块名 -->
+						<Set name="name">other-gs连接gs</Set>
+						<!-- 消息开始，包含 -->
+						<Set name="downerMsgId">-2000</Set>
+						<!-- 消息结束，包含 -->
+						<Set name="upperMsgId">-1001</Set>
+					</New>
+				</Item>
+			</Array>
+		</Arg>
+	</Call>
+	<Call class="com.wk.engine.ModuleManager" name="addModuleI">
+		<Arg>
+			<Array type="com.wk.engine.ModuleAbs">
+				<Item>
+					<New class="com.wk.server.logic.login.LoginModule">
+						<!-- LRU最大缓存 -->
+						<Arg name="maxLRUSize" type="int">10000</Arg>
+						<!-- 爆满在线channel -->
+						<Arg name="fullSize" type="int">3000</Arg>
+						<!-- 繁忙在线channel -->
+						<Arg name="busySize" type="int">2000</Arg>
+						<!-- 流畅在线channel -->
+						<Arg name="smoothSize" type="int">1000</Arg>
+						<!-- 模块名 -->
+						<Set name="name">登陆</Set>
+						<!-- 消息开始，包含 -->
+						<Set name="downerMsgId">1</Set>
+						<!-- 消息结束，包含 -->
+						<Set name="upperMsgId">99</Set>
+						<!-- 多少秒回写一次 -->
+						<Set name="backDbTimeInSecond">30</Set>
+					</New>
+				</Item>
+				<Item>
+					<New class="com.wk.server.logic.room.RoomModule">
+						<Set name="name">房间</Set>
+						<Set name="downerMsgId">100</Set>
+						<Set name="upperMsgId">999</Set>
+						<Set name="backDbTimeInSecond">-1</Set>
+					</New>
+				</Item>
+			</Array>
+		</Arg>
+	</Call>
+</Configure>

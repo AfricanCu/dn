@@ -1,0 +1,5 @@
+﻿shopId,diamond,present,rmb
+Int,Int,Int,Int
+1,100,20,1
+2,500,150,2
+3,1000,400,3

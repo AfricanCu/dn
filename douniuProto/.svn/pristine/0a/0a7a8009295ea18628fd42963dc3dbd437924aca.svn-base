@@ -1,0 +1,2628 @@
+2017-09-29 19:12:38.968 ERROR test.client.TestClient.<clinit>(TestClient.java:99) - 127.0.0.1
+2017-09-29 19:12:38.984 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-09-29 19:12:39.019 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：100
+2017-09-29 19:12:39.215 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - Using SLF4J as the default logging framework
+2017-09-29 19:12:39.215 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - Platform: Windows
+2017-09-29 19:12:39.215 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - Java version: 7
+2017-09-29 19:12:39.215 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.noUnsafe: false
+2017-09-29 19:12:39.231 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - java.nio.ByteBuffer.cleaner: available
+2017-09-29 19:12:39.231 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - java.nio.Buffer.address: available
+2017-09-29 19:12:39.231 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - sun.misc.Unsafe.theUnsafe: available
+2017-09-29 19:12:39.231 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - sun.misc.Unsafe.copyMemory: available
+2017-09-29 19:12:39.231 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - java.nio.Bits.unaligned: true
+2017-09-29 19:12:39.231 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - sun.misc.Unsafe: available
+2017-09-29 19:12:39.231 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.noJavassist: false
+2017-09-29 19:12:39.422 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - Javassist: available
+2017-09-29 19:12:39.423 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.noPreferDirect: false
+2017-09-29 19:12:40.024 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-09-29 19:12:40.079 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-09-29 19:12:40.079 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-09-29 19:12:40.095 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-09-29 19:12:40.095 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-09-29 19:12:40.121 ERROR test.client.MessageImpl.genTips(MessageImpl.java:576) - sId
+2017-09-29 19:12:40.130 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - julebuRoomBuilder
+2017-09-29 19:12:40.137 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - mjBuilder
+2017-09-29 19:12:40.140 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - mjBuilder
+2017-09-29 19:12:40.144 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - mjBuilder
+2017-09-29 19:12:41.227 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:401) - 选择1
+2017-09-29 19:12:41.229 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择创建俱乐部预处理请求  1504
+2017-09-29 19:12:49.999 ERROR test.client.TestClient.login(TestClient.java:292) - {"uid":10887,"sessionCode":"{\"uid\":10887,\"accessTime\":1506683569975,\"refreshTime\":1506683569975}","target":{"port":8035,"sessionCode":"{\"uid\":10887,\"time\":1506683569976}","loginTime":"1506683569983","serverIp":"192.168.0.42"},"code":1}
+2017-09-29 19:12:50.015 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - Generated: io.netty.util.internal.__matchers__.com.wk.engine.net.IoMessageMatcher
+2017-09-29 19:12:50.032 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.eventLoopThreads: 8
+2017-09-29 19:12:50.078 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.noKeySetOptimization: false
+2017-09-29 19:12:50.079 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-09-29 19:12:50.248 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - Generated: io.netty.util.internal.__matchers__.com.wk.engine.net.I.IoMessageAbsMatcher
+2017-09-29 19:12:50.322 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.noResourceLeakDetection: false
+2017-09-29 19:12:50.333 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-09-29 19:12:50.336 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateJulebuBeforeCm 1504 true
+2017-09-29 19:12:50.351  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-09-29 19:12:50.467  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - LoginSm：{
+ "nickname": "ranUser1",
+ "headimg": "http://192.168.0.42:8116/Login/wechatHeaders887/10887",
+ "code": 1
+}
+2017-09-29 19:12:50.469  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-09-29 19:12:50.473  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-09-29 19:12:50.474  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:AddJulebuCast 1500
+2017-09-29 19:12:50.475  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateJulebuSm 1507
+2017-09-29 19:12:50.479  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerCast：{"diamond": 15000}
+2017-09-29 19:12:50.484  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerRecordCast：{}
+2017-09-29 19:12:50.516  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - AddJulebuCast：{
+ "type": 2,
+ "my": {
+  "id": 1000448,
+  "masterName": "ranUser1",
+  "masterUid": 10887,
+  "headimg": "http://192.168.0.42:8116/Login/wechatHeaders887/10887",
+  "name": "沅江麻将",
+  "state": 3,
+  "playType": "沅江麻将,8局,报听,门清,"
+ }
+}
+2017-09-29 19:12:50.523  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - CreateJulebuSm：{
+ "id": 1000448,
+ "name": "沅江麻将",
+ "playType": {
+  "sumN": 108,
+  "menQing": true,
+  "timesLimit": 1,
+  "yiZiQiao": true,
+  "yiTiaoLong": true,
+  "area": 1,
+  "severalNiao": 0,
+  "zhaNiao": 1,
+  "jiangJiangHu": false,
+  "bankerMode": 1,
+  "baoTing": true,
+  "diHu": false
+ },
+ "code": 1
+}
+2017-09-29 19:12:53.208 ERROR test.client.TestClient.login(TestClient.java:292) - {"uid":10882,"sessionCode":"{\"uid\":10882,\"accessTime\":1506683322000,\"refreshTime\":1506683322000}","target":{"port":8035,"sessionCode":"{\"uid\":10882,\"time\":1506683573199}","loginTime":"1506683573205","serverIp":"192.168.0.42"},"code":1}
+2017-09-29 19:12:53.227  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:12:53.292 ERROR test.client.TestClient.login(TestClient.java:292) - {"uid":10883,"sessionCode":"{\"uid\":10883,\"accessTime\":1506683322000,\"refreshTime\":1506683322000}","target":{"port":8035,"sessionCode":"{\"uid\":10883,\"time\":1506683573273}","loginTime":"1506683573288","serverIp":"192.168.0.42"},"code":1}
+2017-09-29 19:12:53.313  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:12:53.368 ERROR test.client.TestClient.login(TestClient.java:292) - {"uid":10884,"sessionCode":"{\"uid\":10884,\"accessTime\":1506683322000,\"refreshTime\":1506683322000}","target":{"port":8035,"sessionCode":"{\"uid\":10884,\"time\":1506683573360}","loginTime":"1506683573365","serverIp":"192.168.0.42"},"code":1}
+2017-09-29 19:12:53.384  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:12:53.441 ERROR test.client.TestClient.login(TestClient.java:292) - {"uid":10885,"sessionCode":"{\"uid\":10885,\"accessTime\":1506683322000,\"refreshTime\":1506683322000}","target":{"port":8035,"sessionCode":"{\"uid\":10885,\"time\":1506683573433}","loginTime":"1506683573438","serverIp":"192.168.0.42"},"code":1}
+2017-09-29 19:12:53.455  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:12:53.728 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-09-29 19:12:53.738  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-09-29 19:12:53.740 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:ReconnectCm 827 true
+2017-09-29 19:12:53.743  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - LoginSm：{
+ "nickname": "robot3",
+ "headimg": "http://192.168.0.42:8116/Login/wechatHeaders882/10882",
+ "roomId": "000873",
+ "code": 1
+}
+2017-09-29 19:12:53.749  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-09-29 19:12:53.750  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerCast：{"diamond": 15000}
+2017-09-29 19:12:53.751  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-09-29 19:12:53.761  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerRecordCast：{"record": [{
+ "index": 1671,
+ "time": 1506682220677,
+ "nickname": [
+  "robot0",
+  "robot1",
+  "robot2",
+  "robot3"
+ ],
+ "coin": [
+  6,
+  6,
+  -2,
+  -10
+ ],
+ "roomId": "007684",
+ "round": 8,
+ "playType": 1
+}]}
+2017-09-29 19:12:53.764  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ReconnectSm 828
+2017-09-29 19:12:53.765  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:12:53.815 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-09-29 19:12:53.819  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ReconnectSm：{
+ "users": [
+  {
+   "userState": 2,
+   "uid": 10885,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot0",
+   "gstate": 2,
+   "coin": -3,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders885/10885",
+   "isMaster": true,
+   "seetIndex": 1,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 2,
+   "uid": 10884,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot1",
+   "gstate": 2,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders884/10884",
+   "isMaster": false,
+   "seetIndex": 2,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 2,
+   "uid": 10883,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot2",
+   "gstate": 2,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders883/10883",
+   "isMaster": false,
+   "seetIndex": 3,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10882,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot3",
+   "gstate": 5,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders882/10882",
+   "isMaster": false,
+   "seetIndex": 4,
+   "ip": "192.168.0.42"
+  }
+ ],
+ "chatRoomId": "8658693074280267814",
+ "usersRound": [
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 1,
+   "mj": [{
+    "num": 9,
+    "type": 3
+   }]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 2,
+   "mj": [{
+    "num": 3,
+    "type": 3
+   }]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 3,
+   "mj": [
+    {
+     "num": 9,
+     "type": 2
+    },
+    {
+     "num": 3,
+     "type": 1
+    }
+   ]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 4,
+   "mj": [{
+    "num": 2,
+    "type": 1
+   }]
+  }
+ ],
+ "start": true,
+ "bankerSeetIndex": 3,
+ "roomId": "000873",
+ "round": 4,
+ "playType": {
+  "sumN": 108,
+  "menQing": true,
+  "timesLimit": 1,
+  "yiZiQiao": true,
+  "yiTiaoLong": true,
+  "area": 1,
+  "severalNiao": 0,
+  "zhaNiao": 1,
+  "jiangJiangHu": false,
+  "bankerMode": 1,
+  "baoTing": true,
+  "diHu": false
+ },
+ "code": 1,
+ "my": {
+  "pais": [
+   {
+    "num": 1,
+    "type": 1
+   },
+   {
+    "num": 2,
+    "type": 1
+   },
+   {
+    "num": 2,
+    "type": 1
+   },
+   {
+    "num": 6,
+    "type": 1
+   },
+   {
+    "num": 8,
+    "type": 1
+   },
+   {
+    "num": 3,
+    "type": 2
+   },
+   {
+    "num": 3,
+    "type": 2
+   },
+   {
+    "num": 5,
+    "type": 2
+   },
+   {
+    "num": 6,
+    "type": 2
+   },
+   {
+    "num": 7,
+    "type": 2
+   },
+   {
+    "num": 7,
+    "type": 2
+   },
+   {
+    "num": 8,
+    "type": 3
+   },
+   {
+    "num": 9,
+    "type": 3
+   }
+  ],
+  "hasBaoTing": false,
+  "buPaiNum": 0,
+  "leftPaiNum": 51,
+  "baoTing": false,
+  "shaizi": [
+   1,
+   2
+  ]
+ }
+}
+2017-09-29 19:12:53.829  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-09-29 19:12:53.837 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择打牌请求  814
+2017-09-29 19:12:53.838 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:ReconnectCm 827 true
+2017-09-29 19:12:53.846  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - LoginSm：{
+ "nickname": "robot2",
+ "headimg": "http://192.168.0.42:8116/Login/wechatHeaders883/10883",
+ "roomId": "000873",
+ "code": 1
+}
+2017-09-29 19:12:53.850  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-09-29 19:12:53.851  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-09-29 19:12:53.852  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ReconnectSm 828
+2017-09-29 19:12:53.852  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:12:53.854  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerCast：{"diamond": 15000}
+2017-09-29 19:12:53.858  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerRecordCast：{"record": [{
+ "index": 1671,
+ "time": 1506682220677,
+ "nickname": [
+  "robot0",
+  "robot1",
+  "robot2",
+  "robot3"
+ ],
+ "coin": [
+  6,
+  6,
+  -2,
+  -10
+ ],
+ "roomId": "007684",
+ "round": 8,
+ "playType": 1
+}]}
+2017-09-29 19:12:53.875  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ReconnectSm：{
+ "users": [
+  {
+   "userState": 2,
+   "uid": 10885,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot0",
+   "gstate": 2,
+   "coin": -3,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders885/10885",
+   "isMaster": true,
+   "seetIndex": 1,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 2,
+   "uid": 10884,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot1",
+   "gstate": 2,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders884/10884",
+   "isMaster": false,
+   "seetIndex": 2,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10883,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot2",
+   "gstate": 2,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders883/10883",
+   "isMaster": false,
+   "seetIndex": 3,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10882,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot3",
+   "gstate": 5,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders882/10882",
+   "isMaster": false,
+   "seetIndex": 4,
+   "ip": "192.168.0.42"
+  }
+ ],
+ "chatRoomId": "8658693074280267814",
+ "usersRound": [
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 1,
+   "mj": [{
+    "num": 9,
+    "type": 3
+   }]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 2,
+   "mj": [{
+    "num": 3,
+    "type": 3
+   }]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 3,
+   "mj": [
+    {
+     "num": 9,
+     "type": 2
+    },
+    {
+     "num": 3,
+     "type": 1
+    }
+   ]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 4,
+   "mj": [{
+    "num": 2,
+    "type": 1
+   }]
+  }
+ ],
+ "start": true,
+ "bankerSeetIndex": 3,
+ "roomId": "000873",
+ "round": 4,
+ "playType": {
+  "sumN": 108,
+  "menQing": true,
+  "timesLimit": 1,
+  "yiZiQiao": true,
+  "yiTiaoLong": true,
+  "area": 1,
+  "severalNiao": 0,
+  "zhaNiao": 1,
+  "jiangJiangHu": false,
+  "bankerMode": 1,
+  "baoTing": true,
+  "diHu": false
+ },
+ "code": 1,
+ "my": {
+  "pais": [
+   {
+    "num": 1,
+    "type": 1
+   },
+   {
+    "num": 2,
+    "type": 1
+   },
+   {
+    "num": 4,
+    "type": 1
+   },
+   {
+    "num": 5,
+    "type": 1
+   },
+   {
+    "num": 2,
+    "type": 2
+   },
+   {
+    "num": 5,
+    "type": 2
+   },
+   {
+    "num": 8,
+    "type": 2
+   },
+   {
+    "num": 2,
+    "type": 3
+   },
+   {
+    "num": 4,
+    "type": 3
+   },
+   {
+    "num": 4,
+    "type": 3
+   },
+   {
+    "num": 6,
+    "type": 3
+   },
+   {
+    "num": 8,
+    "type": 3
+   },
+   {
+    "num": 9,
+    "type": 3
+   }
+  ],
+  "hasBaoTing": false,
+  "buPaiNum": 0,
+  "leftPaiNum": 51,
+  "baoTing": false,
+  "shaizi": [
+   1,
+   2
+  ]
+ }
+}
+2017-09-29 19:12:53.904 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-09-29 19:12:53.910  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:12:53.950  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-09-29 19:12:53.951 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:ReconnectCm 827 true
+2017-09-29 19:12:53.958  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - LoginSm：{
+ "nickname": "robot1",
+ "headimg": "http://192.168.0.42:8116/Login/wechatHeaders884/10884",
+ "roomId": "000873",
+ "code": 1
+}
+2017-09-29 19:12:53.963 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-09-29 19:12:53.965  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-09-29 19:12:53.966  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-09-29 19:12:53.967  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerCast：{"diamond": 15000}
+2017-09-29 19:12:53.968  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:12:53.969  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerRecordCast：{"record": [{
+ "index": 1671,
+ "time": 1506682220677,
+ "nickname": [
+  "robot0",
+  "robot1",
+  "robot2",
+  "robot3"
+ ],
+ "coin": [
+  6,
+  6,
+  -2,
+  -10
+ ],
+ "roomId": "007684",
+ "round": 8,
+ "playType": 1
+}]}
+2017-09-29 19:12:53.975  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:OfflineCast 214
+2017-09-29 19:12:53.975  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ReconnectSm 828
+2017-09-29 19:12:53.977  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:12:53.979  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - OfflineCast：{
+ "isOk": 1,
+ "seetIndex": 2
+}
+2017-09-29 19:12:53.986  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:53.988  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:OfflineCast 214
+2017-09-29 19:12:53.994  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-09-29 19:12:53.993  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ReconnectSm：{
+ "users": [
+  {
+   "userState": 2,
+   "uid": 10885,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot0",
+   "gstate": 2,
+   "coin": -3,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders885/10885",
+   "isMaster": true,
+   "seetIndex": 1,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10884,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot1",
+   "gstate": 2,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders884/10884",
+   "isMaster": false,
+   "seetIndex": 2,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10883,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot2",
+   "gstate": 2,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders883/10883",
+   "isMaster": false,
+   "seetIndex": 3,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10882,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot3",
+   "gstate": 5,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders882/10882",
+   "isMaster": false,
+   "seetIndex": 4,
+   "ip": "192.168.0.42"
+  }
+ ],
+ "chatRoomId": "8658693074280267814",
+ "usersRound": [
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 1,
+   "mj": [{
+    "num": 9,
+    "type": 3
+   }]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 2,
+   "mj": [{
+    "num": 3,
+    "type": 3
+   }]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 3,
+   "mj": [
+    {
+     "num": 9,
+     "type": 2
+    },
+    {
+     "num": 3,
+     "type": 1
+    }
+   ]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 4,
+   "mj": [{
+    "num": 2,
+    "type": 1
+   }]
+  }
+ ],
+ "start": true,
+ "bankerSeetIndex": 3,
+ "roomId": "000873",
+ "round": 4,
+ "playType": {
+  "sumN": 108,
+  "menQing": true,
+  "timesLimit": 1,
+  "yiZiQiao": true,
+  "yiTiaoLong": true,
+  "area": 1,
+  "severalNiao": 0,
+  "zhaNiao": 1,
+  "jiangJiangHu": false,
+  "bankerMode": 1,
+  "baoTing": true,
+  "diHu": false
+ },
+ "code": 1,
+ "my": {
+  "pais": [
+   {
+    "num": 3,
+    "type": 1
+   },
+   {
+    "num": 8,
+    "type": 1
+   },
+   {
+    "num": 9,
+    "type": 1
+   },
+   {
+    "num": 2,
+    "type": 2
+   },
+   {
+    "num": 3,
+    "type": 2
+   },
+   {
+    "num": 4,
+    "type": 2
+   },
+   {
+    "num": 4,
+    "type": 2
+   },
+   {
+    "num": 6,
+    "type": 2
+   },
+   {
+    "num": 1,
+    "type": 3
+   },
+   {
+    "num": 1,
+    "type": 3
+   },
+   {
+    "num": 2,
+    "type": 3
+   },
+   {
+    "num": 3,
+    "type": 3
+   },
+   {
+    "num": 9,
+    "type": 3
+   }
+  ],
+  "hasBaoTing": false,
+  "buPaiNum": 0,
+  "leftPaiNum": 51,
+  "baoTing": false,
+  "shaizi": [
+   1,
+   2
+  ]
+ }
+}
+2017-09-29 19:12:54.012  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:OfflineCast 214
+2017-09-29 19:12:54.033  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:12:54.008 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:ReconnectCm 827 true
+2017-09-29 19:12:53.998  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:OfflineCast 214
+2017-09-29 19:12:54.035  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:OfflineCast 214
+2017-09-29 19:12:54.034  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - OfflineCast：{
+ "isOk": 1,
+ "seetIndex": 1
+}
+2017-09-29 19:12:54.037  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - OfflineCast：{
+ "isOk": 1,
+ "seetIndex": 1
+}
+2017-09-29 19:12:54.037  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - OfflineCast：{
+ "isOk": 1,
+ "seetIndex": 3
+}
+2017-09-29 19:12:54.036  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:12:54.040  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - OfflineCast：{
+ "isOk": 1,
+ "seetIndex": 2
+}
+2017-09-29 19:12:54.041  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:12:54.042  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:OfflineCast 214
+2017-09-29 19:12:54.042  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:12:54.043  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - OfflineCast：{
+ "isOk": 1,
+ "seetIndex": 1
+}
+2017-09-29 19:12:54.044  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - LoginSm：{
+ "nickname": "robot0",
+ "headimg": "http://192.168.0.42:8116/Login/wechatHeaders885/10885",
+ "roomId": "000873",
+ "code": 1
+}
+2017-09-29 19:12:54.047  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-09-29 19:12:54.049  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-09-29 19:12:54.050  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ReconnectSm 828
+2017-09-29 19:12:54.051  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:12:54.052  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerCast：{"diamond": 14998}
+2017-09-29 19:12:54.054  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PlayerRecordCast：{"record": [{
+ "index": 1671,
+ "time": 1506682220677,
+ "nickname": [
+  "robot0",
+  "robot1",
+  "robot2",
+  "robot3"
+ ],
+ "coin": [
+  6,
+  6,
+  -2,
+  -10
+ ],
+ "roomId": "007684",
+ "round": 8,
+ "playType": 1
+}]}
+2017-09-29 19:12:54.101  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ReconnectSm：{
+ "users": [
+  {
+   "userState": 1,
+   "uid": 10885,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot0",
+   "gstate": 2,
+   "coin": -3,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders885/10885",
+   "isMaster": true,
+   "seetIndex": 1,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10884,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot1",
+   "gstate": 2,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders884/10884",
+   "isMaster": false,
+   "seetIndex": 2,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10883,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot2",
+   "gstate": 2,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders883/10883",
+   "isMaster": false,
+   "seetIndex": 3,
+   "ip": "192.168.0.42"
+  },
+  {
+   "userState": 1,
+   "uid": 10882,
+   "ns": {},
+   "sex": 1,
+   "imSeatIndex": 0,
+   "nickname": "robot3",
+   "gstate": 5,
+   "coin": 1,
+   "headimg": "http://192.168.0.42:8116/Login/wechatHeaders882/10882",
+   "isMaster": false,
+   "seetIndex": 4,
+   "ip": "192.168.0.42"
+  }
+ ],
+ "chatRoomId": "8658693074280267814",
+ "usersRound": [
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 1,
+   "mj": [{
+    "num": 9,
+    "type": 3
+   }]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 2,
+   "mj": [{
+    "num": 3,
+    "type": 3
+   }]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 3,
+   "mj": [
+    {
+     "num": 9,
+     "type": 2
+    },
+    {
+     "num": 3,
+     "type": 1
+    }
+   ]
+  },
+  {
+   "num": 13,
+   "baoTing": false,
+   "seetIndex": 4,
+   "mj": [{
+    "num": 2,
+    "type": 1
+   }]
+  }
+ ],
+ "start": true,
+ "bankerSeetIndex": 3,
+ "roomId": "000873",
+ "round": 4,
+ "playType": {
+  "sumN": 108,
+  "menQing": true,
+  "timesLimit": 1,
+  "yiZiQiao": true,
+  "yiTiaoLong": true,
+  "area": 1,
+  "severalNiao": 0,
+  "zhaNiao": 1,
+  "jiangJiangHu": false,
+  "bankerMode": 1,
+  "baoTing": true,
+  "diHu": false
+ },
+ "code": 1,
+ "my": {
+  "pais": [
+   {
+    "num": 3,
+    "type": 1
+   },
+   {
+    "num": 1,
+    "type": 2
+   },
+   {
+    "num": 2,
+    "type": 2
+   },
+   {
+    "num": 4,
+    "type": 2
+   },
+   {
+    "num": 4,
+    "type": 2
+   },
+   {
+    "num": 6,
+    "type": 2
+   },
+   {
+    "num": 7,
+    "type": 2
+   },
+   {
+    "num": 8,
+    "type": 2
+   },
+   {
+    "num": 9,
+    "type": 2
+   },
+   {
+    "num": 1,
+    "type": 3
+   },
+   {
+    "num": 5,
+    "type": 3
+   },
+   {
+    "num": 5,
+    "type": 3
+   },
+   {
+    "num": 7,
+    "type": 3
+   }
+  ],
+  "hasBaoTing": false,
+  "buPaiNum": 0,
+  "leftPaiNum": 51,
+  "baoTing": false,
+  "shaizi": [
+   1,
+   2
+  ]
+ }
+}
+2017-09-29 19:12:54.116  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:12:54.971 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:12:54.973  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:12:54.975  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:12:54.975  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:12:54.982  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:12:54.981  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:54.980  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:54.985  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:55.021 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择碰牌请求  822
+2017-09-29 19:12:55.047  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:12:55.052 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-09-29 19:12:55.050 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-09-29 19:12:55.062  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-09-29 19:12:55.055  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": true,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:55.070  WARN test.client.MessageImpl$13.resp(MessageImpl.java:158) - 加入房间预处理失败！！213
+2017-09-29 19:12:55.068  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-09-29 19:12:55.074 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:JoinRoomBeforeCm 202 true
+2017-09-29 19:12:55.083  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - JoinRoomBeforeSm：{"code": 213}
+2017-09-29 19:12:55.082  WARN test.client.MessageImpl$13.resp(MessageImpl.java:158) - 加入房间预处理失败！！213
+2017-09-29 19:12:55.085  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:JoinRoomBeforeSm 203
+2017-09-29 19:12:55.090  WARN test.client.MessageImpl$13.resp(MessageImpl.java:158) - 加入房间预处理失败！！213
+2017-09-29 19:12:55.093  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - JoinRoomBeforeSm：{"code": 213}
+2017-09-29 19:12:55.098  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - JoinRoomBeforeSm：{"code": 213}
+2017-09-29 19:12:56.060 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:PengPaiCm 822 true
+2017-09-29 19:12:56.060  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiSm 823
+2017-09-29 19:12:56.060  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:56.060  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiCast 824
+2017-09-29 19:12:56.060  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiCast 824
+2017-09-29 19:12:56.060  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiCast 824
+2017-09-29 19:12:56.060  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiCast 824
+2017-09-29 19:12:56.060  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 3,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:56.060  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 3,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:56.060  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 3,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:56.079 ERROR test.client.util.ChannelCacheUtil.ranGetMjs(ChannelCacheUtil.java:73) - 随机打牌！八索
+2017-09-29 19:12:56.087  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:12:56.090  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 3,
+ "mj": {
+  "num": 4,
+  "type": 3
+ }
+}
+2017-09-29 19:12:57.091 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:12:57.091  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:12:57.091  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:12:57.091  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:12:57.091  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:12:57.091  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:12:57.091  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:12:57.091  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:12:57.107  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:12:57.107  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:12:57.107  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:12:57.107  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:12:57.107  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:12:57.107  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:12:57.107  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:12:57.107 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择打牌请求  814
+2017-09-29 19:12:57.107  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:12:57.148  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:12:57.150  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:58.150 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:12:58.152  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:12:58.154  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:12:58.157  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:58.157  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:58.159  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:12:58.159  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:12:58.154  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:12:58.161  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:12:58.163  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:12:58.162  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:58.169  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:12:58.163  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:58.170  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:12:58.170  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:12:58.170  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:12:58.208  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:12:58.209  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:59.209 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:12:59.211  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:12:59.214  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:12:59.216  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:59.219  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:12:59.218  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:12:59.216  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:59.226  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:59.225  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:12:59.224  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:12:59.234  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:12:59.231  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:12:59.230  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:12:59.245  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:12:59.234  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:12:59.250  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:12:59.299  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:12:59.301  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:13:00.308 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:00.308  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:00.308  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:00.308  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:13:00.308  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:13:00.308  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:00.308  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:00.308  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:00.308  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:13:00.308  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 1
+ }
+}
+2017-09-29 19:13:00.308  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:00.308  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:00.326  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:00.325  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:13:00.324  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:00.330  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:00.349  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:00.351  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 7,
+  "type": 3
+ }
+}
+2017-09-29 19:13:01.351 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:01.353  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:01.356  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:01.356  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:01.363  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 7,
+  "type": 3
+ }
+}
+2017-09-29 19:13:01.358  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 7,
+  "type": 3
+ }
+}
+2017-09-29 19:13:01.357  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:01.367  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:01.365  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:01.368  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 7,
+  "type": 3
+ }
+}
+2017-09-29 19:13:01.364  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 7,
+  "type": 3
+ }
+}
+2017-09-29 19:13:01.369  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:01.369  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:01.369  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:01.369  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:01.369  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:13:01.400  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:01.400  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 5,
+  "type": 2
+ }
+}
+2017-09-29 19:13:02.415 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:02.416  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:02.419  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:02.420  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 2
+ }
+}
+2017-09-29 19:13:02.422  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:02.422  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 5,
+  "type": 2
+ }
+}
+2017-09-29 19:13:02.424  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 2
+ }
+}
+2017-09-29 19:13:02.425  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:02.426  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:13:02.426  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:02.428  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:02.428  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:13:02.435  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 2
+ }
+}
+2017-09-29 19:13:02.432  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:13:02.438  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:02.443  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:13:02.447  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:02.448  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:03.461 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:03.461  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:03.461  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:03.461  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:03.461  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:03.461  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:03.461  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:03.461  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:03.478  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:03.461  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:03.461  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:03.483  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:03.481  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:13:03.487  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:03.486  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:03.493  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:03.508  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:03.510  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:04.509 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:04.510  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:04.512  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:04.513  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:04.517  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:04.515  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:04.524  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:04.523 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择碰牌请求  822
+2017-09-29 19:13:04.521  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:04.544  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:04.546  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": true,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:05.547 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:PengPaiCm 822 true
+2017-09-29 19:13:05.548  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiSm 823
+2017-09-29 19:13:05.550  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:05.553  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiCast 824
+2017-09-29 19:13:05.553  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiCast 824
+2017-09-29 19:13:05.553  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiCast 824
+2017-09-29 19:13:05.555  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 1,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:05.554  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiCast 824
+2017-09-29 19:13:05.557  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 1,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:05.560  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 1,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:05.560 ERROR test.client.util.ChannelCacheUtil.ranGetMjs(ChannelCacheUtil.java:73) - 随机打牌！六索
+2017-09-29 19:13:05.565  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:05.566  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 1,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:06.566 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:06.567  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:06.567  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:06.567  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 6,
+  "type": 2
+ }
+}
+2017-09-29 19:13:06.567  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:06.567  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:06.567  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 6,
+  "type": 2
+ }
+}
+2017-09-29 19:13:06.567  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:06.567  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 6,
+  "type": 2
+ }
+}
+2017-09-29 19:13:06.567  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:06.567  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:06.567  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 6,
+  "type": 2
+ }
+}
+2017-09-29 19:13:06.567  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:06.567  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:13:06.583  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:06.583 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择打牌请求  814
+2017-09-29 19:13:06.583  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:06.616  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:06.618  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:07.617 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:07.618  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:07.623  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:07.623  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:07.625  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:07.626  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:07.625  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:07.629  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:07.630  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:07.633  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:07.633  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:07.635  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:07.637  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:07.636  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:07.640  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 5,
+  "type": 3
+ }
+}
+2017-09-29 19:13:07.643  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:13:07.660  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:07.660  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 7,
+  "type": 1
+ }
+}
+2017-09-29 19:13:08.667 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:08.667  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:08.667  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:08.667  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:08.667  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:08.667  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 7,
+  "type": 1
+ }
+}
+2017-09-29 19:13:08.667  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 7,
+  "type": 1
+ }
+}
+2017-09-29 19:13:08.667  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 7,
+  "type": 1
+ }
+}
+2017-09-29 19:13:08.667  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 7,
+  "type": 1
+ }
+}
+2017-09-29 19:13:08.682  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:13:08.682  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:08.682  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:08.682  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:08.682  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:08.682  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:08.682  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:08.710  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:08.711  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 2,
+  "type": 3
+ }
+}
+2017-09-29 19:13:09.712 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:09.713  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:09.716  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:09.718  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 2,
+  "type": 3
+ }
+}
+2017-09-29 19:13:09.716  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:09.718  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 2,
+  "type": 3
+ }
+}
+2017-09-29 19:13:09.723  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:09.721  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 2,
+  "type": 3
+ }
+}
+2017-09-29 19:13:09.721  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:09.729  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:09.728  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:13:09.726  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:13:09.730  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:13:09.730  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 2,
+  "type": 3
+ }
+}
+2017-09-29 19:13:09.738  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:09.740  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 1,
+ "bu": false
+}
+2017-09-29 19:13:09.751  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:09.752  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:10.752 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:10.753  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:10.756  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:10.759  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:10.757  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:10.760  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:10.763  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:10.762  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:10.761  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:10.767  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:13:10.767  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:10.766  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:10.781  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:10.782  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:10.770  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:10.768  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:10.787  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:10.789  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 6,
+  "type": 1
+ }
+}
+2017-09-29 19:13:11.788 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:11.789  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:11.791  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:11.792  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:11.794  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 6,
+  "type": 1
+ }
+}
+2017-09-29 19:13:11.794  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 6,
+  "type": 1
+ }
+}
+2017-09-29 19:13:11.794  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 6,
+  "type": 1
+ }
+}
+2017-09-29 19:13:11.798  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:11.796  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:11.800  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:13:11.799  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:11.802  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 6,
+  "type": 1
+ }
+}
+2017-09-29 19:13:11.801  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:11.809  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:11.807  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:11.811  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:11.819  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:11.820  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:12.821 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:12.823  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:12.827  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:12.829  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:12.829  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:12.831  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:13:12.831  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:12.834  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:12.833  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:12.847  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:12.844  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 8,
+  "type": 2
+ }
+}
+2017-09-29 19:13:12.853  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:12.852  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:12.850  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:12.855  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:12.854  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:12.856  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:12.858  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:13.854 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:13.856  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:13.858  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:13.860  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:13.860  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:13.861  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:13.861  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:13.863  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:13.867 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择碰牌请求  822
+2017-09-29 19:13:13.885  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:13.891  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": true,
+ "seetIndex": 4,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:14.898 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:PengPaiCm 822 true
+2017-09-29 19:13:14.898  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiSm 823
+2017-09-29 19:13:14.898  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:14.898  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiCast 824
+2017-09-29 19:13:14.898  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiCast 824
+2017-09-29 19:13:14.898  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiCast 824
+2017-09-29 19:13:14.898  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 2,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:14.898  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiCast 824
+2017-09-29 19:13:14.898  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 2,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:14.898  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 2,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:14.898 ERROR test.client.util.ChannelCacheUtil.ranGetMjs(ChannelCacheUtil.java:73) - 随机打牌！四索
+2017-09-29 19:13:14.916  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:14.918  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 2,
+ "mj": {
+  "num": 1,
+  "type": 3
+ }
+}
+2017-09-29 19:13:15.919 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:15.920  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:15.925  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:15.926  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:15.925  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:15.927  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:15.927  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:15.931  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:15.943  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:15.945  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": true,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:16.944 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:PengPaiCm 822 true
+2017-09-29 19:13:16.946  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiSm 823
+2017-09-29 19:13:16.948  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:16.949  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiCast 824
+2017-09-29 19:13:16.950  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiCast 824
+2017-09-29 19:13:16.951  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiCast 824
+2017-09-29 19:13:16.951  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PengPaiCast 824
+2017-09-29 19:13:16.957 ERROR test.client.util.ChannelCacheUtil.ranGetMjs(ChannelCacheUtil.java:73) - 随机打牌！一索
+2017-09-29 19:13:16.951  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 1,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:16.958  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 1,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:16.956  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 1,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:16.961  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:16.965  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - PengPaiCast：{
+ "seetIndex": 1,
+ "mj": {
+  "num": 4,
+  "type": 2
+ }
+}
+2017-09-29 19:13:17.963 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:17.964  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:17.967  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:17.969  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:17.972  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:17.972  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:17.975  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:17.974  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:17.974  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:13:17.978  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:17.977  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:17.981  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:17.980  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 1,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:18.007  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:18.009  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:17.998 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择打牌请求  814
+2017-09-29 19:13:17.982  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 2,
+ "bu": false
+}
+2017-09-29 19:13:18.021  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:18.028  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:19.023 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:19.024  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:19.029  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:19.029  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:19.031  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:19.032  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:19.034  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:19.034  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:19.036  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:19.034  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:19.036  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:19.036  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:19.041  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 2,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:19.042  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:13:19.045  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:19.047  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 3,
+ "bu": false
+}
+2017-09-29 19:13:19.064  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:19.066  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:20.066 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:DaPaiCm 814 true
+2017-09-29 19:13:20.067  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiSm 815
+2017-09-29 19:13:20.073  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiSm：{
+ "code": 1,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:20.083  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:20.082  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:20.081  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:DaPaiCast 816
+2017-09-29 19:13:20.095  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:ZhuaPaiCast 804
+2017-09-29 19:13:20.094  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:20.093  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:20.092  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:20.100  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:20.099  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:SeetZhuaPaiCast 805
+2017-09-29 19:13:20.097  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - DaPaiCast：{
+ "jiePao": false,
+ "peng": false,
+ "seetIndex": 3,
+ "jieGang": false,
+ "mj": {
+  "num": 1,
+  "type": 2
+ }
+}
+2017-09-29 19:13:20.104  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:20.103  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:20.101  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - SeetZhuaPaiCast：{
+ "seetIndex": 4,
+ "bu": false
+}
+2017-09-29 19:13:20.128  WARN com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.submitOneTimeTask(JavaScheduleTaskManager.java:71) - 提交一次任务！
+2017-09-29 19:13:20.130  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:724) - ZhuaPaiCast：{
+ "ziMo": false,
+ "bu": false,
+ "mj": {
+  "num": 2,
+  "type": 3
+ }
+}
+2017-10-12 09:09:44.253 ERROR test.client.TestClient.<clinit>(TestClient.java:99) - 127.0.0.1
+2017-10-12 09:09:44.268 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-10-12 09:09:44.331 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：100
+2017-10-12 09:10:46.274 ERROR test.client.TestClient.<clinit>(TestClient.java:99) - 127.0.0.1
+2017-10-12 09:10:46.290 ERROR com.jery.ngsp.server.scheduletask.impl.JavaScheduleTaskManager.start(JavaScheduleTaskManager.java:43) - ------------------- 时效任务 初始化成功 -------------------
+2017-10-12 09:10:46.336 ERROR com.wk.util.ReadUtil.check(ReadUtil.java:228) - 检测完成！条目：100
+2017-10-12 09:10:46.555 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - Using SLF4J as the default logging framework
+2017-10-12 09:10:46.555 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - Platform: Windows
+2017-10-12 09:10:46.555 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.noUnsafe: false
+2017-10-12 09:10:46.555 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - Java version: 7
+2017-10-12 09:10:46.555 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - sun.misc.Unsafe.theUnsafe: available
+2017-10-12 09:10:46.570 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - sun.misc.Unsafe.copyMemory: available
+2017-10-12 09:10:46.570 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - java.nio.Buffer.address: available
+2017-10-12 09:10:46.570 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - direct buffer constructor: available
+2017-10-12 09:10:46.570 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - java.nio.Bits.unaligned: available, true
+2017-10-12 09:10:46.570 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-12 09:10:46.570 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-12 09:10:46.570 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - sun.misc.Unsafe: available
+2017-10-12 09:10:46.570 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.tmpdir: C:\Temp (java.io.tmpdir)
+2017-10-12 09:10:46.570 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-12 09:10:46.570 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.noPreferDirect: false
+2017-10-12 09:10:46.570 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.maxDirectMemory: 514850816 bytes
+2017-10-12 09:10:46.570 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-12 09:10:46.570 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - java.nio.ByteBuffer.cleaner(): available
+2017-10-12 09:10:47.132 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-10-12 09:10:47.179 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-10-12 09:10:47.179 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-10-12 09:10:47.210 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-10-12 09:10:47.210 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - playTypeBuilder
+2017-10-12 09:10:47.226 ERROR test.client.MessageImpl.genTips(MessageImpl.java:576) - sId
+2017-10-12 09:10:47.226 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - julebuRoomBuilder
+2017-10-12 09:10:47.241 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - mjBuilder
+2017-10-12 09:10:47.241 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - mjBuilder
+2017-10-12 09:10:47.241 ERROR test.client.MessageImpl.genTips(MessageImpl.java:572) - mjBuilder
+2017-10-12 09:10:48.327 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:401) - 选择1
+2017-10-12 09:10:48.327 ERROR test.client.ClientFrame.itemStateChanged(ClientFrame.java:407) - 选择创建俱乐部预处理请求  1504
+2017-10-12 09:10:55.254 ERROR test.client.TestClient.login(TestClient.java:295) - {"uid":11081,"sessionCode":"{\"uid\":11081,\"accessTime\":1507770655238,\"refreshTime\":1507770655238}","target":{"port":8034,"sessionCode":"{\"uid\":11081,\"time\":1507770655238}","loginTime":"1507770655238","serverIp":"192.168.0.42"},"code":1}
+2017-10-12 09:10:55.270 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-12 09:10:55.270 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-12 09:10:55.301 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.eventLoopThreads: 8
+2017-10-12 09:10:55.363 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.noKeySetOptimization: false
+2017-10-12 09:10:55.363 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-12 09:10:55.394 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-12 09:10:55.566 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.allocator.type: unpooled
+2017-10-12 09:10:55.566 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-12 09:10:55.566 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-12 09:10:55.628 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.recycler.maxCapacity.default: 32768
+2017-10-12 09:10:55.628 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-10-12 09:10:55.628 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.recycler.linkCapacity: 16
+2017-10-12 09:10:55.628 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.recycler.ratio: 8
+2017-10-12 09:10:55.660 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:81) - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-10-12 09:10:55.676 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:81) - -Dio.netty.leakDetection.level: simple
+2017-10-12 09:10:55.676 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:81) - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-12 09:10:55.676 DEBUG io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@d96eae9
+2017-10-12 09:10:55.692 ERROR com.wk.engine.net.MessageManager$2.operationComplete(MessageManager.java:92) - send -- msgId:LoginCm 1 true
+2017-10-12 09:10:55.707 ERROR com.wk.engine.net.MessageManager$3.operationComplete(MessageManager.java:126) - send -- msgId:CreateJulebuBeforeCm 1504 true
+2017-10-12 09:10:55.739  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:LoginSm 2
+2017-10-12 09:10:55.832  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:727) - LoginSm：{
+ "nickname": "ranUser1",
+ "headimg": "http://192.168.0.42:8116/Login/wechatHeaders81/11081",
+ "code": 1
+}
+2017-10-12 09:10:55.832  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerCast 6
+2017-10-12 09:10:55.832  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:727) - PlayerCast：{"diamond": 5}
+2017-10-12 09:10:55.848  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:PlayerRecordCast 7
+2017-10-12 09:10:55.848  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:727) - PlayerRecordCast：{}
+2017-10-12 09:10:55.848  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:AddJulebuCast 1500
+2017-10-12 09:10:55.879  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:727) - AddJulebuCast：{
+ "type": 2,
+ "my": {
+  "id": 1000501,
+  "masterName": "ranUser1",
+  "num": 0,
+  "masterUid": 11081,
+  "headimg": "http://192.168.0.42:8116/Login/wechatHeaders81/11081",
+  "name": "沅江麻将",
+  "state": 3,
+  "playType": "沅江麻将,8局,报听,门清,"
+ }
+}
+2017-10-12 09:10:55.879  WARN com.wk.util.ClientByteBufToIoMessageDecoder.decode(ClientByteBufToIoMessageDecoder.java:85) - get msgId:CreateJulebuSm 1507
+2017-10-12 09:10:55.879  WARN test.client.TestClient$MessageInboundHandler.channelRead0(TestClient.java:727) - CreateJulebuSm：{
+ "id": 1000501,
+ "name": "沅江麻将",
+ "playType": {
+  "sumN": 108,
+  "menQing": true,
+  "timesLimit": 2,
+  "yiZiQiao": true,
+  "yiTiaoLong": true,
+  "area": 1,
+  "severalNiao": 0,
+  "zhaNiao": 1,
+  "jiangJiangHu": false,
+  "bankerMode": 1,
+  "baoTing": true,
+  "diHu": false
+ },
+ "code": 1
+}
